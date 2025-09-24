@@ -30,7 +30,7 @@
 `prefs:root=SAFARI#SEARCH_SUGGESTION_SETTING`
 \
 \
-**Apps > Safari > Safari Suggestions**
+**Apps > Safari > Safari Suggestions (switch)**
 \
 `prefs:root=SAFARI#SIRI_SUGGESTIONS`
 \
