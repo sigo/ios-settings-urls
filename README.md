@@ -72,7 +72,7 @@
 \
 **Apps > Safari > Open Links (in background or new front tab) - iPad**
 \
-`prefs:root=SAFARI#OPEN_LINKS_IN_BACKGROUND_IPAD`
+`prefs:root=SAFARI&path=OPEN_LINKS_IN_BACKGROUND_IPAD`
 \
 \
 **Apps > Safari > Require Passcode to Unlock Private Browsing (swtich)**
