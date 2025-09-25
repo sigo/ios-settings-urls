@@ -65,12 +65,12 @@
 `prefs:root=SAFARI&path=DOWNLOADS`
 \
 \
-**Apps > Safari > Open Links (in background or new front tab)** - iPhone
+**Apps > Safari > Open Links** (in background or new front tab) - iPhone
 \
 `prefs:root=SAFARI&path=OPEN_LINKS_IN_BACKGROUND_IPHONE`
 \
 \
-**Apps > Safari > Open Links (in background or new front tab)** - iPad
+**Apps > Safari > Open Links** (in background or new front tab) - iPad
 \
 `prefs:root=SAFARI&path=OPEN_LINKS_IN_BACKGROUND_IPAD`
 \
