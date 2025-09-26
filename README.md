@@ -103,28 +103,32 @@
 **Apps**
 \
 `settings-navigation://com.apple.Settings.Apps`
-- or
-
+\
+&emsp;or
+\
 `app-prefs://*` (* or any word works)
 \
 \
 **Apps > Default apps**
 \
 `app-prefs://com.apple.Settings.Apps.DefaultApps`
-- or
-
+\
+&emsp;or
+\
 `app-prefs://&target=com.apple.settings.default-applications`
-- or
-  
+\
+&emsp;or
+\
 `settings-navigation://com.apple.Settings.Apps/com.apple.Settings.Apps.DefaultApps`
 \
 \
 **Apps >** bundle identifier for any app, also third party
 \
 `settings-navigation://com.apple.Settings.Apps/`_+ the bundle identifier_
-- or (not recommended, reportedly doesn't work with certain indentifiers)
-
-`app-prefs//`_+ the bundle identifier_
+\
+&emsp;or
+\
+`app-prefs//`_+ the bundle identifier_ (not recommended, reportedly doesn't work with certain indentifiers)
 \
 \
 **Apps > Phone > Show My Caller ID**
