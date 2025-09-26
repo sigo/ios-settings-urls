@@ -92,9 +92,9 @@
 **Apps >** bundle identifier for any app, also third party
 \
 `settings-navigation://com.apple.Settings.Apps/`+ the bundle identifier
-- or
+- or (not recommended, reported to not work consistently with every indentifier)
 
-`app-prefs//`+ the bundle identifier (not recommended, doesn't work consistently with every indentifier)
+`app-prefs//`+ the bundle identifier
 \
 \
 **Apps > Phone > Show My Caller ID**
