@@ -30,6 +30,31 @@
 `prefs:root=APPLE_ACCOUNT&aaaction=CDP&command=rejoin`
 \
 \
+**Wi-Fi**
+\
+`prefs:root=WIFI`
+\
+\
+**Wi-Fi > Info button** (current network details)
+\
+`prefs:root=WIFI&path=NetworkDetails`
+\
+\
+**Cellular**
+\
+`prefs:root=MOBILE_DATA_SETTINGS_ID`
+\
+\
+**Cellular > Cellular Data Options**
+\
+`prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS`
+\
+\
+**Cellular > Cellular Data > Show All > Cellular Data Usage**
+\
+`prefs:root=MOBILE_DATA_SETTINGS_ID&path=SHOW_ALL`
+\
+\
 **Battery**
 \
 `prefs:root=BATTERY_USAGE`
@@ -65,6 +90,11 @@
 `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING/callAudioRoutingAutoAnswer`
 \
 \
+**Wallpaper**
+\
+`prefs:root=Wallpaper`
+\
+\
 **Payment & Contactless**
 \
 `prefs:root=PASSBOOK`
@@ -91,10 +121,10 @@
 \
 **Apps >** bundle identifier for any app, also third party
 \
-`settings-navigation://com.apple.Settings.Apps/`+ the bundle identifier
-- or (not recommended, reported to not work consistently with every indentifier)
+`settings-navigation://com.apple.Settings.Apps/`_+ the bundle identifier_
+- or (not recommended, reportedly doesn't work with certain indentifiers)
 
-`app-prefs//`+ the bundle identifier
+`app-prefs//`_+ the bundle identifier_
 \
 \
 **Apps > Phone > Show My Caller ID**
