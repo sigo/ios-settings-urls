@@ -10,6 +10,50 @@
 `prefs:root=APPLE_ACCOUNT`
 \
 \
+**Apple Account > iCloud >** unknown function, seems to do something because of the spinning wheel, could possibly be used to force sync
+\
+`prefs:root=APPLE_ACCOUNT&aaaction=CDP&command=rejoin`
+\
+\
+**Accessibility > Audio & Visual > Call Audio Routing**
+\
+`prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/CALL_AUDIO_ROUTING`
+\
+\
+**Accessibility > Audio & Visual > Call Audio Routing > Auto-Answer Calls**
+\
+`prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/CALL_AUDIO_ROUTING/callAudioRoutingAutoAnswer`
+\
+\
+**Accessibility > Touch > Call Audio Routing**
+\
+`prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING`
+\
+\
+**Accessibility > Touch > Call Audio Routing > Auto-Answer Calls**
+\
+`prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING/callAudioRoutingAutoAnswer`
+\
+\
+**Apps**
+\
+`settings-navigation://com.apple.Settings.Apps`
+- or
+
+`app-prefs://*` (* or any word works)
+\
+\
+**Apps > Default apps**
+\
+`app-prefs://com.apple.Settings.Apps.DefaultApps`
+- or
+
+`app-prefs://&target=com.apple.settings.default-applications`
+- or
+  
+`settings-navigation://com.apple.Settings.Apps/com.apple.Settings.Apps.DefaultApps`
+\
+\
 **Apps > Safari > Default Browser App** (button)
 \
 `prefs:root=SAFARI#com.apple.settings.DefaultBrowser`
