@@ -30,6 +30,21 @@
 `prefs:root=APPLE_ACCOUNT&aaaction=CDP&command=rejoin`
 \
 \
+**Battery**
+\
+`prefs:root=BATTERY_USAGE`
+\
+\
+**Battery > Battery Health & Charging** (older or lower end models)
+\
+`prefs:root=BATTERY_USAGE&path=BATTERY_HEALTH_TITLE`
+\
+\
+**Battery > Charging Options** (newer or higher end models)
+\
+`prefs:root=BATTERY_USAGE&path=CHARGING_OPTIONS_IDENTIFIER`
+\
+\
 **Accessibility > Audio & Visual > Call Audio Routing**
 \
 `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/CALL_AUDIO_ROUTING`
@@ -72,6 +87,14 @@
 - or
   
 `settings-navigation://com.apple.Settings.Apps/com.apple.Settings.Apps.DefaultApps`
+\
+\
+**Apps >** bundle identifier for any app, also third party
+\
+`settings-navigation://com.apple.Settings.Apps/`+ the bundle identifier
+- or
+
+`app-prefs//`+ the bundle identifier (not recommended, doesn't work consistently with every indentifier)
 \
 \
 **Apps > Phone > Show My Caller ID**
