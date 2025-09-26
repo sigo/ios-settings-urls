@@ -187,14 +187,11 @@
 `prefs:root=SAFARI&path=DOWNLOADS`
 \
 \
-**Apps > Safari > Open Links** (in the background or switch to the tab) - iPhone
+**Apps > Safari > Open Links** > _New Tab (and switch to it) or (New Tab) In Background_
 \
-`prefs:root=SAFARI&path=OPEN_LINKS_IN_BACKGROUND_IPHONE`
+`prefs:root=SAFARI&path=OPEN_LINKS_IN_BACKGROUND_IPHONE` (iPhone)
 \
-\
-**Apps > Safari > Open Links** (in the background or switch to the tab) - iPad
-\
-`prefs:root=SAFARI&path=OPEN_LINKS_IN_BACKGROUND_IPAD`
+`prefs:root=SAFARI&path=OPEN_LINKS_IN_BACKGROUND_IPAD` (iPad)
 \
 \
 **Apps > Safari > Require Passcode to Unlock Private Browsing** (swtich)
