@@ -10,6 +10,21 @@
 `prefs:root=APPLE_ACCOUNT`
 \
 \
+**Apple Account > iCloud > Storage**
+\
+`prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP`
+\
+\
+**Apple Account > iCloud > Saved to iCloud**
+\
+`prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass`
+\
+\
+**Apple Account > iCloud > Backup > All Device Backups >** (current device) **> Backup Details**
+\
+`prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP/LOCAL_BACKUP`
+\
+\
 **Apple Account > iCloud >** unknown function, seems to do something because of the spinning wheel, could possibly be used to force sync
 \
 `prefs:root=APPLE_ACCOUNT&aaaction=CDP&command=rejoin`
@@ -35,6 +50,11 @@
 `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING/callAudioRoutingAutoAnswer`
 \
 \
+**Payment & Contactless**
+\
+`prefs:root=PASSBOOK`
+\
+\
 **Apps**
 \
 `settings-navigation://com.apple.Settings.Apps`
@@ -52,6 +72,11 @@
 - or
   
 `settings-navigation://com.apple.Settings.Apps/com.apple.Settings.Apps.DefaultApps`
+\
+\
+**Apps > Phone > Show My Caller ID**
+\
+`prefs:root=Phone&path=CALLING_LINE_ID_RESTRICTION_TELEPHONY_SETTINGS`
 \
 \
 **Apps > Safari > Default Browser App** (button)
