@@ -243,7 +243,7 @@ _Apps > bundle identifier for any app, also third party_
 \
 &emsp;_or_
 \
-`app-prefs//bundle_identifier` (not recommended, reportedly doesn't work with certain indentifiers)
+`app-prefs//bundle_identifier` (not recommended, reportedly doesn't work with certain identifiers)
 \
 \
 _Apps > Phone > Show My Caller ID_
@@ -308,7 +308,7 @@ _Apps > Safari > Downloads_
 \
 _Apps > Safari > Open Links > _(in a) New Tab (and switch to it) or (in a new tab) In Background_
 \
-`prefs:root=SAFARI&path=OPEN_LINKS_IN_BACKGROUND_IPHONE` (iPhone)_
+`prefs:root=SAFARI&path=OPEN_LINKS_IN_BACKGROUND_IPHONE` (iPhone)
 \
 `prefs:root=SAFARI&path=OPEN_LINKS_IN_BACKGROUND_IPAD` (iPad)
 \
