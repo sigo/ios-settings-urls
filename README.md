@@ -221,7 +221,7 @@ _Apps_
 \
 &emsp;_or_
 \
-`app-prefs://*` (* or any word works)
+`app-prefs://*`&emsp;_`*` or any word works_
 \
 \
 _Apps > Default apps_
@@ -243,7 +243,7 @@ _Apps > bundle identifier for any app, also third party_
 \
 &emsp;_or_
 \
-`app-prefs//bundle_identifier` (not recommended, reportedly doesn't work with certain identifiers)
+`app-prefs//bundle_identifier`&emsp;_not recommended, reportedly doesn't work with certain identifiers_
 \
 \
 _Apps > Phone > Show My Caller ID_
