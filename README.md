@@ -237,13 +237,13 @@ Apps > Default apps
 `settings-navigation://com.apple.Settings.Apps/com.apple.Settings.Apps.DefaultApps`
 \
 \
-Apps > bundle identifier for any app, also third party
+Apps > _bundle identifier for any app, also third party_
 \
-`settings-navigation://com.apple.Settings.Apps/`_+ the bundle identifier_
+`settings-navigation://com.apple.Settings.Apps/bundle_identifier`
 \
 &emsp;/
 \
-`app-prefs//`_+ the bundle identifier_ (not recommended, reportedly doesn't work with certain indentifiers)
+`app-prefs//bundle_identifier` (not recommended, reportedly doesn't work with certain indentifiers)
 \
 \
 Apps > Phone > Show My Caller ID
