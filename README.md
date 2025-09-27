@@ -105,7 +105,7 @@ _Apple Account > iCloud > Private Relay_
 `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/INTERNET_PRIVACY`
 \
 \
-_Apple Account > iCloud > Hide My Email_
+_Apple Account > iCloud > Hide My Email (takes some time to load)_
 \
 `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE`
 \
