@@ -238,7 +238,7 @@ _Apps > bundle identifier for any app, also third party_
 \
 &emsp;_or_
 \
-`app-prefs//bundle_identifier`&emsp;_not recommended, reportedly doesn't work with certain identifiers_
+`app-prefs://bundle_identifier`&emsp;_not recommended, reportedly doesn't work with certain identifiers_
 \
 \
 _Apps > Phone > Show My Caller ID_
