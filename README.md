@@ -322,7 +322,7 @@ prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/ICLOUD_ADP_SPECIFIER_NAME
 `prefs:root=SAFARI&path=DOWNLOADS`
 \
 \
-**Apps > Safari > Open Links** > _New Tab (and switch to it) or (New Tab) In Background_
+**Apps > Safari > Open Links** > _(in a) New Tab (and switch to it) or (in a new tab) In Background_
 \
 `prefs:root=SAFARI&path=OPEN_LINKS_IN_BACKGROUND_IPHONE` (iPhone)
 \
