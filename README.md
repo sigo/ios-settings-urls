@@ -219,7 +219,7 @@ _Apps_
 \
 `settings-navigation://com.apple.Settings.Apps`
 \
-&emsp;/_
+&emsp;_or_
 \
 `app-prefs://*` (* or any word works)
 \
@@ -228,20 +228,20 @@ _Apps > Default apps_
 \
 `app-prefs://com.apple.Settings.Apps.DefaultApps`
 \
-&emsp;/_
+&emsp;_or_
 \
 `app-prefs://&target=com.apple.settings.default-applications`
 \
-&emsp;/_
+&emsp;_or_
 \
 `settings-navigation://com.apple.Settings.Apps/com.apple.Settings.Apps.DefaultApps`
 \
 \
-_Apps > _bundle identifier for any app, also third party__
+_Apps > _bundle identifier for any app, also third party_
 \
 `settings-navigation://com.apple.Settings.Apps/bundle_identifier`
 \
-&emsp;/_
+&emsp;_or_
 \
 `app-prefs//bundle_identifier` (not recommended, reportedly doesn't work with certain indentifiers)
 \
@@ -306,7 +306,7 @@ _Apps > Safari > Downloads_
 `prefs:root=SAFARI&path=DOWNLOADS`
 \
 \
-_Apps > Safari > Open Links > _(in a) New Tab (and switch to it) or (in a new tab) In Background__
+_Apps > Safari > Open Links > _(in a) New Tab (and switch to it) or (in a new tab) In Background_
 \
 `prefs:root=SAFARI&path=OPEN_LINKS_IN_BACKGROUND_IPHONE` (iPhone)_
 \
