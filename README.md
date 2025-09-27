@@ -1,358 +1,358 @@
 # Settings URL schemes for iOS 26
 
-Settings front page
+_Settings front page_
 \
 `prefs:root=ROOT`
 \
 \
-Apple Account
+_Apple Account_
 \
 `prefs:root=APPLE_ACCOUNT`
 \
 \
-Apple Account > Personal Information (takes some time to load)
+_Apple Account > Personal Information (takes some time to load)_
 \
 `prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT`
 \
 \
-Apple Account > Sign-In & Security (takes some time to load)
+_Apple Account > Sign-In & Security (takes some time to load)_
 \
 `prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY`
 \
 \
-Apple Account > Sign-In & Security > Change Password (takes some time to load)
+_Apple Account > Sign-In & Security > Change Password (takes some time to load)_
 \
 `prefs:root=APPLE_ACCOUNT&aaaction=changePassword`
 \
 \
-Apple Account > Sign-In & Security > Recovery Contacts (takes some time to load)
+_Apple Account > Sign-In & Security > Recovery Contacts (takes some time to load)_
 \
 `prefs:root=APPLE_ACCOUNT&aaaction=accountRecovery`
 \
 \
-Apple Account > Sign-In & Security > Legacy Contact (takes some time to load)
+_Apple Account > Sign-In & Security > Legacy Contact (takes some time to load)_
 \
 `prefs:root=APPLE_ACCOUNT&aaaction=accountBeneficiary`
 \
 \
-Apple Account > Payment & Shipping (takes some time to load)
+_Apple Account > Payment & Shipping (takes some time to load)_
 \
 `prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING`
 \
 \
-Apple Account > Subscriptions (takes some time to load)
+_Apple Account > Subscriptions (takes some time to load)_
 \
 `prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS`
 \
 \
-Apple Account > iCloud > Storage
+_Apple Account > iCloud > Storage_
 \
 `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP`
 \
 \
-Apple Account > iCloud > Storage > Change Storage Plan
+_Apple Account > iCloud > Storage > Change Storage Plan_
 \
 `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP/CHANGE_STORAGE_PLAN`
 \
 \
-Apple Account > iCloud > Saved to iCloud
+_Apple Account > iCloud > Saved to iCloud_
 \
 `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass`
 \
 \
-Apple Account > iCloud > Saved to iCloud > iCloud Photos
+_Apple Account > iCloud > Saved to iCloud > iCloud Photos_
 \
 `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.CloudPhotos`
 \
 \
-Apple Account > iCloud > Saved to iCloud > iCloud Drive
+_Apple Account > iCloud > Saved to iCloud > iCloud Drive_
 \
 `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity`
 \
 \
-Apple Account > iCloud > Saved to iCloud > Notes
+_Apple Account > iCloud > Saved to iCloud > Notes_
 \
 `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes`
 \
 \
-Apple Account > iCloud > Saved to iCloud > iCloud Messages
+_Apple Account > iCloud > Saved to iCloud > iCloud Messages_
 \
 `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Messages`
 \
 \
-Apple Account > iCloud > Saved to iCloud > iCloud Calendar
+_Apple Account > iCloud > Saved to iCloud > iCloud Calendar_
 \
 `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars`
 \
 \
-Apple Account > iCloud > Saved to iCloud > Health
+_Apple Account > iCloud > Saved to iCloud > Health_
 \
 `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health`
 \
 \
-Apple Account > iCloud > Backup
+_Apple Account > iCloud > Backup_
 \
 `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP`
 \
 \
-Apple Account > iCloud > Backup > All Device Backups > _current device_ > Backup Details
+_Apple Account > iCloud > Backup > All Device Backups > _current device_ > Backup Details_
 \
 `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP/CURRENT_DEVICE_BACKUP`
 \
 \
-Apple Account > iCloud > Private Relay
+_Apple Account > iCloud > Private Relay_
 \
 `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/INTERNET_PRIVACY`
 \
 \
-Apple Account > iCloud > Hide My Email
+_Apple Account > iCloud > Hide My Email_
 \
 `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE`
 \
 \
-Apple Account > iCloud > Advanced Data Protection
+_Apple Account > iCloud > Advanced Data Protection_
 \
 `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/ICLOUD_ADP_SPECIFIER_NAME`
 \
 \
-Apple Account > iCloud > unknown function, seems to do something because of the spinning wheel that briefly appears, could possibly be used to force sync
+_Apple Account > iCloud > unknown function, seems to do something because of the spinning wheel that briefly appears, could possibly be used to force sync_
 \
 `prefs:root=APPLE_ACCOUNT&aaaction=CDP&command=rejoin`
 \
 \
-Apple Account > Family Set Up
+_Apple Account > Family Set Up_
 \
 `prefs:root=APPLE_ACCOUNT&aaaction=setupFamily`
 \
 \
-Appple Account > Find My
+_Appple Account > Find My_
 \
 `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING`
 \
 \
-Apple Account > Media & Purchases
+_Apple Account > Media & Purchases_
 \
 `prefs:root=APPLE_ACCOUNT&path=STORE_SERVICE`
 \
 \
-Apple Account > Sign in with Apple
+_Apple Account > Sign in with Apple_
 \
 `prefs:root=APPLE_ACCOUNT&path=SIWA_SERVICE`
 \
 \
-Apple Account > Contact Key Verification
+_Apple Account > Contact Key Verification_
 \
 `prefs:root=APPLE_ACCOUNT&path=TRANSPARENCY`
 \
 \
-Wi-Fi
+_Wi-Fi_
 \
 `prefs:root=WIFI`
 \
 \
-Wi-Fi > Info button (current network details)
+_Wi-Fi > Info button (current network details)_
 \
 `prefs:root=WIFI&path=NetworkDetails`
 \
 \
-Cellular
+_Cellular_
 \
 `prefs:root=MOBILE_DATA_SETTINGS_ID`
 \
 \
-Cellular > Cellular Data Options
+_Cellular > Cellular Data Options_
 \
 `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS`
 \
 \
-Cellular > Cellular Data > Show All > Cellular Data Usage
+_Cellular > Cellular Data > Show All > Cellular Data Usage_
 \
 `prefs:root=MOBILE_DATA_SETTINGS_ID&path=SHOW_ALL`
 \
 \
-Battery
+_Battery_
 \
 `prefs:root=BATTERY_USAGE`
 \
 \
-Battery > Battery Health & Charging (older or lower end models)
+_Battery > Battery Health & Charging (older or lower end models)_
 \
 `prefs:root=BATTERY_USAGE&path=BATTERY_HEALTH_TITLE`
 \
 \
-Battery > Charging Options (newer or higher end models)
+_Battery > Charging Options (newer or higher end models)_
 \
 `prefs:root=BATTERY_USAGE&path=CHARGING_OPTIONS_IDENTIFIER`
 \
 \
-Accessibility > Audio & Visual > Call Audio Routing
+_Accessibility > Audio & Visual > Call Audio Routing_
 \
 `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/CALL_AUDIO_ROUTING`
 \
 \
-Accessibility > Audio & Visual > Call Audio Routing > Auto-Answer Calls
+_Accessibility > Audio & Visual > Call Audio Routing > Auto-Answer Calls_
 \
 `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/CALL_AUDIO_ROUTING/callAudioRoutingAutoAnswer`
 \
 \
-Accessibility > Touch > Call Audio Routing
+_Accessibility > Touch > Call Audio Routing_
 \
 `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING`
 \
 \
-Accessibility > Touch > Call Audio Routing > Auto-Answer Calls
+_Accessibility > Touch > Call Audio Routing > Auto-Answer Calls_
 \
 `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING/callAudioRoutingAutoAnswer`
 \
 \
-Wallpaper
+_Wallpaper_
 \
 `prefs:root=Wallpaper`
 \
 \
-Payment & Contactless
+_Payment & Contactless_
 \
 `prefs:root=PASSBOOK`
 \
 \
-Apps
+_Apps_
 \
 `settings-navigation://com.apple.Settings.Apps`
 \
-&emsp;/
+&emsp;/_
 \
 `app-prefs://*` (* or any word works)
 \
 \
-Apps > Default apps
+_Apps > Default apps_
 \
 `app-prefs://com.apple.Settings.Apps.DefaultApps`
 \
-&emsp;/
+&emsp;/_
 \
 `app-prefs://&target=com.apple.settings.default-applications`
 \
-&emsp;/
+&emsp;/_
 \
 `settings-navigation://com.apple.Settings.Apps/com.apple.Settings.Apps.DefaultApps`
 \
 \
-Apps > _bundle identifier for any app, also third party_
+_Apps > _bundle identifier for any app, also third party__
 \
 `settings-navigation://com.apple.Settings.Apps/bundle_identifier`
 \
-&emsp;/
+&emsp;/_
 \
 `app-prefs//bundle_identifier` (not recommended, reportedly doesn't work with certain indentifiers)
 \
 \
-Apps > Phone > Show My Caller ID
+_Apps > Phone > Show My Caller ID_
 \
 `prefs:root=Phone&path=CALLING_LINE_ID_RESTRICTION_TELEPHONY_SETTINGS`
 \
 \
-Apps > Safari > Default Browser App (button)
+_Apps > Safari > Default Browser App (button)_
 \
 `prefs:root=SAFARI#com.apple.settings.DefaultBrowser`
 \
 \
-Apps > Safari > Search Engine
+_Apps > Safari > Search Engine_
 \
 `prefs:root=SAFARI&path=SEARCH_ENGINE_SETTING`
 \
 \
-Apps > Safari > Also Use in Private Browsing (switch)
+_Apps > Safari > Also Use in Private Browsing (switch)_
 \
 `prefs:root=SAFARI#PRIVATE_BROWSING_USES_NORMAL_BROWSING_SEARCH_ENGINE_SELECTION`
 \
 \
-Apps > Safari > Search Enginge Suggestions (switch)
+_Apps > Safari > Search Enginge Suggestions (switch)_
 \
 `prefs:root=SAFARI#SEARCH_SUGGESTION_SETTING`
 \
 \
-Apps > Safari > Safari Suggestions (switch)
+_Apps > Safari > Safari Suggestions (switch)_
 \
 `prefs:root=SAFARI#SIRI_SUGGESTIONS`
 \
 \
-Apps > Safari > Quick Website Search
+_Apps > Safari > Quick Website Search_
 \
 `prefs:root=SAFARI&path=SITE_SPECIFIC_SEARCH`
 \
 \
-Apps > Safari > Preload Top Hit (switch)
+_Apps > Safari > Preload Top Hit (switch)_
 \
 `prefs:root=SAFARI#ENABLE_PREFETCHING`
 \
 \
-Apps > Safari > AutoFill
+_Apps > Safari > AutoFill_
 \
 `prefs:root=SAFARI&path=AUTO_FILL`
 \
 \
-Apps > Safari > Start Page Favorites
+_Apps > Safari > Start Page Favorites_
 \
 `prefs:root=SAFARI&path=FAVORITES_FOLDER`
 \
 \
-Apps > Safari > Extensions
+_Apps > Safari > Extensions_
 \
 `prefs:root=SAFARI&path=WEB_EXTENSIONS`
 \
 \
-Apps > Safari > Downloads
+_Apps > Safari > Downloads_
 \
 `prefs:root=SAFARI&path=DOWNLOADS`
 \
 \
-Apps > Safari > Open Links > _(in a) New Tab (and switch to it) or (in a new tab) In Background_
+_Apps > Safari > Open Links > _(in a) New Tab (and switch to it) or (in a new tab) In Background__
 \
-`prefs:root=SAFARI&path=OPEN_LINKS_IN_BACKGROUND_IPHONE` (iPhone)
+`prefs:root=SAFARI&path=OPEN_LINKS_IN_BACKGROUND_IPHONE` (iPhone)_
 \
 `prefs:root=SAFARI&path=OPEN_LINKS_IN_BACKGROUND_IPAD` (iPad)
 \
 \
-Apps > Safari > Require Passcode to Unlock Private Browsing (swtich)
+_Apps > Safari > Require Passcode to Unlock Private Browsing (swtich)_
 \
 `prefs:root=SAFARI#PrivateBrowsingRequiresAuthentication`
 \
 \
-Apps > Safari > Not Secure Connection Warning (switch)
+_Apps > Safari > Not Secure Connection Warning (switch)_
 \
 `prefs:root=SAFARI#WARN_ABOUT_INSECURE_CONNECTIONS`
 \
 \
-Apps > Safari > Import (button)
+_Apps > Safari > Import (button)_
 \
 `prefs:root=SAFARI#IMPORT_BUTTON`
 \
 \
-Apps > Safari > Export (button)
+_Apps > Safari > Export (button)_
 \
 `prefs:root=SAFARI#EXPORT_BUTTON`
 \
 \
-Apps > Safari > Export (dialog)
+_Apps > Safari > Export (dialog)_
 \
 `prefs:root=SAFARI&action=showExportSheet`
 \
 \
-Apps > Safari > Clear History and Website Data (button)
+_Apps > Safari > Clear History and Website Data (button)_
 \
 `prefs:root=SAFARI#CLEAR_HISTORY_AND_DATA`
 \
 \
-Apps > Safari > Settings for Websites (section)
+_Apps > Safari > Settings for Websites (section)_
 \
 `prefs:root=SAFARI#SPACE_CELL_FOR_PER_SITE_SETTINGS_SYNC_TOGGLE`
 \
 \
-Apps > Safari > Advanced
+_Apps > Safari > Advanced_
 \
 `prefs:root=SAFARI&path=ADVANCED`
 \
 \
-Apps > Safari > Advanced > Website Data
+_Apps > Safari > Advanced > Website Data_
 \
 `prefs:root=SAFARI&path=ADVANCED/REMOVE_WEBSITE_DATA`
