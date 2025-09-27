@@ -220,7 +220,7 @@ _Apps > Default apps_
 `settings-navigation://com.apple.Settings.Apps/com.apple.Settings.Apps.DefaultApps`
 \
 \
-_Apps > { bundle identifier for any app, also third party }_
+_Apps > [bundle identifier for any app, also third party]_
 \
 `settings-navigation://com.apple.Settings.Apps/bundle_identifier`
 \
