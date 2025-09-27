@@ -306,11 +306,11 @@ _Apps > Safari > Downloads_
 `prefs:root=SAFARI&path=DOWNLOADS`
 \
 \
-_Apps > Safari > Open Links > _(in a) New Tab (and switch to it) or (in a new tab) In Background_
+_Apps > Safari > Open Links > (in a) New Tab (and switch to it) or (in a new tab) In Background_
 \
-`prefs:root=SAFARI&path=OPEN_LINKS_IN_BACKGROUND_IPHONE` (iPhone)
+`prefs:root=SAFARI&path=OPEN_LINKS_IN_BACKGROUND_IPHONE` <sup><i>iPhone</i></sup>
 \
-`prefs:root=SAFARI&path=OPEN_LINKS_IN_BACKGROUND_IPAD` (iPad)
+`prefs:root=SAFARI&path=OPEN_LINKS_IN_BACKGROUND_IPAD` <sup><i>iPad</i></sup>
 \
 \
 _Apps > Safari > Require Passcode to Unlock Private Browsing (swtich)_
