@@ -115,11 +115,6 @@ _Apple Account > iCloud > Advanced Data Protection_
 `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/ICLOUD_ADP_SPECIFIER_NAME`
 \
 \
-_Apple Account > iCloud > unknown function, seems to do something because of the spinning wheel that briefly appears, could possibly be used to force sync_
-\
-`prefs:root=APPLE_ACCOUNT&aaaction=CDP&command=rejoin`
-\
-\
 _Apple Account > Family Set Up_
 \
 `prefs:root=APPLE_ACCOUNT&aaaction=setupFamily`
