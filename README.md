@@ -14,10 +14,6 @@
 \
 `prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT`
 \
-&emsp;/
-\
-`prefs:root=APPLE_ACCOUNT&aaaction=accountContactDetails`
-\
 \
 **Apple Account > Sign-In & Security** (takes some time to load)
 \
@@ -57,14 +53,6 @@
 **Apple Account > iCloud > Storage > Change Storage Plan**
 \
 `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP/CHANGE_STORAGE_PLAN`
-\
-&emsp;/
-\
-`prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP/STORAGE_UPGRADE`
-\
-&emsp;/
-\
-`prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP/MANAGE_STORAGE/CHANGE_STORAGE_PLAN`
 \
 \
 **Apple Account > iCloud > Saved to iCloud**
@@ -111,10 +99,6 @@
 \
 `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP/CURRENT_DEVICE_BACKUP`
 \
-&emsp;/
-\
-`prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP/LOCAL_BACKUP`
-\
 \
 **Apple Account > iCloud > Private Relay**
 \
@@ -128,7 +112,7 @@
 \
 **Apple Account > iCloud > Advanced Data Protection**
 \
-prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/ICLOUD_ADP_SPECIFIER_NAME
+`prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/ICLOUD_ADP_SPECIFIER_NAME`
 \
 \
 **Apple Account > iCloud >** unknown function, seems to do something because of the spinning wheel that briefly appears, could possibly be used to force sync
