@@ -10,9 +10,61 @@
 `prefs:root=APPLE_ACCOUNT`
 \
 \
+**Apple Account > Personal Information** (takes some time to load)
+\
+`prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT`
+\
+&emsp;/
+\
+`prefs:root=APPLE_ACCOUNT&aaaction=accountContactDetails`
+\
+\
+**Apple Account > Sign-In & Security** (takes some time to load)
+\
+`prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY`
+\
+\
+**Apple Account > Sign-In & Security > Change Password** (takes some time to load)
+\
+`prefs:root=APPLE_ACCOUNT&aaaction=changePassword`
+\
+\
+**Apple Account > Sign-In & Security > Recovery Contacts** (takes some time to load)
+\
+`prefs:root=APPLE_ACCOUNT&aaaction=accountRecovery`
+\
+\
+**Apple Account > Sign-In & Security > Legacy Contact** (takes some time to load)
+\
+`prefs:root=APPLE_ACCOUNT&aaaction=accountBeneficiary`
+\
+\
+**Apple Account > Payment & Shipping** (takes some time to load)
+\
+`prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING`
+\
+\
+**Apple Account > Subscriptions** (takes some time to load)
+\
+`prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS`
+\
+\
 **Apple Account > iCloud > Storage**
 \
 `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP`
+\
+\
+**Apple Account > iCloud > Storage > Change Storage Plan**
+\
+`prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP/CHANGE_STORAGE_PLAN`
+\
+&emsp;/
+\
+`prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP/STORAGE_UPGRADE`
+\
+&emsp;/
+\
+`prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP/MANAGE_STORAGE/CHANGE_STORAGE_PLAN`
 \
 \
 **Apple Account > iCloud > Saved to iCloud**
@@ -20,14 +72,93 @@
 `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass`
 \
 \
-**Apple Account > iCloud > Backup > All Device Backups >** (current device) **> Backup Details**
+**Apple Account > iCloud > Saved to iCloud > iCloud Photos**
+\
+`prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.CloudPhotos`
+\
+\
+**Apple Account > iCloud > Saved to iCloud > iCloud Drive**
+\
+`prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity`
+\
+\
+**Apple Account > iCloud > Saved to iCloud > Notes**
+\
+`prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes`
+\
+\
+**Apple Account > iCloud > Saved to iCloud > iCloud Messages**
+\
+`prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Messages`
+\
+\
+**Apple Account > iCloud > Saved to iCloud > iCloud Calendar**
+\
+`prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars`
+\
+\
+**Apple Account > iCloud > Saved to iCloud > Health**
+\
+`prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health`
+\
+\
+**Apple Account > iCloud > Backup**
+\
+`prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP`
+\
+\
+**Apple Account > iCloud > Backup > All Device Backups > _current device_ > Backup Details**
+\
+`prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP/CURRENT_DEVICE_BACKUP`
+\
+&emsp;/
 \
 `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP/LOCAL_BACKUP`
 \
 \
-**Apple Account > iCloud >** unknown function, seems to do something because of the spinning wheel, could possibly be used to force sync
+**Apple Account > iCloud > Private Relay**
+\
+`prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/INTERNET_PRIVACY`
+\
+\
+**Apple Account > iCloud > Hide My Email**
+\
+`prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE`
+\
+\
+**Apple Account > iCloud > Advanced Data Protection**
+\
+prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/ICLOUD_ADP_SPECIFIER_NAME
+\
+\
+**Apple Account > iCloud >** unknown function, seems to do something because of the spinning wheel that briefly appears, could possibly be used to force sync
 \
 `prefs:root=APPLE_ACCOUNT&aaaction=CDP&command=rejoin`
+\
+\
+**Apple Account > Family Set Up**
+\
+`prefs:root=APPLE_ACCOUNT&aaaction=setupFamily`
+\
+\
+**Appple Account > Find My**
+\
+`prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING`
+\
+\
+**Apple Account > Media & Purchases**
+\
+`prefs:root=APPLE_ACCOUNT&path=STORE_SERVICE`
+\
+\
+**Apple Account > Sign in with Apple**
+\
+`prefs:root=APPLE_ACCOUNT&path=SIWA_SERVICE`
+\
+\
+**Apple Account > Contact Key Verification**
+\
+`prefs:root=APPLE_ACCOUNT&path=TRANSPARENCY`
 \
 \
 **Wi-Fi**
@@ -104,7 +235,7 @@
 \
 `settings-navigation://com.apple.Settings.Apps`
 \
-&emsp;or
+&emsp;/
 \
 `app-prefs://*` (* or any word works)
 \
@@ -113,11 +244,11 @@
 \
 `app-prefs://com.apple.Settings.Apps.DefaultApps`
 \
-&emsp;or
+&emsp;/
 \
 `app-prefs://&target=com.apple.settings.default-applications`
 \
-&emsp;or
+&emsp;/
 \
 `settings-navigation://com.apple.Settings.Apps/com.apple.Settings.Apps.DefaultApps`
 \
@@ -126,7 +257,7 @@
 \
 `settings-navigation://com.apple.Settings.Apps/`_+ the bundle identifier_
 \
-&emsp;or
+&emsp;/
 \
 `app-prefs//`_+ the bundle identifier_ (not recommended, reportedly doesn't work with certain indentifiers)
 \
