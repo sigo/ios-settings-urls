@@ -287,9 +287,9 @@ _Apps > Safari > Downloads_
 \
 _Apps > Safari > Open Links > (in a) New Tab (and switch to it) or (in a new tab) In Background_
 \
-`prefs:root=SAFARI&path=OPEN_LINKS_IN_BACKGROUND_IPHONE` <sup><i>iPhone</i></sup>
+`prefs:root=SAFARI&path=OPEN_LINKS_IN_BACKGROUND_IPHONE` <sub><i>iPhone</i></sub>
 \
-`prefs:root=SAFARI&path=OPEN_LINKS_IN_BACKGROUND_IPAD` <sup><i>iPad</i></sup>
+`prefs:root=SAFARI&path=OPEN_LINKS_IN_BACKGROUND_IPAD` <sub><i>iPad</i></sub>
 \
 \
 _Apps > Safari > Require Passcode to Unlock Private Browsing (swtich)_
