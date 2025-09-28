@@ -1,5 +1,5 @@
 # Settings URL schemes for iOS 26
-
+\
 _Settings front page_
 \
 `prefs:root=ROOT`
