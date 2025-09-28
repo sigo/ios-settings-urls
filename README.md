@@ -342,7 +342,7 @@ ___Apps > Safari > Downloads___
 \
 \
 \
-___Apps > Safari > Open Links >___ _(in a)_ ___New Tab___ _(and switch to it) or (in a new tab)_ ___In Background___
+___Apps > Safari > Open Links >___ _in a_ ___New Tab___ _and switch to it_ ___or___ _in a new tab_ ___In Background___
 \
 `prefs:root=SAFARI&path=OPEN_LINKS_IN_BACKGROUND_IPHONE` <sub><i>iPhone</i></sub>
 \
