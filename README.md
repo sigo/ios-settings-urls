@@ -240,6 +240,60 @@ ___Accessibility > Touch > Call Audio Routing > Auto-Answer Calls___
 \
 \
 \
+___Display & Brightness___
+\
+`prefs:root=DISPLAY`
+\
+\
+\
+___Display & Brightness > Appearance___ (section)
+\
+`prefs:root=DISPLAY#DEVICE_APPEARANCE`
+\
+\
+\
+___Display & Brightness > Text Size___
+\
+`prefs:root=DISPLAY&path=TEXT_SIZE`
+\
+\
+\
+___Display & Brightness > Bold Text___ (button)
+\
+`prefs:root=DISPLAY#BOLD_TEXT`
+\
+\
+\
+___Display & Brightness > Brightness___ (slider)
+\
+`prefs:root=DISPLAY#BRIGHTNESS`
+\
+\
+\
+___Display & Brightness > True Tone___ (button)
+\
+`prefs:root=DISPLAY#WHITE_BALANCE`
+\
+\
+\
+___Display & Brightness > Night Shift___
+\
+`prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION`
+\
+\
+\
+___Display & Brightness > Auto-Lock___
+\
+`prefs:root=DISPLAY&path=AUTOLOCK`
+\
+\
+\
+___Display & Brightness > Raise to Wake___ (button)
+\
+`prefs:root=DISPLAY#RAISE_TO_WAKE`
+\
+\
+\
 ___Wallpaper___
 \
 `prefs:root=Wallpaper`
