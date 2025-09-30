@@ -216,6 +216,22 @@ ___Battery > Charging Options___ _(newer or higher end models)_
 \
 \
 \
+___Battery > Battery Percentage___ _(switch)_
+\
+`prefs:root=BATTERY_USAGE#BATTERY_PERCENTAGE_IDENTIFIER`
+\
+\
+\
+___Battery > Low Power Mode___ _(switch – probably device dependent)_
+\
+`prefs:root=BATTERY_USAGE#LOW_POWER_MODE_IDENTIFIER`
+\
+&emsp;`// or`
+\
+`settings-navigation://com.apple.Settings.Battery/POWER_MODE_SPECIFIER_IDENTIFIER#LOW_POWER_MODE_IDENTIFIER`
+\
+\
+\
 ___Accessibility > Display & Text Size___
 \
 `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT`
@@ -225,6 +241,12 @@ ___Accessibility > Display & Text Size___
 ___Accessibility > Display & Text Size > Color Filters___
 \
 `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR`
+\
+\
+\
+___Accessibility > Display & Text Size > Auto-Brightness___ _(switch)_
+\
+`settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT#AUTO_BRIGHTNESS`
 \
 \
 \
@@ -276,7 +298,7 @@ ___Display & Brightness > Text Size___
 \
 \
 \
-___Display & Brightness > Bold Text___ (button)
+___Display & Brightness > Bold Text___ (switch)
 \
 `prefs:root=DISPLAY#BOLD_TEXT`
 \
@@ -288,7 +310,7 @@ ___Display & Brightness > Brightness___ (slider)
 \
 \
 \
-___Display & Brightness > True Tone___ (button)
+___Display & Brightness > True Tone___ (switch)
 \
 `prefs:root=DISPLAY#WHITE_BALANCE`
 \
@@ -306,9 +328,15 @@ ___Display & Brightness > Auto-Lock___
 \
 \
 \
-___Display & Brightness > Raise to Wake___ (button)
+___Display & Brightness > Raise to Wake___ (switch)
 \
 `prefs:root=DISPLAY#RAISE_TO_WAKE`
+\
+\
+\
+___Display & Brightness > Display Zoom___
+\
+`prefs:root=DISPLAY&path=MAGNIFY`
 \
 \
 \
