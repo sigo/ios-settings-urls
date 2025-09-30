@@ -252,6 +252,12 @@ ___Accessibility > Touch > Call Audio Routing > Auto-Answer Calls___
 \
 \
 \
+___Accessibility > AirPods___
+\
+prefs:root=ACCESSIBILITY&path=AIRPODS
+\
+\
+\
 ___Display & Brightness___
 \
 `prefs:root=DISPLAY`
