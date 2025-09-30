@@ -216,6 +216,18 @@ ___Battery > Charging Options___ _(newer or higher end models)_
 \
 \
 \
+___Accessibility > Display & Text Size___
+\
+`prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT`
+\
+\
+\
+___Accessibility > Display & Text Size > Color Filters___
+\
+`prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR`
+\
+\
+\
 ___Accessibility > Audio & Visual > Call Audio Routing___
 \
 `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/CALL_AUDIO_ROUTING`
@@ -294,6 +306,42 @@ ___Display & Brightness > Raise to Wake___ (button)
 \
 \
 \
+___Sounds & Haptics___
+\
+`prefs:root=Sounds`
+\
+\
+\
+___Sounds & Haptics > Haptics___
+\
+`prefs:root=Sounds&path=HAPTICS`
+\
+\
+\
+___Sounds & Haptics > Keyboard Feedback___
+\
+`prefs:root=Sounds&path=KEYBOARD_FEEDBACK`
+\
+\
+\
+___Sounds & Haptics > Built-In Speaker > Volume Limit___
+\
+`prefs:root=Sounds&path=VOLUME_LIMIT`
+\
+\
+\
+___Sounds & Haptics > Headphone Safety___
+\
+`prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+\
+\
+\
+___Sounds & Haptics > Personalized Spatial Audio___
+\
+`prefs:root=Sounds&path=PERSONALIZED_SPATIAL_AUDIO`
+\
+\
+\
 ___Wallpaper___
 \
 `prefs:root=Wallpaper`
@@ -321,6 +369,12 @@ ___Apps > Default apps___
 ___Apps > [bundle identifier for any app, also third party]___
 \
 `settings-navigation://com.apple.Settings.Apps/bundle_identifier`
+\
+\
+\
+___Apps > Compass___
+\
+prefs:root=COMPASS
 \
 \
 \
