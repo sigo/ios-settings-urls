@@ -241,6 +241,12 @@ ___Accessibility > Display & Text Size > Bold Text___ _(switch)_
 \
 \
 \
+___Accessibility > Display & Text Size > Larger Text___
+\
+`settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT/LARGER_TEXT`
+\
+\
+\
 ___Accessibility > Display & Text Size > Button Shapes___ _(switch)_
 \
 `settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT#BUTTON_SHAPES`
