@@ -222,15 +222,12 @@ ___Battery > Battery Percentage___ _(switch)_
 \
 \
 \
-___Battery > Low Power Mode___ _(switch – probably device dependent)_
-\
-`prefs:root=BATTERY_USAGE#LOW_POWER_MODE_IDENTIFIER`
-\
-&emsp;`// or`
-\
-`settings-navigation://com.apple.Settings.Battery/POWER_MODE_SPECIFIER_IDENTIFIER#LOW_POWER_MODE_IDENTIFIER`
-\
-\
+___Battery > Low Power Mode___ _(switch) (device dependent, probably)_
+~~~
+prefs:root=BATTERY_USAGE#LOW_POWER_MODE_IDENTIFIER
+
+settings-navigation://com.apple.Settings.Battery/POWER_MODE_SPECIFIER_IDENTIFIER#LOW_POWER_MODE_IDENTIFIER
+~~~
 \
 ___Accessibility > Display & Text Size___
 \
@@ -238,9 +235,45 @@ ___Accessibility > Display & Text Size___
 \
 \
 \
+___Accessibility > Display & Text Size > Bold Text___ _(switch)_
+\
+`settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT/ENHANCE_TEXT_LEGIBILITY`
+\
+\
+\
+___Accessibility > Display & Text Size > Button Shapes___ _(switch)_
+\
+`settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT#BUTTON_SHAPES`
+\
+\
+\
+___Accessibility > Display & Text Size > Reduce Transparency___ _(switch)_
+\
+`settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT#REDUCE_TRANSPARENCY`
+\
+\
+\
+___Accessibility > Display & Text Size > Increase Contrast___ _(switch)_
+\
+`settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT/TEXT_COLORS_DARKEN`
+\
+\
+\
+___Accessibility > Display & Text Size > Classic Invert___ _(switch)_
+\
+`settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT#CLASSIC_INVERT`
+\
+\
+\
 ___Accessibility > Display & Text Size > Color Filters___
 \
 `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR`
+\
+\
+\
+___Accessibility > Display & Text Size > Reduce White Point___ _(switch)_
+\
+`settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT/WHITE_POINT`
 \
 \
 \
@@ -484,7 +517,7 @@ ___Apps > Safari > Downloads___
 \
 \
 \
-___Apps > Safari > Open Links >___ _in a_ ___New Tab___ _and switch to it_ ___or___ _in a new tab_ ___In Background___
+___Apps > Safari > Open Links >___ _when opening a link in a new tab, switch to the tab (___New Tab___) or don't (___In Background___)_
 \
 `prefs:root=SAFARI&path=OPEN_LINKS_IN_BACKGROUND_IPHONE` <sub><i>iPhone</i></sub>
 \
