@@ -223,12 +223,13 @@ ___<sub><sup>BATTERY ></sup></sub>___ _Battery Percentage (switch)_
 \
 \
 ___<sub><sup>BATTERY ></sup></sub>___ _Low Power Mode (switch) (device dependent, probably)_
-~~~
-prefs:root=BATTERY_USAGE#LOW_POWER_MODE_IDENTIFIER
-~~~
-~~~
-settings-navigation://com.apple.Settings.Battery/POWER_MODE_SPECIFIER_IDENTIFIER#LOW_POWER_MODE_IDENTIFIER
-~~~
+\
+`prefs:root=BATTERY_USAGE#LOW_POWER_MODE_IDENTIFIER`
+\
+\
+`settings-navigation://com.apple.Settings.Battery/POWER_MODE_SPECIFIER_IDENTIFIER#LOW_POWER_MODE_IDENTIFIER`
+\
+\
 \
 _Accessibility_
 \
