@@ -1,228 +1,228 @@
 # Settings URL schemes for iOS 26
 \
-___Settings front page___
+Settings front page
 \
 `prefs:root=ROOT`
 \
 \
 \
-___Apple Account___
+Apple Account
 \
 `prefs:root=APPLE_ACCOUNT`
 \
 \
 \
-___<sub><sup>APPLE ACCOUNT ></sup></sub> Personal Information___ _(takes some time to load)_
+__<sub><sup>APPLE ACCOUNT ></sup></sub>__ _Personal Information <sub>(takes some time to load)</sub>_
 \
 `prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT`
 \
 \
 \
-___<sub><sup>APPLE ACCOUNT ></sup></sub> Sign-In & Security___ _(takes some time to load)_
+__<sub><sup>APPLE ACCOUNT ></sup></sub>__ _Sign-In & Security <sub>(takes some time to load)</sub>_
 \
 `prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY`
 \
 \
 \
-___<sub><sup>APPLE ACCOUNT ></sup></sub> Sign-In & Security > Change Password___ _(takes some time to load)_
+__<sub><sup>APPLE ACCOUNT ></sup></sub>__ _Sign-In & Security > Change Password <sub>(takes some time to load)</sub>_
 \
 `prefs:root=APPLE_ACCOUNT&aaaction=changePassword`
 \
 \
 \
-___<sub><sup>APPLE ACCOUNT ></sup></sub> Sign-In & Security > Recovery Contacts___ _(takes some time to load)_
+__<sub><sup>APPLE ACCOUNT ></sup></sub>__ _Sign-In & Security > Recovery Contacts <sub>(takes some time to load)</sub>_
 \
 `prefs:root=APPLE_ACCOUNT&aaaction=accountRecovery`
 \
 \
 \
-___<sub><sup>APPLE ACCOUNT ></sup></sub> Sign-In & Security > Legacy Contact___ _(takes some time to load)_
+__<sub><sup>APPLE ACCOUNT ></sup></sub>__ _Sign-In & Security > Legacy Contact <sub>(takes some time to load)</sub>_
 \
 `prefs:root=APPLE_ACCOUNT&aaaction=accountBeneficiary`
 \
 \
 \
-___<sub><sup>APPLE ACCOUNT ></sup></sub> Payment & Shipping___ _(takes some time to load)_
+__<sub><sup>APPLE ACCOUNT ></sup></sub>__ _Payment & Shipping <sub>(takes some time to load)</sub>_
 \
 `prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING`
 \
 \
 \
-___<sub><sup>APPLE ACCOUNT ></sup></sub> Subscriptions___ _(takes some time to load)_
+__<sub><sup>APPLE ACCOUNT ></sup></sub>__ _Subscriptions <sub>(takes some time to load)</sub>_
 \
 `prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS`
 \
 \
 \
-___<sub><sup>APPLE ACCOUNT ></sup></sub> iCloud > Storage___
+__<sub><sup>APPLE ACCOUNT ></sup></sub>__ _iCloud > Storage_
 \
 `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP`
 \
 \
 \
-___<sub><sup>APPLE ACCOUNT ></sup></sub> iCloud > Storage > Change Storage Plan___
+__<sub><sup>APPLE ACCOUNT ></sup></sub>__ _iCloud > Storage > Change Storage Plan_
 \
 `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP/CHANGE_STORAGE_PLAN`
 \
 \
 \
-___<sub><sup>APPLE ACCOUNT ></sup></sub> iCloud > Saved to iCloud___
+__<sub><sup>APPLE ACCOUNT ></sup></sub>__ _iCloud > Saved to iCloud_
 \
 `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass`
 \
 \
 \
-___<sub><sup>APPLE ACCOUNT ></sup></sub> iCloud > Saved to iCloud > iCloud Photos___
+__<sub><sup>APPLE ACCOUNT ></sup></sub>__ _iCloud > Saved to iCloud > iCloud Photos_
 \
 `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.CloudPhotos`
 \
 \
 \
-___<sub><sup>APPLE ACCOUNT ></sup></sub> iCloud > Saved to iCloud > iCloud Drive___
+__<sub><sup>APPLE ACCOUNT ></sup></sub>__ _iCloud > Saved to iCloud > iCloud Drive_
 \
 `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity`
 \
 \
 \
-___<sub><sup>APPLE ACCOUNT ></sup></sub> iCloud > Saved to iCloud > Notes___
+__<sub><sup>APPLE ACCOUNT ></sup></sub>__ _iCloud > Saved to iCloud > Notes_
 \
 `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes`
 \
 \
 \
-___<sub><sup>APPLE ACCOUNT ></sup></sub> iCloud > Saved to iCloud > iCloud Messages___
+__<sub><sup>APPLE ACCOUNT ></sup></sub>__ _iCloud > Saved to iCloud > iCloud Messages_
 \
 `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Messages`
 \
 \
 \
-___<sub><sup>APPLE ACCOUNT ></sup></sub> iCloud > Saved to iCloud > iCloud Calendar___
+__<sub><sup>APPLE ACCOUNT ></sup></sub>__ _iCloud > Saved to iCloud > iCloud Calendar_
 \
 `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars`
 \
 \
 \
-___<sub><sup>APPLE ACCOUNT ></sup></sub> iCloud > Saved to iCloud > Health___
+__<sub><sup>APPLE ACCOUNT ></sup></sub>__ _iCloud > Saved to iCloud > Health_
 \
 `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health`
 \
 \
 \
-___<sub><sup>APPLE ACCOUNT ></sup></sub> iCloud > Backup___
+__<sub><sup>APPLE ACCOUNT ></sup></sub>__ _iCloud > Backup_
 \
 `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP`
 \
 \
 \
-___<sub><sup>APPLE ACCOUNT ></sup></sub> iCloud > Backup > All Device Backups >___ _current device_ ___> Backup Details___
+__<sub><sup>APPLE ACCOUNT ></sup></sub>__ _iCloud > Backup > All Device Backups > current device > Backup Details_
 \
 `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP/CURRENT_DEVICE_BACKUP`
 \
 \
 \
-___<sub><sup>APPLE ACCOUNT ></sup></sub> iCloud > Private Relay___
+__<sub><sup>APPLE ACCOUNT ></sup></sub>__ _iCloud > Private Relay_
 \
 `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/INTERNET_PRIVACY`
 \
 \
 \
-___<sub><sup>APPLE ACCOUNT ></sup></sub> iCloud > Hide My Email___ _(takes some time to load)_
+__<sub><sup>APPLE ACCOUNT ></sup></sub>__ _iCloud > Hide My Email <sub>(takes some time to load)</sub>_
 \
 `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE`
 \
 \
 \
-___<sub><sup>APPLE ACCOUNT ></sup></sub> iCloud > Advanced Data Protection___
+__<sub><sup>APPLE ACCOUNT ></sup></sub>__ _iCloud > Advanced Data Protection_
 \
 `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/ICLOUD_ADP_SPECIFIER_NAME`
 \
 \
 \
-___<sub><sup>APPLE ACCOUNT ></sup></sub> Family Set Up___
+__<sub><sup>APPLE ACCOUNT ></sup></sub>__ _Family Set Up_
 \
 `prefs:root=APPLE_ACCOUNT&aaaction=setupFamily`
 \
 \
 \
-___<sub><sup>APPLE ACCOUNT ></sup></sub> Find My___
+__<sub><sup>APPLE ACCOUNT ></sup></sub>__ _Find My_
 \
 `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING`
 \
 \
 \
-___<sub><sup>APPLE ACCOUNT ></sup></sub> Media & Purchases___
+__<sub><sup>APPLE ACCOUNT ></sup></sub>__ _Media & Purchases_
 \
 `prefs:root=APPLE_ACCOUNT&path=STORE_SERVICE`
 \
 \
 \
-___<sub><sup>APPLE ACCOUNT ></sup></sub> Sign in with Apple___
+__<sub><sup>APPLE ACCOUNT ></sup></sub>__ _Sign in with Apple_
 \
 `prefs:root=APPLE_ACCOUNT&path=SIWA_SERVICE`
 \
 \
 \
-___<sub><sup>APPLE ACCOUNT ></sup></sub> Contact Key Verification___
+__<sub><sup>APPLE ACCOUNT ></sup></sub>__ _Contact Key Verification_
 \
 `prefs:root=APPLE_ACCOUNT&path=TRANSPARENCY`
 \
 \
 \
-___Wi-Fi___
+Wi-Fi
 \
 `prefs:root=WIFI`
 \
 \
 \
-___<sub><sup>WI-FI ></sup></sub>___ _current network_ **_>_ &#9432;**
+__<sub><sup>WI-FI ></sup></sub>__ _current network >_ &#9432;
 \
 `prefs:root=WIFI&path=NetworkDetails`
 \
 \
 \
-___Cellular___
+Cellular
 \
 `prefs:root=MOBILE_DATA_SETTINGS_ID`
 \
 \
 \
-___<sub><sup>CELLULAR ></sup></sub> Cellular Data Options___
+__<sub><sup>CELLULAR ></sup></sub>__ _Cellular Data Options_
 \
 `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS`
 \
 \
 \
-___<sub><sup>CELLULAR ></sup></sub> Cellular Data > Show All > Cellular Data Usage___
+__<sub><sup>CELLULAR ></sup></sub>__ _Cellular Data > Show All > Cellular Data Usage_
 \
 `prefs:root=MOBILE_DATA_SETTINGS_ID&path=SHOW_ALL`
 \
 \
 \
-___Battery___
+Battery
 \
 `prefs:root=BATTERY_USAGE`
 \
 \
 \
-___<sub><sup>BATTERY ></sup></sub> Battery Health & Charging___ _(older or lower end models)_
+__<sub><sup>BATTERY ></sup></sub>__ _Battery Health & Charging (older or lower end models)_
 \
 `prefs:root=BATTERY_USAGE&path=BATTERY_HEALTH_TITLE`
 \
 \
 \
-___<sub><sup>BATTERY ></sup></sub> Charging Options___ _(newer or higher end models)_
+__<sub><sup>BATTERY ></sup></sub>__ _Charging Options (newer or higher end models)_
 \
 `prefs:root=BATTERY_USAGE&path=CHARGING_OPTIONS_IDENTIFIER`
 \
 \
 \
-___<sub><sup>BATTERY ></sup></sub> Battery Percentage___ _(switch)_
+__<sub><sup>BATTERY ></sup></sub>__ _Battery Percentage (switch)_
 \
 `prefs:root=BATTERY_USAGE#BATTERY_PERCENTAGE_IDENTIFIER`
 \
 \
 \
-___<sub><sup>BATTERY ></sup></sub> Low Power Mode___ _(switch) (device dependent, probably)_
+__<sub><sup>BATTERY ></sup></sub>__ _Low Power Mode (switch) (device dependent, probably)_
 ~~~
 prefs:root=BATTERY_USAGE#LOW_POWER_MODE_IDENTIFIER
 ~~~
@@ -230,362 +230,362 @@ prefs:root=BATTERY_USAGE#LOW_POWER_MODE_IDENTIFIER
 settings-navigation://com.apple.Settings.Battery/POWER_MODE_SPECIFIER_IDENTIFIER#LOW_POWER_MODE_IDENTIFIER
 ~~~
 \
-___Accessibility___
+Accessibility
 \
 `prefs:root=ACCESSIBILITY`
 \
 \
 \
-___<sub><sup>ACCESSIBILITY ></sup></sub> Display & Text Size___
+__<sub><sup>ACCESSIBILITY ></sup></sub>__ _Display & Text Size_
 \
 `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT`
 \
 \
 \
-___<sub><sup>ACCESSIBILITY ></sup></sub> Display & Text Size > Bold Text___ _(switch)_
+__<sub><sup>ACCESSIBILITY ></sup></sub>__ _Display & Text Size > Bold Text (switch)_
 \
 `settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT/ENHANCE_TEXT_LEGIBILITY`
 \
 \
 \
-___<sub><sup>ACCESSIBILITY ></sup></sub> Display & Text Size > Larger Text___
+__<sub><sup>ACCESSIBILITY ></sup></sub>__ _Display & Text Size > Larger Text_
 \
 `settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT/LARGER_TEXT`
 \
 \
 \
-___<sub><sup>ACCESSIBILITY ></sup></sub> Display & Text Size > Button Shapes___ _(switch)_
+__<sub><sup>ACCESSIBILITY ></sup></sub>__ _Display & Text Size > Button Shapes (switch)_
 \
 `settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT#BUTTON_SHAPES`
 \
 \
 \
-___<sub><sup>ACCESSIBILITY ></sup></sub> Display & Text Size > Reduce Transparency___ _(switch)_
+__<sub><sup>ACCESSIBILITY ></sup></sub>__ _Display & Text Size > Reduce Transparency (switch)_
 \
 `settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT#REDUCE_TRANSPARENCY`
 \
 \
 \
-___<sub><sup>ACCESSIBILITY ></sup></sub> Display & Text Size > Increase Contrast___ _(switch)_
+__<sub><sup>ACCESSIBILITY ></sup></sub>__ _Display & Text Size > Increase Contrast (switch)_
 \
 `settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT/TEXT_COLORS_DARKEN`
 \
 \
 \
-___<sub><sup>ACCESSIBILITY ></sup></sub> Display & Text Size > Classic Invert___ _(switch)_
+__<sub><sup>ACCESSIBILITY ></sup></sub>__ _Display & Text Size > Classic Invert (switch)_
 \
 `settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT#CLASSIC_INVERT`
 \
 \
 \
-___<sub><sup>ACCESSIBILITY ></sup></sub> Display & Text Size > Color Filters___
+__<sub><sup>ACCESSIBILITY ></sup></sub>__ _Display & Text Size > Color Filters_
 \
 `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR`
 \
 \
 \
-___<sub><sup>ACCESSIBILITY ></sup></sub> Display & Text Size > Reduce White Point___ _(switch)_
+__<sub><sup>ACCESSIBILITY ></sup></sub>__ _Display & Text Size > Reduce White Point (switch)_
 \
 `settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT/WHITE_POINT`
 \
 \
 \
-___<sub><sup>ACCESSIBILITY ></sup></sub> Display & Text Size > Auto-Brightness___ _(switch)_
+__<sub><sup>ACCESSIBILITY ></sup></sub>__ _Display & Text Size > Auto-Brightness (switch)_
 \
 `settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT#AUTO_BRIGHTNESS`
 \
 \
 \
-___<sub><sup>ACCESSIBILITY ></sup></sub> Audio & Visual > Call Audio Routing___
+__<sub><sup>ACCESSIBILITY ></sup></sub>__ _Audio & Visual > Call Audio Routing_
 \
 `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/CALL_AUDIO_ROUTING`
 \
 \
 \
-___<sub><sup>ACCESSIBILITY ></sup></sub> Audio & Visual > Call Audio Routing > Auto-Answer Calls___
+__<sub><sup>ACCESSIBILITY ></sup></sub>__ _Audio & Visual > Call Audio Routing > Auto-Answer Calls_
 \
 `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/CALL_AUDIO_ROUTING/callAudioRoutingAutoAnswer`
 \
 \
 \
-___<sub><sup>ACCESSIBILITY ></sup></sub> Touch > Call Audio Routing___
+__<sub><sup>ACCESSIBILITY ></sup></sub>__ _Touch > Call Audio Routing_
 \
 `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING`
 \
 \
 \
-___<sub><sup>ACCESSIBILITY ></sup></sub> Touch > Call Audio Routing > Auto-Answer Calls___
+__<sub><sup>ACCESSIBILITY ></sup></sub>__ _Touch > Call Audio Routing > Auto-Answer Calls_
 \
 `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING/callAudioRoutingAutoAnswer`
 \
 \
 \
-___<sub><sup>ACCESSIBILITY ></sup></sub> AirPods___
+__<sub><sup>ACCESSIBILITY ></sup></sub>__ _AirPods_
 \
-prefs:root=ACCESSIBILITY&path=AIRPODS
+`prefs:root=ACCESSIBILITY&path=AIRPODS`
 \
 \
 \
-___Display & Brightness___
+Display & Brightness
 \
 `prefs:root=DISPLAY`
 \
 \
 \
-___<sub><sup>DISPLAY & BRIGHTNESS ></sup></sub> Appearance___ _(section)_
+__<sub><sup>DISPLAY & BRIGHTNESS ></sup></sub>__ _Appearance (section)_
 \
 `prefs:root=DISPLAY#DEVICE_APPEARANCE`
 \
 \
 \
-___<sub><sup>DISPLAY & BRIGHTNESS ></sup></sub> Text Size___
+__<sub><sup>DISPLAY & BRIGHTNESS ></sup></sub>__ _Text Size_
 \
 `prefs:root=DISPLAY&path=TEXT_SIZE`
 \
 \
 \
-___<sub><sup>DISPLAY & BRIGHTNESS ></sup></sub> Bold Text___ _(switch)_
+__<sub><sup>DISPLAY & BRIGHTNESS ></sup></sub>__ _Bold Text (switch)_
 \
 `prefs:root=DISPLAY#BOLD_TEXT`
 \
 \
 \
-___<sub><sup>DISPLAY & BRIGHTNESS ></sup></sub> Brightness___ _(slider)_
+__<sub><sup>DISPLAY & BRIGHTNESS ></sup></sub>__ _Brightness (slider)_
 \
 `prefs:root=DISPLAY#BRIGHTNESS`
 \
 \
 \
-___<sub><sup>DISPLAY & BRIGHTNESS ></sup></sub> True Tone___ _(switch)_
+__<sub><sup>DISPLAY & BRIGHTNESS ></sup></sub>__ _True Tone (switch)_
 \
 `prefs:root=DISPLAY#WHITE_BALANCE`
 \
 \
 \
-___<sub><sup>DISPLAY & BRIGHTNESS ></sup></sub> Night Shift___
+__<sub><sup>DISPLAY & BRIGHTNESS ></sup></sub>__ _Night Shift_
 \
 `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION`
 \
 \
 \
-___<sub><sup>DISPLAY & BRIGHTNESS ></sup></sub> Auto-Lock___
+__<sub><sup>DISPLAY & BRIGHTNESS ></sup></sub>__ _Auto-Lock_
 \
 `prefs:root=DISPLAY&path=AUTOLOCK`
 \
 \
 \
-___<sub><sup>DISPLAY & BRIGHTNESS ></sup></sub> Raise to Wake___ _(switch)_
+__<sub><sup>DISPLAY & BRIGHTNESS ></sup></sub>__ _Raise to Wake (switch)_
 \
 `prefs:root=DISPLAY#RAISE_TO_WAKE`
 \
 \
 \
-___<sub><sup>DISPLAY & BRIGHTNESS ></sup></sub> Display Zoom___
+__<sub><sup>DISPLAY & BRIGHTNESS ></sup></sub>__ _Display Zoom_
 \
 `prefs:root=DISPLAY&path=MAGNIFY`
 \
 \
 \
-___Sounds & Haptics___
+Sounds & Haptics
 \
 `prefs:root=Sounds`
 \
 \
 \
-___<sub><sup>SOUNDS & HAPTICS ></sup></sub> Haptics___
+__<sub><sup>SOUNDS & HAPTICS ></sup></sub>__ _Haptics_
 \
 `prefs:root=Sounds&path=HAPTICS`
 \
 \
 \
-___<sub><sup>SOUNDS & HAPTICS ></sup></sub> Keyboard Feedback___
+__<sub><sup>SOUNDS & HAPTICS ></sup></sub>__ _Keyboard Feedback_
 \
 `prefs:root=Sounds&path=KEYBOARD_FEEDBACK`
 \
 \
 \
-___<sub><sup>SOUNDS & HAPTICS ></sup></sub> Built-In Speaker > Volume Limit___
+__<sub><sup>SOUNDS & HAPTICS ></sup></sub>__ _Built-In Speaker > Volume Limit_
 \
 `prefs:root=Sounds&path=VOLUME_LIMIT`
 \
 \
 \
-___<sub><sup>SOUNDS & HAPTICS ></sup></sub> Headphone Safety___
+__<sub><sup>SOUNDS & HAPTICS ></sup></sub>__ _Headphone Safety_
 \
 `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING`
 \
 \
 \
-___<sub><sup>SOUNDS & HAPTICS ></sup></sub> Personalized Spatial Audio___
+__<sub><sup>SOUNDS & HAPTICS ></sup></sub>__ _Personalized Spatial Audio_
 \
 `prefs:root=Sounds&path=PERSONALIZED_SPATIAL_AUDIO`
 \
 \
 \
-___Wallpaper___
+Wallpaper
 \
 `prefs:root=Wallpaper`
 \
 \
 \
-___Payment & Contactless___
+Payment & Contactless
 \
 `prefs:root=PASSBOOK`
 \
 \
 \
-___Apps___
+Apps
 \
 `settings-navigation://com.apple.Settings.Apps`
 \
 \
 \
-___<sub><sup>APPS ></sup></sub> Default apps___
+__<sub><sup>APPS ></sup></sub>__ _Default apps_
 \
 `settings-navigation://com.apple.Settings.Apps/com.apple.Settings.Apps.DefaultApps`
 \
 \
 \
-___<sub><sup>APPS ></sup></sub>___ _\[bundle identifier for any app, also third party\]_
+__<sub><sup>APPS ></sup></sub>__ _\[bundle identifier for any app, also third party\]_
 \
 `settings-navigation://com.apple.Settings.Apps/bundle_identifier`
 \
 \
 \
-___<sub><sup>APPS ></sup></sub> Compass___
+__<sub><sup>APPS ></sup></sub>__ _Compass_
 \
-prefs:root=COMPASS
+`prefs:root=COMPASS`
 \
 \
 \
-___<sub><sup>APPS ></sup></sub> Phone > Show My Caller ID___
+__<sub><sup>APPS ></sup></sub>__ _Phone > Show My Caller ID_
 \
 `prefs:root=Phone&path=CALLING_LINE_ID_RESTRICTION_TELEPHONY_SETTINGS`
 \
 \
 \
-___<sub><sup>APPS ></sup></sub> Safari > Default Browser App___ _(button)_
+__<sub><sup>APPS ></sup></sub>__ _Safari > Default Browser App (button)_
 \
 `prefs:root=SAFARI#com.apple.settings.DefaultBrowser`
 \
 \
 \
-___<sub><sup>APPS ></sup></sub> Safari > Search Engine___
+__<sub><sup>APPS ></sup></sub>__ _Safari > Search Engine_
 \
 `prefs:root=SAFARI&path=SEARCH_ENGINE_SETTING`
 \
 \
 \
-___<sub><sup>APPS ></sup></sub> Safari > Also Use in Private Browsing___ _(switch)_
+__<sub><sup>APPS ></sup></sub>__ _Safari > Also Use in Private Browsing (switch)_
 \
 `prefs:root=SAFARI#PRIVATE_BROWSING_USES_NORMAL_BROWSING_SEARCH_ENGINE_SELECTION`
 \
 \
 \
-___<sub><sup>APPS ></sup></sub> Safari > Search Enginge Suggestions___ _(switch)_
+__<sub><sup>APPS ></sup></sub>__ _Safari > Search Enginge Suggestions (switch)_
 \
 `prefs:root=SAFARI#SEARCH_SUGGESTION_SETTING`
 \
 \
 \
-___<sub><sup>APPS ></sup></sub> Safari > Safari Suggestions___ _(switch)_
+__<sub><sup>APPS ></sup></sub>__ _Safari > Safari Suggestions (switch)_
 \
 `prefs:root=SAFARI#SIRI_SUGGESTIONS`
 \
 \
 \
-___<sub><sup>APPS ></sup></sub> Safari > Quick Website Search___
+__<sub><sup>APPS ></sup></sub>__ _Safari > Quick Website Search_
 \
 `prefs:root=SAFARI&path=SITE_SPECIFIC_SEARCH`
 \
 \
 \
-___<sub><sup>APPS ></sup></sub> Safari > Preload Top Hit___ _(switch)_
+__<sub><sup>APPS ></sup></sub>__ _Safari > Preload Top Hit (switch)_
 \
 `prefs:root=SAFARI#ENABLE_PREFETCHING`
 \
 \
 \
-___<sub><sup>APPS ></sup></sub> Safari > AutoFill___
+__<sub><sup>APPS ></sup></sub>__ _Safari > AutoFill_
 \
 `prefs:root=SAFARI&path=AUTO_FILL`
 \
 \
 \
-___<sub><sup>APPS ></sup></sub> Safari > Start Page Favorites___
+__<sub><sup>APPS ></sup></sub>__ _Safari > Start Page Favorites_
 \
 `prefs:root=SAFARI&path=FAVORITES_FOLDER`
 \
 \
 \
-___<sub><sup>APPS ></sup></sub> Safari > Extensions___
+__<sub><sup>APPS ></sup></sub>__ _Safari > Extensions_
 \
 `prefs:root=SAFARI&path=WEB_EXTENSIONS`
 \
 \
 \
-___<sub><sup>APPS ></sup></sub> Safari > Downloads___
+__<sub><sup>APPS ></sup></sub>__ _Safari > Downloads_
 \
 `prefs:root=SAFARI&path=DOWNLOADS`
 \
 \
 \
-___<sub><sup>APPS ></sup></sub> Safari > Open Links >___ _when opening a link in a new tab, switch to the tab (___New Tab___) or don't (___In Background___)_
+__<sub><sup>APPS ></sup></sub>__ _Safari > Open Links > when opening a link in a new tab, switch to the tab (New Tab) or don't (In Background)_
 \
-`prefs:root=SAFARI&path=OPEN_LINKS_IN_BACKGROUND_IPHONE` <sub><i>iPhone</i></sub>
+`prefs:root=SAFARI&path=OPEN_LINKS_IN_BACKGROUND_IPHONE` _<sub>iPhone</sub>_
 \
-`prefs:root=SAFARI&path=OPEN_LINKS_IN_BACKGROUND_IPAD` <sub><i>iPad</i></sub>
+`prefs:root=SAFARI&path=OPEN_LINKS_IN_BACKGROUND_IPAD` _<sub>iPad</sub>_
 \
 \
 \
-___<sub><sup>APPS ></sup></sub> Safari > Require Passcode to Unlock Private Browsing___ _(swtich)_
+__<sub><sup>APPS ></sup></sub>__ _Safari > Require Passcode to Unlock Private Browsing (swtich)_
 \
 `prefs:root=SAFARI#PrivateBrowsingRequiresAuthentication`
 \
 \
 \
-___<sub><sup>APPS ></sup></sub> Safari > Not Secure Connection Warning___ _(switch)_
+__<sub><sup>APPS ></sup></sub>__ _Safari > Not Secure Connection Warning (switch)_
 \
 `prefs:root=SAFARI#WARN_ABOUT_INSECURE_CONNECTIONS`
 \
 \
 \
-___<sub><sup>APPS ></sup></sub> Safari > Import___ _(button)_
+__<sub><sup>APPS ></sup></sub>__ _Safari > Import (button)_
 \
 `prefs:root=SAFARI#IMPORT_BUTTON`
 \
 \
 \
-___<sub><sup>APPS ></sup></sub> Safari > Export___ _(button)_
+__<sub><sup>APPS ></sup></sub>__ _Safari > Export (button)_
 \
 `prefs:root=SAFARI#EXPORT_BUTTON`
 \
 \
 \
-___<sub><sup>APPS ></sup></sub> Safari > Export___ _(dialog)_
+__<sub><sup>APPS ></sup></sub>__ _Safari > Export (dialog)_
 \
 `prefs:root=SAFARI&action=showExportSheet`
 \
 \
 \
-___<sub><sup>APPS ></sup></sub> Safari > Clear History and Website Data___ _(button)_
+__<sub><sup>APPS ></sup></sub>__ _Safari > Clear History and Website Data (button)_
 \
 `prefs:root=SAFARI#CLEAR_HISTORY_AND_DATA`
 \
 \
 \
-___<sub><sup>APPS ></sup></sub> Safari > Settings for Websites___ _(section)_
+__<sub><sup>APPS ></sup></sub>__ _Safari > Settings for Websites (section)_
 \
 `prefs:root=SAFARI#SPACE_CELL_FOR_PER_SITE_SETTINGS_SYNC_TOGGLE`
 \
 \
 \
-___<sub><sup>APPS ></sup></sub> Safari > Advanced___
+__<sub><sup>APPS ></sup></sub>__ _Safari > Advanced_
 \
 `prefs:root=SAFARI&path=ADVANCED`
 \
 \
 \
-___<sub><sup>APPS ></sup></sub> Safari > Advanced > Website Data___
+__<sub><sup>APPS ></sup></sub>__ _Safari > Advanced > Website Data_
 \
 `prefs:root=SAFARI&path=ADVANCED/REMOVE_WEBSITE_DATA`
