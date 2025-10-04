@@ -354,6 +354,12 @@ ___<sub><sup>DISPLAY & BRIGHTNESS ></sup></sub>___ _Appearance (section)_
 \
 \
 \
+___<sub><sup>DISPLAY & BRIGHTNESS ></sup></sub>___ _Appearance > Automatic (switch)_
+\
+`prefs:root=DISPLAY#AUTOMATIC`
+\
+\
+\
 ___<sub><sup>DISPLAY & BRIGHTNESS ></sup></sub>___ _Text Size_
 \
 `prefs:root=DISPLAY&path=TEXT_SIZE`
