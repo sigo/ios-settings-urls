@@ -222,12 +222,9 @@ ___<sub><sup>BATTERY ></sup></sub>___ _Battery Percentage (switch)_
 \
 \
 \
-___<sub><sup>BATTERY ></sup></sub>___ _Low Power Mode (switch) (device dependent, probably)_
+___<sub><sup>BATTERY ></sup></sub>___ _Low Power Mode (switch)_
 \
 `prefs:root=BATTERY_USAGE#LOW_POWER_MODE_IDENTIFIER`
-\
-\
-`settings-navigation://com.apple.Settings.Battery/POWER_MODE_SPECIFIER_IDENTIFIER#LOW_POWER_MODE_IDENTIFIER`
 \
 \
 \
@@ -245,37 +242,43 @@ ___<sub><sup>ACCESSIBILITY ></sup></sub>___ _Display & Text Size_
 \
 ___<sub><sup>ACCESSIBILITY ></sup></sub>___ _Display & Text Size > Bold Text (switch)_
 \
-`settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT/ENHANCE_TEXT_LEGIBILITY`
+`prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/ENHANCE_TEXT_LEGIBILITY`
 \
 \
 \
 ___<sub><sup>ACCESSIBILITY ></sup></sub>___ _Display & Text Size > Larger Text_
 \
-`settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT/LARGER_TEXT`
+`prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/LARGER_TEXT`
 \
 \
 \
 ___<sub><sup>ACCESSIBILITY ></sup></sub>___ _Display & Text Size > Button Shapes (switch)_
 \
-`settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT#BUTTON_SHAPES`
+`prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/BUTTON_SHAPES`
 \
 \
 \
 ___<sub><sup>ACCESSIBILITY ></sup></sub>___ _Display & Text Size > Reduce Transparency (switch)_
 \
-`settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT#REDUCE_TRANSPARENCY`
+`prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/REDUCE_TRANSPARENCY`
 \
 \
 \
 ___<sub><sup>ACCESSIBILITY ></sup></sub>___ _Display & Text Size > Increase Contrast (switch)_
 \
-`settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT/TEXT_COLORS_DARKEN`
+`prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/TEXT_COLORS_DARKEN`
+\
+\
+\
+___<sub><sup>ACCESSIBILITY ></sup></sub>___ _Display & Text Size > Smart Invert (switch)_
+\
+`prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/SMART_INVERT`
 \
 \
 \
 ___<sub><sup>ACCESSIBILITY ></sup></sub>___ _Display & Text Size > Classic Invert (switch)_
 \
-`settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT#CLASSIC_INVERT`
+`prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/CLASSIC_INVERT`
 \
 \
 \
@@ -287,13 +290,13 @@ ___<sub><sup>ACCESSIBILITY ></sup></sub>___ _Display & Text Size > Color Filters
 \
 ___<sub><sup>ACCESSIBILITY ></sup></sub>___ _Display & Text Size > Reduce White Point (switch)_
 \
-`settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT/WHITE_POINT`
+`prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/WHITE_POINT`
 \
 \
 \
 ___<sub><sup>ACCESSIBILITY ></sup></sub>___ _Display & Text Size > Auto-Brightness (switch)_
 \
-`settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT#AUTO_BRIGHTNESS`
+`prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/AUTO_BRIGHTNESS`
 \
 \
 \
