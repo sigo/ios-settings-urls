@@ -474,9 +474,39 @@ ___<sub><sup>APPS ></sup></sub>___ _Compass_
 \
 \
 \
+___<sub><sup>APPS ></sup></sub>___ _Phone_
+\
+`prefs:root=Phone`
+\
+\
+\
+___<sub><sup>APPS ></sup></sub>___ _Phone > Wi-Fi Calling (button)_
+\
+`prefs:root=Phone#WIFI_CALLING_TELEPHONY_SETTINGS`
+\
+\
+\
+___<sub><sup>APPS ></sup></sub>___ _Phone > Call Forwarding (button)_
+\
+`prefs:root=Phone#CALL_FORWARDING_TELEPHONY_SETTINGS`
+\
+\
+\
+___<sub><sup>APPS ></sup></sub>___ _Phone > Call Waiting (button)_
+\
+`prefs:root=Phone#CALL_WAITING_TELEPHONY_SETTINGS`
+\
+\
+\
 ___<sub><sup>APPS ></sup></sub>___ _Phone > Show My Caller ID_
 \
 `prefs:root=Phone&path=CALLING_LINE_ID_RESTRICTION_TELEPHONY_SETTINGS`
+\
+\
+\
+___<sub><sup>APPS ></sup></sub>___ _Phone > Unknown Callers (switch)_
+\
+`prefs:root=Phone#FILTER_AS_NEW_CALLERS`
 \
 \
 \
