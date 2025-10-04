@@ -330,6 +330,18 @@ ___<sub><sup>ACCESSIBILITY ></sup></sub>___ _AirPods_
 \
 \
 \
+___<sub><sup>ACCESSIBILITY ></sup></sub>___ _Per-App Settings_
+\
+`prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE`
+\
+\
+\
+___<sub><sup>ACCESSIBILITY ></sup></sub>___ _Per-App Settings > [app's bundle identifier] (the app needs to have been manually added to the list first)_
+\
+`prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE/bundle_identifier`
+\
+\
+\
 _Display & Brightness_
 \
 `prefs:root=DISPLAY`
