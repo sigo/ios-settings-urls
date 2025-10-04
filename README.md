@@ -336,7 +336,7 @@ ___<sub><sup>ACCESSIBILITY ></sup></sub>___ _Per-App Settings_
 \
 \
 \
-___<sub><sup>ACCESSIBILITY ></sup></sub>___ _Per-App Settings > [app's bundle identifier] (the app needs to have been manually added to the list first)_
+___<sub><sup>ACCESSIBILITY ></sup></sub>___ _Per-App Settings > [app's bundle identifier] (as long as you have added the app there, otherwise goes to the parent page)_
 \
 `prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE/bundle_identifier`
 \
