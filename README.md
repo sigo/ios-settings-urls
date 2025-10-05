@@ -582,7 +582,7 @@ ___<sub><sup>APPS ></sup></sub>___ _Safari > Downloads_
 \
 \
 \
-___<sub><sup>APPS ></sup></sub>___ _Safari > Open Links > New Tab <sup>(and switch to the new tab)</sup> <sub>or</sub> In Background <sup>(and stay in the current tab)</sup>_
+___<sub><sup>APPS ></sup></sub>___ _Safari > Open Links > New Tab <sup>(switches to the new tab)</sup> <sub>or</sub> In Background <sup>(doesn't leave the current tab)</sup>_
 \
 `prefs:root=SAFARI&path=OPEN_LINKS_IN_BACKGROUND_IPHONE` _<sub>iPhone</sub>_
 \
