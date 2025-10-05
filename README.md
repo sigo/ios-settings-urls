@@ -258,6 +258,12 @@ ___<sub><sup>ACCESSIBILITY ></sup></sub>___ _Display & Text Size > Button Shapes
 \
 \
 \
+___<sub><sup>ACCESSIBILITY ></sup></sub>___ _Display & Text Size > On/Off Labels (switch)_
+\
+`prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/ON_OFF_LABELS`
+\
+\
+\
 ___<sub><sup>ACCESSIBILITY ></sup></sub>___ _Display & Text Size > Reduce Transparency (switch)_
 \
 `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/REDUCE_TRANSPARENCY`
@@ -267,6 +273,18 @@ ___<sub><sup>ACCESSIBILITY ></sup></sub>___ _Display & Text Size > Reduce Transp
 ___<sub><sup>ACCESSIBILITY ></sup></sub>___ _Display & Text Size > Increase Contrast (switch)_
 \
 `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/TEXT_COLORS_DARKEN`
+\
+\
+\
+___<sub><sup>ACCESSIBILITY ></sup></sub>___ _Display & Text Size > Differentiate Without Color (switch)_
+\
+`prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DIFFERENTIATE_WITHOUT_COLOR`
+\
+\
+\
+___<sub><sup>ACCESSIBILITY ></sup></sub>___ _Display & Text Size > Prefer Horizontal Text (switch)_
+\
+`prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/PREFER_HORIZONTAL_TEXT`
 \
 \
 \
