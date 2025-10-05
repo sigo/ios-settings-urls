@@ -474,7 +474,7 @@ _Privacy & Security_
 \
 \
 \
-_Privacy & Security > Blocked Contacts_
+___<sub><sup>PRIVACY & SECURITY ></sup></sub>____ _Blocked Contacts_
 \
 `prefs:root=Privacy&path=BLOCKLIST`
 \
