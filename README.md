@@ -468,6 +468,18 @@ _Wallpaper_
 \
 \
 \
+_Privacy & Security_
+\
+`prefs:root=Privacy`
+\
+\
+\
+_Privacy & Security > Blocked Contacts_
+\
+`prefs:root=Privacy&path=BLOCKLIST`
+\
+\
+\
 _Payment & Contactless_
 \
 `prefs:root=PASSBOOK`
@@ -531,6 +543,12 @@ ___<sub><sup>APPS ></sup></sub>___ _Phone > Show My Caller ID (switch)_
 ___<sub><sup>APPS ></sup></sub>___ _Phone > Unknown Callers (switch)_
 \
 `prefs:root=Phone#FILTER_AS_NEW_CALLERS`
+\
+\
+\
+___<sub><sup>APPS ></sup></sub>___ _Phone > Blocked Contacts_
+\
+`prefs:root=Privacy&path=BLOCKLIST`
 \
 \
 \
