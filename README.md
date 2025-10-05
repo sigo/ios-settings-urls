@@ -486,21 +486,21 @@ ___<sub><sup>APPS ></sup></sub>___ _Phone_
 \
 \
 \
-___<sub><sup>APPS ></sup></sub>___ _Phone > Wi-Fi Calling (button)_
+___<sub><sup>APPS ></sup></sub>___ _Phone > Wi-Fi Calling_
 \
-`prefs:root=Phone#WIFI_CALLING_TELEPHONY_SETTINGS`
-\
-\
-\
-___<sub><sup>APPS ></sup></sub>___ _Phone > Call Forwarding (button)_
-\
-`prefs:root=Phone#CALL_FORWARDING_TELEPHONY_SETTINGS`
+`prefs:root=Phone&path=WIFI_CALLING_TELEPHONY_SETTINGS`
 \
 \
 \
-___<sub><sup>APPS ></sup></sub>___ _Phone > Call Waiting (button)_
+___<sub><sup>APPS ></sup></sub>___ _Phone > Call Forwarding_
 \
-`prefs:root=Phone#CALL_WAITING_TELEPHONY_SETTINGS`
+`prefs:root=Phone&path=CALL_FORWARDING_TELEPHONY_SETTINGS`
+\
+\
+\
+___<sub><sup>APPS ></sup></sub>___ _Phone > Call Waiting_
+\
+`prefs:root=Phone&path=CALL_WAITING_TELEPHONY_SETTINGS`
 \
 \
 \
