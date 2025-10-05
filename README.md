@@ -486,27 +486,27 @@ ___<sub><sup>APPS ></sup></sub>___ _Phone_
 \
 \
 \
-___<sub><sup>APPS ></sup></sub>___ _Phone > Wi-Fi Calling_
+___<sub><sup>APPS ></sup></sub>___ _Phone > Wi-Fi Calling (switch)_
 \
-`prefs:root=Phone&path=WIFI_CALLING_TELEPHONY_SETTINGS`
-\
-\
-\
-___<sub><sup>APPS ></sup></sub>___ _Phone > Call Forwarding_
-\
-`prefs:root=Phone&path=CALL_FORWARDING_TELEPHONY_SETTINGS`
+`prefs:root=Phone#WIFI_CALLING_TELEPHONY_SETTINGS`
 \
 \
 \
-___<sub><sup>APPS ></sup></sub>___ _Phone > Call Waiting_
+___<sub><sup>APPS ></sup></sub>___ _Phone > Call Forwarding (switch)_
 \
-`prefs:root=Phone&path=CALL_WAITING_TELEPHONY_SETTINGS`
+`prefs:root=Phone#CALL_FORWARDING_TELEPHONY_SETTINGS`
 \
 \
 \
-___<sub><sup>APPS ></sup></sub>___ _Phone > Show My Caller ID_
+___<sub><sup>APPS ></sup></sub>___ _Phone > Call Waiting (switch)_
 \
-`prefs:root=Phone&path=CALLING_LINE_ID_RESTRICTION_TELEPHONY_SETTINGS`
+`prefs:root=Phone#CALL_WAITING_TELEPHONY_SETTINGS`
+\
+\
+\
+___<sub><sup>APPS ></sup></sub>___ _Phone > Show My Caller ID (switch)_
+\
+`prefs:root=Phone#CALLING_LINE_ID_RESTRICTION_TELEPHONY_SETTINGS`
 \
 \
 \
