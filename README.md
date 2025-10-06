@@ -216,9 +216,24 @@ ___<sub><sup>GENERAL ></sup></sub>___ _About > iOS Version_
 `prefs:root=General&path=About/SW_VERSION_SPECIFIER`
 \
 \
+___<sub><sup>GENERAL ></sup></sub>___ _About > Certificate Trust Settings_
+\
+`prefs:root=General&path=About/CERT_TRUST_SETTINGS`
+\
+\
 ___<sub><sup>GENERAL ></sup></sub>___ _Software Update_
 \
 `prefs:root=General&path=SOFTWARE_UPDATE_LINK`
+\
+\
+___<sub><sup>GENERAL ></sup></sub>___ _Software Update > Automatic Updates_
+\
+`prefs:root=General&path=SOFTWARE_UPDATE_LINK/SUAutomaticUpdateButton`
+\
+\
+___<sub><sup>GENERAL ></sup></sub>___ _Software Update > Beta Updates_
+\
+`prefs:root=General&path=SOFTWARE_UPDATE_LINK/SUAutomaticUpdateButton`
 \
 \
 \
