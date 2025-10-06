@@ -169,6 +169,12 @@ ___<sub><sup>CELLULAR ></sup></sub>___ _Cellular Data > Show All > Cellular Data
 \
 \
 \
+_Personal Hotspot_
+\
+`settings-navigation://com.apple.Settings.PersonalHotspot`
+\
+\
+\
 _Battery_
 \
 `prefs:root=BATTERY_USAGE`
@@ -192,6 +198,27 @@ ___<sub><sup>BATTERY ></sup></sub>___ _Battery Percentage (switch)_
 ___<sub><sup>BATTERY ></sup></sub>___ _Low Power Mode (switch)_
 \
 `prefs:root=BATTERY_USAGE#LOW_POWER_MODE_IDENTIFIER`
+\
+\
+\
+_General_
+\
+`prefs:root=General`
+\
+\
+___<sub><sup>GENERAL ></sup></sub>___ _About_
+\
+`prefs:root=General&path=About`
+\
+\
+___<sub><sup>GENERAL ></sup></sub>___ _About > iOS Version_
+\
+`prefs:root=General&path=About/SW_VERSION_SPECIFIER`
+\
+\
+___<sub><sup>GENERAL ></sup></sub>___ _Software Update_
+\
+`prefs:root=General&path=SOFTWARE_UPDATE_LINK`
 \
 \
 \
