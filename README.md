@@ -236,6 +236,26 @@ ___<sub><sup>GENERAL ></sup></sub>___ _Software Update > Beta Updates_
 `prefs:root=General&path=SOFTWARE_UPDATE_LINK/SUAutomaticUpdateButton`
 \
 \
+___<sub><sup>GENERAL ></sup></sub>___ _iPhone Storage_
+\
+`prefs:root=General&path=STORAGE_MGMT`
+\
+\
+___<sub><sup>GENERAL ></sup></sub>___ _AppleCare & Warranty_
+\
+`prefs:root=General&path=COVERAGE`
+\
+\
+___<sub><sup>GENERAL ></sup></sub>___ _Health Data_
+\
+`prefs:root=General&path=HEALTH_DATA`
+\
+\
+___<sub><sup>GENERAL ></sup></sub>___ _AirDrop_
+\
+`prefs:root=General&path=AIRDROP_LINK`
+\
+\
 \
 _Accessibility_
 \
