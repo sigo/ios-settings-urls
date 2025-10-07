@@ -595,6 +595,11 @@ ___<sub><sup>APPS ></sup></sub>___ _Safari > Open Links > New Tab <sup>(switches
 `prefs:root=SAFARI&path=OPEN_LINKS_IN_BACKGROUND_IPAD` _<sub>iPad</sub>_
 \
 \
+___<sub><sup>APPS ></sup></sub>___ _Safari > Hide IP Address (button)_
+\
+`prefs:root=SAFARI&path=Hide%20IP%20Address`
+\
+\
 ___<sub><sup>APPS ></sup></sub>___ _Safari > Require Passcode to Unlock Private Browsing (swtich)_
 \
 `prefs:root=SAFARI#PrivateBrowsingRequiresAuthentication`
