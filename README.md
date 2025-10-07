@@ -142,6 +142,12 @@ ___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Contact Key Verification_
 \
 \
 \
+_Airplane Mode (switch) <sub>(brings into focus, but doesn't highlight it)</sub>_
+\
+`prefs:root=ROOT#AIRPLANE_MODE`
+\
+\
+\
 _Wi-Fi_
 \
 `prefs:root=WIFI`
@@ -198,6 +204,12 @@ ___<sub><sup>BATTERY ></sup></sub>___ _Battery Percentage (switch)_
 ___<sub><sup>BATTERY ></sup></sub>___ _Low Power Mode (switch)_
 \
 `prefs:root=BATTERY_USAGE#LOW_POWER_MODE_IDENTIFIER`
+\
+\
+\
+_VPN (switch) <sub>(brings it into focus, but doesn't highlight it)</sub>_
+\
+`prefs:root=ROOT#VPN`
 \
 \
 \
