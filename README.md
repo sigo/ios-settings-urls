@@ -142,7 +142,7 @@ ___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Contact Key Verification_
 \
 \
 \
-_Airplane Mode (switch) <sub>(brings into focus, but doesn't highlight it)</sub>_
+_Airplane Mode (switch) <sub>(brings it into focus, but doesn't highlight it)</sub>_
 \
 `prefs:root=ROOT#AIRPLANE_MODE`
 \
