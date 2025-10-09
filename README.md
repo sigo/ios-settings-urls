@@ -144,7 +144,7 @@ ___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Contact Key Verification_
 \
 _Airplane Mode (switch)_
 \
-`prefs:root=ROOT#AIRPLANE_MODE` _<sub>(doesn't highlight it, but brings it into view)</sub>_
+`prefs:root=ROOT#AIRPLANE_MODE` _<sub>(gets focused but without the normal flashing)</sub>_
 \
 \
 \
@@ -209,7 +209,7 @@ ___<sub><sup>BATTERY ></sup></sub>___ _Low Power Mode (switch)_
 \
 _VPN (switch)_
 \
-`prefs:root=ROOT#VPN` _<sub>(doesn't highlight it, but brings it into view)</sub>_
+`prefs:root=ROOT#VPN` _<sub>(gets focused but without the normal flashing)</sub>_
 \
 \
 \
