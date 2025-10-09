@@ -11,39 +11,39 @@ _Apple Account_
 `prefs:root=APPLE_ACCOUNT`
 \
 \
-___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Personal Information <sub>(takes some time to load)</sub>_
+___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Personal Information_
 \
-`prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT`
-\
-\
-___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Sign-In & Security <sub>(takes some time to load)</sub>_
-\
-`prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY`
+`prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT` _<sub>(takes some time to load)</sub>_
 \
 \
-___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Sign-In & Security > Change Password <sub>(takes some time to load)</sub>_
+___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Sign-In & Security_
 \
-`prefs:root=APPLE_ACCOUNT&aaaction=changePassword`
-\
-\
-___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Sign-In & Security > Recovery Contacts <sub>(takes some time to load)</sub>_
-\
-`prefs:root=APPLE_ACCOUNT&aaaction=accountRecovery`
+`prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY` _<sub>(takes some time to load)</sub>_
 \
 \
-___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Sign-In & Security > Legacy Contact <sub>(takes some time to load)</sub>_
+___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Sign-In & Security > Change Password_
 \
-`prefs:root=APPLE_ACCOUNT&aaaction=accountBeneficiary`
-\
-\
-___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Payment & Shipping <sub>(takes some time to load)</sub>_
-\
-`prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING`
+`prefs:root=APPLE_ACCOUNT&aaaction=changePassword` _<sub>(takes some time to load)</sub>_
 \
 \
-___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Subscriptions <sub>(takes some time to load)</sub>_
+___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Sign-In & Security > Recovery Contacts_
 \
-`prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS`
+`prefs:root=APPLE_ACCOUNT&aaaction=accountRecovery` _<sub>(takes some time to load)</sub>_
+\
+\
+___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Sign-In & Security > Legacy Contact_
+\
+`prefs:root=APPLE_ACCOUNT&aaaction=accountBeneficiary` _<sub>(takes some time to load)</sub>_
+\
+\
+___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Payment & Shipping_
+\
+`prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING` _<sub>(takes some time to load)</sub>_
+\
+\
+___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Subscriptions_
+\
+`prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS` _<sub>(takes some time to load)</sub>_
 \
 \
 ___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _iCloud > Storage_
@@ -106,9 +106,9 @@ ___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _iCloud > Private Relay_
 `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/INTERNET_PRIVACY`
 \
 \
-___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _iCloud > Hide My Email <sub>(takes some time to load)</sub>_
+___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _iCloud > Hide My Email_
 \
-`prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE`
+`prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` _<sub>(takes some time to load)</sub>_
 \
 \
 ___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _iCloud > Advanced Data Protection_
@@ -142,9 +142,9 @@ ___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Contact Key Verification_
 \
 \
 \
-_Airplane Mode (switch) <sub>(brings it into focus, but doesn't highlight it)</sub>_
+_Airplane Mode (switch)_
 \
-`prefs:root=ROOT#AIRPLANE_MODE`
+`prefs:root=ROOT#AIRPLANE_MODE` <sub>(brings it into focus, but doesn't highlight it)</sub>
 \
 \
 \
@@ -207,9 +207,9 @@ ___<sub><sup>BATTERY ></sup></sub>___ _Low Power Mode (switch)_
 \
 \
 \
-_VPN (switch) <sub>(brings it into focus, but doesn't highlight it)</sub>_
+_VPN (switch)_
 \
-`prefs:root=ROOT#VPN`
+`prefs:root=ROOT#VPN` <sub>(brings it into focus, but doesn't highlight it)</sub>
 \
 \
 \
@@ -600,7 +600,7 @@ ___<sub><sup>APPS ></sup></sub>___ _Safari > Downloads_
 `prefs:root=SAFARI&path=DOWNLOADS`
 \
 \
-___<sub><sup>APPS ></sup></sub>___ _Safari > Open Links > New Tab <sup>(switches to the new tab)</sup> <sub>or</sub> In Background <sup>(doesn't leave the current tab)</sup>_
+___<sub><sup>APPS ></sup></sub>___ _Safari > Open Links > New Tab \[switches to the new tab] or In Background \[doesn't leave the current tab]_
 \
 `prefs:root=SAFARI&path=OPEN_LINKS_IN_BACKGROUND_IPHONE` _<sub>iPhone</sub>_
 \
