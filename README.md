@@ -13,37 +13,37 @@ _Apple Account_
 \
 ___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Personal Information_
 \
-`prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT` _<sub>(takes some time to load)</sub>_
+`prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT` _<sub>(loads slowly)</sub>_
 \
 \
 ___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Sign-In & Security_
 \
-`prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY` _<sub>(takes some time to load)</sub>_
+`prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY` _<sub>(loads slowly)</sub>_
 \
 \
 ___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Sign-In & Security > Change Password_
 \
-`prefs:root=APPLE_ACCOUNT&aaaction=changePassword` _<sub>(takes some time to load)</sub>_
+`prefs:root=APPLE_ACCOUNT&aaaction=changePassword` _<sub>(loads slowly)</sub>_
 \
 \
 ___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Sign-In & Security > Recovery Contacts_
 \
-`prefs:root=APPLE_ACCOUNT&aaaction=accountRecovery` _<sub>(takes some time to load)</sub>_
+`prefs:root=APPLE_ACCOUNT&aaaction=accountRecovery` _<sub>(loads slowly)</sub>_
 \
 \
 ___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Sign-In & Security > Legacy Contact_
 \
-`prefs:root=APPLE_ACCOUNT&aaaction=accountBeneficiary` _<sub>(takes some time to load)</sub>_
+`prefs:root=APPLE_ACCOUNT&aaaction=accountBeneficiary` _<sub>(loads slowly)</sub>_
 \
 \
 ___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Payment & Shipping_
 \
-`prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING` _<sub>(takes some time to load)</sub>_
+`prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING` _<sub>(loads slowly)</sub>_
 \
 \
 ___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Subscriptions_
 \
-`prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS` _<sub>(takes some time to load)</sub>_
+`prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS` _<sub>(loads slowly)</sub>_
 \
 \
 ___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _iCloud > Storage_
@@ -108,7 +108,7 @@ ___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _iCloud > Private Relay_
 \
 ___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _iCloud > Hide My Email_
 \
-`prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` _<sub>(takes some time to load)</sub>_
+`prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` _<sub>(loads slowly)</sub>_
 \
 \
 ___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _iCloud > Advanced Data Protection_
@@ -144,7 +144,7 @@ ___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Contact Key Verification_
 \
 _Airplane Mode (switch)_
 \
-`prefs:root=ROOT#AIRPLANE_MODE` <sub>(brings it into focus, but doesn't highlight it)</sub>
+`prefs:root=ROOT#AIRPLANE_MODE` _<sub>(doesn't highlight it, but brings it into view)</sub>_
 \
 \
 \
@@ -209,7 +209,7 @@ ___<sub><sup>BATTERY ></sup></sub>___ _Low Power Mode (switch)_
 \
 _VPN (switch)_
 \
-`prefs:root=ROOT#VPN` <sub>(brings it into focus, but doesn't highlight it)</sub>
+`prefs:root=ROOT#VPN` _<sub>(doesn't highlight it, but brings it into view)</sub>_
 \
 \
 \
