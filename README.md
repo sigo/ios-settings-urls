@@ -288,6 +288,51 @@ ___<sub><sup>GENERAL ></sup></sub>___ _Matter Accessories_
 `prefs:root=General&path=MATTER_ACCESSORIES`
 \
 \
+___<sub><sup>GENERAL ></sup></sub>___ _AutoFill & Passwords_
+\
+`settings-navigation://com.apple.Settings.General/AUTOFILL`
+\
+\
+___<sub><sup>GENERAL ></sup></sub>___ _Background App Refresh_
+\
+`prefs:root=General&path=AUTO_CONTENT_DOWNLOAD`
+\
+\
+___<sub><sup>GENERAL ></sup></sub>___ _Date & Time_
+\
+`prefs:root=General&path=DATE_AND_TIME`
+\
+\
+___<sub><sup>GENERAL ></sup></sub>___ _Dictionary_
+\
+`prefs:root=General&path=DICTIONARY`
+\
+\
+___<sub><sup>GENERAL ></sup></sub>___ _Fonts_
+\
+`prefs:root=General&path=FONT_SETTING`
+\
+\
+___<sub><sup>GENERAL ></sup></sub>___ _Fonts > System Fonts_
+\
+`prefs:root=General&path=FONT_SETTING/SYSTEM_FONTS`
+\
+\
+___<sub><sup>GENERAL ></sup></sub>___ _Fonts > My Fonts_
+\
+`prefs:root=General&path=FONT_SETTING/USER_FONTS`
+\
+\
+___<sub><sup>GENERAL ></sup></sub>___ _Fonts > More Fonts_
+\
+`prefs:root=General&path=FONT_SETTING/MORE_FONTS`
+\
+\
+___<sub><sup>GENERAL ></sup></sub>___ _Keyboard_
+\
+`prefs:root=General&path=Keyboard`
+\
+\
 \
 _Accessibility_
 \
