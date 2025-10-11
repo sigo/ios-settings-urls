@@ -268,6 +268,26 @@ ___<sub><sup>GENERAL ></sup></sub>___ _AirDrop_
 `prefs:root=General&path=AIRDROP_LINK`
 \
 \
+___<sub><sup>GENERAL ></sup></sub>___ _Picture in Picture_
+\
+`prefs:root=General&path=PiP_SPEC`
+\
+\
+___<sub><sup>GENERAL ></sup></sub>___ _Screen Capture_
+\
+`prefs:root=General&path=SCREEN_CAPTURE`
+\
+\
+___<sub><sup>GENERAL ></sup></sub>___ _CarPlay_
+\
+`prefs:root=General&path=CARPLAY`
+\
+\
+___<sub><sup>GENERAL ></sup></sub>___ _Matter Accessories_
+\
+`prefs:root=General&path=MATTER_ACCESSORIES`
+\
+\
 \
 _Accessibility_
 \
