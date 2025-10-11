@@ -197,12 +197,12 @@ _Battery_
 `prefs:root=BATTERY_USAGE`
 \
 \
-___<sub><sup>BATTERY ></sup></sub>___ _Battery Health & Charging (older or lower end models)_
+___<sub><sup>BATTERY ></sup></sub>___ _Battery Health & Charging (device-dependant)_
 \
 `prefs:root=BATTERY_USAGE&path=BATTERY_HEALTH_TITLE`
 \
 \
-___<sub><sup>BATTERY ></sup></sub>___ _Charging Options (newer or higher end models)_
+___<sub><sup>BATTERY ></sup></sub>___ _Charging Options (device-dependant)_
 \
 `prefs:root=BATTERY_USAGE&path=CHARGING_OPTIONS_IDENTIFIER`
 \
@@ -762,9 +762,9 @@ ___<sub><sup>APPS ></sup></sub>___ _Safari > Downloads_
 \
 ___<sub><sup>APPS ></sup></sub>___ _Safari > Open Links > New Tab \[switches to the new tab] or In Background \[doesn't leave the current tab]_
 \
-`prefs:root=SAFARI&path=OPEN_LINKS_IN_BACKGROUND_IPHONE` _<sub>iPhone</sub>_
+`prefs:root=SAFARI&path=OPEN_LINKS_IN_BACKGROUND_IPHONE`&ensp;_<sub>iPhone</sub>_
 \
-`prefs:root=SAFARI&path=OPEN_LINKS_IN_BACKGROUND_IPAD` _<sub>iPad</sub>_
+`prefs:root=SAFARI&path=OPEN_LINKS_IN_BACKGROUND_IPAD`&ensp;_<sub>iPad</sub>_
 \
 \
 ___<sub><sup>APPS ></sup></sub>___ _Safari > Hide IP Address (button)_
