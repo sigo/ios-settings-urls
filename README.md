@@ -11,39 +11,9 @@ _Apple Account_
 `prefs:root=APPLE_ACCOUNT`
 \
 \
-___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Personal Information_
+___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _iCloud_
 \
-`prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT` _<sup>Z<sub>Z<sub>Z</sub></sub>_
-\
-\
-___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Sign-In & Security_
-\
-`prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY` _<sup>Z<sub>Z<sub>Z</sub></sub>_
-\
-\
-___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Sign-In & Security > Change Password_
-\
-`prefs:root=APPLE_ACCOUNT&aaaction=changePassword` _<sup>Z<sub>Z<sub>Z</sub></sub>_
-\
-\
-___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Sign-In & Security > Recovery Contacts_
-\
-`prefs:root=APPLE_ACCOUNT&aaaction=accountRecovery` _<sup>Z<sub>Z<sub>Z</sub></sub>_
-\
-\
-___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Sign-In & Security > Legacy Contact_
-\
-`prefs:root=APPLE_ACCOUNT&aaaction=accountBeneficiary` _<sup>Z<sub>Z<sub>Z</sub></sub>_
-\
-\
-___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Payment & Shipping_
-\
-`prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING` _<sup>Z<sub>Z<sub>Z</sub></sub>_
-\
-\
-___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Subscriptions_
-\
-`prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS` _<sup>Z<sub>Z<sub>Z</sub></sub>_
+`prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/`
 \
 \
 ___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _iCloud > Storage_
