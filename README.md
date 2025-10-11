@@ -333,6 +333,66 @@ ___<sub><sup>GENERAL ></sup></sub>___ _Keyboard_
 `prefs:root=General&path=Keyboard`
 \
 \
+___<sub><sup>GENERAL ></sup></sub>___ _Keyboard > Keyboards_
+\
+`prefs:root=General&path=Keyboard/KEYBOARDS`
+\
+\
+___<sub><sup>GENERAL ></sup></sub>___ _Keyboard > Text Replacement_
+\
+`prefs:root=General&path=Keyboard/USER_DICTIONARY`
+\
+\
+___<sub><sup>GENERAL ></sup></sub>___ _Keyboard > One-Handed Keyboard_
+\
+`prefs:root=General&path=Keyboard/ReachableKeyboard`
+\
+\
+___<sub><sup>GENERAL ></sup></sub>___ _Keyboard > Language & Region_
+\
+`prefs:root=General&path=INTERNATIONAL`
+\
+\
+___<sub><sup>GENERAL ></sup></sub>___ _Keyboard > Language & Region > Add Language_
+\
+`prefs:root=General&path=INTERNATIONAL/ADD_PREFERRED_LANGUAGE`
+\
+\
+___<sub><sup>GENERAL ></sup></sub>___ _Keyboard > Language & Region > Region_
+\
+`prefs:root=General&path=INTERNATIONAL/LOCALE`
+\
+\
+___<sub><sup>GENERAL ></sup></sub>___ _Keyboard > Language & Region > Calendar_
+\
+`prefs:root=General&path=INTERNATIONAL/CALENDAR`
+\
+\
+___<sub><sup>GENERAL ></sup></sub>___ _Keyboard > Language & Region > Temperature_
+\
+`prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT`
+\
+\
+___<sub><sup>GENERAL ></sup></sub>___ _Keyboard > Language & Region > Measurement System_
+\
+`prefs:root=General&path=INTERNATIONAL/MEASUREMENT_SYSTEM`
+\
+\
+___<sub><sup>GENERAL ></sup></sub>___ _Keyboard > Language & Region > First Day of Week_
+\
+`prefs:root=General&path=INTERNATIONAL/FIRST_WEEKDAY`
+\
+\
+___<sub><sup>GENERAL ></sup></sub>___ _Keyboard > Language & Region > Date Format_
+\
+`prefs:root=General&path=INTERNATIONAL/DATE_FORMAT`
+\
+\
+___<sub><sup>GENERAL ></sup></sub>___ _Keyboard > Language & Region > Number Format_
+\
+`prefs:root=General&path=INTERNATIONAL/NUMBER_FORMAT`
+\
+\
 \
 _Accessibility_
 \
