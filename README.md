@@ -348,49 +348,64 @@ ___<sub><sup>GENERAL ></sup></sub>___ _Keyboard > One-Handed Keyboard_
 `prefs:root=General&path=Keyboard/ReachableKeyboard`
 \
 \
-___<sub><sup>GENERAL ></sup></sub>___ _Keyboard > Language & Region_
+___<sub><sup>GENERAL ></sup></sub>___ _Language & Region_
 \
 `prefs:root=General&path=INTERNATIONAL`
 \
 \
-___<sub><sup>GENERAL ></sup></sub>___ _Keyboard > Language & Region > Add Language_
+___<sub><sup>GENERAL ></sup></sub>___ _Language & Region > Add Language_
 \
 `prefs:root=General&path=INTERNATIONAL/ADD_PREFERRED_LANGUAGE`
 \
 \
-___<sub><sup>GENERAL ></sup></sub>___ _Keyboard > Language & Region > Region_
+___<sub><sup>GENERAL ></sup></sub>___ _Language & Region > Region_
 \
 `prefs:root=General&path=INTERNATIONAL/LOCALE`
 \
 \
-___<sub><sup>GENERAL ></sup></sub>___ _Keyboard > Language & Region > Calendar_
+___<sub><sup>GENERAL ></sup></sub>___ _Language & Region > Calendar_
 \
 `prefs:root=General&path=INTERNATIONAL/CALENDAR`
 \
 \
-___<sub><sup>GENERAL ></sup></sub>___ _Keyboard > Language & Region > Temperature_
+___<sub><sup>GENERAL ></sup></sub>___ _Language & Region > Temperature_
 \
 `prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT`
 \
 \
-___<sub><sup>GENERAL ></sup></sub>___ _Keyboard > Language & Region > Measurement System_
+___<sub><sup>GENERAL ></sup></sub>___ _Language & Region > Measurement System_
 \
 `prefs:root=General&path=INTERNATIONAL/MEASUREMENT_SYSTEM`
 \
 \
-___<sub><sup>GENERAL ></sup></sub>___ _Keyboard > Language & Region > First Day of Week_
+___<sub><sup>GENERAL ></sup></sub>___ _Language & Region > First Day of Week_
 \
 `prefs:root=General&path=INTERNATIONAL/FIRST_WEEKDAY`
 \
 \
-___<sub><sup>GENERAL ></sup></sub>___ _Keyboard > Language & Region > Date Format_
+___<sub><sup>GENERAL ></sup></sub>___ _Language & Region > Date Format_
 \
 `prefs:root=General&path=INTERNATIONAL/DATE_FORMAT`
 \
 \
-___<sub><sup>GENERAL ></sup></sub>___ _Keyboard > Language & Region > Number Format_
+___<sub><sup>GENERAL ></sup></sub>___ _Language & Region > Number Format_
 \
 `prefs:root=General&path=INTERNATIONAL/NUMBER_FORMAT`
+\
+\
+___<sub><sup>GENERAL ></sup></sub>___ _Language & Region > Live Text (switch)_
+\
+`settings-navigation://com.apple.Settings.General/INTERNATIONAL#LIVE_TEXT_CELL`
+\
+\
+___<sub><sup>GENERAL ></sup></sub>___ _Trackpad & Mouse_
+\
+`settings-navigation://com.apple.Settings.General/POINTERS`
+\
+\
+___<sub><sup>GENERAL ></sup></sub>___ _TV Provider_
+\
+`settings-navigation://com.apple.Settings.General/TV_PROVIDER`
 \
 \
 \
