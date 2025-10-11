@@ -13,37 +13,37 @@ _Apple Account_
 \
 ___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Personal Information_
 \
-`prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT` _<sub>(loads slowly)</sub>_
+`prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT` _<sup>Z<sub>Z<sub>Z</sub></sub>_
 \
 \
 ___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Sign-In & Security_
 \
-`prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY` _<sub>(loads slowly)</sub>_
+`prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY` _<sup>Z<sub>Z<sub>Z</sub></sub>_
 \
 \
 ___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Sign-In & Security > Change Password_
 \
-`prefs:root=APPLE_ACCOUNT&aaaction=changePassword` _<sub>(loads slowly)</sub>_
+`prefs:root=APPLE_ACCOUNT&aaaction=changePassword` _<sup>Z<sub>Z<sub>Z</sub></sub>_
 \
 \
 ___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Sign-In & Security > Recovery Contacts_
 \
-`prefs:root=APPLE_ACCOUNT&aaaction=accountRecovery` _<sub>(loads slowly)</sub>_
+`prefs:root=APPLE_ACCOUNT&aaaction=accountRecovery` _<sup>Z<sub>Z<sub>Z</sub></sub>_
 \
 \
 ___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Sign-In & Security > Legacy Contact_
 \
-`prefs:root=APPLE_ACCOUNT&aaaction=accountBeneficiary` _<sub>(loads slowly)</sub>_
+`prefs:root=APPLE_ACCOUNT&aaaction=accountBeneficiary` _<sup>Z<sub>Z<sub>Z</sub></sub>_
 \
 \
 ___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Payment & Shipping_
 \
-`prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING` _<sub>(loads slowly)</sub>_
+`prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING` _<sup>Z<sub>Z<sub>Z</sub></sub>_
 \
 \
 ___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Subscriptions_
 \
-`prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS` _<sub>(loads slowly)</sub>_
+`prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS` _<sup>Z<sub>Z<sub>Z</sub></sub>_
 \
 \
 ___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _iCloud > Storage_
@@ -108,7 +108,7 @@ ___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _iCloud > Private Relay_
 \
 ___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _iCloud > Hide My Email_
 \
-`prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` _<sub>(loads slowly)</sub>_
+`prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` _<sup>Z<sub>Z<sub>Z</sub></sub>_
 \
 \
 ___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _iCloud > Advanced Data Protection_
