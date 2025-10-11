@@ -6,14 +6,50 @@ _Settings main page_
 \
 \
 \
+\
 _Apple Account_
 \
 `prefs:root=APPLE_ACCOUNT`
 \
 \
+___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Personal Information_
+\
+`prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT` _<sup>(wait time)</sup>_
+\
+\
+___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Sign-In & Security_
+\
+`prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY` _<sup>(wait time)</sup>_
+\
+\
+___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Sign-In & Security > Change Password_
+\
+`prefs:root=APPLE_ACCOUNT&aaaction=changePassword` _<sup>(wait time)</sup>_
+\
+\
+___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Sign-In & Security > Recovery Contacts_
+\
+`prefs:root=APPLE_ACCOUNT&aaaction=accountRecovery` _<sup>(wait time)</sup>_
+\
+\
+___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Sign-In & Security > Legacy Contact_
+\
+`prefs:root=APPLE_ACCOUNT&aaaction=accountBeneficiary` _<sup>(wait time)</sup>_
+\
+\
+___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Payment & Shipping_
+\
+`prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING` _<sup>(wait time)</sup>_
+\
+\
+___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Subscriptions_
+\
+`prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS` _<sup>(wait time)</sup>_
+\
+\
 ___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _iCloud_
 \
-`prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/`
+`prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE`
 \
 \
 ___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _iCloud > Storage_
@@ -78,7 +114,7 @@ ___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _iCloud > Private Relay_
 \
 ___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _iCloud > Hide My Email_
 \
-`prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` _<sup>Z<sub>Z<sub>Z</sub></sub>_
+`prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` _<sup>(wait time)</sup>_
 \
 \
 ___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _iCloud > Advanced Data Protection_
@@ -112,9 +148,11 @@ ___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Contact Key Verification_
 \
 \
 \
+\
 _Airplane Mode (switch)_
 \
 `prefs:root=ROOT#AIRPLANE_MODE` _<sup>(centers it on the screen, but doesn't highlight it)</sup>_
+\
 \
 \
 \
@@ -126,6 +164,7 @@ _Wi-Fi_
 ___<sub><sup>WI-FI ></sup></sub>___ _current network >_ &#9432;
 \
 `prefs:root=WIFI&path=NetworkDetails`
+\
 \
 \
 \
@@ -145,9 +184,11 @@ ___<sub><sup>CELLULAR ></sup></sub>___ _Cellular Data > Show All > Cellular Data
 \
 \
 \
+\
 _Personal Hotspot_
 \
 `settings-navigation://com.apple.Settings.PersonalHotspot`
+\
 \
 \
 \
@@ -177,9 +218,11 @@ ___<sub><sup>BATTERY ></sup></sub>___ _Low Power Mode (switch)_
 \
 \
 \
+\
 _VPN (switch)_
 \
 `prefs:root=ROOT#VPN` _<sup>(centers it on the screen, but doesn't highlight it)</sup>_
+\
 \
 \
 \
@@ -379,6 +422,7 @@ ___<sub><sup>GENERAL ></sup></sub>___ _TV Provider_
 \
 \
 \
+\
 _Accessibility_
 \
 `prefs:root=ACCESSIBILITY`
@@ -490,6 +534,7 @@ ___<sub><sup>ACCESSIBILITY ></sup></sub>___ _Per-App Settings > [app's bundle id
 \
 \
 \
+\
 _Display & Brightness_
 \
 `prefs:root=DISPLAY`
@@ -546,6 +591,7 @@ ___<sub><sup>DISPLAY & BRIGHTNESS ></sup></sub>___ _Display Zoom_
 \
 \
 \
+\
 _Sounds & Haptics_
 \
 `prefs:root=Sounds`
@@ -577,9 +623,11 @@ ___<sub><sup>SOUNDS & HAPTICS ></sup></sub>___ _Personalized Spatial Audio_
 \
 \
 \
+\
 _Wallpaper_
 \
 `prefs:root=Wallpaper`
+\
 \
 \
 \
@@ -594,9 +642,11 @@ ___<sub><sup>PRIVACY & SECURITY ></sup></sub>___ _Blocked Contacts_
 \
 \
 \
+\
 _Payment & Contactless_
 \
 `prefs:root=PASSBOOK`
+\
 \
 \
 \
