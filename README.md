@@ -802,13 +802,14 @@ ___<sub><sup>APPS ></sup></sub>___ _Safari > Downloads_
 \
 ___<sub><sup>APPS ></sup></sub>___ _Safari > Open Links > New Tab \[switches to the new tab] or In Background \[doesn't leave the current tab]_
 \
-&emsp;_<sub>iPhone:</sub>_
+_<sub>– iPhone</sub>_
 \
-&emsp;&emsp;&emsp;&emsp;`prefs:root=SAFARI&path=OPEN_LINKS_IN_BACKGROUND_IPHONE`
+`prefs:root=SAFARI&path=OPEN_LINKS_IN_BACKGROUND_IPHONE`
 \
-&emsp;_<sub>iPad:</sub>_
 \
-&emsp;&emsp;&emsp;`prefs:root=SAFARI&path=OPEN_LINKS_IN_BACKGROUND_IPAD`
+_<sub>– iPad</sub>_
+\
+`prefs:root=SAFARI&path=OPEN_LINKS_IN_BACKGROUND_IPAD`
 \
 \
 ___<sub><sup>APPS ></sup></sub>___ _Safari > Hide IP Address (button)_
