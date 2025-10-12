@@ -592,6 +592,34 @@ ___<sub><sup>DISPLAY & BRIGHTNESS ></sup></sub>___ _Display Zoom_
 \
 \
 \
+_Home Screen & App Library_
+\
+`settings-navigation://com.apple.Settings.HomeScreenAndAppLibrary`
+\
+\
+\
+\
+_Search_
+\
+`settings-navigation://com.apple.Settings.Search`
+\
+\
+\
+\
+_Siri_
+\
+`prefs:root=SIRI`
+\
+\
+\
+\
+_StandBy_
+\
+`settings-navigation://com.apple.Settings.StandBy`
+\
+\
+\
+\
 _Sounds & Haptics_
 \
 `prefs:root=Sounds`
@@ -626,7 +654,12 @@ ___<sub><sup>SOUNDS & HAPTICS ></sup></sub>___ _Personalized Spatial Audio_
 \
 _Wallpaper_
 \
-`prefs:root=Wallpaper`
+`settings-navigation://com.apple.Settings.Wallpaper`
+\
+\
+___<sub><sup>WALLPAPER ></sup></sub>___ _Add New Wallpaper_
+\
+`settings-navigation://com.apple.Settings.Wallpaper/addNewWallpaper`
 \
 \
 \
@@ -639,6 +672,13 @@ _Privacy & Security_
 ___<sub><sup>PRIVACY & SECURITY ></sup></sub>___ _Blocked Contacts_
 \
 `prefs:root=Privacy&path=BLOCKLIST`
+\
+\
+\
+\
+_iCloud_
+\
+`settings-navigation://com.apple.Settings.iCloud`
 \
 \
 \
