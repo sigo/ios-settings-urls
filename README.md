@@ -1,701 +1,702 @@
 # Settings URL schemes for iOS 26
 
-\
-<sub>__Settings main page__</sub>
+##### _Settings main page_
 ~~~yaml
 prefs:root=ROOT
 ~~~
-\
-\
-<sub>__Apple Account__</sub>
+<br>
+
+
+##### _Apple Account_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT
 ~~~
-<sub>__Apple Account > Personal Information _(may take a while to load)___</sub>
+##### _Apple Account > Personal Information _(may take a while to load)__
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT
 ~~~
-<sub>__Apple Account > Sign-In & Security _(may take a while to load)___</sub>
+##### _Apple Account > Sign-In & Security _(may take a while to load)__
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY
 ~~~
-<sub>__Apple Account > Sign-In & Security > Change Password _(may take a while to load)___</sub>
+##### _Apple Account > Sign-In & Security > Change Password _(may take a while to load)__
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&aaaction=changePassword
 ~~~
-<sub>__Apple Account > Sign-In & Security > Recovery Contacts _(may take a while to load)___</sub>
+##### _Apple Account > Sign-In & Security > Recovery Contacts _(may take a while to load)__
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&aaaction=accountRecovery
 ~~~
-<sub>__Apple Account > Sign-In & Security > Legacy Contact _(may take a while to load)___</sub>
+##### _Apple Account > Sign-In & Security > Legacy Contact _(may take a while to load)__
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&aaaction=accountBeneficiary
 ~~~
-<sub>__Apple Account > Payment & Shipping _(may take a while to load)___</sub>
+##### _Apple Account > Payment & Shipping _(may take a while to load)__
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING
 ~~~
-<sub>__Apple Account > Subscriptions _(may take a while to load)___</sub>
+##### _Apple Account > Subscriptions _(may take a while to load)__
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS
 ~~~
-<sub>__Apple Account > iCloud__</sub>
+##### _Apple Account > iCloud_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE
 ~~~
-<sub>__Apple Account > iCloud > Storage__</sub>
+##### _Apple Account > iCloud > Storage_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP
 ~~~
-<sub>__Apple Account > iCloud > Storage > Change Storage Plan__</sub>
+##### _Apple Account > iCloud > Storage > Change Storage Plan_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP/CHANGE_STORAGE_PLAN
 ~~~
-<sub>__Apple Account > iCloud > Saved to iCloud__</sub>
+##### _Apple Account > iCloud > Saved to iCloud_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass
 ~~~
-<sub>__Apple Account > iCloud > Saved to iCloud > iCloud Photos__</sub>
+##### _Apple Account > iCloud > Saved to iCloud > iCloud Photos_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.CloudPhotos
 ~~~
-<sub>__Apple Account > iCloud > Saved to iCloud > iCloud Drive__</sub>
+##### _Apple Account > iCloud > Saved to iCloud > iCloud Drive_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity
 ~~~
-<sub>__Apple Account > iCloud > Saved to iCloud > Notes__</sub>
+##### _Apple Account > iCloud > Saved to iCloud > Notes_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes
 ~~~
-<sub>__Apple Account > iCloud > Saved to iCloud > iCloud Messages__</sub>
+##### _Apple Account > iCloud > Saved to iCloud > iCloud Messages_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Messages
 ~~~
-<sub>__Apple Account > iCloud > Saved to iCloud > iCloud Calendar__</sub>
+##### _Apple Account > iCloud > Saved to iCloud > iCloud Calendar_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars
 ~~~
-<sub>__Apple Account > iCloud > Saved to iCloud > Health__</sub>
+##### _Apple Account > iCloud > Saved to iCloud > Health_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health
 ~~~
-<sub>__Apple Account > iCloud > Backup__</sub>
+##### _Apple Account > iCloud > Backup_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP
 ~~~
-<sub>__Apple Account > iCloud > Backup > All Device Backups > (current device) > Backup Details__</sub>
+##### _Apple Account > iCloud > Backup > All Device Backups > (current device) > Backup Details_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP/CURRENT_DEVICE_BACKUP
 ~~~
-<sub>__Apple Account > iCloud > Private Relay__</sub>
+##### _Apple Account > iCloud > Private Relay_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/INTERNET_PRIVACY
 ~~~
-<sub>__Apple Account > iCloud > Hide My Email _(may take a while to load)___</sub>
+##### _Apple Account > iCloud > Hide My Email _(may take a while to load)__
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE
 ~~~
-<sub>__Apple Account > iCloud > Advanced Data Protection__</sub>
+##### _Apple Account > iCloud > Advanced Data Protection_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/ICLOUD_ADP_SPECIFIER_NAME
 ~~~
-<sub>__Apple Account > Family Set Up__</sub>
+##### _Apple Account > Family Set Up_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&aaaction=setupFamily
 ~~~
-<sub>__Apple Account > Find My__</sub>
+##### _Apple Account > Find My_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING
 ~~~
-<sub>__Apple Account > Media & Purchases__</sub>
+##### _Apple Account > Media & Purchases_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=STORE_SERVICE
 ~~~
-<sub>__Apple Account > Sign in with Apple__</sub>
+##### _Apple Account > Sign in with Apple_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=SIWA_SERVICE
 ~~~
-<sub>__Apple Account > Contact Key Verification__</sub>
+##### _Apple Account > Contact Key Verification_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=TRANSPARENCY
 ~~~
-\
-\
-<sub>__Airplane Mode (switch) _(centers it on the screen, but doesn't highlight it)___</sub>
+<br>
+
+##### _Airplane Mode (switch) _(centers it on the screen, but doesn't highlight it)__
 ~~~yaml
 prefs:root=ROOT#AIRPLANE_MODE
 ~~~
-\
-\
-<sub>__Wi-Fi__</sub>
+<br>
+
+##### _Wi-Fi_
 ~~~yaml
 prefs:root=WIFI
 ~~~
-<sub>__Wi-Fi > (current network) > &#9432;__</sub>
+##### _Wi-Fi > (current network) > &#9432;_
 ~~~yaml
 prefs:root=WIFI&path=NetworkDetails
 ~~~
-\
-\
-<sub>__Cellular__</sub>
+<br>
+
+##### _Cellular_
 ~~~yaml
 prefs:root=MOBILE_DATA_SETTINGS_ID
 ~~~
-<sub>__Cellular > Cellular Data Options__</sub>
+##### _Cellular > Cellular Data Options_
 ~~~yaml
 prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS
 ~~~
-<sub>__Cellular > Cellular Data > Show All > Cellular Data Usage__</sub>
+##### _Cellular > Cellular Data > Show All > Cellular Data Usage_
 ~~~yaml
 prefs:root=MOBILE_DATA_SETTINGS_ID&path=SHOW_ALL
 ~~~
-\
-\
-<sub>__Personal Hotspot__</sub>
+<br>
+
+##### _Personal Hotspot_
 ~~~yaml
 settings-navigation://com.apple.Settings.PersonalHotspot
 ~~~
-\
-\
-<sub>__Battery__</sub>
+<br>
+
+##### _Battery_
 ~~~yaml
 prefs:root=BATTERY_USAGE
 ~~~
-<sub>__Battery > Battery Health & Charging _(device-dependant)___</sub>
+##### _Battery > Battery Health & Charging _(device-dependant)__
 ~~~yaml
 prefs:root=BATTERY_USAGE&path=BATTERY_HEALTH_TITLE
 ~~~
-<sub>__Battery > Charging Options _(device-dependant)___</sub>
+##### _Battery > Charging Options _(device-dependant)__
 ~~~yaml
 prefs:root=BATTERY_USAGE&path=CHARGING_OPTIONS_IDENTIFIER
 ~~~
-<sub>__Battery > Battery Percentage (switch)__</sub>
+##### _Battery > Battery Percentage (switch)_
 ~~~yaml
 prefs:root=BATTERY_USAGE#BATTERY_PERCENTAGE_IDENTIFIER
 ~~~
-<sub>__Battery > Low Power Mode (switch)__</sub>
+##### _Battery > Low Power Mode (switch)_
 ~~~yaml
 prefs:root=BATTERY_USAGE#LOW_POWER_MODE_IDENTIFIER
 ~~~
-\
-\
-<sub>__VPN (switch) _(centers it on the screen, but doesn't highlight it)___</sub>
+<br>
+
+##### _VPN (switch) _(centers it on the screen, but doesn't highlight it)__
 ~~~yaml
 prefs:root=ROOT#VPN
 ~~~
-\
-\
-<sub>__General__</sub>
+<br>
+
+##### _General_
 ~~~yaml
 prefs:root=General
 ~~~
-<sub>__General > About__</sub>
+##### _General > About_
 ~~~yaml
 prefs:root=General&path=About
 ~~~
-<sub>__General > About > iOS Version__</sub>
+##### _General > About > iOS Version_
 ~~~yaml
 prefs:root=General&path=About/SW_VERSION_SPECIFIER
 ~~~
-<sub>__General > About > Certificate Trust Settings__</sub>
+##### _General > About > Certificate Trust Settings_
 ~~~yaml
 prefs:root=General&path=About/CERT_TRUST_SETTINGS
 ~~~
-<sub>__General > Software Update__</sub>
+##### _General > Software Update_
 ~~~yaml
 prefs:root=General&path=SOFTWARE_UPDATE_LINK
 ~~~
-<sub>__General > Software Update > Automatic Updates__</sub>
+##### _General > Software Update > Automatic Updates_
 ~~~yaml
 prefs:root=General&path=SOFTWARE_UPDATE_LINK/SUAutomaticUpdateButton
 ~~~
-<sub>__General > Software Update > Beta Updates__</sub>
+##### _General > Software Update > Beta Updates_
 ~~~yaml
 prefs:root=General&path=SOFTWARE_UPDATE_LINK/SUAutomaticUpdateButton
 ~~~
-<sub>__General > iPhone Storage__</sub>
+##### _General > iPhone Storage_
 ~~~yaml
 prefs:root=General&path=STORAGE_MGMT
 ~~~
-<sub>__General > AppleCare & Warranty__</sub>
+##### _General > AppleCare & Warranty_
 ~~~yaml
 prefs:root=General&path=COVERAGE
 ~~~
-<sub>__General > Health Data__</sub>
+##### _General > Health Data_
 ~~~yaml
 prefs:root=General&path=HEALTH_DATA
 ~~~
-<sub>__General > AirDrop__</sub>
+##### _General > AirDrop_
 ~~~yaml
 prefs:root=General&path=AIRDROP_LINK
 ~~~
-<sub>__General > Picture in Picture__</sub>
+##### _General > Picture in Picture_
 ~~~yaml
 prefs:root=General&path=PiP_SPEC
 ~~~
-<sub>__General > Screen Capture__</sub>
+##### _General > Screen Capture_
 ~~~yaml
 prefs:root=General&path=SCREEN_CAPTURE
 ~~~
-<sub>__General > CarPlay__</sub>
+##### _General > CarPlay_
 ~~~yaml
 prefs:root=General&path=CARPLAY
 ~~~
-<sub>__General > Matter Accessories__</sub>
+##### _General > Matter Accessories_
 ~~~yaml
 prefs:root=General&path=MATTER_ACCESSORIES
 ~~~
-<sub>__General > AutoFill & Passwords__</sub>
+##### _General > AutoFill & Passwords_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/AUTOFILL
 ~~~
-<sub>__General > Background App Refresh__</sub>
+##### _General > Background App Refresh_
 ~~~yaml
 prefs:root=General&path=AUTO_CONTENT_DOWNLOAD
 ~~~
-<sub>__General > Date & Time__</sub>
+##### _General > Date & Time_
 ~~~yaml
 prefs:root=General&path=DATE_AND_TIME
 ~~~
-<sub>__General > Dictionary__</sub>
+##### _General > Dictionary_
 ~~~yaml
 prefs:root=General&path=DICTIONARY
 ~~~
-<sub>__General > Fonts__</sub>
+##### _General > Fonts_
 ~~~yaml
 prefs:root=General&path=FONT_SETTING
 ~~~
-<sub>__General > Fonts > System Fonts__</sub>
+##### _General > Fonts > System Fonts_
 ~~~yaml
 prefs:root=General&path=FONT_SETTING/SYSTEM_FONTS
 ~~~
-<sub>__General > Fonts > My Fonts__</sub>
+##### _General > Fonts > My Fonts_
 ~~~yaml
 prefs:root=General&path=FONT_SETTING/USER_FONTS
 ~~~
-<sub>__General > Fonts > More Fonts__</sub>
+##### _General > Fonts > More Fonts_
 ~~~yaml
 prefs:root=General&path=FONT_SETTING/MORE_FONTS
 ~~~
-<sub>__General > Keyboard__</sub>
+##### _General > Keyboard_
 ~~~yaml
 prefs:root=General&path=Keyboard
 ~~~
-<sub>__General > Keyboard > Keyboards__</sub>
+##### _General > Keyboard > Keyboards_
 ~~~yaml
 prefs:root=General&path=Keyboard/KEYBOARDS
 ~~~
-<sub>__General > Keyboard > Text Replacement__</sub>
+##### _General > Keyboard > Text Replacement_
 ~~~yaml
 prefs:root=General&path=Keyboard/USER_DICTIONARY
 ~~~
-<sub>__General > Keyboard > One-Handed Keyboard__</sub>
+##### _General > Keyboard > One-Handed Keyboard_
 ~~~yaml
 prefs:root=General&path=Keyboard/ReachableKeyboard
 ~~~
-<sub>__General > Language & Region__</sub>
+##### _General > Language & Region_
 ~~~yaml
 prefs:root=General&path=INTERNATIONAL
 ~~~
-<sub>__General > Language & Region > Add Language__</sub>
+##### _General > Language & Region > Add Language_
 ~~~yaml
 prefs:root=General&path=INTERNATIONAL/ADD_PREFERRED_LANGUAGE
 ~~~
-<sub>__General > Language & Region > Region__</sub>
+##### _General > Language & Region > Region_
 ~~~yaml
 prefs:root=General&path=INTERNATIONAL/LOCALE
 ~~~
-<sub>__General > Language & Region > Calendar__</sub>
+##### _General > Language & Region > Calendar_
 ~~~yaml
 prefs:root=General&path=INTERNATIONAL/CALENDAR
 ~~~
-<sub>__General > Language & Region > Temperature__</sub>
+##### _General > Language & Region > Temperature_
 ~~~yaml
 prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT
 ~~~
-<sub>__General > Language & Region > Measurement System__</sub>
+##### _General > Language & Region > Measurement System_
 ~~~yaml
 prefs:root=General&path=INTERNATIONAL/MEASUREMENT_SYSTEM
 ~~~
-<sub>__General > Language & Region > First Day of Week__</sub>
+##### _General > Language & Region > First Day of Week_
 ~~~yaml
 prefs:root=General&path=INTERNATIONAL/FIRST_WEEKDAY
 ~~~
-<sub>__General > Language & Region > Date Format__</sub>
+##### _General > Language & Region > Date Format_
 ~~~yaml
 prefs:root=General&path=INTERNATIONAL/DATE_FORMAT
 ~~~
-<sub>__General > Language & Region > Number Format__</sub>
+##### _General > Language & Region > Number Format_
 ~~~yaml
 prefs:root=General&path=INTERNATIONAL/NUMBER_FORMAT
 ~~~
-<sub>__General > Language & Region > Live Text (switch)__</sub>
+##### _General > Language & Region > Live Text (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/INTERNATIONAL#LIVE_TEXT_CELL
 ~~~
-<sub>__General > Trackpad & Mouse__</sub>
+##### _General > Trackpad & Mouse_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/POINTERS
 ~~~
-<sub>__General > TV Provider__</sub>
+##### _General > TV Provider_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/TV_PROVIDER
 ~~~
-\
-\
-<sub>__Accessibility__</sub>
+<br>
+
+##### _Accessibility_
 ~~~yaml
 prefs:root=ACCESSIBILITY
 ~~~
-<sub>__Accessibility > Display & Text Size__</sub>
+##### _Accessibility > Display & Text Size_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT
 ~~~
-<sub>__Accessibility > Display & Text Size > Bold Text (switch)__</sub>
+##### _Accessibility > Display & Text Size > Bold Text (switch)_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/ENHANCE_TEXT_LEGIBILITY
 ~~~
-<sub>__Accessibility > Display & Text Size > Larger Text__</sub>
+##### _Accessibility > Display & Text Size > Larger Text_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/LARGER_TEXT
 ~~~
-<sub>__Accessibility > Display & Text Size > Button Shapes (switch)__</sub>
+##### _Accessibility > Display & Text Size > Button Shapes (switch)_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/BUTTON_SHAPES
 ~~~
-<sub>__Accessibility > Display & Text Size > On/Off Labels (switch)__</sub>
+##### _Accessibility > Display & Text Size > On/Off Labels (switch)_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/ON_OFF_LABELS
 ~~~
-<sub>__Accessibility > Display & Text Size > Reduce Transparency (switch)__</sub>
+##### _Accessibility > Display & Text Size > Reduce Transparency (switch)_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/REDUCE_TRANSPARENCY
 ~~~
-<sub>__Accessibility > Display & Text Size > Increase Contrast (switch)__</sub>
+##### _Accessibility > Display & Text Size > Increase Contrast (switch)_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/TEXT_COLORS_DARKEN
 ~~~
-<sub>__Accessibility > Display & Text Size > Differentiate Without Color (switch)__</sub>
+##### _Accessibility > Display & Text Size > Differentiate Without Color (switch)_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DIFFERENTIATE_WITHOUT_COLOR
 ~~~
-<sub>__Accessibility > Display & Text Size > Prefer Horizontal Text (switch)__</sub>
+##### _Accessibility > Display & Text Size > Prefer Horizontal Text (switch)_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/PREFER_HORIZONTAL_TEXT
 ~~~
-<sub>__Accessibility > Display & Text Size > Smart Invert (switch)__</sub>
+##### _Accessibility > Display & Text Size > Smart Invert (switch)_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/SMART_INVERT
 ~~~
-<sub>__Accessibility > Display & Text Size > Classic Invert (switch)__</sub>
+##### _Accessibility > Display & Text Size > Classic Invert (switch)_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/CLASSIC_INVERT
 ~~~
-<sub>__Accessibility > Display & Text Size > Color Filters__</sub>
+##### _Accessibility > Display & Text Size > Color Filters_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR
 ~~~
-<sub>__Accessibility > Display & Text Size > Reduce White Point (switch)__</sub>
+##### _Accessibility > Display & Text Size > Reduce White Point (switch)_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/WHITE_POINT
 ~~~
-<sub>__Accessibility > Display & Text Size > Auto-Brightness (switch)__</sub>
+##### _Accessibility > Display & Text Size > Auto-Brightness (switch)_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/AUTO_BRIGHTNESS
 ~~~
-<sub>__Accessibility > Audio & Visual > Call Audio Routing__</sub>
+##### _Accessibility > Audio & Visual > Call Audio Routing_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/CALL_AUDIO_ROUTING
 ~~~
-<sub>__Accessibility > Audio & Visual > Call Audio Routing > Auto-Answer Calls__</sub>
+##### _Accessibility > Audio & Visual > Call Audio Routing > Auto-Answer Calls_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/CALL_AUDIO_ROUTING/callAudioRoutingAutoAnswer
 ~~~
-<sub>__Accessibility > Touch > Call Audio Routing__</sub>
+##### _Accessibility > Touch > Call Audio Routing_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING
 ~~~
-<sub>__Accessibility > Touch > Call Audio Routing > Auto-Answer Calls__</sub>
+##### _Accessibility > Touch > Call Audio Routing > Auto-Answer Calls_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING/callAudioRoutingAutoAnswer
 ~~~
-<sub>__Accessibility > AirPods__</sub>
+##### _Accessibility > AirPods_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=AIRPODS
 ~~~
-<sub>__Accessibility > Per-App Settings__</sub>
+##### _Accessibility > Per-App Settings_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE
 ~~~
-<sub>__Accessibility > Per-App Settings > \[app's bundle identifier] (as long as you have added the app there, otherwise goes to the parent page)__</sub>
+##### _Accessibility > Per-App Settings > \[app's bundle identifier] (as long as you have added the app there, otherwise goes to the parent page)_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE/bundle_identifier
 ~~~
-\
-\
-<sub>__Display & Brightness__</sub>
+<br>
+
+##### _Display & Brightness_
 ~~~yaml
 prefs:root=DISPLAY
 ~~~
-<sub>__Display & Brightness > Appearance (section)__</sub>
+##### _Display & Brightness > Appearance (section)_
 ~~~yaml
 prefs:root=DISPLAY#DEVICE_APPEARANCE
 ~~~
-<sub>__Display & Brightness > Appearance > Automatic (switch)__</sub>
+##### _Display & Brightness > Appearance > Automatic (switch)_
 ~~~yaml
 prefs:root=DISPLAY#AUTOMATIC
 ~~~
-<sub>__Display & Brightness > Text Size__</sub>
+##### _Display & Brightness > Text Size_
 ~~~yaml
 prefs:root=DISPLAY&path=TEXT_SIZE
 ~~~
-<sub>__Display & Brightness > Bold Text (switch)__</sub>
+##### _Display & Brightness > Bold Text (switch)_
 ~~~yaml
 prefs:root=DISPLAY#BOLD_TEXT
 ~~~
-<sub>__Display & Brightness > Brightness (slider)__</sub>
+##### _Display & Brightness > Brightness (slider)_
 ~~~yaml
 prefs:root=DISPLAY#BRIGHTNESS
 ~~~
-<sub>__Display & Brightness > True Tone (switch)__</sub>
+##### _Display & Brightness > True Tone (switch)_
 ~~~yaml
 prefs:root=DISPLAY#WHITE_BALANCE
 ~~~
-<sub>__Display & Brightness > Night Shift__</sub>
+##### _Display & Brightness > Night Shift_
 ~~~yaml
 prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION
 ~~~
-<sub>__Display & Brightness > Auto-Lock__</sub>
+##### _Display & Brightness > Auto-Lock_
 ~~~yaml
 prefs:root=DISPLAY&path=AUTOLOCK
 ~~~
-<sub>__Display & Brightness > Raise to Wake (switch)__</sub>
+##### _Display & Brightness > Raise to Wake (switch)_
 ~~~yaml
 prefs:root=DISPLAY#RAISE_TO_WAKE
 ~~~
-<sub>__Display & Brightness > Display Zoom__</sub>
+##### _Display & Brightness > Display Zoom_
 ~~~yaml
 prefs:root=DISPLAY&path=MAGNIFY
 ~~~
-\
-<sub>__Home Screen & App Library__</sub>
+<br>
+
+##### _Home Screen & App Library_
 ~~~yaml
 settings-navigation://com.apple.Settings.HomeScreenAndAppLibrary
 ~~~
-\
-\
-<sub>__Search__</sub>
+<br>
+
+##### _Search_
 ~~~yaml
 settings-navigation://com.apple.Settings.Search
 ~~~
-\
-\
-<sub>__Siri__</sub>
+<br>
+
+##### _Siri_
 ~~~yaml
 prefs:root=SIRI
 ~~~
-\
-\
-<sub>__StandBy__</sub>
+<br>
+
+##### _StandBy_
 ~~~yaml
 settings-navigation://com.apple.Settings.StandBy
 ~~~
-\
-\
-<sub>__Sounds & Haptics__</sub>
+<br>
+
+##### _Sounds & Haptics_
 ~~~yaml
 prefs:root=Sounds
 ~~~
-<sub>__Sounds & Haptics > Haptics__</sub>
+##### _Sounds & Haptics > Haptics_
 ~~~yaml
 prefs:root=Sounds&path=HAPTICS
 ~~~
-<sub>__Sounds & Haptics > Keyboard Feedback__</sub>
+##### _Sounds & Haptics > Keyboard Feedback_
 ~~~yaml
 prefs:root=Sounds&path=KEYBOARD_FEEDBACK
 ~~~
-<sub>__Sounds & Haptics > Built-In Speaker > Volume Limit__</sub>
+##### _Sounds & Haptics > Built-In Speaker > Volume Limit_
 ~~~yaml
 prefs:root=Sounds&path=VOLUME_LIMIT
 ~~~
-<sub>__Sounds & Haptics > Headphone Safety__</sub>
+##### _Sounds & Haptics > Headphone Safety_
 ~~~yaml
 prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING
 ~~~
-<sub>__Sounds & Haptics > Personalized Spatial Audio__</sub>
+##### _Sounds & Haptics > Personalized Spatial Audio_
 ~~~yaml
 prefs:root=Sounds&path=PERSONALIZED_SPATIAL_AUDIO
 ~~~
-\
-\
-<sub>__Wallpaper__</sub>
+<br>
+
+##### _Wallpaper_
 ~~~yaml
 settings-navigation://com.apple.Settings.Wallpaper
 ~~~
-<sub>__Wallpaper > Add New Wallpaper__</sub>
+##### _Wallpaper > Add New Wallpaper_
 ~~~yaml
 settings-navigation://com.apple.Settings.Wallpaper/addNewWallpaper
 ~~~
-\
-\
-<sub>__Privacy & Security__</sub>
+<br>
+
+##### _Privacy & Security_
 ~~~yaml
 prefs:root=Privacy
 ~~~
-<sub>__Privacy & Security > Blocked Contacts__</sub>
+##### _Privacy & Security > Blocked Contacts_
 ~~~yaml
 prefs:root=Privacy&path=BLOCKLIST
 ~~~
-\
-\
-<sub>__iCloud__</sub>
+<br>
+
+##### _iCloud_
 ~~~yaml
 settings-navigation://com.apple.Settings.iCloud
 ~~~
-\
-\
-<sub>__Payment & Contactless__</sub>
+<br>
+
+##### _Payment & Contactless_
 ~~~yaml
 prefs:root=PASSBOOK
 ~~~
-\
-\
-<sub>__Apps__</sub>
+<br>
+
+##### _Apps_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps
 ~~~
-<sub>__Apps > Default Apps__</sub>
+##### _Apps > Default Apps_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.Settings.Apps.DefaultApps
 ~~~
-<sub>__Apps > \[bundle identifier for any app, also third party\]__</sub>
+##### _Apps > \[bundle identifier for any app, also third party\]_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/bundle_identifier
 ~~~
-<sub>__Apps > Compass__</sub>
+##### _Apps > Compass_
 ~~~yaml
 prefs:root=COMPASS
 ~~~
-<sub>__Apps > Phone__</sub>
+##### _Apps > Phone_
 ~~~yaml
 prefs:root=Phone
 ~~~
-<sub>__Apps > Phone > Wi-Fi Calling (switch)__</sub>
+##### _Apps > Phone > Wi-Fi Calling (switch)_
 ~~~yaml
 prefs:root=Phone#WIFI_CALLING_TELEPHONY_SETTINGS
 ~~~
-<sub>__Apps > Phone > Call Forwarding (switch)__</sub>
+##### _Apps > Phone > Call Forwarding (switch)_
 ~~~yaml
 prefs:root=Phone#CALL_FORWARDING_TELEPHONY_SETTINGS
 ~~~
-<sub>__Apps > Phone > Call Waiting (switch)__</sub>
+##### _Apps > Phone > Call Waiting (switch)_
 ~~~yaml
 prefs:root=Phone#CALL_WAITING_TELEPHONY_SETTINGS
 ~~~
-<sub>__Apps > Phone > Show My Caller ID (switch)__</sub>
+##### _Apps > Phone > Show My Caller ID (switch)_
 ~~~yaml
 prefs:root=Phone#CALLING_LINE_ID_RESTRICTION_TELEPHONY_SETTINGS
 ~~~
-<sub>__Apps > Phone > Unknown Callers (switch)__</sub>
+##### _Apps > Phone > Unknown Callers (switch)_
 ~~~yaml
 prefs:root=Phone#FILTER_AS_NEW_CALLERS
 ~~~
-<sub>__Apps > Phone > Blocked Contacts__</sub>
+##### _Apps > Phone > Blocked Contacts_
 ~~~yaml
 prefs:root=Privacy&path=BLOCKLIST
 ~~~
-<sub>__Apps > Safari > Default Browser App (button)__</sub>
+##### _Apps > Safari > Default Browser App (button)_
 ~~~yaml
 prefs:root=SAFARI#com.apple.settings.DefaultBrowser
 ~~~
-<sub>__Apps > Safari > Search Engine__</sub>
+##### _Apps > Safari > Search Engine_
 ~~~yaml
 prefs:root=SAFARI&path=SEARCH_ENGINE_SETTING
 ~~~
-<sub>__Apps > Safari > Also Use in Private Browsing (switch)__</sub>
+##### _Apps > Safari > Also Use in Private Browsing (switch)_
 ~~~yaml
 prefs:root=SAFARI#PRIVATE_BROWSING_USES_NORMAL_BROWSING_SEARCH_ENGINE_SELECTION
 ~~~
-<sub>__Apps > Safari > Search Enginge Suggestions (switch)__</sub>
+##### _Apps > Safari > Search Enginge Suggestions (switch)_
 ~~~yaml
 prefs:root=SAFARI#SEARCH_SUGGESTION_SETTING
 ~~~
-<sub>__Apps > Safari > Safari Suggestions (switch)__</sub>
+##### _Apps > Safari > Safari Suggestions (switch)_
 ~~~yaml
 prefs:root=SAFARI#SIRI_SUGGESTIONS
 ~~~
-<sub>__Apps > Safari > Quick Website Search__</sub>
+##### _Apps > Safari > Quick Website Search_
 ~~~yaml
 prefs:root=SAFARI&path=SITE_SPECIFIC_SEARCH
 ~~~
-<sub>__Apps > Safari > Preload Top Hit (switch)__</sub>
+##### _Apps > Safari > Preload Top Hit (switch)_
 ~~~yaml
 prefs:root=SAFARI#ENABLE_PREFETCHING
 ~~~
-<sub>__Apps > Safari > AutoFill__</sub>
+##### _Apps > Safari > AutoFill_
 ~~~yaml
 prefs:root=SAFARI&path=AUTO_FILL
 ~~~
-<sub>__Apps > Safari > Start Page Favorites__</sub>
+##### _Apps > Safari > Start Page Favorites_
 ~~~yaml
 prefs:root=SAFARI&path=FAVORITES_FOLDER
 ~~~
-<sub>__Apps > Safari > Extensions__</sub>
+##### _Apps > Safari > Extensions_
 ~~~yaml
 prefs:root=SAFARI&path=WEB_EXTENSIONS
 ~~~
-<sub>__Apps > Safari > Downloads__</sub>
+##### _Apps > Safari > Downloads_
 ~~~yaml
 prefs:root=SAFARI&path=DOWNLOADS
 ~~~
-<sub>__Apps > Safari > Open Links > New Tab \[switches to the new tab] or In Background \[doesn't leave the current tab]_
+##### _Apps > Safari > Open Links > New Tab \[switches to the new tab] or In Background \[doesn't leave the current tab]_
 
-_<sub>__– iPhone__</sub>__</sub>
+<sub>_– iPhone_</sub>
 ~~~yaml
 prefs:root=SAFARI&path=OPEN_LINKS_IN_BACKGROUND_IPHONE
 ~~~
 
-_<sub>__– iPad__</sub>__</sub>
+<sub>_– iPad_</sub>
 ~~~yaml
 prefs:root=SAFARI&path=OPEN_LINKS_IN_BACKGROUND_IPAD
 ~~~
-<sub>__Apps > Safari > Hide IP Address (button)__</sub>
+##### _Apps > Safari > Hide IP Address (button)_
 ~~~yaml
 prefs:root=SAFARI&path=Hide%20IP%20Address
 ~~~
-<sub>__Apps > Safari > Require Passcode to Unlock Private Browsing (swtich)__</sub>
+##### _Apps > Safari > Require Passcode to Unlock Private Browsing (swtich)_
 ~~~yaml
 prefs:root=SAFARI#PrivateBrowsingRequiresAuthentication
 ~~~
-<sub>__Apps > Safari > Not Secure Connection Warning (switch)__</sub>
+##### _Apps > Safari > Not Secure Connection Warning (switch)_
 ~~~yaml
 prefs:root=SAFARI#WARN_ABOUT_INSECURE_CONNECTIONS
 ~~~
-<sub>__Apps > Safari > Import (button)__</sub>
+##### _Apps > Safari > Import (button)_
 ~~~yaml
 prefs:root=SAFARI#IMPORT_BUTTON
 ~~~
-<sub>__Apps > Safari > Export (button)__</sub>
+##### _Apps > Safari > Export (button)_
 ~~~yaml
 prefs:root=SAFARI#EXPORT_BUTTON
 ~~~
-<sub>__Apps > Safari > Export (dialog)__</sub>
+##### _Apps > Safari > Export (dialog)_
 ~~~yaml
 prefs:root=SAFARI&action=showExportSheet
 ~~~
-<sub>__Apps > Safari > Clear History and Website Data (button)__</sub>
+##### _Apps > Safari > Clear History and Website Data (button)_
 ~~~yaml
 prefs:root=SAFARI#CLEAR_HISTORY_AND_DATA
 ~~~
-<sub>__Apps > Safari > Settings for Websites (section)__</sub>
+##### _Apps > Safari > Settings for Websites (section)_
 ~~~yaml
 prefs:root=SAFARI#SPACE_CELL_FOR_PER_SITE_SETTINGS_SYNC_TOGGLE
 ~~~
-<sub>__Apps > Safari > Advanced__</sub>
+##### _Apps > Safari > Advanced_
 ~~~yaml
 prefs:root=SAFARI&path=ADVANCED
 ~~~
-<sub>__Apps > Safari > Advanced > Website Data__</sub>
+##### _Apps > Safari > Advanced > Website Data_
 ~~~yaml
 prefs:root=SAFARI&path=ADVANCED/REMOVE_WEBSITE_DATA
 ~~~
