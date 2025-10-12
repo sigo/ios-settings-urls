@@ -1,5 +1,6 @@
 # Settings URL schemes for iOS 26
 
+\
 _Settings main page_
 ~~~yaml
 prefs:root=ROOT
