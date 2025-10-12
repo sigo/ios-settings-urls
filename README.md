@@ -12,39 +12,39 @@ _Apple Account_
 `prefs:root=APPLE_ACCOUNT`
 \
 \
-___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Personal Information_
+___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Personal Information <sup>(may take a while to load)</sup>_
 \
-`prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT` _<sup>(wait time)</sup>_
-\
-\
-___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Sign-In & Security_
-\
-`prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY` _<sup>(wait time)</sup>_
+`prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT`
 \
 \
-___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Sign-In & Security > Change Password_
+___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Sign-In & Security <sup>(may take a while to load)</sup>_
 \
-`prefs:root=APPLE_ACCOUNT&aaaction=changePassword` _<sup>(wait time)</sup>_
-\
-\
-___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Sign-In & Security > Recovery Contacts_
-\
-`prefs:root=APPLE_ACCOUNT&aaaction=accountRecovery` _<sup>(wait time)</sup>_
+`prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY`
 \
 \
-___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Sign-In & Security > Legacy Contact_
+___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Sign-In & Security > Change Password <sup>(may take a while to load)</sup>_
 \
-`prefs:root=APPLE_ACCOUNT&aaaction=accountBeneficiary` _<sup>(wait time)</sup>_
-\
-\
-___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Payment & Shipping_
-\
-`prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING` _<sup>(wait time)</sup>_
+`prefs:root=APPLE_ACCOUNT&aaaction=changePassword`
 \
 \
-___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Subscriptions_
+___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Sign-In & Security > Recovery Contacts <sup>(may take a while to load)</sup>_
 \
-`prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS` _<sup>(wait time)</sup>_
+`prefs:root=APPLE_ACCOUNT&aaaction=accountRecovery`
+\
+\
+___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Sign-In & Security > Legacy Contact <sup>(may take a while to load)</sup>_
+\
+`prefs:root=APPLE_ACCOUNT&aaaction=accountBeneficiary`
+\
+\
+___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Payment & Shipping <sup>(may take a while to load)</sup>_
+\
+`prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING`
+\
+\
+___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Subscriptions <sup>(may take a while to load)</sup>_
+\
+`prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS`
 \
 \
 ___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _iCloud_
@@ -102,7 +102,7 @@ ___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _iCloud > Backup_
 `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP`
 \
 \
-___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _iCloud > Backup > All Device Backups > current device > Backup Details_
+___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _iCloud > Backup > All Device Backups > (current device) > Backup Details_
 \
 `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP/CURRENT_DEVICE_BACKUP`
 \
@@ -112,9 +112,9 @@ ___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _iCloud > Private Relay_
 `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/INTERNET_PRIVACY`
 \
 \
-___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _iCloud > Hide My Email_
+___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _iCloud > Hide My Email <sup>(may take a while to load)</sup>_
 \
-`prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` _<sup>(wait time)</sup>_
+`prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE`
 \
 \
 ___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _iCloud > Advanced Data Protection_
@@ -149,9 +149,9 @@ ___<sub><sup>APPLE ACCOUNT ></sup></sub>___ _Contact Key Verification_
 \
 \
 \
-_Airplane Mode (switch)_
+_Airplane Mode (switch) <sup>(centers it on the screen, but doesn't highlight it)</sup>_
 \
-`prefs:root=ROOT#AIRPLANE_MODE` _<sup>(centers it on the screen, but doesn't highlight it)</sup>_
+`prefs:root=ROOT#AIRPLANE_MODE`
 \
 \
 \
@@ -219,9 +219,9 @@ ___<sub><sup>BATTERY ></sup></sub>___ _Low Power Mode (switch)_
 \
 \
 \
-_VPN (switch)_
+_VPN (switch) <sup>(centers it on the screen, but doesn't highlight it)</sup>_
 \
-`prefs:root=ROOT#VPN` _<sup>(centers it on the screen, but doesn't highlight it)</sup>_
+`prefs:root=ROOT#VPN`
 \
 \
 \
@@ -802,11 +802,13 @@ ___<sub><sup>APPS ></sup></sub>___ _Safari > Downloads_
 \
 ___<sub><sup>APPS ></sup></sub>___ _Safari > Open Links > New Tab \[switches to the new tab] or In Background \[doesn't leave the current tab]_
 \
-`prefs:root=SAFARI&path=OPEN_LINKS_IN_BACKGROUND_IPHONE`
-_<sub>iPhone</sub>_
+&emsp;_<sub>iPhone:</sub>_
 \
-`prefs:root=SAFARI&path=OPEN_LINKS_IN_BACKGROUND_IPAD`
-_<sub>iPad</sub>_
+&emsp;&emsp;&emsp;&emsp;`prefs:root=SAFARI&path=OPEN_LINKS_IN_BACKGROUND_IPHONE`
+\
+&emsp;_<sub>iPad:</sub>_
+\
+&emsp;&emsp;&emsp;`prefs:root=SAFARI&path=OPEN_LINKS_IN_BACKGROUND_IPAD`
 \
 \
 ___<sub><sup>APPS ></sup></sub>___ _Safari > Hide IP Address (button)_
