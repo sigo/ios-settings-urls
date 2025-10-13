@@ -122,11 +122,8 @@ prefs:root=APPLE_ACCOUNT&path=TRANSPARENCY
 \
 \
 _AirPods_
-\
-\
-<sup>_see Bluetooth > AirPods >_ &#9432;</sup>
-\
-\
+> _see Bluetooth > AirPods >_ &#9432;
+
 \
 \
 _Airplane Mode (switch) <sub>(centers it on the screen, but doesn't highlight it)</sub>_
@@ -149,8 +146,6 @@ _Bluetooth_
 ~~~yaml
 prefs:root=Bluetooth
 ~~~
-\
-\
 _Bluetooth > AirPods >_ &#9432; _<sup>(replace `XX:XX:XX:XX:XX:XX` with AirPods' MAC address - find it with e.g. `system_profiler SPBluetoothDataType` on a Mac)</sup>_
 ~~~yaml
 settings-navigation://com.apple.Settings.Bluetooth/HeadphoneDetail/?identifier=XX:XX:XX:XX:XX:XX
@@ -573,6 +568,8 @@ _iCloud_
 ~~~yaml
 settings-navigation://com.apple.Settings.iCloud
 ~~~
+> _see also Apple Account > iCloud_
+
 \
 \
 _Payment & Contactless_
@@ -671,7 +668,7 @@ prefs:root=SAFARI&path=DOWNLOADS
 ~~~
 _Apps > Safari > Open Links > New Tab <sup>(switches to the new tab)</sup> or In Background <sup>(doesn't leave the current tab)</sup>_
 
-<sub>_– iPhone_</sub>
+<sub>_– iPhone:_</sub>
 ~~~yaml
 prefs:root=SAFARI&path=OPEN_LINKS_IN_BACKGROUND_IPHONE
 ~~~
