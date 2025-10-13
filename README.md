@@ -589,7 +589,7 @@ _Apps > Default Apps_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.Settings.Apps.DefaultApps
 ~~~
-_Apps > `bundle identifier for any app, also third party`_
+_Apps > `app's bundle identifier`_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/bundle_identifier
 ~~~
