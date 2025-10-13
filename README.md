@@ -121,6 +121,14 @@ prefs:root=APPLE_ACCOUNT&path=TRANSPARENCY
 ~~~
 \
 \
+_AirPods_
+\
+\
+_[see Bluetooth > AirPods]_
+\
+\
+\
+\
 _Airplane Mode (switch) _(centers it on the screen, but doesn't highlight it)__
 ~~~yaml
 prefs:root=ROOT#AIRPLANE_MODE
@@ -134,6 +142,18 @@ prefs:root=WIFI
 _Wi-Fi > (current network) > &#9432;_
 ~~~yaml
 prefs:root=WIFI&path=NetworkDetails
+~~~
+\
+\
+_Bluetooth_
+~~~yaml
+prefs:root=Bluetooth
+~~~
+\
+\
+_Bluetooth > AirPods <sub>(replace `XX:XX:XX:XX:XX:XX` with AirPods' MAC address - find it with e.g. `system_profiler SPBluetoothDataType` on a Mac)_
+~~~yaml
+settings-navigation://com.apple.Settings.Bluetooth/HeadphoneDetail/?identifier=XX:XX:XX:XX:XX:XX
 ~~~
 \
 \
