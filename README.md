@@ -124,7 +124,7 @@ prefs:root=APPLE_ACCOUNT&path=TRANSPARENCY
 _AirPods_
 \
 \
-_[see Bluetooth > AirPods]_
+<sup>_see Bluetooth > AirPods >_ &#9432;</sup>
 \
 \
 \
@@ -139,7 +139,7 @@ _Wi-Fi_
 ~~~yaml
 prefs:root=WIFI
 ~~~
-_Wi-Fi > `current network` > &#9432;_
+_Wi-Fi > `current network` >_ &#9432;
 ~~~yaml
 prefs:root=WIFI&path=NetworkDetails
 ~~~
@@ -151,7 +151,7 @@ prefs:root=Bluetooth
 ~~~
 \
 \
-_Bluetooth > AirPods <sub>(replace `XX:XX:XX:XX:XX:XX` with AirPods' MAC address - find it with e.g. `system_profiler SPBluetoothDataType` on a Mac)_
+_Bluetooth > AirPods >_ &#9432; _<sup>(replace `XX:XX:XX:XX:XX:XX` with AirPods' MAC address - find it with e.g. `system_profiler SPBluetoothDataType` on a Mac)</sup>_
 ~~~yaml
 settings-navigation://com.apple.Settings.Bluetooth/HeadphoneDetail/?identifier=XX:XX:XX:XX:XX:XX
 ~~~
