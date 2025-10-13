@@ -125,7 +125,7 @@ _AirPods_
 ~~~yaml
 settings-navigation://com.apple.Settings.Bluetooth/HeadphoneDetail/?identifier=XX:XX:XX:XX:XX:XX
 ~~~
-> _replace `XX:XX:XX:XX:XX:XX` with the AirPods' MAC address - not possible to find on iOS, but can be found with e.g. `system_profiler SPBluetoothDataType` on a Mac_
+> _replace `XX:XX:XX:XX:XX:XX` with the AirPods' MAC address (not possible to find on iOS, but can be found with e.g. `system_profiler SPBluetoothDataType` on a Mac)_
 
 \
 \
