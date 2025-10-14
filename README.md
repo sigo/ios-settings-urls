@@ -670,12 +670,12 @@ prefs:root=SAFARI&path=DOWNLOADS
 ~~~
 _Apps > Safari > Open Links > New Tab <sup>(switches to the new tab)</sup> or In Background <sup>(doesn't leave the current tab)</sup>_
 
-<sub>_– iPhone:_</sub>
+&emsp;<sub>_iPhone:_</sub>
 ~~~yaml
 prefs:root=SAFARI&path=OPEN_LINKS_IN_BACKGROUND_IPHONE
 ~~~
 
-<sub>_– iPad_</sub>
+&emsp;<sub>_iPad:_</sub>
 ~~~yaml
 prefs:root=SAFARI&path=OPEN_LINKS_IN_BACKGROUND_IPAD
 ~~~
