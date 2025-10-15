@@ -444,7 +444,7 @@ _Accessibility > Per-App Settings_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE
 ~~~
-_Accessibility > Per-App Settings > `app's bundle identifier` <sup>(as long as you have added the app there, otherwise goes to the parent page)</sup>_
+_Accessibility > Per-App Settings > {app bundle identifier} <sup>(as long as you have added the app there, otherwise goes to the parent page)</sup>_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE/bundle_identifier
 ~~~
@@ -588,7 +588,7 @@ _Apps > Default Apps_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.Settings.Apps.DefaultApps
 ~~~
-_Apps > `app's bundle identifier`_
+_Apps > {app bundle identifier}_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/bundle_identifier
 ~~~
