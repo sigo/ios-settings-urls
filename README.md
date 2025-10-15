@@ -83,7 +83,7 @@ _Apple Account > iCloud > Backup_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP
 ~~~
-_Apple Account > iCloud > Backup > All Device Backups > `current device` > Backup Details_
+_Apple Account > iCloud > Backup > All Device Backups > {current device} > Backup Details_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP/CURRENT_DEVICE_BACKUP
 ~~~
@@ -123,9 +123,9 @@ prefs:root=APPLE_ACCOUNT&path=TRANSPARENCY
 \
 _AirPods_
 ~~~yaml
-settings-navigation://com.apple.Settings.Bluetooth/HeadphoneDetail/?identifier=XX:XX:XX:XX:XX:XX
+settings-navigation://com.apple.Settings.Bluetooth/HeadphoneDetail/?identifier=00:00:00:00:00:00
 ~~~
-> _replace `XX:XX:XX:XX:XX:XX` with the AirPods' MAC address (not possible to find on iOS, but can be found with e.g. `system_profiler SPBluetoothDataType` on a Mac)_
+> _replace `00:00:00:00:00:00` with the AirPods' MAC address (not possible to find on iOS, but can be found with e.g. `system_profiler SPBluetoothDataType` on a Mac)_
 
 \
 \
@@ -139,7 +139,7 @@ _Wi-Fi_
 ~~~yaml
 prefs:root=WIFI
 ~~~
-_Wi-Fi > `current network` >_ &#9432;
+_Wi-Fi > {current network} >_ &#9432;
 ~~~yaml
 prefs:root=WIFI&path=NetworkDetails
 ~~~
@@ -150,7 +150,7 @@ _Bluetooth_
 prefs:root=Bluetooth
 ~~~
 _Bluetooth > AirPods >_ &#9432;
-> _see AirPods above_
+> _see \`AirPods´ above_
 
 \
 \
@@ -570,7 +570,7 @@ _iCloud_
 ~~~yaml
 settings-navigation://com.apple.Settings.iCloud
 ~~~
-> _see also Apple Account > iCloud_
+> _see also \`Apple Account > iCloud´_
 
 \
 \
