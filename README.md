@@ -596,7 +596,7 @@ _Accessibility > Touch > Vibration (switch)_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/VIBRATION
 ~~~
-_Accessibility > Touch > Preven Lock to End Call (switch)_
+_Accessibility > Touch > Prevent Lock to End Call (switch)_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/LockButtonIgnore
 ~~~
