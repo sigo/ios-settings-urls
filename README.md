@@ -11,31 +11,31 @@ _Apple Account_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT
 ~~~
-_Apple Account > Personal Information <sup>(may take a while to load)</sup>_
+_Apple Account > Personal Information <sub>(may take a while to load)</sub>_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT
 ~~~
-_Apple Account > Sign-In & Security <sup>(may take a while to load)</sup>_
+_Apple Account > Sign-In & Security <sub>(may take a while to load)</sub>_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY
 ~~~
-_Apple Account > Sign-In & Security > Change Password <sup>(may take a while to load)</sup>_
+_Apple Account > Sign-In & Security > Change Password <sub>(may take a while to load)</sub>_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&aaaction=changePassword
 ~~~
-_Apple Account > Sign-In & Security > Recovery Contacts <sup>(may take a while to load)</sup>_
+_Apple Account > Sign-In & Security > Recovery Contacts <sub>(may take a while to load)</sub>_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&aaaction=accountRecovery
 ~~~
-_Apple Account > Sign-In & Security > Legacy Contact <sup>(may take a while to load)</sup>_
+_Apple Account > Sign-In & Security > Legacy Contact <sub>(may take a while to load)</sub>_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&aaaction=accountBeneficiary
 ~~~
-_Apple Account > Payment & Shipping <sup>(may take a while to load)</sup>_
+_Apple Account > Payment & Shipping <sub>(may take a while to load)</sub>_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING
 ~~~
-_Apple Account > Subscriptions <sup>(may take a while to load)</sup>_
+_Apple Account > Subscriptions <sub>(may take a while to load)</sub>_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS
 ~~~
@@ -91,7 +91,7 @@ _Apple Account > iCloud > Private Relay_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/INTERNET_PRIVACY
 ~~~
-_Apple Account > iCloud > Hide My Email <sup>(may take a while to load)</sup>_
+_Apple Account > iCloud > Hide My Email <sub>(may take a while to load)</sub>_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE
 ~~~
@@ -148,7 +148,7 @@ _Bluetooth_
 prefs:root=Bluetooth
 ~~~
 _Bluetooth > AirPods >_ &#9432;
-> _see ´AirPods´ above_
+> _see `AirPods´ above_
 
 \
 \
@@ -748,7 +748,7 @@ prefs:root=Privacy&path=BLOCKLIST
 ~~~
 \
 \
-_iCloud <sup>(see also ´Apple Account > iCloud´)</sup>_
+_iCloud <sup>(see also `Apple Account > iCloud´)</sup>_
 ~~~yaml
 settings-navigation://com.apple.Settings.iCloud
 ~~~
@@ -848,7 +848,7 @@ _Apps > Safari > Downloads_
 ~~~yaml
 prefs:root=SAFARI&path=DOWNLOADS
 ~~~
-_Apps > Safari > Open Links > New Tab <sup>(switches to the new tab)</sup> or In Background <sup>(doesn't leave the current tab)</sup>_
+_Apps > Safari > Open Links > New Tab <sub>(switches to the new tab)</sub> or In Background <sub>(doesn't leave the current tab)</sub>_
 
 &emsp;<sub>_iPhone:_</sub>
 ~~~yaml
