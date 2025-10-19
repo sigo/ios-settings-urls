@@ -262,6 +262,10 @@ _General > Matter Accessories_
 ~~~yaml
 prefs:root=General&path=MATTER_ACCESSORIES
 ~~~
+_General > Home Button (button)_
+~~~yaml
+prefs:root=General#HOME_BUTTON
+~~~
 _General > AutoFill & Passwords_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/AUTOFILL
@@ -358,6 +362,30 @@ _General > TV Provider_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/TV_PROVIDER
 ~~~
+_VPN & Device Management_
+~~~yaml
+prefs:root=General&path=ManagedConfigurationList
+~~~
+_VPN & Device Management > VPN_
+~~~yaml
+prefs:root=General&path=ManagedConfigurationList/VPN
+~~~
+_Legal & Regulatory_
+~~~yaml
+prefs:root=General&path=LEGAL_AND_REGULATORY
+~~~
+_Transfer or Reset iPhone_
+~~~yaml
+prefs:root=General&path=Reset
+~~~
+_Transfer or Reset iPhone > Reset > Reset Network Settings (dialog)_
+~~~yaml
+prefs:root=General&path=ResetNetworkSettings
+~~~
+_Shut Down (button)_
+~~~yaml
+prefs:root=General#SHUTDOWN_LABEL
+~~~
 \
 \
 _Accessibility_
@@ -419,6 +447,38 @@ prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/WHITE_POINT
 _Accessibility > Display & Text Size > Auto-Brightness (switch)_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/AUTO_BRIGHTNESS
+~~~
+_Accessibility > Motion_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=MOTION_TITLE
+~~~
+_Accessibility > Motion > Reduce Motion (switch)_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION
+~~~
+_Accessibility > Motion > Vehicle Motion Clues_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=MOTION_TITLE/MotionCues
+~~~
+_Accessibility > Motion > Dim Flashing Lights (switch)_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=MOTION_TITLE/PHOTOSENSITIVE_MITIGATION
+~~~
+_Accessibility > Motion > Auto-Play Animated Images (switch)_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=MOTION_TITLE/REDUCE_MOTION_AUTOPLAY_ANIMATED_IMAGES
+~~~
+_Accessibility > Motion > Auto-Play Video Previews (switch)_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=MOTION_TITLE/REDUCE_MOTION_AUTOPLAY_VIDEO_PREVIEWS
+~~~
+_Accessibility > Motion > Auto-Play Message Effects (switch)_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=MOTION_TITLE/ReduceMotionAutoplayMessagesEffects
+~~~
+_Accessibility > Motion > Prefer Non-Blinking Cursor (switch)_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=MOTION_TITLE/PREFER_NONBLINKING_CURSOR
 ~~~
 _Accessibility > Audio & Visual > Call Audio Routing_
 ~~~yaml
