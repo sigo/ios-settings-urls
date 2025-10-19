@@ -121,12 +121,10 @@ prefs:root=APPLE_ACCOUNT&path=TRANSPARENCY
 ~~~
 \
 \
-_AirPods_
+_AirPods <sub>(replace `00:00:00:00:00:00` with the AirPods' MAC address – not possible to find on iOS, but can be found with e.g. `system_profiler SPBluetoothDataType` on a Mac)</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.Bluetooth/HeadphoneDetail/?identifier=00:00:00:00:00:00
 ~~~
-> _replace `00:00:00:00:00:00` with the AirPods' MAC address (not possible to find on iOS, but can be found with e.g. `system_profiler SPBluetoothDataType` on a Mac)_
-
 \
 \
 _Airplane Mode (switch) <sub>(centers it on the screen, but doesn't highlight it)</sub>_
@@ -150,7 +148,7 @@ _Bluetooth_
 prefs:root=Bluetooth
 ~~~
 _Bluetooth > AirPods >_ &#9432;
-> _see \`AirPods´ above_
+> _see ´AirPods´ above_
 
 \
 \
@@ -750,12 +748,10 @@ prefs:root=Privacy&path=BLOCKLIST
 ~~~
 \
 \
-_iCloud_
+_iCloud <sup>(see also ´Apple Account > iCloud´)</sup>_
 ~~~yaml
 settings-navigation://com.apple.Settings.iCloud
 ~~~
-> _see also \`Apple Account > iCloud´_
-
 \
 \
 _Payment & Contactless_
