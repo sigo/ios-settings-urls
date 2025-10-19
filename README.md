@@ -362,27 +362,27 @@ _General > TV Provider_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/TV_PROVIDER
 ~~~
-_VPN & Device Management_
+_General > VPN & Device Management_
 ~~~yaml
 prefs:root=General&path=ManagedConfigurationList
 ~~~
-_VPN & Device Management > VPN_
+_General > VPN & Device Management > VPN_
 ~~~yaml
 prefs:root=General&path=ManagedConfigurationList/VPN
 ~~~
-_Legal & Regulatory_
+_General > Legal & Regulatory_
 ~~~yaml
 prefs:root=General&path=LEGAL_AND_REGULATORY
 ~~~
-_Transfer or Reset iPhone_
+_General > Transfer or Reset iPhone_
 ~~~yaml
 prefs:root=General&path=Reset
 ~~~
-_Transfer or Reset iPhone > Reset > Reset Network Settings (dialog)_
+_General > Transfer or Reset iPhone > Reset > Reset Network Settings (dialog)_
 ~~~yaml
 prefs:root=General&path=ResetNetworkSettings
 ~~~
-_Shut Down (button)_
+_General > Shut Down (button)_
 ~~~yaml
 prefs:root=General#SHUTDOWN_LABEL
 ~~~
@@ -488,6 +488,118 @@ _Accessibility > Audio & Visual > Call Audio Routing > Auto-Answer Calls_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/CALL_AUDIO_ROUTING/callAudioRoutingAutoAnswer
 ~~~
+_Accessibility > Touch_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE
+~~~
+_Accessibility > Touch > AssistiveTouch_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE
+~~~
+_Accessibility > Touch > AssistiveTouch > Assistive Touch (switch)_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/EnableAssistiveTouchSpecifier
+~~~
+_Accessibility > Touch > AssistiveTouch > Customize Top Level Menu_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize
+~~~
+_Accessibility > Touch > AssistiveTouch > Single-Tap_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/TapSpecifier
+~~~
+_Accessibility > Touch > AssistiveTouch > Double-Tap_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier
+~~~
+_Accessibility > Touch > AssistiveTouch > Double-Tap > Double-Tap Timeout_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier/ASTDoubleTapTimeoutSpecifier
+~~~
+_Accessibility > Touch > AssistiveTouch > Long Press_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier
+~~~
+_Accessibility > Touch > AssistiveTouch > Long Press > Long Press Duration_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier/ASTLongPressDurationSpecifier
+~~~
+_Accessibility > Touch > AssistiveTouch > Create New Gesture_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/CreateCustomGesture
+~~~
+_Accessibility > Touch > AssistiveTouch > Dwell Control (switch)_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellEnabledSpecifier
+~~~
+_Accessibility > Touch > AssistiveTouch > Idle Opacity_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/IdleOpacity
+~~~
+_Accessibility > Touch > AssistiveTouch > Devices_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices
+~~~
+_Accessibility > Touch > AssistiveTouch > Sound on Click (switch)_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/MouseClickSounds
+~~~
+_Accessibility > Touch > AssistiveTouch > Always Show Menu (switch)_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AlwaysShowMenu
+~~~
+_Accessibility > Touch > AssistiveTouch > Perform Touch Gestures (switch)_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/MouseBehavesLikeFinger
+~~~
+_Accessibility > Touch > AssistiveTouch > Use Game Controller (switch)_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/EnableAssistiveTouchGameControllerSpecifier
+~~~
+_Accessibility > Touch > AssistiveTouch > Sound Actions_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/SOUND_ACTIONS
+~~~
+_Accessibility > Touch > Reachability (switch)_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/REACHABILITY
+~~~
+_Accessibility > Touch > Haptic Touch_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch
+~~~
+_Accessibility > Touch > Haptic Touch > Fast (option)_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchFastIdentifier
+~~~
+_Accessibility > Touch > Touch Accomodations_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS
+~~~
+_Accessibility > Touch > Touch Accomodations > Touch Accomodations (switch)_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS/TOUCH_ACCOMMODATIONS_SWITCHER
+~~~
+_Accessibility > Touch > Touch Accomodations > Hold Duration (switch)_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS/HoldDuration
+~~~
+_Accessibility > Touch > Touch Accomodations > Ignore Repeat (switch)_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS/IgnoreRepeat
+~~~
+_Accessibility > Touch > Shake to Undo (switch)_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/SHAKE_TO_UNDO
+~~~
+_Accessibility > Touch > Vibration (switch)_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/VIBRATION
+~~~
+_Accessibility > Touch > Preven Lock to End Call (switch)_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/LockButtonIgnore
+~~~
 _Accessibility > Touch > Call Audio Routing_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING
@@ -495,6 +607,18 @@ prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING
 _Accessibility > Touch > Call Audio Routing > Auto-Answer Calls_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING/callAudioRoutingAutoAnswer
+~~~
+_Accessibility > Touch > Back Tap_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap
+~~~
+_Accessibility > Touch > Back Tap > Double Tap_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/DoubleTap
+~~~
+_Accessibility > Touch > Back Tap > Triple Tap_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/TripleTap
 ~~~
 _Accessibility > AirPods_
 ~~~yaml
