@@ -736,6 +736,40 @@ prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE/AX_ADD_BUTTON_IDENTIFIER
 ~~~
 \
 \
+_Camera_
+~~~yaml
+prefs:root=CAMERA
+~~~
+_Camera > Record Video_
+~~~yaml
+prefs:root=CAMERA&path=CameraVideoSettingsList
+~~~
+_Camera > Record Slo-mo_
+~~~yaml
+prefs:root=CAMERA&path=CameraSlomoSettingsList
+~~~
+_Camera > Formats_
+~~~yaml
+prefs:root=CAMERA&path=CameraFormatsSettingsList
+~~~
+_Camera > Preserve Settings_
+~~~yaml
+prefs:root=CAMERA&path=CameraPreserveSettingsSwitch
+~~~
+_Camera > Scan QR Codes (switch)_
+~~~yaml
+prefs:root=CAMERA#CameraQRBannerSwitch
+~~~~
+_Camera > Composition – Grid (switch)_
+~~~yaml
+prefs:root=CAMERA#CameraGridSwitch
+~~~
+_Camera > Composition – Level (switch)_
+~~~yaml
+prefs:root=CAMERA#CameraGridSwitch
+~~~
+\
+\
 _Display & Brightness_
 ~~~yaml
 prefs:root=DISPLAY
