@@ -682,9 +682,41 @@ _Accessibility > AirPods_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=AIRPODS
 ~~~
-_Accessibility > AirPods > Spatial Audio Head Tracking > Follow iPhone (switch)_
+_Accessibility > AirPods > Spatial Audio Head Tracking – Follow iPhone (switch)_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=AIRPODS#SPATIAL_AUDIO_SWITCH
+~~~
+_Accessibility > Guided Access_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE
+~~~
+_Accessibility > Guided Access > Passcode Settings_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList
+~~~
+_Accessibility > Guided Access > Time Limits_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList
+~~~
+_Accessibility > Guided Access > Time Limits > Alarm – Sound_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList/GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE#GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE
+~~~
+_Accessibility > Guided Access > Time Limits > Alarm – Speak (switch)_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SPEAK_TITLE
+~~~
+_Accessibility > Guided Access > Accessibility Shortcut (switch)_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessEnableAXFeatures
+~~~
+_Accessibility > Guided Access > Display Auto-Lock_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessAutoLockTime#GuidedAccessAutoLockTime
+~~~
+_Accessibility > Accessibility Shortcut_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE
 ~~~
 _Accessibility > Per-App Settings_
 ~~~yaml
