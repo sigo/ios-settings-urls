@@ -682,6 +682,10 @@ _Accessibility > AirPods_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=AIRPODS
 ~~~
+_Accessibility > AirPods > Spatial Audio Head Tracking > Follow iPhone (switch)_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=AIRPODS#SPATIAL_AUDIO_SWITCH
+~~~
 _Accessibility > Per-App Settings_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE
@@ -689,6 +693,14 @@ prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE
 _Accessibility > Per-App Settings > {app bundle identifier} <sup>(as long as you have added the app there, otherwise goes to the parent page)</sup>_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE/bundle_identifier
+~~~
+_Accessibility > Per-App Settings > Show Hidden Apps_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE/PROTECTED_APPS_SHOW_HIDDEN_TITLE
+~~~
+_Accessibility > Per-App Settings > Add App (dialog)_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE/AX_ADD_BUTTON_IDENTIFIER
 ~~~
 \
 \
