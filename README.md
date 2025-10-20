@@ -478,6 +478,54 @@ _Accessibility > Motion > Prefer Non-Blinking Cursor (switch)_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=MOTION_TITLE/PREFER_NONBLINKING_CURSOR
 ~~~
+_Accessibility > Audio & Visual_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE
+~~~
+_Accessibility > Audio & Visual > Headphone Accommodations_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID
+~~~
+_Accessibility > Audio & Visual > Headphone Accommodations > Custom Audio Setup_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAPersonalAudioSetupSpecID
+~~~
+_Accessibility > Audio & Visual > Background Sounds_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID
+~~~
+_Accessibility > Audio & Visual > Background Sounds > Background Sounds (switch)_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#CSFeatureToggleSpecID
+~~~
+_Accessibility > Audio & Visual > Live Listen_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXLLEnableSpecID
+~~~
+_Accessibility > Audio & Visual > Mono Audio (switch)_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAMonoSpecID
+~~~
+_Accessibility > Audio & Visual > Always Show Volume Controls (switch)_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAAlwaysShowVolumeControlSpecID
+~~~
+_Accessibility > Audio & Visual > Add Voice Isolation (switch)_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#ExtendedVoiceIsolationSpecID
+~~~
+_Accessibility > Audio & Visual > Headphone Notifications (switch)_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXHeadphoneNotificationsSpecID
+~~~
+_Accessibility > Audio & Visual > Balance (slider)_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LeftRightBalance
+~~~
+_Accessibility > Audio & Visual > Add Audio in Calls_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/MIX_TO_UPLINK
+~~~
 _Accessibility > Audio & Visual > Call Audio Routing_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/CALL_AUDIO_ROUTING
@@ -485,6 +533,18 @@ prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/CALL_AUDIO_ROUTING
 _Accessibility > Audio & Visual > Call Audio Routing > Auto-Answer Calls_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/CALL_AUDIO_ROUTING/callAudioRoutingAutoAnswer
+~~~
+_Accessibility > Audio & Visual > LED Flash for Alerts_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH
+~~~
+_Accessibility > Audio & Visual > LED Flash for Alerts > Flash While Unlocked (switch)_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH_WHILE_UNLOCKED
+~~~
+_Accessibility > Audio & Visual > LED Flash for Alerts > Flash in Silent Mode (switch)_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_RINGER_SWITCH_CONTROL
 ~~~
 _Accessibility > Touch_
 ~~~yaml
