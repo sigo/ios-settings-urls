@@ -990,6 +990,54 @@ _Privacy & Security_
 ~~~yaml
 prefs:root=Privacy
 ~~~
+_Privacy & Security > Location Services_
+~~~yaml
+prefs:root=Privacy&path=LOCATION
+~~~
+_Privacy & Security > Location Services > System Services_
+~~~yaml
+prefs:root=Privacy&path=LOCATION/SYSTEM_SERVICES
+~~~
+_Privacy & Security > Tracking_
+~~~yaml
+prefs:root=Privacy&path=USER_TRACKING
+~~~
+_Privacy & Security > Calendars_
+~~~yaml
+prefs:root=Privacy&path=CALENDARS
+~~~
+_Privacy & Security > Contacts_
+~~~yaml
+prefs:root=Privacy&path=CONTACTS
+~~~
+_Privacy & Security > Health Data_
+~~~yaml
+prefs:root=Privacy&path=HEALTH_DATA
+~~~
+_Privacy & Security > Home Accessories_
+~~~yaml
+prefs:root=Privacy&path=WILLOW
+~~~
+_Privacy & Security > Media & Apple Music_
+~~~yaml
+prefs:root=Privacy&path=MEDIALIBRARY
+~~~
+_Privacy & Security > Passkeys Access for Web Browsers_
+~~~yaml
+prefs:root=Privacy&path=PASSKEYS
+~~~
+_Privacy & Security > Photos_
+~~~yaml
+prefs:root=Privacy&path=PHOTOS
+~~~
+_Privacy & Security > Reminders_
+~~~yaml
+prefs:root=Privacy&path=REMINDERS
+~~~
+_Privacy & Security > Wallet_
+~~~yaml
+prefs:root=Privacy&path=WALLET
+~~~
 _Privacy & Security > Blocked Contacts_
 ~~~yaml
 prefs:root=Privacy&path=BLOCKLIST
