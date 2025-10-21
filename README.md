@@ -770,6 +770,12 @@ prefs:root=CAMERA#CameraGridSwitch
 ~~~
 \
 \
+_Control Center_
+~~~yaml
+prefs:root=ControlCenter
+~~~
+\
+\
 _Display & Brightness_
 ~~~yaml
 prefs:root=DISPLAY
@@ -818,7 +824,7 @@ prefs:root=DISPLAY&path=MAGNIFY
 \
 _Home Screen & App Library_
 ~~~yaml
-settings-navigation://com.apple.Settings.HomeScreenAndAppLibrary
+prefs:root=HOME_SCREEN
 ~~~
 \
 \
@@ -837,6 +843,22 @@ prefs:root=SIRI
 _StandBy_
 ~~~yaml
 settings-navigation://com.apple.Settings.StandBy
+~~~
+\
+\
+_Wallpaper_
+~~~yaml
+settings-navigation://com.apple.Settings.Wallpaper
+~~~
+_Wallpaper > Add New Wallpaper_
+~~~yaml
+settings-navigation://com.apple.Settings.Wallpaper/addNewWallpaper
+~~~
+\
+\
+_Notifications_
+~~~yaml
+prefs:root=NOTIFICATIONS_ID
 ~~~
 \
 \
@@ -866,13 +888,13 @@ prefs:root=Sounds&path=PERSONALIZED_SPATIAL_AUDIO
 ~~~
 \
 \
-_Wallpaper_
+_Focus_
 ~~~yaml
-settings-navigation://com.apple.Settings.Wallpaper
+settings-navigation://com.apple.Settings.Focus
 ~~~
-_Wallpaper > Add New Wallpaper_
+_Focus > Focus Status_
 ~~~yaml
-settings-navigation://com.apple.Settings.Wallpaper/addNewWallpaper
+settings-navigation://com.apple.Settings.Focus/Focus%20Status
 ~~~
 \
 \
