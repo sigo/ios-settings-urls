@@ -1038,9 +1038,61 @@ _Privacy & Security > Wallet_
 ~~~yaml
 prefs:root=Privacy&path=WALLET
 ~~~
+_Privacy & Security > Bluetooth_
+~~~yaml
+prefs:root=Privacy&path=BT_PERIPHERAL
+~~~
+_Privacy & Security > Camera_
+~~~yaml
+prefs:root=Privacy&path=CAMERA
+~~~
+_Privacy & Security > Local Network_
+~~~yaml
+prefs:root=Privacy&path=LOCAL_NETWORK
+~~~
+_Privacy & Security > Microphone_
+~~~yaml
+prefs:root=Privacy&path=MICROPHONE
+~~~
+_Privacy & Security > Motion & Fitness_
+~~~yaml
+prefs:root=Privacy&path=MOTION
+~~~
+_Privacy & Security > Nearby Interactions_
+~~~yaml
+prefs:root=Privacy&path=NEARBY_INTERACTIONS
+~~~
+_Privacy & Security > Paired Devices_
+~~~yaml
+prefs:root=Privacy&path=PAIRED_DEVICES
+~~~
+_Privacy & Security > Speech Recognition_
+~~~yaml
+prefs:root=Privacy&path=SPEECH_RECOGNITION
+~~~
+_Privacy & Security > Journaling Suggestions_
+~~~yaml
+prefs:root=Privacy&path=JOURNALING_SUGGESTIONS
+~~~
 _Privacy & Security > Blocked Contacts_
 ~~~yaml
 prefs:root=Privacy&path=BLOCKLIST
+~~~
+_Privacy & Security > Sensitive Content Warning_
+~~~yaml
+prefs:root=Privacy&path=NUDITY_DETECTION
+~~~
+_Privacy & Security > Analytics & Improvements_
+~~~yaml
+prefs:root=Privacy&path=PROBLEM_REPORTING
+~~~
+_Privacy & Security > App Privacy Report_
+~~~yaml
+prefs:root=Privacy&path=PRIVACY_REPORT
+~~~
+_Privacy & Security > Lockdown Mode_
+~~~yaml
+prefs:root=Privacy&path=LOCKDOWN_MODE
 ~~~
 \
 \
