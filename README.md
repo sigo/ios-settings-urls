@@ -938,6 +938,44 @@ settings-navigation://com.apple.Settings.Focus/Focus%20Status
 ~~~
 \
 \
+_Screen Time_
+~~~yaml
+prefs:root=SCREEN_TIME
+~~~
+_Screen Time > See All App & Web Site Activity_
+~~~yaml
+prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY
+~~~
+_Screen Time > Downtime_
+~~~yaml
+prefs:root=SCREEN_TIME&path=DOWNTIME
+~~~
+_Screen Time > App Limits_
+~~~yaml
+prefs:root=SCREEN_TIME&path=APP_LIMITS
+~~~
+_Screen Time > Always Allowed_
+~~~yaml
+prefs:root=SCREEN_TIME&path=ALWAYS_ALLOWED
+~~~
+_Screen Time > Screen Distance_
+~~~yaml
+prefs:root=SCREEN_TIME&path=EYE_DISTANCE
+~~~
+_Screen Time > Communication Limits_
+~~~yaml
+prefs:root=SCREEN_TIME&path=COMMUNICATION_LIMITS
+~~~
+_Screen Time > Communication Safety_
+~~~yaml
+prefs:root=SCREEN_TIME&path=COMMUNICATION_SAFETY
+~~~
+_Screen Time > Content & Privacy Restrictions_
+~~~yaml
+prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY
+~~~
+\
+\
 _Privacy & Security_
 ~~~yaml
 prefs:root=Privacy
