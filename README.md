@@ -976,6 +976,16 @@ prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY
 ~~~
 \
 \
+_Emergency SOS_
+~~~yaml
+prefs:root=EMERGENCY_SOS
+~~~
+_Emergency SOS > Set up Emergency Contacts in Health (button)_
+~~~yaml
+prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS
+~~~
+\
+\
 _Privacy & Security_
 ~~~yaml
 prefs:root=Privacy
@@ -1013,6 +1023,42 @@ settings-navigation://com.apple.Settings.Apps/bundle_identifier
 _Apps > Compass_
 ~~~yaml
 prefs:root=COMPASS
+~~~
+_Apps > Compass > Use True North (switch)_
+~~~yaml
+prefs:root=COMPASS#USE_TRUE_NORTH
+~~~
+_Apps > Contacts_
+~~~yaml
+prefs:root=CONTACTS
+~~~
+_Apps > Contacts > Contacts Accounts_
+~~~yaml
+settings-navigation://com.apple.Settings.InternetAccounts
+~~~
+_Apps > Contacts > Contacts Accounts > Add Account_
+~~~yaml
+prefs:root=CONTACTS&path=ADD_ACCOUNT
+~~~
+_Apps > Contacts > Sort Order_
+~~~yaml
+prefs:root=CONTACTS&path=ContactsSortOrder
+~~~
+_Apps > Contacts > Display Order_
+~~~yaml
+prefs:root=CONTACTS&path=PersonNameOrder
+~~~
+_Apps > Contacts > Short Name_
+~~~yaml
+prefs:root=CONTACTS&path=PersonShortName
+~~~
+_Apps > Contacts > My Info_
+~~~yaml
+prefs:root=CONTACTS&path=MeCard
+~~~
+_Apps > Contacts > Import SIM Contacts (button)_
+~~~yaml
+prefs:root=CONTACTS#SIMImport
 ~~~
 _Apps > Phone_
 ~~~yaml
