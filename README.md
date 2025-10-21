@@ -976,6 +976,24 @@ prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY
 ~~~
 \
 \
+_Touch ID & Passcode_
+~~~yaml
+prefs:root=PASSCODE
+~~~
+_Touch ID & Passcode > Change Passcode (button)_
+~~~yaml
+prefs:root=PASSCODE#CHANGE_PASSCODE
+~~~
+_Touch ID & Passcode > Require Passcode_
+~~~yaml
+prefs:root=PASSCODE&path=PASSCODE_REQ
+~~~
+_Touch ID & Passcode > Erase Data (switch)_
+~~~yaml
+prefs:root=PASSCODE#WIPE_DEVICE
+~~~
+\
+\
 _Emergency SOS_
 ~~~yaml
 prefs:root=EMERGENCY_SOS
