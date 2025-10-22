@@ -1294,6 +1294,22 @@ _Apps > Contacts > Import SIM Contacts (button)_
 ~~~yaml
 prefs:root=CONTACTS#SIMImport
 ~~~
+_Apps > Files_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.DocumentsApp
+~~~
+_Apps > Fitness_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.Fitness
+~~~
+_Apps > Fitness > Workout_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.Fitness/workout-controls
+~~~
+_Apps > Magnifier_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.Magnifier
+~~~
 _Apps > Phone_
 ~~~yaml
 prefs:root=Phone
