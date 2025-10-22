@@ -148,7 +148,7 @@ _Bluetooth_
 prefs:root=Bluetooth
 ~~~
 _Bluetooth > AirPods >_ &#9432;
-> _see `AirPods´ above_
+> _<sup>see `AirPods´ above</sup>_
 
 \
 \
