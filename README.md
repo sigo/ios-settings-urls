@@ -900,6 +900,18 @@ _Notifications_
 ~~~yaml
 prefs:root=NOTIFICATIONS_ID
 ~~~
+_Notifications > Scheduled Summary_
+~~~yaml
+prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID
+~~~
+_Notifications > {app bundle identifier}_
+~~~yaml
+prefs:root=NOTIFICATIONS_ID&path=bundle_identifier
+~~~
+_Notifications > {app bundle identifier} > Customize Notifications_
+~~~yaml
+prefs:root=NOTIFICATIONS_ID&path=bundle_identifier/custom
+~~~
 \
 \
 _Sounds & Haptics_
@@ -909,6 +921,34 @@ prefs:root=Sounds
 _Sounds & Haptics > Haptics_
 ~~~yaml
 prefs:root=Sounds&path=HAPTICS
+~~~
+_Sounds & Haptics > Ringtone_
+~~~yaml
+prefs:root=Sounds&path=Ringtone
+~~~
+_Sounds & Haptics > Text Tone_
+~~~yaml
+prefs:root=Sounds&path=Text_Messages
+~~~
+_Sounds & Haptics > New Voicemail_
+~~~yaml
+prefs:root=Sounds&path=Voicemail
+~~~
+_Sounds & Haptics > Sent Mail_
+~~~yaml
+prefs:root=Sounds&path=SENT_MAIL
+~~~
+_Sounds & Haptics > Celendar Alerts_
+~~~yaml
+prefs:root=Sounds&path=Calendar%20Alarm
+~~~
+_Sounds & Haptics > Reminder Alerts_
+~~~yaml
+prefs:root=Sounds&path=Reminder%20Alerts
+~~~
+_Sounds & Haptics > Default Alerts_
+~~~yaml
+prefs:root=Sounds&path=DEFAULT_ALERTS
 ~~~
 _Sounds & Haptics > Keyboard Feedback_
 ~~~yaml
@@ -1084,6 +1124,10 @@ _Privacy & Security > Paired Devices_
 ~~~yaml
 prefs:root=Privacy&path=PAIRED_DEVICES
 ~~~
+_Privacy & Security > Research Sensor & Usage Data_
+~~~yaml
+prefs:root=Privacy&path=ALMANAC
+~~~
 _Privacy & Security > Speech Recognition_
 ~~~yaml
 prefs:root=Privacy&path=SPEECH_RECOGNITION
@@ -1096,6 +1140,10 @@ _Privacy & Security > Blocked Contacts_
 ~~~yaml
 prefs:root=Privacy&path=BLOCKLIST
 ~~~
+_Privacy & Security > Safety Check_
+~~~yaml
+prefs:root=Privacy&path=SAFETY_CHECK
+~~~
 _Privacy & Security > Sensitive Content Warning_
 ~~~yaml
 prefs:root=Privacy&path=NUDITY_DETECTION
@@ -1103,6 +1151,10 @@ prefs:root=Privacy&path=NUDITY_DETECTION
 _Privacy & Security > Analytics & Improvements_
 ~~~yaml
 prefs:root=Privacy&path=PROBLEM_REPORTING
+~~~
+_Privacy & Security > Apple Advertising_
+~~~yaml
+prefs:root=Privacy&path=ADVERTISING
 ~~~
 _Privacy & Security > App Privacy Report_
 ~~~yaml
