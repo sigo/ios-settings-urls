@@ -438,7 +438,7 @@ _Accessibility > Display & Text Size > Color Filters_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR
 ~~~
-_Accessibility > Display & Text Size > Reduce White Point (switch)_
+_Accessibility > Display & Text Size > Reduce White Point (switch/slider)_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/WHITE_POINT
 ~~~
@@ -1193,6 +1193,66 @@ settings-navigation://com.apple.Settings.Apps/com.apple.Settings.Apps.DefaultApp
 _Apps > {app bundle identifier}_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/bundle_identifier
+~~~
+_Apps > App Store_
+~~~ysml
+prefs:root=STORE
+~~~
+_Apps > Calculator_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.calculator
+~~~
+_Apps > Calendar_
+~~~yaml
+prefs:root=CALENDAR
+~~~
+_Apps > Calendar > Calendar Accounts > Add Account_
+~~~yaml
+prefs:root=CALENDAR&path=ADD_ACCOUNT
+~~~
+_Apps > Calendar > Time Zone Override_
+~~~yaml
+prefs:root=CALENDAR&path=timeZoneOverride
+~~~
+_Apps > Calendar > Alternate Calendars_
+~~~yaml
+prefs:root=CALENDAR&path=alternateCalendars
+~~~
+_Apps > Calendar > Sync_
+~~~yaml
+prefs:root=CALENDAR&path=syncDuration
+~~~
+_Apps > Calendar > Default Alert Times_
+~~~yaml
+prefs:root=CALENDAR&path=defaultAlertTimes
+~~~
+_Apps > Calendar > Default Alert Times > Birthdays_
+~~~yaml
+prefs:root=CALENDAR&path=defaultAlertTimes/birthdaysDefaultAlertTimes
+~~~
+_Apps > Calendar > Default Alert Times > Events_
+~~~yaml
+prefs:root=CALENDAR&path=defaultAlertTimes/timedEventsDefaultAlertTimes
+~~~
+_Apps > Calendar > Default Alert Times > All-Day Events_
+~~~yaml
+prefs:root=CALENDAR&path=defaultAlertTimes/allDayEventsDefaultAlertTimes
+~~~
+_Apps > Calendar > Duration for New Events_
+~~~yaml
+prefs:root=CALENDAR&path=durationForNewEvents
+~~~
+_Apps > Calendar > Start Week On_
+~~~yaml
+prefs:root=CALENDAR&path=startWeekOn
+~~~
+_Apps > Calendar > Default Calendar_
+~~~yaml
+prefs:root=CALENDAR&path=defaultCalendar
+~~~
+_Apps > Clock_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobiletimer
 ~~~
 _Apps > Compass_
 ~~~yaml
