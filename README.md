@@ -1052,6 +1052,10 @@ _Privacy & Security > Location Services_
 ~~~yaml
 prefs:root=Privacy&path=LOCATION
 ~~~
+_Privacy & Security > Location Service > App Clips_
+~~~yaml
+prefs:root=Privacy&path=LOCATION/APP_CLIPS
+~~~
 _Privacy & Security > Location Services > System Services_
 ~~~yaml
 prefs:root=Privacy&path=LOCATION/SYSTEM_SERVICES
@@ -1278,6 +1282,10 @@ _Apps > Safari > Safari Suggestions (switch)_
 ~~~yaml
 prefs:root=SAFARI#SIRI_SUGGESTIONS
 ~~~
+_Apps > Safari > Show Recent Searches (switch)_
+~~~yaml
+prefs:root=SAFARI#SHOW_RECENT_SEARCHES
+~~~
 _Apps > Safari > Quick Website Search_
 ~~~yaml
 prefs:root=SAFARI&path=SITE_SPECIFIC_SEARCH
@@ -1352,4 +1360,8 @@ prefs:root=SAFARI&path=ADVANCED
 _Apps > Safari > Advanced > Website Data_
 ~~~yaml
 prefs:root=SAFARI&path=ADVANCED/REMOVE_WEBSITE_DATA
+~~~
+_Apps > Hidden Apps_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.Settings.Apps.HiddenApps
 ~~~
