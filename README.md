@@ -1397,6 +1397,34 @@ _Apps > Magnifier_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.Magnifier
 ~~~
+_Apps > Mail_
+~~~yaml
+prefs:root=MAIL
+~~~
+_Apps > Maps_
+~~~yaml
+prefs:root=MAPS
+~~~
+_Apps > Measure_
+~~~yaml
+prefs:root=MEASURE
+~~~
+_Apps > Messages_
+~~~yaml
+prefs:root=MESSAGES
+~~~
+_Apps > Music_
+~~~yaml
+prefs:root=MUSIC
+~~~
+_Apps > Notes_
+~~~yaml
+prefs:root=NOTES
+~~~
+_Apps > Passwords_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.Passwords
+~~~
 _Apps > Phone_
 ~~~yaml
 prefs:root=Phone
@@ -1424,6 +1452,34 @@ prefs:root=Phone#FILTER_AS_NEW_CALLERS
 _Apps > Phone > Blocked Contacts_
 ~~~yaml
 prefs:root=Privacy&path=BLOCKLIST
+~~~
+_Apps > Photos_
+~~~yaml
+prefs:root=Photos
+~~~
+_Apps > Preview_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.Preview
+~~~
+_Apps > Reminders_
+~~~yaml
+prefs:root=REMINDERS
+~~~
+_Apps > Shortcuts_
+~~~yaml
+prefs:root=SHORTCUTS
+~~~
+_Apps > Translate_
+~~~yaml
+prefs:root=TRANSLATE
+~~~
+_Apps > Translate > On-Device Mode_
+~~~yaml
+prefs:root=TRANSLATE#OnDeviceOnly
+~~~
+_Apps > Weather_
+~~~yaml
+prefs:root=WEATHER
 ~~~
 _Apps > Safari > Default Browser App (button)_
 ~~~yaml
@@ -1475,12 +1531,12 @@ prefs:root=SAFARI&path=DOWNLOADS
 ~~~
 _Apps > Safari > Open Links > New Tab <sub>(switches to the new tab)</sub> or In Background <sub>(doesn't leave the current tab)</sub>_
 
-&emsp;<sub>_iPhone:_</sub>
+&ensp;&ensp;<sub>_iPhone:_</sub>
 ~~~yaml
 prefs:root=SAFARI&path=OPEN_LINKS_IN_BACKGROUND_IPHONE
 ~~~
 
-&emsp;<sub>_iPad:_</sub>
+&ensp;&ensp;<sub>_iPad:_</sub>
 ~~~yaml
 prefs:root=SAFARI&path=OPEN_LINKS_IN_BACKGROUND_IPAD
 ~~~
