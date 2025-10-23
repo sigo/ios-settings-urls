@@ -1282,8 +1282,24 @@ _Apps > {app bundle identifier}_
 settings-navigation://com.apple.Settings.Apps/bundle_identifier
 ~~~
 _Apps > App Store_
-~~~ysml
+~~~yaml
 prefs:root=STORE
+~~~
+_Apps > Apple Store_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.store.Jolly
+~~~
+_Apps > Artists_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.artistconnect
+~~~
+_Apps > Beats Pill*_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.bnd
+~~~
+_Apps > Books_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.iBooks
 ~~~
 _Apps > Calculator_
 ~~~yaml
@@ -1337,6 +1353,10 @@ _Apps > Calendar > Default Calendar_
 ~~~yaml
 prefs:root=CALENDAR&path=defaultCalendar
 ~~~
+_Apps > Classical_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.music.classical
+~~~
 _Apps > Clock_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobiletimer
@@ -1348,6 +1368,14 @@ prefs:root=COMPASS
 _Apps > Compass > Use True North (switch)_
 ~~~yaml
 prefs:root=COMPASS#USE_TRUE_NORTH
+~~~
+_Apps > Configurator_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.ios.configurator
+~~~
+_Apps > Connect_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.AppStoreConnect
 ~~~
 _Apps > Contacts_
 ~~~yaml
@@ -1381,9 +1409,17 @@ _Apps > Contacts > Import SIM Contacts (button)_
 ~~~yaml
 prefs:root=CONTACTS#SIMImport
 ~~~
-_Apps > Files_
+_Apps > Developer_
 ~~~yaml
-settings-navigation://com.apple.Settings.Apps/com.apple.DocumentsApp
+settings-navigation://com.apple.Settings.Apps/developer.apple.wwdc-Release
+~~~
+_Apps > Essentials_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.business-essentials
+~~~
+_Apps > FaceTime_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.facetime
 ~~~
 _Apps > Fitness_
 ~~~yaml
@@ -1392,6 +1428,62 @@ settings-navigation://com.apple.Settings.Apps/com.apple.Fitness
 _Apps > Fitness > Workout_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.Fitness/workout-controls
+~~~
+_Apps > Files_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.DocumentsApp
+~~~
+_Apps > Final Cut Camera_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.FinalCutApp.companion
+~~~
+_Apps > Find My_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.findmy
+~~~
+_Apps > Freeform_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.freeform
+~~~
+_Apps > Games_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.games
+~~~
+_Apps > GarageBand_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilegarageband
+~~~
+_Apps > Health_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.Health
+~~~
+_Apps > Home_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.Home
+~~~
+_Apps > Hold'em_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.Holdem
+~~~
+_Apps > iMovie_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.iMovie
+~~~
+_Apps > Invites_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.rsvp
+~~~
+_Apps > iTunes Store_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.MobileStore
+~~~
+_Apps > Journal_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.journal
+~~~
+_Apps > Keynote_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.Keynote
 ~~~
 _Apps > Magnifier_
 ~~~yaml
@@ -1408,6 +1500,10 @@ prefs:root=MAPS
 _Apps > Measure_
 ~~~yaml
 prefs:root=MEASURE
+~~~
+_Apps > Media Review_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.applemediaroom
 ~~~
 _Apps > Messages_
 ~~~yaml
@@ -1453,21 +1549,49 @@ _Apps > Phone > Blocked Contacts_
 ~~~yaml
 prefs:root=Privacy&path=BLOCKLIST
 ~~~
+_Apps > Photomator_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.pixelmatorteam.pixelmator.touch.x.photo
+~~~
 _Apps > Photos_
 ~~~yaml
 prefs:root=Photos
+~~~
+_Apps > Podcasts_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.podcasts
 ~~~
 _Apps > Preview_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.Preview
 ~~~
+_Apps > Reality Composer_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.RealityComposer
+~~~
+_Apps > Remote_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.Remote
+~~~
 _Apps > Reminders_
 ~~~yaml
 prefs:root=REMINDERS
 ~~~
+_Apps > Shazam_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.shazam.Shazam
+~~~
 _Apps > Shortcuts_
 ~~~yaml
 prefs:root=SHORTCUTS
+~~~
+_Apps > Stocks_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.stocks
+~~~
+_Apps > Support_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.supportapp
 ~~~
 _Apps > Translate_
 ~~~yaml
@@ -1579,6 +1703,26 @@ prefs:root=SAFARI&path=ADVANCED
 _Apps > Safari > Advanced > Website Data_
 ~~~yaml
 prefs:root=SAFARI&path=ADVANCED/REMOVE_WEBSITE_DATA
+~~~
+_Apps > Stocks_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.stocks
+~~~
+_Apps > TV_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.tv
+~~~
+_Apps > Voice Memos_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.VoiceMemos
+~~~
+_Apps > Watch_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.Bridge
+~~~
+_Apps > Weather_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.weather
 ~~~
 _Apps > Hidden Apps_
 ~~~yaml
