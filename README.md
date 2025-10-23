@@ -481,6 +481,14 @@ _Accessibility > Motion > Prefer Non-Blinking Cursor (switch)_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=MOTION_TITLE/PREFER_NONBLINKING_CURSOR
 ~~~
+_Accessibility > Read & Speak_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=SPEECH_TITLE
+~~~
+_Accessibility > Audio Descriptions_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO
+~~~
 _Accessibility > Touch_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE
@@ -613,6 +621,10 @@ _Accessibility > Touch > Back Tap > Triple Tap_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/TripleTap
 ~~~
+_Accessibility > Switch Control_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle
+~~~
 _Accessibility > Voice Control_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=CommandAndControlTitle
@@ -645,21 +657,9 @@ _Accessibility > Sound & Name Recognition_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=SOUND_AND_NAME_RECOGNITION_TITLE
 ~~~
-_Accessibility > Sound & Name Recognition > Sound Recognition_
-~~~yaml
-prefs:root=ACCESSIBILITY&path=SOUND_AND_NAME_RECOGNITION_TITLE/SOUND_RECOGNITION
-~~~
 _Accessibility > RTT/TTY_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=RTT
-~~~
-_Accessibility > RTT/TTY > Software RTT/TTY (swtich)_
-~~~yaml
-prefs:root=ACCESSIBILITY&path=RTT/SW_TTY
-~~~
-_Accessibility > RTT/TTY > Hardware TTY (switch)_
-~~~yaml
-prefs:root=ACCESSIBILITY&path=RTT/HW_TTY
 ~~~
 _Accessibility > Audio & Visual_
 ~~~yaml
