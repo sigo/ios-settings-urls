@@ -149,7 +149,8 @@ prefs:root=Bluetooth
 ~~~
 _Bluetooth > AirPods >_ &#9432;
 \
-&emsp;_<sub>see `AirPods´ above</sub>_
+\
+&ensp;&ensp;<sup>see `AirPods´ above</sup>
 \
 \
 \
@@ -611,6 +612,54 @@ prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/DoubleTap
 _Accessibility > Touch > Back Tap > Triple Tap_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/TripleTap
+~~~
+_Accessibility > Voice Control_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=CommandAndControlTitle
+~~~
+_Accessibility > Eye Tracking_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking
+~~~
+_Accessibility > Head Tracking_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=AST_HEAD_TRACKING
+~~~
+_Accessibility > Home Button_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE
+~~~
+_Accessibility > Control Nearby Devices_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=CONTROL_NEARBY_DEVICES
+~~~
+_Accessibility > Hearing Devices_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE
+~~~
+_Accessibility > Hearing Control Center_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=HEARING_CONTROL_CENTER
+~~~
+_Accessibility > Sound & Name Recognition_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=SOUND_AND_NAME_RECOGNITION_TITLE
+~~~
+_Accessibility > Sound & Name Recognition > Sound Recognition_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=SOUND_AND_NAME_RECOGNITION_TITLE/SOUND_RECOGNITION
+~~~
+_Accessibility > RTT/TTY_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=RTT
+~~~
+_Accessibility > RTT/TTY > Software RTT/TTY (swtich)_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=RTT/SW_TTY
+~~~
+_Accessibility > RTT/TTY > Hardware TTY (switch)_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=RTT/HW_TTY
 ~~~
 _Accessibility > Audio & Visual_
 ~~~yaml
