@@ -150,7 +150,7 @@ prefs:root=Bluetooth
 _Bluetooth > AirPods >_ &#9432;
 \
 \
-&ensp;&ensp;<sup>see `AirPods´ above</sup>
+&ensp;&ensp;_<sup>see `AirPods´ above</sup>_
 \
 \
 \
