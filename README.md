@@ -393,6 +393,18 @@ _Accessibility_
 ~~~yaml
 prefs:root=ACCESSIBILITY
 ~~~
+_Accessibility > VoiceOver_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE
+~~~
+_Accessibility > Zoom_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=ZOOM_TITLE
+~~~
+_Accessibility > Hover Text_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE
+~~~
 _Accessibility > Display & Text Size_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT
@@ -757,6 +769,10 @@ _Accessibility > Subtitles & Captioning > Show on Skip Back (switch)_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING/SHOW_ON_SKIP_BACK
 ~~~
+_Accessibility > Live Captions_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION
+~~~
 _Accessibility > Live Speech_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=LIVE_SPEECH_TITLE
@@ -768,6 +784,22 @@ prefs:root=ACCESSIBILITY&path=LIVE_SPEECH_TITLE/PHRASES
 _Accessibility > Live Speech > Phrases > + (button)_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=LIVE_SPEECH_TITLE/PHRASES#CREATE_CUSTOM_CATEGORY
+~~~
+_Accessibility > Personal Voice_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=PERSONAL_VOICE_TITLE
+~~~
+_Accessibility > Vocal Shortcuts_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=ADAPTIVE_VOICE_SHORTCUTS_TITLE
+~~~
+_Accessibility > Keyboards & Typing_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=KEYBOARDS
+~~~
+_Accessibility > Apple TV Remote_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE
 ~~~
 _Accessibility > AirPods_
 ~~~yaml
@@ -804,6 +836,10 @@ prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessEnableAXFeatures
 _Accessibility > Guided Access > Display Auto-Lock_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessAutoLockTime#GuidedAccessAutoLockTime
+~~~
+_Accessibility > Assistive Access_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE
 ~~~
 _Accessibility > Accessibility Shortcut_
 ~~~yaml
