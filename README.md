@@ -1005,9 +1005,17 @@ _Sounds & Haptics_
 ~~~yaml
 prefs:root=Sounds
 ~~~
-_Sounds & Haptics > Haptics_
+_Sounds & Haptics > Microphone (button)_
 ~~~yaml
-prefs:root=Sounds&path=HAPTICS
+prefs:root=Sounds#MICROPHONE
+~~~
+_Sounds & Haptics > Change with Buttons (switch)_
+~~~yaml
+prefs:root=Sounds#CHANGE_WITH_BUTTONS
+~~~
+_Sounds & Haptics > Haptics (button)_
+~~~yaml
+prefs:root=Sounds#HAPTICS
 ~~~
 _Sounds & Haptics > Ringtone_
 ~~~yaml
@@ -1040,6 +1048,10 @@ prefs:root=Sounds&path=DEFAULT_ALERTS
 _Sounds & Haptics > Keyboard Feedback_
 ~~~yaml
 prefs:root=Sounds&path=KEYBOARD_FEEDBACK
+~~~
+_Sounds & Haptics > Lock Sound_
+~~~yaml
+prefs:root=Sounds#LOCK_SOUND_SWITCH
 ~~~
 _Sounds & Haptics > Built-In Speaker > Volume Limit_
 ~~~yaml
