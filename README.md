@@ -1293,6 +1293,10 @@ _Apps > {app bundle identifier}_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/bundle_identifier
 ~~~
+_Apps > AirPort Utility_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.airport.mobileairportutility
+~~~
 _Apps > App Store_
 ~~~yaml
 prefs:root=STORE
