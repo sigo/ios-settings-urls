@@ -1289,10 +1289,6 @@ _Apps > Artists_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.artistconnect
 ~~~
-_Apps > Beats Pill⁺_
-~~~yaml
-settings-navigation://com.apple.Settings.Apps/com.apple.bnd
-~~~
 _Apps > Books_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.iBooks
@@ -1348,10 +1344,6 @@ prefs:root=CALENDAR&path=startWeekOn
 _Apps > Calendar > Default Calendar_
 ~~~yaml
 prefs:root=CALENDAR&path=defaultCalendar
-~~~
-_Apps > Classical_
-~~~yaml
-settings-navigation://com.apple.Settings.Apps/com.apple.music.classical
 ~~~
 _Apps > Clock_
 ~~~yaml
@@ -1444,10 +1436,6 @@ settings-navigation://com.apple.Settings.Apps/com.apple.mobilegarageband
 _Apps > Home_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.Home
-~~~
-_Apps > Hold'em_
-~~~yaml
-settings-navigation://com.apple.Settings.Apps/com.apple.Holdem
 ~~~
 _Apps > iMovie_
 ~~~yaml
@@ -1549,10 +1537,6 @@ _Apps > Preview_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.Preview
 ~~~
-_Apps > Reality Composer_
-~~~yaml
-settings-navigation://com.apple.Settings.Apps/com.apple.RealityComposer
-~~~
 _Apps > Remote_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.Remote
@@ -1560,38 +1544,6 @@ settings-navigation://com.apple.Settings.Apps/com.apple.Remote
 _Apps > Reminders_
 ~~~yaml
 prefs:root=REMINDERS
-~~~
-_Apps > Shazam_
-~~~yaml
-settings-navigation://com.apple.Settings.Apps/com.shazam.Shazam
-~~~
-_Apps > Shortcuts_
-~~~yaml
-prefs:root=SHORTCUTS
-~~~
-_Apps > Stocks_
-~~~yaml
-settings-navigation://com.apple.Settings.Apps/com.apple.stocks
-~~~
-_Apps > Support_
-~~~yaml
-settings-navigation://com.apple.Settings.Apps/com.apple.supportapp
-~~~
-_Apps > TestFlight_
-~~~yaml
-settings-navigation://com.apple.Settings.Apps/com.apple.TestFlight
-~~~
-_Apps > Translate_
-~~~yaml
-prefs:root=TRANSLATE
-~~~
-_Apps > Translate > On-Device Mode_
-~~~yaml
-prefs:root=TRANSLATE#OnDeviceOnly
-~~~
-_Apps > Weather_
-~~~yaml
-prefs:root=WEATHER
 ~~~
 _Apps > Safari > Default Browser App (button)_
 ~~~yaml
@@ -1692,17 +1644,33 @@ _Apps > Safari > Advanced > Website Data_
 ~~~yaml
 prefs:root=SAFARI&path=ADVANCED/REMOVE_WEBSITE_DATA
 ~~~
-_Apps > Stocks_
+_Apps > Shazam_
 ~~~yaml
-settings-navigation://com.apple.Settings.Apps/com.apple.stocks
+settings-navigation://com.apple.Settings.Apps/com.shazam.Shazam
+~~~
+_Apps > Shortcuts_
+~~~yaml
+prefs:root=SHORTCUTS
+~~~
+_Apps > Support_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.supportapp
+~~~
+_Apps > TestFlight_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.TestFlight
 ~~~
 _Apps > Tips_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.tips
 ~~~
-_Apps > TV_
+_Apps > Translate_
 ~~~yaml
-settings-navigation://com.apple.Settings.Apps/com.apple.tv
+prefs:root=TRANSLATE
+~~~
+_Apps > Translate > On-Device Mode_
+~~~yaml
+prefs:root=TRANSLATE#OnDeviceOnly
 ~~~
 _Apps > Voice Memos_
 ~~~yaml
@@ -1714,7 +1682,7 @@ settings-navigation://com.apple.Settings.Apps/com.apple.Bridge
 ~~~
 _Apps > Weather_
 ~~~yaml
-settings-navigation://com.apple.Settings.Apps/com.apple.weather
+prefs:root=WEATHER
 ~~~
 _Apps > Hidden Apps_
 ~~~yaml
