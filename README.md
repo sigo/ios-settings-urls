@@ -1309,7 +1309,7 @@ _Apps > Artists_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.artistconnect
 ~~~
-_Apps > Beats Pill*_
+_Apps > Beats Pill⁺_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.bnd
 ~~~
@@ -1723,6 +1723,10 @@ prefs:root=SAFARI&path=ADVANCED/REMOVE_WEBSITE_DATA
 _Apps > Stocks_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.stocks
+~~~
+_Apps > Tips_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.tips
 ~~~
 _Apps > TV_
 ~~~yaml
