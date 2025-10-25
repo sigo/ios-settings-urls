@@ -95,14 +95,6 @@ _Apple Account > iCloud > Advanced Data Protection_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/ICLOUD_ADP_SPECIFIER_NAME
 ~~~
-_Apple Account > Family Set Up_
-~~~yaml
-prefs:root=APPLE_ACCOUNT&aaaction=setupFamily
-~~~
-_Apple Account > Find My_
-~~~yaml
-prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING
-~~~
 _Apple Account > Media & Purchases_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=STORE_SERVICE
@@ -247,10 +239,6 @@ _General > Screen Capture_
 ~~~yaml
 prefs:root=General&path=SCREEN_CAPTURE
 ~~~
-_General > CarPlay_
-~~~yaml
-prefs:root=General&path=CARPLAY
-~~~
 _General > Matter Accessories_
 ~~~yaml
 prefs:root=General&path=MATTER_ACCESSORIES
@@ -350,10 +338,6 @@ settings-navigation://com.apple.Settings.General/INTERNATIONAL#LIVE_TEXT_CELL
 _General > Trackpad & Mouse_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/POINTERS
-~~~
-_General > TV Provider_
-~~~yaml
-settings-navigation://com.apple.Settings.General/TV_PROVIDER
 ~~~
 _General > VPN & Device Management_
 ~~~yaml
@@ -788,10 +772,6 @@ prefs:root=ACCESSIBILITY&path=ADAPTIVE_VOICE_SHORTCUTS_TITLE
 _Accessibility > Keyboards & Typing_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=KEYBOARDS
-~~~
-_Accessibility > Apple TV Remote_
-~~~yaml
-prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE
 ~~~
 _Accessibility > AirPods_
 ~~~yaml
@@ -1405,10 +1385,6 @@ _Apps > Final Cut Camera_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.FinalCutApp.companion
 ~~~
-_Apps > Find My_
-~~~yaml
-settings-navigation://com.apple.Settings.Apps/com.apple.findmy
-~~~
 _Apps > Freeform_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.freeform
@@ -1516,10 +1492,6 @@ settings-navigation://com.apple.Settings.Apps/com.apple.podcasts
 _Apps > Preview_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.Preview
-~~~
-_Apps > Remote_
-~~~yaml
-settings-navigation://com.apple.Settings.Apps/com.apple.Remote
 ~~~
 _Apps > Reminders_
 ~~~yaml
