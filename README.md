@@ -1285,10 +1285,6 @@ _Apps > Apple Store_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.store.Jolly
 ~~~
-_Apps > Artists_
-~~~yaml
-settings-navigation://com.apple.Settings.Apps/com.apple.artistconnect
-~~~
 _Apps > Books_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.iBooks
@@ -1361,10 +1357,6 @@ _Apps > Configurator_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.ios.configurator
 ~~~
-_Apps > Connect_
-~~~yaml
-settings-navigation://com.apple.Settings.Apps/com.apple.AppStoreConnect
-~~~
 _Apps > Contacts_
 ~~~yaml
 prefs:root=CONTACTS
@@ -1400,10 +1392,6 @@ prefs:root=CONTACTS#SIMImport
 _Apps > Developer_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/developer.apple.wwdc-Release
-~~~
-_Apps > Essentials_
-~~~yaml
-settings-navigation://com.apple.Settings.Apps/com.apple.business-essentials
 ~~~
 _Apps > FaceTime_
 ~~~yaml
@@ -1473,17 +1461,9 @@ _Apps > Measure_
 ~~~yaml
 prefs:root=MEASURE
 ~~~
-_Apps > Media Review_
-~~~yaml
-settings-navigation://com.apple.Settings.Apps/com.apple.applemediaroom
-~~~
 _Apps > Messages_
 ~~~yaml
 prefs:root=MESSAGES
-~~~
-_Apps > Music_
-~~~yaml
-prefs:root=MUSIC
 ~~~
 _Apps > Notes_
 ~~~yaml
@@ -1643,10 +1623,6 @@ prefs:root=SAFARI&path=ADVANCED
 _Apps > Safari > Advanced > Website Data_
 ~~~yaml
 prefs:root=SAFARI&path=ADVANCED/REMOVE_WEBSITE_DATA
-~~~
-_Apps > Shazam_
-~~~yaml
-settings-navigation://com.apple.Settings.Apps/com.shazam.Shazam
 ~~~
 _Apps > Shortcuts_
 ~~~yaml
