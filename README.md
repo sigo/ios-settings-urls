@@ -1609,6 +1609,10 @@ _Apps > Support_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.supportapp
 ~~~
+_Apps > TestFlight_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.TestFlight
+~~~
 _Apps > Translate_
 ~~~yaml
 prefs:root=TRANSLATE
