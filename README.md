@@ -1143,10 +1143,6 @@ _Privacy & Security > Home Accessories_
 ~~~yaml
 prefs:root=Privacy&path=WILLOW
 ~~~
-_Privacy & Security > Media & Apple Music_
-~~~yaml
-prefs:root=Privacy&path=MEDIALIBRARY
-~~~
 _Privacy & Security > Passkeys Access for Web Browsers_
 ~~~yaml
 prefs:root=Privacy&path=PASSKEYS
