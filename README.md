@@ -75,10 +75,6 @@ _Apple Account > iCloud > Saved to iCloud > iCloud Calendar_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars
 ~~~
-_Apple Account > iCloud > Saved to iCloud > Health_
-~~~yaml
-prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health
-~~~
 _Apple Account > iCloud > Backup_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP
@@ -238,10 +234,6 @@ prefs:root=General&path=STORAGE_MGMT
 _General > AppleCare & Warranty_
 ~~~yaml
 prefs:root=General&path=COVERAGE
-~~~
-_General > Health Data_
-~~~yaml
-prefs:root=General&path=HEALTH_DATA
 ~~~
 _General > AirDrop_
 ~~~yaml
@@ -1137,10 +1129,6 @@ _Emergency SOS_
 ~~~yaml
 prefs:root=EMERGENCY_SOS
 ~~~
-_Emergency SOS > Set up Emergency Contacts in Health (button)_
-~~~yaml
-prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS
-~~~
 \
 \
 _Privacy & Security_
@@ -1170,10 +1158,6 @@ prefs:root=Privacy&path=CALENDARS
 _Privacy & Security > Contacts_
 ~~~yaml
 prefs:root=Privacy&path=CONTACTS
-~~~
-_Privacy & Security > Health Data_
-~~~yaml
-prefs:root=Privacy&path=HEALTH_DATA
 ~~~
 _Privacy & Security > Home Accessories_
 ~~~yaml
@@ -1214,10 +1198,6 @@ prefs:root=Privacy&path=LOCAL_NETWORK
 _Privacy & Security > Microphone_
 ~~~yaml
 prefs:root=Privacy&path=MICROPHONE
-~~~
-_Privacy & Security > Motion & Fitness_
-~~~yaml
-prefs:root=Privacy&path=MOTION
 ~~~
 _Privacy & Security > Nearby Interactions_
 ~~~yaml
@@ -1437,14 +1417,6 @@ _Apps > FaceTime_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.facetime
 ~~~
-_Apps > Fitness_
-~~~yaml
-settings-navigation://com.apple.Settings.Apps/com.apple.Fitness
-~~~
-_Apps > Fitness > Workout_
-~~~yaml
-settings-navigation://com.apple.Settings.Apps/com.apple.Fitness/workout-controls
-~~~
 _Apps > Files_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.DocumentsApp
@@ -1468,10 +1440,6 @@ settings-navigation://com.apple.Settings.Apps/com.apple.games
 _Apps > GarageBand_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilegarageband
-~~~
-_Apps > Health_
-~~~yaml
-settings-navigation://com.apple.Settings.Apps/com.apple.Health
 ~~~
 _Apps > Home_
 ~~~yaml
