@@ -137,8 +137,8 @@ prefs:root=Bluetooth
 ~~~
 _Bluetooth > AirPods &#x24d8;_
 \
-&ensp;&ensp;<sub>see `AirPods´ above</sub>
 \
+&emsp;see `AirPods´ above
 \
 \
 \
