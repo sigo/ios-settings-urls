@@ -11,31 +11,31 @@ _Apple Account_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT
 ~~~
-_Apple Account > Personal Information <sub>(may take a while to load)</sub>_
+_Apple Account > Personal Information_ <sub>(may take a while to load)</sub>
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT
 ~~~
-_Apple Account > Sign-In & Security <sub>(may take a while to load)</sub>_
+_Apple Account > Sign-In & Security_ <sub>(may take a while to load)</sub>
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY
 ~~~
-_Apple Account > Sign-In & Security > Change Password <sub>(may take a while to load)</sub>_
+_Apple Account > Sign-In & Security > Change Password_ <sub>(may take a while to load)</sub>
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&aaaction=changePassword
 ~~~
-_Apple Account > Sign-In & Security > Recovery Contacts <sub>(may take a while to load)</sub>_
+_Apple Account > Sign-In & Security > Recovery Contacts_ <sub>(may take a while to load)</sub>
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&aaaction=accountRecovery
 ~~~
-_Apple Account > Sign-In & Security > Legacy Contact <sub>(may take a while to load)</sub>_
+_Apple Account > Sign-In & Security > Legacy Contact_ <sub>(may take a while to load)</sub>
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&aaaction=accountBeneficiary
 ~~~
-_Apple Account > Payment & Shipping <sub>(may take a while to load)</sub>_
+_Apple Account > Payment & Shipping_ <sub>(may take a while to load)</sub>
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING
 ~~~
-_Apple Account > Subscriptions <sub>(may take a while to load)</sub>_
+_Apple Account > Subscriptions_ <sub>(may take a while to load)</sub>
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS
 ~~~
@@ -87,7 +87,7 @@ _Apple Account > iCloud > Private Relay_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/INTERNET_PRIVACY
 ~~~
-_Apple Account > iCloud > Hide My Email <sub>(may take a while to load)</sub>_
+_Apple Account > iCloud > Hide My Email_ <sub>(may take a while to load)</sub>
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE
 ~~~
@@ -109,13 +109,13 @@ prefs:root=APPLE_ACCOUNT&path=TRANSPARENCY
 ~~~
 \
 \
-_AirPods <sub>(replace `00:00:00:00:00:00` with the AirPods' MAC address – not possible to find on iOS, but can be found with e.g. `system_profiler SPBluetoothDataType` on a Mac)</sub>_
+_AirPods_ <sub>(replace `00:00:00:00:00:00` with the AirPods' MAC address – not possible to find on iOS, but can be found with e.g. `system_profiler SPBluetoothDataType` on a Mac)</sub>
 ~~~yaml
 settings-navigation://com.apple.Settings.Bluetooth/HeadphoneDetail/?identifier=00:00:00:00:00:00
 ~~~
 \
 \
-_Airplane Mode (switch) <sub>(centers it on the screen, but doesn't highlight it)</sub>_
+_Airplane Mode (switch)_ <sub>(centers it on the screen, but doesn't highlight it)</sub>
 ~~~yaml
 prefs:root=ROOT#AIRPLANE_MODE
 ~~~
@@ -125,7 +125,7 @@ _Wi-Fi_
 ~~~yaml
 prefs:root=WIFI
 ~~~
-_Wi-Fi > {current network} >_ &#9432;
+_Wi-Fi > {current network} &#x24d8;_
 ~~~yaml
 prefs:root=WIFI&path=NetworkDetails
 ~~~
@@ -135,10 +135,9 @@ _Bluetooth_
 ~~~yaml
 prefs:root=Bluetooth
 ~~~
-_Bluetooth > AirPods >_ &#9432;
+_Bluetooth > AirPods &#x24d8;_
 \
-\
-&ensp;&ensp;_<sup>see `AirPods´ above</sup>_
+&ensp;&ensp;<sub>see `AirPods´ above</sub>
 \
 \
 \
@@ -167,11 +166,11 @@ _Battery_
 ~~~yaml
 prefs:root=BATTERY_USAGE
 ~~~
-_Battery > Battery Health & Charging <sup>(device-dependant)</sup>_
+_Battery > Battery Health & Charging_ <sup>(device-dependant)</sup>
 ~~~yaml
 prefs:root=BATTERY_USAGE&path=BATTERY_HEALTH_TITLE
 ~~~
-_Battery > Charging Options <sup>(device-dependant)</sup>_
+_Battery > Charging Options_ <sup>(device-dependant)</sup>
 ~~~yaml
 prefs:root=BATTERY_USAGE&path=CHARGING_OPTIONS_IDENTIFIER
 ~~~
@@ -185,7 +184,7 @@ prefs:root=BATTERY_USAGE#LOW_POWER_MODE_IDENTIFIER
 ~~~
 \
 \
-_VPN (switch) <sub>(centers it on the screen, but doesn't highlight it)</sub>_
+_VPN (switch)_ <sub>(centers it on the screen, but doesn't highlight it)</sub>
 ~~~yaml
 prefs:root=ROOT#VPN
 ~~~
@@ -821,7 +820,7 @@ _Accessibility > Per-App Settings_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE
 ~~~
-_Accessibility > Per-App Settings > {app bundle identifier} <sup>(as long as you have added the app there, otherwise goes to the parent page)</sup>_
+_Accessibility > Per-App Settings > {app bundle identifier}_ <sup>(as long as you have added the app there, otherwise goes to the parent page)</sup>
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE/bundle_identifier
 ~~~
@@ -1225,7 +1224,7 @@ prefs:root=Privacy&path=LOCKDOWN_MODE
 ~~~
 \
 \
-_iCloud <sup>(see also `Apple Account > iCloud´)</sup>_
+_iCloud_ <sup>(see also `Apple Account > iCloud´)</sup>
 ~~~yaml
 settings-navigation://com.apple.Settings.iCloud
 ~~~
@@ -1541,7 +1540,7 @@ _Apps > Safari > Downloads_
 ~~~yaml
 prefs:root=SAFARI&path=DOWNLOADS
 ~~~
-_Apps > Safari > Open Links > New Tab <sub>(switches to the new tab)</sub> or In Background <sub>(doesn't leave the current tab)</sub>_
+_Apps > Safari > Open Links > New Tab_ <sub>(switches to the new tab)</sub> or _In Background_ <sub>(doesn't leave the current tab)</sub>
 
 &ensp;&ensp;<sub>_iPhone:_</sub>
 ~~~yaml
