@@ -109,7 +109,7 @@ prefs:root=APPLE_ACCOUNT&path=TRANSPARENCY
 ~~~
 \
 \
-_AirPods_ <sub>(replace `00:00:00:00:00:00` with the AirPods' MAC address – not possible to find on iOS, but can be found with e.g. `system_profiler SPBluetoothDataType` on a Mac)</sub>
+_AirPods_ – use the MAC address of the AirPods as identifier (can be found with e.g. `system_profiler SPBluetoothDataType` on a Mac)
 ~~~yaml
 settings-navigation://com.apple.Settings.Bluetooth/HeadphoneDetail/?identifier=00:00:00:00:00:00
 ~~~
