@@ -138,7 +138,8 @@ prefs:root=Bluetooth
 _Bluetooth > AirPods &#x24d8;_
 \
 \
-&emsp;see `AirPods´ above
+&emsp;see _AirPods_
+\
 \
 \
 \
@@ -1224,7 +1225,7 @@ prefs:root=Privacy&path=LOCKDOWN_MODE
 ~~~
 \
 \
-_iCloud_ <sup>(see also `Apple Account > iCloud´)</sup>
+_iCloud_ <sup>(see also _Apple Account > iCloud_)</sup>
 ~~~yaml
 settings-navigation://com.apple.Settings.iCloud
 ~~~
