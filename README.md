@@ -11,31 +11,31 @@ _Apple Account_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT
 ~~~
-_Apple Account > Personal Information_ <sub>(may take a while to load)</sub>
+_Apple Account > Personal Information_ <sub>[delay]</sub>
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT
 ~~~
-_Apple Account > Sign-In & Security_ <sub>(may take a while to load)</sub>
+_Apple Account > Sign-In & Security_ <sub>[delay]</sub>
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY
 ~~~
-_Apple Account > Sign-In & Security > Change Password_ <sub>(may take a while to load)</sub>
+_Apple Account > Sign-In & Security > Change Password_ <sub>[delay]</sub>
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&aaaction=changePassword
 ~~~
-_Apple Account > Sign-In & Security > Recovery Contacts_ <sub>(may take a while to load)</sub>
+_Apple Account > Sign-In & Security > Recovery Contacts_ <sub>[delay]</sub>
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&aaaction=accountRecovery
 ~~~
-_Apple Account > Sign-In & Security > Legacy Contact_ <sub>(may take a while to load)</sub>
+_Apple Account > Sign-In & Security > Legacy Contact_ <sub>[delay]</sub>
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&aaaction=accountBeneficiary
 ~~~
-_Apple Account > Payment & Shipping_ <sub>(may take a while to load)</sub>
+_Apple Account > Payment & Shipping_ <sub>[delay]</sub>
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING
 ~~~
-_Apple Account > Subscriptions_ <sub>(may take a while to load)</sub>
+_Apple Account > Subscriptions_ <sub>[delay]</sub>
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS
 ~~~
@@ -87,7 +87,7 @@ _Apple Account > iCloud > Private Relay_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/INTERNET_PRIVACY
 ~~~
-_Apple Account > iCloud > Hide My Email_ <sub>(may take a while to load)</sub>
+_Apple Account > iCloud > Hide My Email_ <sub>[delay]</sub>
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE
 ~~~
@@ -109,13 +109,13 @@ prefs:root=APPLE_ACCOUNT&path=TRANSPARENCY
 ~~~
 \
 \
-_AirPods_ – use the MAC address of the AirPods as identifier (can be found with e.g. `system_profiler SPBluetoothDataType` on a Mac)
+_AirPods_ <sub>[use the MAC address of the AirPods as identifier – can be found with e.g. `system_profiler SPBluetoothDataType` on a Mac]</sub>
 ~~~yaml
 settings-navigation://com.apple.Settings.Bluetooth/HeadphoneDetail/?identifier=00:00:00:00:00:00
 ~~~
 \
 \
-_Airplane Mode (switch)_ <sub>(centers it on the screen, but doesn't highlight it)</sub>
+_Airplane Mode (switch)_ <sub>[centers it on the screen, but doesn't highlight it]</sub>
 ~~~yaml
 prefs:root=ROOT#AIRPLANE_MODE
 ~~~
@@ -167,11 +167,11 @@ _Battery_
 ~~~yaml
 prefs:root=BATTERY_USAGE
 ~~~
-_Battery > Battery Health & Charging_ <sup>(device-dependant)</sup>
+_Battery > Battery Health & Charging_ <sub>[device dependant]</sub>
 ~~~yaml
 prefs:root=BATTERY_USAGE&path=BATTERY_HEALTH_TITLE
 ~~~
-_Battery > Charging Options_ <sup>(device-dependant)</sup>
+_Battery > Charging Options_ <sub>[device dependant]</sub>
 ~~~yaml
 prefs:root=BATTERY_USAGE&path=CHARGING_OPTIONS_IDENTIFIER
 ~~~
@@ -185,7 +185,7 @@ prefs:root=BATTERY_USAGE#LOW_POWER_MODE_IDENTIFIER
 ~~~
 \
 \
-_VPN (switch)_ <sub>(centers it on the screen, but doesn't highlight it)</sub>
+_VPN (switch)_ <sub>[centers it on the screen, but doesn't highlight it]</sub>
 ~~~yaml
 prefs:root=ROOT#VPN
 ~~~
@@ -821,7 +821,7 @@ _Accessibility > Per-App Settings_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE
 ~~~
-_Accessibility > Per-App Settings > {app bundle identifier}_ <sup>(as long as you have added the app there, otherwise goes to the parent page)</sup>
+_Accessibility > Per-App Settings > {app bundle identifier}_ <sub>[as long as you have added the app there, otherwise goes to the parent page]</sub>
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE/bundle_identifier
 ~~~
@@ -1541,7 +1541,7 @@ _Apps > Safari > Downloads_
 ~~~yaml
 prefs:root=SAFARI&path=DOWNLOADS
 ~~~
-_Apps > Safari > Open Links > New Tab_ <sub>(switches to the new tab)</sub> or _In Background_ <sub>(doesn't leave the current tab)</sub>
+_Apps > Safari > Open Links > New Tab_ <sub>[switches to the new tab]</sub> or _In Background_ <sub>[doesn't leave the current tab]</sub>
 
 &ensp;&ensp;<sub>_iPhone:_</sub>
 ~~~yaml
