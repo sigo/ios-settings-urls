@@ -11,31 +11,31 @@ _Apple Account_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT
 ~~~
-_Apple Account > Personal Information_ <sub>[delay]</sub>
+_Apple Account > Personal Information_ <sub>[slight delay]</sub>
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT
 ~~~
-_Apple Account > Sign-In & Security_ <sub>[delay]</sub>
+_Apple Account > Sign-In & Security_ <sub>[slight delay]</sub>
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY
 ~~~
-_Apple Account > Sign-In & Security > Change Password_ <sub>[delay]</sub>
+_Apple Account > Sign-In & Security > Change Password_ <sub>[slight delay]</sub>
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&aaaction=changePassword
 ~~~
-_Apple Account > Sign-In & Security > Recovery Contacts_ <sub>[delay]</sub>
+_Apple Account > Sign-In & Security > Recovery Contacts_ <sub>[slight delay]</sub>
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&aaaction=accountRecovery
 ~~~
-_Apple Account > Sign-In & Security > Legacy Contact_ <sub>[delay]</sub>
+_Apple Account > Sign-In & Security > Legacy Contact_ <sub>[slight delay]</sub>
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&aaaction=accountBeneficiary
 ~~~
-_Apple Account > Payment & Shipping_ <sub>[delay]</sub>
+_Apple Account > Payment & Shipping_ <sub>[slight delay]</sub>
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING
 ~~~
-_Apple Account > Subscriptions_ <sub>[delay]</sub>
+_Apple Account > Subscriptions_ <sub>[slight delay]</sub>
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS
 ~~~
@@ -87,7 +87,7 @@ _Apple Account > iCloud > Private Relay_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/INTERNET_PRIVACY
 ~~~
-_Apple Account > iCloud > Hide My Email_ <sub>[delay]</sub>
+_Apple Account > iCloud > Hide My Email_ <sub>[slight delay]</sub>
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE
 ~~~
@@ -1225,7 +1225,7 @@ prefs:root=Privacy&path=LOCKDOWN_MODE
 ~~~
 \
 \
-_iCloud_ <sup>(see also _Apple Account > iCloud_)</sup>
+_iCloud_ <sub>[see also _Apple Account > iCloud_]</sub>
 ~~~yaml
 settings-navigation://com.apple.Settings.iCloud
 ~~~
