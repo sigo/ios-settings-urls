@@ -1449,11 +1449,11 @@ _Apps > Phone_
 ~~~yaml
 prefs:root=Phone
 ~~~
-_Apps > Phone > Incoming Calls_
+_Apps > Phone > Incoming Calls > (Banner or Full Screen)_
 ~~~yaml
 prefs:root=Phone&path=INCOMING_CALL_STYLE
 ~~~
-_Apps > Phone > Announce Calls_
+_Apps > Phone > Announce Calls > (Always, Headphones & Car, Headphones Only or Never)_
 ~~~yaml
 prefs:root=Phone&path=ANNOUNCE_CALLS
 ~~~
@@ -1553,7 +1553,7 @@ _Apps > Safari > Downloads_
 ~~~yaml
 prefs:root=SAFARI&path=DOWNLOADS
 ~~~
-_Apps > Safari > Open Links > New Tab_ <sub>[switches to the new tab]</sub> or _In Background_ <sub>[doesn't leave the current tab]</sub>
+_Apps > Safari > Open Links New Tab > (New Tab or In Background)_
 
 &ensp;&ensp;<sub>_iPhone:_</sub>
 ~~~yaml
