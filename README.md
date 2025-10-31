@@ -1449,6 +1449,14 @@ _Apps > Phone_
 ~~~yaml
 prefs:root=Phone
 ~~~
+_Apps > Phone > Incoming Calls_
+~~~yaml
+prefs:root=Phone&path=INCOMING_CALL_STYLE
+~~~
+_Apps > Phone > Announce Calls_
+~~~yaml
+prefs:root=Phone&path=ANNOUNCE_CALLS
+~~~
 _Apps > Phone > Wi-Fi Calling (switch)_
 ~~~yaml
 prefs:root=Phone#WIFI_CALLING_TELEPHONY_SETTINGS
@@ -1468,6 +1476,10 @@ prefs:root=Phone#CALLING_LINE_ID_RESTRICTION_TELEPHONY_SETTINGS
 _Apps > Phone > Unknown Callers (switch)_
 ~~~yaml
 prefs:root=Phone#FILTER_AS_NEW_CALLERS
+~~~
+_Apps > Phone > SMS/Call Reporting_
+~~~yaml
+prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING
 ~~~
 _Apps > Phone > Blocked Contacts_
 ~~~yaml
