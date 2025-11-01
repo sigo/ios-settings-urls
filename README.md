@@ -147,15 +147,11 @@ _Cellular_
 ~~~yaml
 prefs:root=MOBILE_DATA_SETTINGS_ID
 ~~~
-_Cellular > Cellular Data Options (button)_
-~~~yaml
-prefs:root=MOBILE_DATA_SETTINGS_ID#CELLULAR_DATA_OPTIONS
-~~~
-_Cellular > Cellular Data Options <sub>[includes a hidden “Data Mode“ button that's not present when you press the “Cellular Data Options” button]</sub>_
+_Cellular > Cellular Data Options_
 ~~~yaml
 prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS
 ~~~
-_Cellular > Cellular Data Options > Data Mode (menu) <sub>[hidden “Allow More Data on 5G” option]</sub>_
+_Cellular > Cellular Data Options > Data Mode_
 ~~~yaml
 prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS/DATA_MODE
 ~~~
