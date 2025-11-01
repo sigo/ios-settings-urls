@@ -11,31 +11,31 @@ _Apple Account_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT
 ~~~
-_Apple Account > Personal Information_ <sub>[some delay]</sub>
+_Apple Account > Personal Information <sub>[some delay]</sub>_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT
 ~~~
-_Apple Account > Sign-In & Security_ <sub>[some delay]</sub>
+_Apple Account > Sign-In & Security <sub>[some delay]</sub>_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY
 ~~~
-_Apple Account > Sign-In & Security > Change Password_ <sub>[some delay]</sub>
+_Apple Account > Sign-In & Security > Change Password <sub>[some delay]</sub>_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&aaaction=changePassword
 ~~~
-_Apple Account > Sign-In & Security > Recovery Contacts_ <sub>[some delay]</sub>
+_Apple Account > Sign-In & Security > Recovery Contacts <sub>[some delay]</sub>_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&aaaction=accountRecovery
 ~~~
-_Apple Account > Sign-In & Security > Legacy Contact_ <sub>[some delay]</sub>
+_Apple Account > Sign-In & Security > Legacy Contact <sub>[some delay]</sub>_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&aaaction=accountBeneficiary
 ~~~
-_Apple Account > Payment & Shipping_ <sub>[some delay]</sub>
+_Apple Account > Payment & Shipping <sub>[some delay]</sub>_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING
 ~~~
-_Apple Account > Subscriptions_ <sub>[some delay]</sub>
+_Apple Account > Subscriptions <sub>[some delay]</sub>_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS
 ~~~
@@ -87,7 +87,7 @@ _Apple Account > iCloud > Private Relay_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/INTERNET_PRIVACY
 ~~~
-_Apple Account > iCloud > Hide My Email_ <sub>[some delay]</sub>
+_Apple Account > iCloud > Hide My Email <sub>[some delay]</sub>_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE
 ~~~
@@ -109,13 +109,13 @@ prefs:root=APPLE_ACCOUNT&path=TRANSPARENCY
 ~~~
 \
 \
-_AirPods_ <sub>[use the MAC address of the AirPods as identifier – can be found with e.g. `system_profiler SPBluetoothDataType` on a Mac]</sub>
+_AirPods <sub>[use the MAC address of the AirPods as identifier – can be found with e.g. `system_profiler SPBluetoothDataType` on a Mac]</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.Bluetooth/HeadphoneDetail/?identifier=00:00:00:00:00:00
 ~~~
 \
 \
-_Airplane Mode (switch)_ <sub>[centers it on the screen, but doesn't highlight it]</sub>
+_Airplane Mode (switch) <sub>[centers it on the screen, but doesn't highlight it]</sub>_
 ~~~yaml
 prefs:root=ROOT#AIRPLANE_MODE
 ~~~
@@ -167,11 +167,11 @@ _Battery_
 ~~~yaml
 prefs:root=BATTERY_USAGE
 ~~~
-_Battery > Battery Health & Charging_ <sub>[device dependant]</sub>
+_Battery > Battery Health & Charging <sub>[device dependant]</sub>_
 ~~~yaml
 prefs:root=BATTERY_USAGE&path=BATTERY_HEALTH_TITLE
 ~~~
-_Battery > Charging Options_ <sub>[device dependant]</sub>
+_Battery > Charging Options <sub>[device dependant]</sub>_
 ~~~yaml
 prefs:root=BATTERY_USAGE&path=CHARGING_OPTIONS_IDENTIFIER
 ~~~
@@ -185,7 +185,7 @@ prefs:root=BATTERY_USAGE#LOW_POWER_MODE_IDENTIFIER
 ~~~
 \
 \
-_VPN (switch)_ <sub>[centers it on the screen, but doesn't highlight it]</sub>
+_VPN (switch) <sub>[centers it on the screen, but doesn't highlight it]</sub>_
 ~~~yaml
 prefs:root=ROOT#VPN
 ~~~
@@ -821,7 +821,7 @@ _Accessibility > Per-App Settings_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE
 ~~~
-_Accessibility > Per-App Settings > {app bundle identifier}_ <sub>[as long as you have added the app there, otherwise goes to the parent page]</sub>
+_Accessibility > Per-App Settings > {app bundle identifier} <sub>[as long as you have added the app there, otherwise goes to the parent page]</sub>_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE/bundle_identifier
 ~~~
@@ -1225,7 +1225,7 @@ prefs:root=Privacy&path=LOCKDOWN_MODE
 ~~~
 \
 \
-_iCloud_ <sub>[see also _Apple Account > iCloud_]</sub>
+_iCloud <sub>[see also _Apple Account > iCloud_]</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.iCloud
 ~~~
@@ -1449,11 +1449,11 @@ _Apps > Phone_
 ~~~yaml
 prefs:root=Phone
 ~~~
-_Apps > Phone > Incoming Calls > (Banner or Full Screen)_
+_Apps > Phone > Incoming Calls > [Banner/Full Screen]_
 ~~~yaml
 prefs:root=Phone&path=INCOMING_CALL_STYLE
 ~~~
-_Apps > Phone > Announce Calls > (Always, Headphones & Car, Headphones Only or Never)_
+_Apps > Phone > Announce Calls > [Always/Headphones & Car/Headphones Only/Never]_
 ~~~yaml
 prefs:root=Phone&path=ANNOUNCE_CALLS
 ~~~
@@ -1553,14 +1553,14 @@ _Apps > Safari > Downloads_
 ~~~yaml
 prefs:root=SAFARI&path=DOWNLOADS
 ~~~
-_Apps > Safari > Open Links New Tab > (New Tab or In Background)_
+_Apps > Safari > Open Links New Tab > [New Tab/In Background]_
 
-&ensp;&ensp;<sub>_iPhone:_</sub>
+&ensp;&ensp;<sub>_iPhone:_</sub>_
 ~~~yaml
 prefs:root=SAFARI&path=OPEN_LINKS_IN_BACKGROUND_IPHONE
 ~~~
 
-&ensp;&ensp;<sub>_iPad:_</sub>
+&ensp;&ensp;<sub>_iPad:_</sub>_
 ~~~yaml
 prefs:root=SAFARI&path=OPEN_LINKS_IN_BACKGROUND_IPAD
 ~~~
