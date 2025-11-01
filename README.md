@@ -155,6 +155,26 @@ _Cellular > Cellular Data > Show All > Cellular Data Usage_
 ~~~yaml
 prefs:root=MOBILE_DATA_SETTINGS_ID&path=SHOW_ALL
 ~~~
+_Cellular > Wi-Fi Assist (switch)_
+~~~yaml
+prefs:root=MOBILE_DATA_SETTINGS_ID#Wi-Fi%20Assist
+~~~
+_Cellular > iCloud Drive (switch)_
+~~~yaml
+prefs:root=MOBILE_DATA_SETTINGS_ID#iCloud%20Drive
+~~~
+_Cellular > iCloud Backup (switch)_
+~~~yaml
+prefs:root=MOBILE_DATA_SETTINGS_ID#iCloud%20Backup
+~~~
+_Cellular > Enable Cellular Usage Statistics (switch)_
+~~~yaml
+prefs:root=MOBILE_DATA_SETTINGS_ID#Enable%20Cellular%20Usage%20Statistics
+~~~
+_Cellular > Reset Statistics (button)_
+~~~yaml
+prefs:root=MOBILE_DATA_SETTINGS_ID#Reset%20Statistics
+~~~
 \
 \
 _Personal Hotspot_
