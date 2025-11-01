@@ -115,7 +115,7 @@ settings-navigation://com.apple.Settings.Bluetooth/HeadphoneDetail/?identifier=0
 ~~~
 \
 \
-_Airplane Mode (switch) <sub>[centers it on the screen, but doesn't highlight it]</sub>_
+_Airplane Mode (switch) <sub>[centers it onscreen without highlighting]</sub>_
 ~~~yaml
 prefs:root=ROOT#AIRPLANE_MODE
 ~~~
@@ -147,9 +147,17 @@ _Cellular_
 ~~~yaml
 prefs:root=MOBILE_DATA_SETTINGS_ID
 ~~~
-_Cellular > Cellular Data Options_
+_Cellular > Cellular Data Options (button)_
+~~~yaml
+prefs:root=MOBILE_DATA_SETTINGS_ID#CELLULAR_DATA_OPTIONS
+~~~
+_Cellular > Cellular Data Options <sub>[includes a hidden “Data Mode“ button that's not present when you press the “Cellular Data Options” button]</sub>_
 ~~~yaml
 prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS
+~~~
+_Cellular > Cellular Data Options > Data Mode (menu) <sub>[hidden “Allow More Data on 5G” option]</sub>_
+~~~yaml
+prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS/DATA_MODE
 ~~~
 _Cellular > Cellular Data > Show All > Cellular Data Usage_
 ~~~yaml
@@ -205,7 +213,7 @@ prefs:root=BATTERY_USAGE#LOW_POWER_MODE_IDENTIFIER
 ~~~
 \
 \
-_VPN (switch) <sub>[centers it on the screen, but doesn't highlight it]</sub>_
+_VPN (switch) <sub>[centers it onscreen without highlighting]</sub>_
 ~~~yaml
 prefs:root=ROOT#VPN
 ~~~
@@ -1245,7 +1253,7 @@ prefs:root=Privacy&path=LOCKDOWN_MODE
 ~~~
 \
 \
-_iCloud <sub>[see also _Apple Account > iCloud_]</sub>_
+_iCloud <sub>[see also: Apple Account > iCloud]</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.iCloud
 ~~~
