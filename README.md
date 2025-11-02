@@ -1125,6 +1125,54 @@ _Screen Time > Content & Privacy Restrictions_
 ~~~yaml
 prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY
 ~~~
+_Screen Time > Content & Privacy Restrictions > View Profiles_
+~~~yaml
+prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY/View%20Profiles
+~~~
+_Screen Time > Content & Privacy Restrictions > iTunes & App Store Purchases_
+~~~yaml
+prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY/PURCHASES
+~~~
+_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features_
+~~~yaml
+prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY/ALLOWED_APPS
+~~~
+_Screen Time > Content & Privacy Restrictions > App Store, Media, Web, & Games_
+~~~yaml
+prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY/CONTENT_RESTRICTIONS
+~~~
+_Screen Time > Content & Privacy Restrictions > Intelligence & Siri_
+~~~yaml
+prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY/SIRI_AND_INTELLIGENCE_RESTRICTIONS
+~~~
+_Screen Time > Content & Privacy Restrictions > Location Services_
+~~~yaml
+prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY/Location%20Services
+~~~
+_Screen Time > Content & Privacy Restrictions > Location Services > Location Services (switch)_
+~~~yaml
+prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY/Location%20Services/Location%20Services
+~~~
+_Screen Time > Content & Privacy Restrictions > Location Services > Location Alerts (button)_
+~~~yaml
+prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY/Location%20Services/LOCATION_SERVICES_MASTER
+~~~
+_Screen Time > Content & Privacy Restrictions > Location Services > Share My Location (button)_
+~~~yaml
+prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY/Location%20Services/LOCATION_SHARING
+~~~
+_Screen Time > Content & Privacy Restrictions > Location Services > App Clips (button)_
+~~~yaml
+prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY/Location%20Services/APP_CLIPS
+~~~
+_Screen Time > Content & Privacy Restrictions > Location Services > System Services (button)_
+~~~yaml
+prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY/Location%20Services/SYSTEM_SERVICES
+~~~
+_Screen Time > Content & Privacy Restrictions > Share My Location_
+~~~yaml
+prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY/Share%20My%20Location
+~~~
 _Screen Time > Lock Screen Time Settings (button)_
 ~~~yaml
 prefs:root=SCREEN_TIME#Lock%20Screen%20Time%20Settings
@@ -1167,7 +1215,15 @@ _Privacy & Security > Location Services_
 ~~~yaml
 prefs:root=Privacy&path=LOCATION
 ~~~
-_Privacy & Security > Location Service > App Clips_
+_Privacy & Security > Location Services > Location Alerts_
+~~~yaml
+prefs:root=Privacy&path=LOCATION/LOCATION_SERVICES_MASTER
+~~~
+_Privacy & Security > Location Services > Share My Location_
+~~~yaml
+prefs:root=Privacy&path=LOCATION/LOCATION_SHARING
+~~~
+_Privacy & Security > Location Services > App Clips_
 ~~~yaml
 prefs:root=Privacy&path=LOCATION/APP_CLIPS
 ~~~
