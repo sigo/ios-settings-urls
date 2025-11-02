@@ -1125,6 +1125,14 @@ _Screen Time > Content & Privacy Restrictions_
 ~~~yaml
 prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY
 ~~~
+_Screen Time > Lock Screen Time Settings (button)_
+~~~yaml
+prefs:root=SCREEN_TIME#Lock%20Screen%20Time%20Settings
+~~~
+_Screen Time > Share Across Devices (switch)_
+~~~yaml
+prefs:root=SCREEN_TIME#Share%20Across%20Devices
+~~~
 \
 \
 _Touch ID & Passcode_
