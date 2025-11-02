@@ -965,7 +965,23 @@ prefs:root=SIRI
 \
 _StandBy_
 ~~~yaml
-settings-navigation://com.apple.Settings.StandBy
+prefs:root=AMBIENT
+~~~
+_StandBy > StandBy (switch)_
+~~~yaml
+prefs:root=AMBIENT#AMBIENT_MODE_ENABLED
+~~~
+_StandBy > Night Mode (switch)_
+~~~yaml
+prefs:root=AMBIENT#BUMP_TO_WAKE_ENABLED
+~~~
+_StandBy > Show Notifications (switch)_
+~~~yaml
+prefs:root=AMBIENT#NOTIFICATIONS_ENABLED
+~~~
+_StandBy > Show Preview on Tap Only (switch)_
+~~~yaml
+prefs:root=AMBIENT#NOTIFICATIONS_PREVIEW
 ~~~
 \
 \
