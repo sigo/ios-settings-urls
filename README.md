@@ -883,10 +883,18 @@ _Camera > Preserve Settings_
 ~~~yaml
 prefs:root=CAMERA&path=CameraPreserveSettingsSwitch
 ~~~
+_Camera > Use Volume Up for Burst (switch)_
+~~~yaml
+prefs:root=CAMERA#VOLUME_UP_BURST
+~~~
 _Camera > Scan QR Codes (switch)_
 ~~~yaml
 prefs:root=CAMERA#CameraQRBannerSwitch
 ~~~~
+_Camera > Show Detected Text (swtich)_
+~~~yaml
+prefs:root=CAMERA#TEXT_ANALYSIS
+~~~
 _Camera > Composition – Grid (switch)_
 ~~~yaml
 prefs:root=CAMERA#CameraGridSwitch
@@ -894,6 +902,22 @@ prefs:root=CAMERA#CameraGridSwitch
 _Camera > Composition – Level (switch)_
 ~~~yaml
 prefs:root=CAMERA#CameraGridSwitch
+~~~
+_Camera > Mirror Front Camera (switch)_
+~~~yaml
+prefs:root=CAMERA#MIRROR
+~~~
+_Camera > Prioritize Faster Shooting (switch)_
+~~~yaml
+prefs:root=CAMERA#CAM_CAPTURE_DYNAMIC_SHUTTER_SWITCH
+~~~
+_Camera > Lock Screen Swipe to Open Camera (switch)_
+~~~yaml
+prefs:root=CAMERA#LOCK_SCREEN_SWIPE_SWITCH
+~~~
+_Camera > Messages – Save Captures to Photo Library (switch)_
+~~~yaml
+prefs:root=CAMERA#CAM_SAVE_MESSAGES_ASSETS_PHOTO_LIBRARY_SWITCH
 ~~~
 \
 \
@@ -1242,6 +1266,10 @@ prefs:root=Privacy&path=LOCATION/LOCATION_SHARING
 _Privacy & Security > Location Services > App Clips_
 ~~~yaml
 prefs:root=Privacy&path=LOCATION/APP_CLIPS
+~~~
+_Privacy & Security > Location Services > {app bundle identifier}_
+~~~yaml
+prefs:root=Privacy&path=LOCATION/bundle_identifier
 ~~~
 _Privacy & Security > Location Services > System Services_
 ~~~yaml
