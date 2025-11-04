@@ -417,7 +417,7 @@ _Accessibility > Display & Text Size > Larger Text_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/LARGER_TEXT
 ~~~
-_Accessibility > Display & Text Size > Button Shapes (switch)_
+_Accessibility > Display & Text Size > Show Borders (switch)_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/BUTTON_SHAPES
 ~~~
@@ -632,6 +632,10 @@ prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/DoubleTap
 _Accessibility > Touch > Back Tap > Triple Tap_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/TripleTap
+~~~
+_Accessibility > Touch  > Prefer Single-Touch Actions (switch)_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#Prefer%20Single-Touch%20Actions
 ~~~
 _Accessibility > Switch Control_
 ~~~yaml
@@ -911,6 +915,10 @@ _Display & Brightness > Appearance > Automatic (switch)_
 ~~~yaml
 prefs:root=DISPLAY#AUTOMATIC
 ~~~
+_Dispaly & Brightness > Liquid Glass_
+~~~yaml
+prefs:root=DISPLAY&path=LIQUID_GLASS
+~~~
 _Display & Brightness > Text Size_
 ~~~yaml
 prefs:root=DISPLAY&path=TEXT_SIZE
@@ -1041,6 +1049,10 @@ _Sounds & Haptics > New Voicemail_
 ~~~yaml
 prefs:root=Sounds&path=Voicemail
 ~~~
+_Sounds & Haptics > New Mail (button)_
+~~~yaml
+prefs:root=Sounds#NEW_MAIL
+~~~
 _Sounds & Haptics > Sent Mail_
 ~~~yaml
 prefs:root=Sounds&path=SENT_MAIL
@@ -1068,6 +1080,10 @@ prefs:root=Sounds#LOCK_SOUND_SWITCH
 _Sounds & Haptics > Built-In Speaker > Volume Limit_
 ~~~yaml
 prefs:root=Sounds&path=VOLUME_LIMIT
+~~~
+_Sounds & Haptics > Reduce Loud Sounds_
+~~~yaml
+prefs:root=Sounds#LATE_NIGHT_MODE_SWITCH
 ~~~
 _Sounds & Haptics > Headphone Safety_
 ~~~yaml
