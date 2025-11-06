@@ -115,7 +115,7 @@ settings-navigation://com.apple.Settings.Bluetooth/HeadphoneDetail/?identifier=0
 ~~~
 \
 \
-_Airplane Mode (switch) <sub>[centers it onscreen without highlighting]</sub>_
+_Airplane Mode (switch)_
 ~~~yaml
 prefs:root=ROOT#AIRPLANE_MODE
 ~~~
@@ -209,7 +209,7 @@ prefs:root=BATTERY_USAGE#LOW_POWER_MODE_IDENTIFIER
 ~~~
 \
 \
-_VPN (switch) <sub>[centers it onscreen without highlighting]</sub>_
+_VPN (switch)_
 ~~~yaml
 prefs:root=ROOT#VPN
 ~~~
@@ -911,6 +911,14 @@ _Camera > Mirror Front Camera (switch)_
 ~~~yaml
 prefs:root=CAMERA#MIRROR
 ~~~
+_Camera > Indicators_
+~~~yaml
+prefs:root=CAMERA&path=CameraIndicatorsSettingsList
+~~~
+_Camera > Photographic Styles (button)_
+~~~yaml
+prefs:root=CAMERA#PHOTOGRAPHIC_STYLES
+~~~
 _Camera > Prioritize Faster Shooting (switch)_
 ~~~yaml
 prefs:root=CAMERA#CAM_CAPTURE_DYNAMIC_SHUTTER_SWITCH
@@ -1601,11 +1609,11 @@ _Apps > Phone_
 ~~~yaml
 prefs:root=Phone
 ~~~
-_Apps > Phone > Incoming Calls > [Banner/Full Screen]_
+_Apps > Phone > Incoming Calls_
 ~~~yaml
 prefs:root=Phone&path=INCOMING_CALL_STYLE
 ~~~
-_Apps > Phone > Announce Calls > [Always/Headphones & Car/Headphones Only/Never]_
+_Apps > Phone > Announce Calls_
 ~~~yaml
 prefs:root=Phone&path=ANNOUNCE_CALLS
 ~~~
@@ -1624,6 +1632,10 @@ prefs:root=Phone#CALL_WAITING_TELEPHONY_SETTINGS
 _Apps > Phone > Show My Caller ID (switch)_
 ~~~yaml
 prefs:root=Phone#CALLING_LINE_ID_RESTRICTION_TELEPHONY_SETTINGS
+~~~
+_Apps > Phone > Haptics (switch)_
+~~~yaml
+prefs:root=Phone#CALL_HAPTICS
 ~~~
 _Apps > Phone > Unknown Callers (switch)_
 ~~~yaml
@@ -1705,7 +1717,7 @@ _Apps > Safari > Downloads_
 ~~~yaml
 prefs:root=SAFARI&path=DOWNLOADS
 ~~~
-_Apps > Safari > Open Links > [New Tab/In Background]_
+_Apps > Safari > Open Links_
 
 &ensp;&ensp;_<sub>iPhone:</sub>_
 ~~~yaml
