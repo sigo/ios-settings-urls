@@ -251,6 +251,10 @@ _General > AppleCare & Warranty_
 ~~~yaml
 prefs:root=General&path=COVERAGE
 ~~~
+_General > AirPlay & Continuity_
+~~~yaml
+prefs:root=General&path=CONTINUITY_SPEC
+~~~
 _General > AirDrop_
 ~~~yaml
 prefs:root=General&path=AIRDROP_LINK
