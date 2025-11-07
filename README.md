@@ -1681,6 +1681,71 @@ _Apps > Messages_
 ~~~yaml
 prefs:root=MESSAGES
 ~~~
+
+_Apps > Messages > Focus (switch)_
+~~~yaml
+prefs:root=MESSAGES#Focus
+~~~
+_Apps > Messages > Siri (button)_
+~~~yaml
+prefs:root=MESSAGES#SIRI
+~~~
+_Apps > Messages > Search (button)_
+~~~yaml
+prefs:root=MESSAGES#SEARCH
+~~~
+_Apps > Messages > Notifications (button)_
+~~~yaml
+prefs:root=MESSAGES#NOTIFICATIONS
+~~~
+_Apps > Messages > Sensitive Content Warning (button)_
+~~~yaml
+prefs:root=MESSAGES#NUDITY_DETECTION
+~~~
+_Apps > Messages > Send & Receive_
+~~~yaml
+prefs:root=MESSAGES&path=MADRID_ACCOUNTS_BUTTON
+~~~
+_Apps > Messages > Shared With You_
+~~~yaml
+prefs:root=MESSAGES&path=SHARED_WITH_YOU_BUTTON
+~~~
+_Apps > Messages > Screen Unknown Senders (switch)_
+~~~yaml
+prefs:root=MESSAGES#FILTER_NEW_SENDERS_SWITCH
+~~~
+_Apps > Messages > Show Contact Photo (switch)_
+~~~yaml
+prefs:root=MESSAGES#CONTACT_PHOTO_SWITCH
+~~~
+_Apps > Messages > Send Read Receipts (switch)_
+~~~yaml
+prefs:root=MESSAGES#READ_RECEIPTS_SWITCH
+~~~
+_Apps > Messages > Send as Text Message (switch)_
+~~~yaml
+prefs:root=MESSAGES#SEND_AS_SMS_SWITCH
+~~~
+_Apps > Messages > Show Subject Field (switch)_
+~~~yaml
+prefs:root=MESSAGES#SHOW_SUBJECT_FIELD_SWITCH
+~~~
+_Apps > Messages > Character Count (switch)_
+~~~yaml
+prefs:root=MESSAGES#CHARACTER_COUNT_SWITCH
+~~~
+_Apps > Messages > Messages > Mentions – Notify Me (switch)_
+~~~yaml
+prefs:root=MESSAGES#MENTIONS_NOTIFY_ME_ID
+~~~
+_Apps > Messages > Raise to Listen (switch)_
+~~~yaml
+prefs:root=MESSAGES#RAISE_TO_LISTEN_SWITCH
+~~~
+_Apps > Messages > Send Low Quality Photo Previews (switch)_
+~~~yaml
+prefs:root=MESSAGES#PREVIEW_TRANSCODING_SWITCH
+~~~
 _Apps > Notes_
 ~~~yaml
 prefs:root=NOTES
