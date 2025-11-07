@@ -1737,14 +1737,11 @@ _Apps > Safari > Downloads_
 ~~~yaml
 prefs:root=SAFARI&path=DOWNLOADS
 ~~~
-_Apps > Safari > Open Links_
-
-&ensp;&ensp;_<sub>iPhone:</sub>_
+_Apps > Safari > Open Links <sup>iPhone</sup>_
 ~~~yaml
 prefs:root=SAFARI&path=OPEN_LINKS_IN_BACKGROUND_IPHONE
 ~~~
-
-&ensp;&ensp;_<sub>iPad:</sub>_
+_Apps > Safari > Open Links <sup>iPad</sup>_
 ~~~yaml
 prefs:root=SAFARI&path=OPEN_LINKS_IN_BACKGROUND_IPAD
 ~~~
