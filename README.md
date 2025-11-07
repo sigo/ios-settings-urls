@@ -1123,9 +1123,17 @@ _Notifications > {app bundle identifier}_
 ~~~yaml
 prefs:root=NOTIFICATIONS_ID&path=bundle_identifier
 ~~~
+_Notifications > {app bundle identifier} > Banner Style_
+~~~yaml
+prefs:root=NOTIFICATIONS_ID&path=com.apple.MobileSMS/BANNER_STYLE_ID
+~~~
 _Notifications > {app bundle identifier} > Show Previews_
 ~~~yaml
 prefs:root=NOTIFICATIONS_ID&path=bundle_identifier/SHOW_PREVIEW_GROUP_ID
+~~~
+_Notifications > {app bundle identifier} > Notification Grouping_
+~~~yaml
+prefs:root=NOTIFICATIONS_ID&path=com.apple.MobileSMS/NOTIFICATION_GROUPING_APP_ID
 ~~~
 _Notifications > {app bundle identifier} > Customize Notifications_
 ~~~yaml
