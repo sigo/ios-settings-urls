@@ -1047,9 +1047,29 @@ _Notifications > Scheduled Summary_
 ~~~yaml
 prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID
 ~~~
+_Notifications > Show Previews_
+~~~yaml
+prefs:root=NOTIFICATIONS_ID&path=SHOW_PREVIEW_GROUP_ID
+~~~
+_Notifications > Screen Sharing_
+~~~yaml
+prefs:root=NOTIFICATIONS_ID&path=SCREENSHARING_ID
+~~~
+_Notifications > Announce Notifications (button)_
+~~~yaml
+prefs:root=NOTIFICATIONS_ID#SPOKEN_NOTIFICATIONS_ID
+~~~
+_Notifications > Siri Suggestions_
+~~~yaml
+prefs:root=NOTIFICATIONS_ID&path=SIRI_SUGGESTIONS_ID
+~~~
 _Notifications > {app bundle identifier}_
 ~~~yaml
 prefs:root=NOTIFICATIONS_ID&path=bundle_identifier
+~~~
+_Notifications > {app bundle identifier} > Show Previews_
+~~~yaml
+prefs:root=NOTIFICATIONS_ID&path=bundle_identifier/SHOW_PREVIEW_GROUP_ID
 ~~~
 _Notifications > {app bundle identifier} > Customize Notifications_
 ~~~yaml
