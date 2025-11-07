@@ -473,6 +473,10 @@ _Accessibility > Motion > Reduce Motion (switch)_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION
 ~~~
+_Accessibility > Motion > Prefer Cross-Fade Transitions (switch) <sub>[only available when Reduce Motion is enabled]</sub>_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=MOTION_TITLE/REDUCE_MOTION_REDUCE_SLIDE_ANIMATIONS
+~~~
 _Accessibility > Motion > Vehicle Motion Clues_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=MOTION_TITLE/MotionCues
@@ -856,6 +860,58 @@ prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE
 _Accessibility > Per-App Settings > {app bundle identifier} <sub>[as long as you have added the app there, otherwise goes to the parent page]</sub>_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE/bundle_identifier
+~~~
+_Accessibility > Per-App Settings > {app bundle identifier} > Bold Text_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE/bundle_identifier/ENHANCE_TEXT_LEGIBILITY
+~~~
+_Accessibility > Per-App Settings > {app bundle identifier} > Larger Text_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE/bundle_identifier/LARGER_TEXT
+~~~
+_Accessibility > Per-App Settings > {app bundle identifier} > Show Borders_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE/bundle_identifier/BUTTON_SHAPES
+~~~
+_Accessibility > Per-App Settings > {app bundle identifier} > On/Off Labels_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE/bundle_identifier/ON_OFF_LABELS
+~~~
+_Accessibility > Per-App Settings > {app bundle identifier} > Reduce Transparency_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE/bundle_identifier/REDUCE_TRANSPARENCY
+~~~
+_Accessibility > Per-App Settings > {app bundle identifier} > Increase Contrast_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE/bundle_identifier/TEXT_COLORS_DARKEN
+~~~
+_Accessibility > Per-App Settings > {app bundle identifier} > Differentiate Without Color_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE/bundle_identifier/DIFFERENTIATE_WITHOUT_COLOR
+~~~
+_Accessibility > Per-App Settings > {app bundle identifier} > Prefer Horizontal Text_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE/bundle_identifier/PREFER_HORIZONTAL_TEXT
+~~~
+_Accessibility > Per-App Settings > {app bundle identifier} > Smart Invert_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE/bundle_identifier/SMART_INVERT
+~~~
+_Accessibility > Per-App Settings > {app bundle identifier} > Reduce Motion_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE/bundle_identifier/REDUCE_MOTION
+~~~
+_Accessibility > Per-App Settings > {app bundle identifier} > Prefer Croos-Fade Transitions_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE/bundle_identifier/REDUCE_MOTION_REDUCE_SLIDE_ANIMATIONS
+~~~
+_Accessibility > Per-App Settings > {app bundle identifier} > Auto-Play Video Previews_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE/bundle_identifier/REDUCE_MOTION_AUTOPLAY_VIDEO_PREVIEWS
+~~~
+_Accessibility > Per-App Settings > {app bundle identifier} > Prefer Non-Blinking Cursor_
+~~~yaml
+prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE/bundle_identifier/PREFER_NONBLINKING_CURSOR
 ~~~
 _Accessibility > Per-App Settings > Show Hidden Apps_
 ~~~yaml
