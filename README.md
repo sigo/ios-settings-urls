@@ -75,7 +75,7 @@ _Apple Account > iCloud > Backup_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP
 ~~~
-_Apple Account > iCloud > Backup > All Device Backups > {current device} > Backup Details_
+_Apple Account > iCloud > Backup > All Device Backups > [current device] > Backup Details_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP/CURRENT_DEVICE_BACKUP
 ~~~
@@ -121,7 +121,7 @@ _Wi-Fi_
 ~~~yaml
 prefs:root=WIFI
 ~~~
-_Wi-Fi > {current network} &#x24d8;_
+_Wi-Fi > [current network] &#x24d8;_
 ~~~yaml
 prefs:root=WIFI&path=NetworkDetails
 ~~~
@@ -853,59 +853,59 @@ _Accessibility > Per-App Settings_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE
 ~~~
-_Accessibility > Per-App Settings > {app bundle identifier} <sub>[as long as you have added the app there, otherwise goes to the parent page]</sub>_
+_Accessibility > Per-App Settings > [app bundle identifier] <sub>[as long as you have added the app there, otherwise goes to the parent page]</sub>_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE/bundle_identifier
 ~~~
-_Accessibility > Per-App Settings > {app bundle identifier} > Bold Text_
+_Accessibility > Per-App Settings > [app bundle identifier] > Bold Text_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE/bundle_identifier/ENHANCE_TEXT_LEGIBILITY
 ~~~
-_Accessibility > Per-App Settings > {app bundle identifier} > Larger Text_
+_Accessibility > Per-App Settings > [app bundle identifier] > Larger Text_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE/bundle_identifier/LARGER_TEXT
 ~~~
-_Accessibility > Per-App Settings > {app bundle identifier} > Show Borders_
+_Accessibility > Per-App Settings > [app bundle identifier] > Show Borders_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE/bundle_identifier/BUTTON_SHAPES
 ~~~
-_Accessibility > Per-App Settings > {app bundle identifier} > On/Off Labels_
+_Accessibility > Per-App Settings > [app bundle identifier] > On/Off Labels_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE/bundle_identifier/ON_OFF_LABELS
 ~~~
-_Accessibility > Per-App Settings > {app bundle identifier} > Reduce Transparency_
+_Accessibility > Per-App Settings > [app bundle identifier] > Reduce Transparency_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE/bundle_identifier/REDUCE_TRANSPARENCY
 ~~~
-_Accessibility > Per-App Settings > {app bundle identifier} > Increase Contrast_
+_Accessibility > Per-App Settings > [app bundle identifier] > Increase Contrast_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE/bundle_identifier/TEXT_COLORS_DARKEN
 ~~~
-_Accessibility > Per-App Settings > {app bundle identifier} > Differentiate Without Color_
+_Accessibility > Per-App Settings > [app bundle identifier] > Differentiate Without Color_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE/bundle_identifier/DIFFERENTIATE_WITHOUT_COLOR
 ~~~
-_Accessibility > Per-App Settings > {app bundle identifier} > Prefer Horizontal Text_
+_Accessibility > Per-App Settings > [app bundle identifier] > Prefer Horizontal Text_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE/bundle_identifier/PREFER_HORIZONTAL_TEXT
 ~~~
-_Accessibility > Per-App Settings > {app bundle identifier} > Smart Invert_
+_Accessibility > Per-App Settings > [app bundle identifier] > Smart Invert_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE/bundle_identifier/SMART_INVERT
 ~~~
-_Accessibility > Per-App Settings > {app bundle identifier} > Reduce Motion_
+_Accessibility > Per-App Settings > [app bundle identifier] > Reduce Motion_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE/bundle_identifier/REDUCE_MOTION
 ~~~
-_Accessibility > Per-App Settings > {app bundle identifier} > Prefer Croos-Fade Transitions_
+_Accessibility > Per-App Settings > [app bundle identifier] > Prefer Croos-Fade Transitions_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE/bundle_identifier/REDUCE_MOTION_REDUCE_SLIDE_ANIMATIONS
 ~~~
-_Accessibility > Per-App Settings > {app bundle identifier} > Auto-Play Video Previews_
+_Accessibility > Per-App Settings > [app bundle identifier] > Auto-Play Video Previews_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE/bundle_identifier/REDUCE_MOTION_AUTOPLAY_VIDEO_PREVIEWS
 ~~~
-_Accessibility > Per-App Settings > {app bundle identifier} > Prefer Non-Blinking Cursor_
+_Accessibility > Per-App Settings > [app bundle identifier] > Prefer Non-Blinking Cursor_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE/bundle_identifier/PREFER_NONBLINKING_CURSOR
 ~~~
@@ -1115,23 +1115,23 @@ _Notifications > Siri Suggestions_
 ~~~yaml
 prefs:root=NOTIFICATIONS_ID&path=SIRI_SUGGESTIONS_ID
 ~~~
-_Notifications > {app bundle identifier}_
+_Notifications > [app bundle identifier]_
 ~~~yaml
 prefs:root=NOTIFICATIONS_ID&path=bundle_identifier
 ~~~
-_Notifications > {app bundle identifier} > Banner Style_
+_Notifications > [app bundle identifier] > Banner Style_
 ~~~yaml
 prefs:root=NOTIFICATIONS_ID&path=com.apple.MobileSMS/BANNER_STYLE_ID
 ~~~
-_Notifications > {app bundle identifier} > Show Previews_
+_Notifications > [app bundle identifier] > Show Previews_
 ~~~yaml
 prefs:root=NOTIFICATIONS_ID&path=bundle_identifier/SHOW_PREVIEW_GROUP_ID
 ~~~
-_Notifications > {app bundle identifier} > Notification Grouping_
+_Notifications > [app bundle identifier] > Notification Grouping_
 ~~~yaml
 prefs:root=NOTIFICATIONS_ID&path=com.apple.MobileSMS/NOTIFICATION_GROUPING_APP_ID
 ~~~
-_Notifications > {app bundle identifier} > Customize Notifications_
+_Notifications > [app bundle identifier] > Customize Notifications_
 ~~~yaml
 prefs:root=NOTIFICATIONS_ID&path=bundle_identifier/custom
 ~~~
@@ -1359,7 +1359,7 @@ _Privacy & Security > Location Services > App Clips_
 ~~~yaml
 prefs:root=Privacy&path=LOCATION/APP_CLIPS
 ~~~
-_Privacy & Security > Location Services > {app bundle identifier}_
+_Privacy & Security > Location Services > [app bundle identifier]_
 ~~~yaml
 prefs:root=Privacy&path=LOCATION/bundle_identifier
 ~~~
@@ -1485,7 +1485,7 @@ _Apps > Default Apps_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.Settings.Apps.DefaultApps
 ~~~
-_Apps > {app bundle identifier}_
+_Apps > [app bundle identifier]_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/bundle_identifier
 ~~~
