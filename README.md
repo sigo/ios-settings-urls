@@ -19,10 +19,6 @@ _Apple Account > Sign-In & Security <sub>[some delay]</sub>_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY
 ~~~
-_Apple Account > Sign-In & Security > Change Password <sub>[some delay]</sub>_
-~~~yaml
-prefs:root=APPLE_ACCOUNT&aaaction=changePassword
-~~~
 _Apple Account > Sign-In & Security > Recovery Contacts <sub>[some delay]</sub>_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&aaaction=accountRecovery
