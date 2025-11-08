@@ -11,27 +11,27 @@ _Apple Account_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT
 ~~~
-_Apple Account > Personal Information <sub>[some delay]</sub>_
+_Apple Account > Personal Information <sub>(some delay)</sub>_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT
 ~~~
-_Apple Account > Sign-In & Security <sub>[some delay]</sub>_
+_Apple Account > Sign-In & Security <sub>(some delay)</sub>_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY
 ~~~
-_Apple Account > Sign-In & Security > Recovery Contacts <sub>[some delay]</sub>_
+_Apple Account > Sign-In & Security > Recovery Contacts <sub>(some delay)</sub>_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&aaaction=accountRecovery
 ~~~
-_Apple Account > Sign-In & Security > Legacy Contact <sub>[some delay]</sub>_
+_Apple Account > Sign-In & Security > Legacy Contact <sub>(some delay)</sub>_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&aaaction=accountBeneficiary
 ~~~
-_Apple Account > Payment & Shipping <sub>[some delay]</sub>_
+_Apple Account > Payment & Shipping <sub>(some delay)</sub>_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING
 ~~~
-_Apple Account > Subscriptions <sub>[some delay]</sub>_
+_Apple Account > Subscriptions <sub>(some delay)</sub>_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS
 ~~~
@@ -83,7 +83,7 @@ _Apple Account > iCloud > Private Relay_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/INTERNET_PRIVACY
 ~~~
-_Apple Account > iCloud > Hide My Email <sub>[some delay]</sub>_
+_Apple Account > iCloud > Hide My Email <sub>(some delay)</sub>_
 ~~~yaml
 prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE
 ~~~
@@ -105,7 +105,7 @@ prefs:root=APPLE_ACCOUNT&path=TRANSPARENCY
 ~~~
 \
 \
-_AirPods <sub>[use the MAC address of the AirPods as identifier – can be found with e.g. `system_profiler SPBluetoothDataType` on a Mac]</sub>_
+_AirPods <sub>(use the MAC address of the AirPods as identifier – can be found with e.g. `system_profiler SPBluetoothDataType` on a Mac)</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.Bluetooth/HeadphoneDetail/?identifier=00:00:00:00:00:00
 ~~~
@@ -187,11 +187,11 @@ _Battery_
 ~~~yaml
 prefs:root=BATTERY_USAGE
 ~~~
-_Battery > Battery Health & Charging <sub>[device dependant]</sub>_
+_Battery > Battery Health & Charging <sub>(device dependant)</sub>_
 ~~~yaml
 prefs:root=BATTERY_USAGE&path=BATTERY_HEALTH_TITLE
 ~~~
-_Battery > Charging Options <sub>[device dependant]</sub>_
+_Battery > Charging Options <sub>(device dependant)</sub>_
 ~~~yaml
 prefs:root=BATTERY_USAGE&path=CHARGING_OPTIONS_IDENTIFIER
 ~~~
@@ -469,7 +469,7 @@ _Accessibility > Motion > Reduce Motion (switch)_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION
 ~~~
-_Accessibility > Motion > Prefer Cross-Fade Transitions (switch) <sub>[only available when Reduce Motion is enabled]</sub>_
+_Accessibility > Motion > Prefer Cross-Fade Transitions (switch) <sub>(only available when Reduce Motion is enabled)</sub>_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=MOTION_TITLE/REDUCE_MOTION_REDUCE_SLIDE_ANIMATIONS
 ~~~
@@ -853,7 +853,7 @@ _Accessibility > Per-App Settings_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE
 ~~~
-_Accessibility > Per-App Settings > [app bundle identifier] <sub>[as long as you have added the app there, otherwise goes to the parent page]</sub>_
+_Accessibility > Per-App Settings > [app bundle identifier] <sub>(as long as you have added the app there, otherwise goes to the parent page)</sub>_
 ~~~yaml
 prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE/bundle_identifier
 ~~~
@@ -1465,7 +1465,7 @@ prefs:root=Privacy&path=LOCKDOWN_MODE
 ~~~
 \
 \
-_iCloud <sub>[see also: Apple Account > iCloud]</sub>_
+_iCloud <sub>(see also: Apple Account > iCloud)</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.iCloud
 ~~~
