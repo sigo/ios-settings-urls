@@ -1515,6 +1515,14 @@ _Apps > App Store_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.AppStore
 ~~~
+_Apps > App Store > Location_
+~~~yaml
+settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION/com.apple.AppStore
+~~~
+_Apps > App Store > Notifications_
+~~~yaml
+settings-navigation://com.apple.Settings.Notifications/com.apple.AppStore
+~~~
 \
 \
 _Apps > Apple Store_
