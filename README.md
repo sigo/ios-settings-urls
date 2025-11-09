@@ -2083,17 +2083,29 @@ _Apps > Support_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.supportapp
 ~~~
+_Apps > Support > Notifications_
+~~~yaml
+settings-navigation://com.apple.Settings.Notifications/com.apple.supportapp
+~~~
 \
 \
 _Apps > TestFlight_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.TestFlight
 ~~~
+_Apps > TestFlight > Notifications_
+~~~yaml
+settings-navigation://com.apple.Settings.Notifications/com.apple.TestFlight
+~~~
 \
 \
 _Apps > Tips_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.tips
+~~~
+_Apps > Tips > Notifications_
+~~~yaml
+settings-navigation://com.apple.Settings.Notifications/com.apple.tips
 ~~~
 \
 \
@@ -2121,17 +2133,19 @@ _Apps > Wallet_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.Passbook
 ~~~
-\
-\
-_Apps > Watch_
+_Apps > Wallet > Notifications_
 ~~~yaml
-settings-navigation://com.apple.Settings.Apps/com.apple.Bridge
+settings-navigation://com.apple.Settings.Notifications/com.apple.Passbook
 ~~~
 \
 \
 _Apps > Weather_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.weather
+~~~
+_Apps > Weather > Location_
+~~~yaml
+settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION/com.apple.weather
 ~~~
 _Apps > Weather > Temperature Unit_
 ~~~yaml
