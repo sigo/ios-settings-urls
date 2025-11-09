@@ -387,18 +387,26 @@ _Accessibility_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility
 ~~~
+\
+\
 _Accessibility > VoiceOver_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/VOICEOVER_TITLE
 ~~~
+\
+\
 _Accessibility > Zoom_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/ZOOM_TITLE
 ~~~
+\
+\
 _Accessibility > Hover Text_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/HOVERTEXT_TITLE
 ~~~
+\
+\
 _Accessibility > Display & Text Size_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT
@@ -455,6 +463,8 @@ _Accessibility > Display & Text Size > Auto-Brightness (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT/AUTO_BRIGHTNESS
 ~~~
+\
+\
 _Accessibility > Motion_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/MOTION_TITLE
@@ -491,14 +501,20 @@ _Accessibility > Motion > Prefer Non-Blinking Cursor (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/MOTION_TITLE/PREFER_NONBLINKING_CURSOR
 ~~~
+\
+\
 _Accessibility > Read & Speak_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/SPEECH_TITLE
 ~~~
+\
+\
 _Accessibility > Audio Descriptions_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/DESCRIPTIVE_VIDEO
 ~~~
+\
+\
 _Accessibility > Touch_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/TOUCH_REACHABILITY_TITLE
@@ -635,46 +651,68 @@ _Accessibility > Touch  > Prefer Single-Touch Actions (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/TOUCH_REACHABILITY_TITLE#Prefer%20Single-Touch%20Actions
 ~~~
+\
+\
 _Accessibility > Switch Control_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/ScannerSwitchTitle
 ~~~
+\
+\
 _Accessibility > Voice Control_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/CommandAndControlTitle
 ~~~
+\
+\
 _Accessibility > Eye Tracking_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/OnDeviceEyeTracking
 ~~~
+\
+\
 _Accessibility > Head Tracking_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/AST_HEAD_TRACKING
 ~~~
+\
+\
 _Accessibility > Home Button_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/HOME_CLICK_TITLE
 ~~~
+\
+\
 _Accessibility > Control Nearby Devices_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/CONTROL_NEARBY_DEVICES
 ~~~
+\
+\
 _Accessibility > Hearing Devices_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/HEARING_AID_TITLE
 ~~~
+\
+\
 _Accessibility > Hearing Control Center_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/HEARING_CONTROL_CENTER
 ~~~
+\
+\
 _Accessibility > Sound & Name Recognition_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/SOUND_AND_NAME_RECOGNITION_TITLE
 ~~~
+\
+\
 _Accessibility > RTT/TTY_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/RTT
 ~~~
+\
+\
 _Accessibility > Audio & Visual_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/AUDIO_VISUAL_TITLE
@@ -743,6 +781,8 @@ _Accessibility > Audio & Visual > LED Flash for Alerts > Flash in Silent Mode (s
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/AUDIO_VISUAL_TITLE/LED_FLASH#LED_RINGER_SWITCH_CONTROL
 ~~~
+\
+\
 _Accessibility > Subtitles & Captioning_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/SUBTITLES_CAPTIONING
@@ -771,10 +811,14 @@ _Accessibility > Subtitles & Captioning > Show on Skip Back (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/SUBTITLES_CAPTIONING/SHOW_ON_SKIP_BACK
 ~~~
+\
+\
 _Accessibility > Live Captions_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/LIVE_TRANSCRIPTION
 ~~~
+\
+\
 _Accessibility > Live Speech_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/LIVE_SPEECH_TITLE
@@ -787,18 +831,26 @@ _Accessibility > Live Speech > Phrases > + (button)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/LIVE_SPEECH_TITLE/PHRASES#CREATE_CUSTOM_CATEGORY
 ~~~
+\
+\
 _Accessibility > Personal Voice_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/PERSONAL_VOICE_TITLE
 ~~~
+\
+\
 _Accessibility > Vocal Shortcuts_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/ADAPTIVE_VOICE_SHORTCUTS_TITLE
 ~~~
+\
+\
 _Accessibility > Keyboards & Typing_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/KEYBOARDS
 ~~~
+\
+\
 _Accessibility > AirPods_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/AIRPODS
@@ -807,6 +859,8 @@ _Accessibility > AirPods > Spatial Audio Head Tracking – Follow iPhone (switch
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/AIRPODS#SPATIAL_AUDIO_SWITCH
 ~~~
+\
+\
 _Accessibility > Guided Access_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/GUIDED_ACCESS_TITLE
@@ -835,14 +889,20 @@ _Accessibility > Guided Access > Display Auto-Lock_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/GUIDED_ACCESS_TITLE/GuidedAccessAutoLockTime#GuidedAccessAutoLockTime
 ~~~
+\
+\
 _Accessibility > Assistive Access_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/CLARITY_UI_TITLE
 ~~~
+\
+\
 _Accessibility > Accessibility Shortcut_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/TRIPLE_CLICK_TITLE
 ~~~
+\
+\
 _Accessibility > Per-App Settings_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE
@@ -1475,41 +1535,57 @@ _Apps_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps
 ~~~
+\
+\
 _Apps > Default Apps_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.Settings.Apps.DefaultApps
 ~~~
+\
+\
 _Apps > [app bundle identifier]_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/bundle_identifier
 ~~~
+\
+\
 _Apps > AirPort Utility_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.airport.mobileairportutility
 ~~~
+\
+\
 _Apps > App Store_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.AppStore
 ~~~
+\
+\
 _Apps > Apple Store_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.store.Jolly
 ~~~
+\
+\
 _Apps > Books_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.iBooks
 ~~~
+\
+\
 _Apps > Calculator_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.calculator
 ~~~
+\
+\
 _Apps > Calendar_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilecal
 ~~~
-_Apps > Calendar > Calendar Accounts_
+_Apps > Calendar > Calendar Accounts (button)_
 ~~~yaml
-settings-navigation://com.apple.Settings.Apps/com.apple.mobilecal/ACCOUNTS
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilecal#ACCOUNTS
 ~~~
 _Apps > Calendar > Calendar Accounts > Add Account_
 ~~~yaml
@@ -1555,10 +1631,14 @@ _Apps > Calendar > Default Calendar_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilecal/defaultCalendar
 ~~~
+\
+\
 _Apps > Clock_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobiletimer
 ~~~
+\
+\
 _Apps > Compass_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.compass
@@ -1567,10 +1647,14 @@ _Apps > Compass > Use True North (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.compass#USE_TRUE_NORTH
 ~~~
+\
+\
 _Apps > Configurator_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.ios.configurator
 ~~~
+\
+\
 _Apps > Contacts_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.MobileAddressBook
@@ -1603,62 +1687,92 @@ _Apps > Contacts > Import SIM Contacts (button)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.MobileAddressBook#SIMImport
 ~~~
+\
+\
 _Apps > Developer_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/developer.apple.wwdc-Release
 ~~~
+\
+\
 _Apps > FaceTime_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.facetime
 ~~~
+\
+\
 _Apps > Files_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.DocumentsApp
 ~~~
+\
+\
 _Apps > Final Cut Camera_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.FinalCutApp.companion
 ~~~
+\
+\
 _Apps > Freeform_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.freeform
 ~~~
+\
+\
 _Apps > Games_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.games
 ~~~
+\
+\
 _Apps > GarageBand_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilegarageband
 ~~~
+\
+\
 _Apps > Home_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.Home
 ~~~
+\
+\
 _Apps > iMovie_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.iMovie
 ~~~
+\
+\
 _Apps > Invites_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.rsvp
 ~~~
+\
+\
 _Apps > iTunes Store_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.MobileStore
 ~~~
+\
+\
 _Apps > Journal_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.journal
 ~~~
+\
+\
 _Apps > Keynote_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.Keynote
 ~~~
+\
+\
 _Apps > Magnifier_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.Magnifier
 ~~~
+\
+\
 _Apps > Mail_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail
@@ -1671,14 +1785,20 @@ _Apps > Mail > Mail Accounts > Add Account_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail/ADD_ACCOUNT
 ~~~
+\
+\
 _Apps > Maps_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.Maps
 ~~~
+\
+\
 _Apps > Measure_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.measure
 ~~~
+\
+\
 _Apps > Messages_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS
@@ -1747,6 +1867,8 @@ _Apps > Messages > Send Low Quality Photo Previews (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS#PREVIEW_TRANSCODING_SWITCH
 ~~~
+\
+\
 _Apps > Notes_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes
@@ -1755,10 +1877,14 @@ _Apps > Notes > Notes Accounts_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/ACCOUNTS
 ~~~
+\
+\
 _Apps > Passwords_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.Passwords
 ~~~
+\
+\
 _Apps > Phone_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilephone
@@ -1803,26 +1929,42 @@ _Apps > Phone > Blocked Contacts_
 ~~~yaml
 settings-navigation://com.apple.Settings.PrivacyAndSecurity/BLOCKLIST
 ~~~
+\
+\
 _Apps > Photomator_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.pixelmatorteam.pixelmator.touch.x.photo
 ~~~
+\
+\
 _Apps > Photos_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobileslideshow
 ~~~
+\
+\
 _Apps > Podcasts_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.podcasts
 ~~~
+\
+\
 _Apps > Preview_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.Preview
 ~~~
+\
+\
 _Apps > Reminders_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.reminders
 ~~~
+_Apps > Reminders > Reminders Accounts (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.reminders#ACCOUNTS
+~~~
+\
+\
 _Apps > Safari > Default Browser App (button)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#com.apple.settings.DefaultBrowser
@@ -1919,6 +2061,8 @@ _Apps > Safari > Advanced > Website Data_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/ADVANCED/REMOVE_WEBSITE_DATA
 ~~~
+\
+\
 _Apps > Shortcuts_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.shortcuts
@@ -1931,18 +2075,26 @@ _Apps > Shortcuts > Legal Notices_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.shortcuts/ShortcutsLegalNotices
 ~~~
+\
+\
 _Apps > Support_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.supportapp
 ~~~
+\
+\
 _Apps > TestFlight_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.TestFlight
 ~~~
+\
+\
 _Apps > Tips_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.tips
 ~~~
+\
+\
 _Apps > Translate_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.Translate
@@ -1955,14 +2107,20 @@ _Apps > Translate > On-Device Mode_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.Translate#OnDeviceOnly
 ~~~
+\
+\
 _Apps > Voice Memos_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.VoiceMemos
 ~~~
+\
+\
 _Apps > Watch_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.Bridge
 ~~~
+\
+\
 _Apps > Weather_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.weather
@@ -1983,7 +2141,12 @@ _Apps > Weather > Privacy – Reset Indentifier (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.weather#PRIVACY_RESET
 ~~~
+\
+\
 _Apps > Hidden Apps_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.Settings.Apps.HiddenApps
 ~~~
+<br/>
+<br/>
+<br/>
