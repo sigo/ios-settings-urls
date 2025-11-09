@@ -3,7 +3,7 @@
 \
 _Settings main page_
 ~~~yaml
-prefs:root=ROOT
+settings-navigation://com.apple.Settings
 ~~~
 \
 \
@@ -111,25 +111,19 @@ settings-navigation://com.apple.Settings.Bluetooth/HeadphoneDetail/?identifier=0
 ~~~
 \
 \
-_Airplane Mode (switch)_
-~~~yaml
-prefs:root=ROOT#AIRPLANE_MODE
-~~~
-\
-\
 _Wi-Fi_
 ~~~yaml
-prefs:root=WIFI
+settings-navigation://com.apple.Settings.WiFi
 ~~~
 _Wi-Fi > [current network] &#x24d8;_
 ~~~yaml
-prefs:root=WIFI&path=NetworkDetails
+settings-navigation://com.apple.Settings.WiFi/NetworkDetails
 ~~~
 \
 \
 _Bluetooth_
 ~~~yaml
-prefs:root=Bluetooth
+settings-navigation://com.apple.Settings.Bluetooth
 ~~~
 _Bluetooth > AirPods &#x24d8;_
 \
@@ -141,39 +135,39 @@ _Bluetooth > AirPods &#x24d8;_
 \
 _Cellular_
 ~~~yaml
-prefs:root=MOBILE_DATA_SETTINGS_ID
+settings-navigation://com.apple.Settings.Cellular
 ~~~
 _Cellular > Cellular Data Options_
 ~~~yaml
-prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS
+settings-navigation://com.apple.Settings.Cellular/CELLULAR_DATA_OPTIONS
 ~~~
 _Cellular > Cellular Data Options > Data Mode_
 ~~~yaml
-prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS/DATA_MODE
+settings-navigation://com.apple.Settings.Cellular/CELLULAR_DATA_OPTIONS/DATA_MODE
 ~~~
 _Cellular > Cellular Data > Show All > Cellular Data Usage_
 ~~~yaml
-prefs:root=MOBILE_DATA_SETTINGS_ID&path=SHOW_ALL
+settings-navigation://com.apple.Settings.Cellular/SHOW_ALL
 ~~~
 _Cellular > Wi-Fi Assist (switch)_
 ~~~yaml
-prefs:root=MOBILE_DATA_SETTINGS_ID#Wi-Fi%20Assist
+settings-navigation://com.apple.Settings.Cellular#Wi-Fi%20Assist
 ~~~
 _Cellular > iCloud Drive (switch)_
 ~~~yaml
-prefs:root=MOBILE_DATA_SETTINGS_ID#iCloud%20Drive
+settings-navigation://com.apple.Settings.Cellular#iCloud%20Drive
 ~~~
 _Cellular > iCloud Backup (switch)_
 ~~~yaml
-prefs:root=MOBILE_DATA_SETTINGS_ID#iCloud%20Backup
+settings-navigation://com.apple.Settings.Cellular#iCloud%20Backup
 ~~~
 _Cellular > Enable Cellular Usage Statistics (switch)_
 ~~~yaml
-prefs:root=MOBILE_DATA_SETTINGS_ID#Enable%20Cellular%20Usage%20Statistics
+settings-navigation://com.apple.Settings.Cellular#Enable%20Cellular%20Usage%20Statistics
 ~~~
 _Cellular > Reset Statistics (button)_
 ~~~yaml
-prefs:root=MOBILE_DATA_SETTINGS_ID#Reset%20Statistics
+settings-navigation://com.apple.Settings.Cellular#Reset%20Statistics
 ~~~
 \
 \
@@ -185,29 +179,29 @@ settings-navigation://com.apple.Settings.PersonalHotspot
 \
 _Battery_
 ~~~yaml
-prefs:root=BATTERY_USAGE
+settings-navigation://com.apple.Settings.Battery
 ~~~
 _Battery > Battery Health & Charging <sub>(device dependant)</sub>_
 ~~~yaml
-prefs:root=BATTERY_USAGE&path=BATTERY_HEALTH_TITLE
+settings-navigation://com.apple.Settings.Battery/BATTERY_HEALTH_TITLE
 ~~~
 _Battery > Charging Options <sub>(device dependant)</sub>_
 ~~~yaml
-prefs:root=BATTERY_USAGE&path=CHARGING_OPTIONS_IDENTIFIER
+settings-navigation://com.apple.Settings.Battery/CHARGING_OPTIONS_IDENTIFIER
 ~~~
 _Battery > Battery Percentage (switch)_
 ~~~yaml
-prefs:root=BATTERY_USAGE#BATTERY_PERCENTAGE_IDENTIFIER
+settings-navigation://com.apple.Settings.Battery#BATTERY_PERCENTAGE_IDENTIFIER
 ~~~
 _Battery > Low Power Mode (switch)_
 ~~~yaml
-prefs:root=BATTERY_USAGE#LOW_POWER_MODE_IDENTIFIER
+settings-navigation://com.apple.Settings.Battery#LOW_POWER_MODE_IDENTIFIER
 ~~~
 \
 \
 _VPN (switch)_
 ~~~yaml
-prefs:root=ROOT#VPN
+settings-navigation://com.apple.Settings#com.apple.Settings.VPN
 ~~~
 \
 \
