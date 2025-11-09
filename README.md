@@ -1494,19 +1494,15 @@ settings-navigation://com.apple.Settings.Apps/bundle_identifier
 \
 \
 _Apps > [app bundle identifier] > Location_
-\
-\
-<sub>&emsp;See _Privacy & Security > Location Services > [app bundle identifier]_</sub>
-\
-\
+~~~yaml
+settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION/bundle_identifier
+~~~
 \
 \
 _Apps > [app bundle identifier] > Notifications_
-\
-\
-&emsp;<sub>See _Notifications > [app bundle identifier]_</sub>
-\
-\
+~~~yaml
+settings-navigation://com.apple.Settings.Notifications/bundle_identifier
+~~~
 \
 \
 _Apps > AirPort Utility_
