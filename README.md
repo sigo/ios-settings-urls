@@ -9,99 +9,99 @@ prefs:root=ROOT
 \
 _Apple Account_
 ~~~yaml
-prefs:root=APPLE_ACCOUNT
+settings-navigation://com.apple.Settings.AppleAccount
 ~~~
 _Apple Account > Personal Information <sub>(some delay)</sub>_
 ~~~yaml
-prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT
+settings-navigation://com.apple.Settings.AppleAccount/APPLE_ACCOUNT_CONTACT
 ~~~
 _Apple Account > Sign-In & Security <sub>(some delay)</sub>_
 ~~~yaml
-prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY
+settings-navigation://com.apple.Settings.AppleAccount/PASSWORD_AND_SECURITY
 ~~~
 _Apple Account > Sign-In & Security > Recovery Contacts <sub>(some delay)</sub>_
 ~~~yaml
-prefs:root=APPLE_ACCOUNT&aaaction=accountRecovery
+settings-navigation://com.apple.Settings.AppleAccount/?aaaction=accountRecovery
 ~~~
 _Apple Account > Sign-In & Security > Legacy Contact <sub>(some delay)</sub>_
 ~~~yaml
-prefs:root=APPLE_ACCOUNT&aaaction=accountBeneficiary
+settings-navigation://com.apple.Settings.AppleAccount/?aaaction=accountBeneficiary
 ~~~
 _Apple Account > Payment & Shipping <sub>(some delay)</sub>_
 ~~~yaml
-prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING
+settings-navigation://com.apple.Settings.AppleAccount/PAYMENT_AND_SHIPPING
 ~~~
 _Apple Account > Subscriptions <sub>(some delay)</sub>_
 ~~~yaml
-prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS
+settings-navigation://com.apple.Settings.AppleAccount/SUBSCRIPTIONS
 ~~~
 _Apple Account > iCloud_
 ~~~yaml
-prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE
+settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE
 ~~~
 _Apple Account > iCloud > Storage_
 ~~~yaml
-prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP
+settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/STORAGE_AND_BACKUP
 ~~~
 _Apple Account > iCloud > Storage > Change Storage Plan_
 ~~~yaml
-prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP/CHANGE_STORAGE_PLAN
+settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/STORAGE_AND_BACKUP/CHANGE_STORAGE_PLAN
 ~~~
 _Apple Account > iCloud > Saved to iCloud_
 ~~~yaml
-prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass
+settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass
 ~~~
 _Apple Account > iCloud > Saved to iCloud > iCloud Photos_
 ~~~yaml
-prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.CloudPhotos
+settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.CloudPhotos
 ~~~
 _Apple Account > iCloud > Saved to iCloud > iCloud Drive_
 ~~~yaml
-prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity
+settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity
 ~~~
 _Apple Account > iCloud > Saved to iCloud > Notes_
 ~~~yaml
-prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes
+settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Notes
 ~~~
 _Apple Account > iCloud > Saved to iCloud > iCloud Messages_
 ~~~yaml
-prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Messages
+settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Messages
 ~~~
 _Apple Account > iCloud > Saved to iCloud > iCloud Calendar_
 ~~~yaml
-prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars
+settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars
 ~~~
 _Apple Account > iCloud > Backup_
 ~~~yaml
-prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP
+settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/BACKUP
 ~~~
 _Apple Account > iCloud > Backup > All Device Backups > [current device] > Backup Details_
 ~~~yaml
-prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP/CURRENT_DEVICE_BACKUP
+settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/STORAGE_AND_BACKUP/CURRENT_DEVICE_BACKUP
 ~~~
 _Apple Account > iCloud > Private Relay_
 ~~~yaml
-prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/INTERNET_PRIVACY
+settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/INTERNET_PRIVACY
 ~~~
 _Apple Account > iCloud > Hide My Email <sub>(some delay)</sub>_
 ~~~yaml
-prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE
+settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE
 ~~~
 _Apple Account > iCloud > Advanced Data Protection_
 ~~~yaml
-prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/ICLOUD_ADP_SPECIFIER_NAME
+settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/ICLOUD_ADP_SPECIFIER_NAME
 ~~~
 _Apple Account > Media & Purchases_
 ~~~yaml
-prefs:root=APPLE_ACCOUNT&path=STORE_SERVICE
+settings-navigation://com.apple.Settings.AppleAccount/STORE_SERVICE
 ~~~
 _Apple Account > Sign in with Apple_
 ~~~yaml
-prefs:root=APPLE_ACCOUNT&path=SIWA_SERVICE
+settings-navigation://com.apple.Settings.AppleAccount/SIWA_SERVICE
 ~~~
 _Apple Account > Contact Key Verification_
 ~~~yaml
-prefs:root=APPLE_ACCOUNT&path=TRANSPARENCY
+settings-navigation://com.apple.Settings.AppleAccount/TRANSPARENCY
 ~~~
 \
 \
