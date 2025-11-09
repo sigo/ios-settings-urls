@@ -2119,6 +2119,12 @@ settings-navigation://com.apple.Settings.Apps/com.apple.VoiceMemos
 ~~~
 \
 \
+_Apps > Wallet_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.Passbook
+~~~
+\
+\
 _Apps > Watch_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.Bridge
