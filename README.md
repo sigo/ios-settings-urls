@@ -1496,7 +1496,7 @@ settings-navigation://com.apple.Settings.Apps/bundle_identifier
 _Apps > [app bundle identifier] > Location_
 \
 \
-&emsp;See _Privacy & Security > Location Services > [app bundle identifier]_
+<sub>&emsp;See _Privacy & Security > Location Services > [app bundle identifier]_</sub>
 \
 \
 \
@@ -1504,7 +1504,7 @@ _Apps > [app bundle identifier] > Location_
 _Apps > [app bundle identifier] > Notifications_
 \
 \
-&emsp;See _Notifications > [app bundle identifier]_
+&emsp;<sub>See _Notifications > [app bundle identifier]_</sub>
 \
 \
 \
