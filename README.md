@@ -1601,6 +1601,10 @@ _Apps > Clock_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobiletimer
 ~~~
+_Apps > Clock > Notifications_
+~~~yaml
+settings-navigation://com.apple.Settings.Notifications/com.apple.mobiletimer
+~~~
 \
 \
 _Apps > Compass_
@@ -1663,6 +1667,10 @@ _Apps > FaceTime_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.facetime
 ~~~
+_Apps > FaceTime > Notifications_
+~~~yaml
+settings-navigation://com.apple.Settings.Notifications/com.apple.facetime
+~~~
 \
 \
 _Apps > Files_
@@ -1717,6 +1725,10 @@ _Apps > iTunes Store_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.MobileStore
 ~~~
+_Apps > iTunes > Notifications_
+~~~yaml
+settings-navigation://com.apple.Settings.Notifications/com.apple.MobileStore
+~~~
 \
 \
 _Apps > Journal_
@@ -1741,6 +1753,10 @@ _Apps > Mail_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail
 ~~~
+_Apps > Mail > Notifications_
+~~~yaml
+settings-navigation://com.apple.Settings.Notifications/com.apple.mobilemail
+~~~
 _Apps > Mail > Mail Accounts_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail/ACCOUNTS
@@ -1755,6 +1771,14 @@ _Apps > Maps_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.Maps
 ~~~
+_Apps > Maps > Location_
+~~~yaml
+settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION/com.apple.Maps
+~~~
+_Apps > Maps > Notifications_
+~~~yaml
+settings-navigation://com.apple.Settings.Notifications/com.apple.Maps
+~~~
 \
 \
 _Apps > Measure_
@@ -1767,25 +1791,9 @@ _Apps > Messages_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS
 ~~~
-_Apps > Messages > Focus (switch)_
+_Apps > Messages > Notifications_
 ~~~yaml
-settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS#Focus
-~~~
-_Apps > Messages > Siri (button)_
-~~~yaml
-settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS#SIRI
-~~~
-_Apps > Messages > Search (button)_
-~~~yaml
-settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS#SEARCH
-~~~
-_Apps > Messages > Notifications (button)_
-~~~yaml
-settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS#NOTIFICATIONS
-~~~
-_Apps > Messages > Sensitive Content Warning (button)_
-~~~yaml
-settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS#NUDITY_DETECTION
+settings-navigation://com.apple.Settings.Notifications/com.apple.MobileSMS
 ~~~
 _Apps > Messages > Send & Receive_
 ~~~yaml
@@ -1847,11 +1855,19 @@ _Apps > Passwords_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.Passwords
 ~~~
+_Apps > Passwords > Notifications_
+~~~yaml
+settings-navigation://com.apple.Settings.Notifications/com.apple.Passwords
+~~~
 \
 \
 _Apps > Phone_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilephone
+~~~
+_Apps > Phone > Notifications_
+~~~yaml
+settings-navigation://com.apple.Settings.Notifications/com.apple.mobilephone
 ~~~
 _Apps > Phone > Incoming Calls_
 ~~~yaml
@@ -1926,6 +1942,14 @@ settings-navigation://com.apple.Settings.Apps/com.apple.reminders
 _Apps > Reminders > Reminders Accounts (button)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.reminders#ACCOUNTS
+~~~
+_Apps > Reminders > Location_
+~~~yaml
+settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION/com.apple.reminders
+~~~
+_Apps > Reminders > Notifications_
+~~~yaml
+settings-navigation://com.apple.Settings.Notifications/com.apple.reminders
 ~~~
 \
 \
@@ -2027,9 +2051,23 @@ settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/ADVANCED/RE
 ~~~
 \
 \
+_Apps > Shazam_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.shazam.Shazam
+~~~
+_Apps > Shazam > Notifications_
+~~~yaml
+settings-navigation://com.apple.Settings.Notifications/com.shazam.Shazam
+~~~
+\
+\
 _Apps > Shortcuts_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.shortcuts
+~~~
+_Apps > Shortcuts > Location_
+~~~yaml
+settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION/com.apple.shortcuts
 ~~~
 _Apps > Shortcuts > Advanced_
 ~~~yaml
