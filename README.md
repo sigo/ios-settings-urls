@@ -1761,43 +1761,43 @@ settings-navigation://com.apple.Settings.Apps/com.apple.Passwords
 ~~~
 _Apps > Phone_
 ~~~yaml
-prefs:root=Phone
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilephone
 ~~~
 _Apps > Phone > Incoming Calls_
 ~~~yaml
-prefs:root=Phone&path=INCOMING_CALL_STYLE
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilephone/INCOMING_CALL_STYLE
 ~~~
 _Apps > Phone > Announce Calls_
 ~~~yaml
-prefs:root=Phone&path=ANNOUNCE_CALLS
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilephone/ANNOUNCE_CALLS
 ~~~
 _Apps > Phone > Wi-Fi Calling (switch)_
 ~~~yaml
-prefs:root=Phone#WIFI_CALLING_TELEPHONY_SETTINGS
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilephone#WIFI_CALLING_TELEPHONY_SETTINGS
 ~~~
 _Apps > Phone > Call Forwarding (switch)_
 ~~~yaml
-prefs:root=Phone#CALL_FORWARDING_TELEPHONY_SETTINGS
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilephone#CALL_FORWARDING_TELEPHONY_SETTINGS
 ~~~
 _Apps > Phone > Call Waiting (switch)_
 ~~~yaml
-prefs:root=Phone#CALL_WAITING_TELEPHONY_SETTINGS
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilephone#CALL_WAITING_TELEPHONY_SETTINGS
 ~~~
 _Apps > Phone > Show My Caller ID (switch)_
 ~~~yaml
-prefs:root=Phone#CALLING_LINE_ID_RESTRICTION_TELEPHONY_SETTINGS
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilephone#CALLING_LINE_ID_RESTRICTION_TELEPHONY_SETTINGS
 ~~~
 _Apps > Phone > Haptics (switch)_
 ~~~yaml
-prefs:root=Phone#CALL_HAPTICS
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilephone#CALL_HAPTICS
 ~~~
 _Apps > Phone > Unknown Callers (switch)_
 ~~~yaml
-prefs:root=Phone#FILTER_AS_NEW_CALLERS
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilephone#FILTER_AS_NEW_CALLERS
 ~~~
 _Apps > Phone > SMS/Call Reporting_
 ~~~yaml
-prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilephone/CLASSIFICATION_AND_REPORTING
 ~~~
 _Apps > Phone > Blocked Contacts_
 ~~~yaml
@@ -1809,7 +1809,7 @@ settings-navigation://com.apple.Settings.Apps/com.pixelmatorteam.pixelmator.touc
 ~~~
 _Apps > Photos_
 ~~~yaml
-prefs:root=Photos
+settings-navigation://com.apple.Settings.Apps/com.apple.mobileslideshow
 ~~~
 _Apps > Podcasts_
 ~~~yaml
@@ -1821,107 +1821,115 @@ settings-navigation://com.apple.Settings.Apps/com.apple.Preview
 ~~~
 _Apps > Reminders_
 ~~~yaml
-prefs:root=REMINDERS
+settings-navigation://com.apple.Settings.Apps/com.apple.reminders
 ~~~
 _Apps > Safari > Default Browser App (button)_
 ~~~yaml
-prefs:root=SAFARI#com.apple.settings.DefaultBrowser
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#com.apple.settings.DefaultBrowser
 ~~~
 _Apps > Safari > Search Engine_
 ~~~yaml
-prefs:root=SAFARI&path=SEARCH_ENGINE_SETTING
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/SEARCH_ENGINE_SETTING
 ~~~
 _Apps > Safari > Also Use in Private Browsing (switch)_
 ~~~yaml
-prefs:root=SAFARI#PRIVATE_BROWSING_USES_NORMAL_BROWSING_SEARCH_ENGINE_SELECTION
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#PRIVATE_BROWSING_USES_NORMAL_BROWSING_SEARCH_ENGINE_SELECTION
 ~~~
 _Apps > Safari > Search Enginge Suggestions (switch)_
 ~~~yaml
-prefs:root=SAFARI#SEARCH_SUGGESTION_SETTING
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#SEARCH_SUGGESTION_SETTING
 ~~~
 _Apps > Safari > Safari Suggestions (switch)_
 ~~~yaml
-prefs:root=SAFARI#SIRI_SUGGESTIONS
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#SIRI_SUGGESTIONS
 ~~~
 _Apps > Safari > Show Recent Searches (switch)_
 ~~~yaml
-prefs:root=SAFARI#SHOW_RECENT_SEARCHES
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#SHOW_RECENT_SEARCHES
 ~~~
 _Apps > Safari > Quick Website Search_
 ~~~yaml
-prefs:root=SAFARI&path=SITE_SPECIFIC_SEARCH
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/SITE_SPECIFIC_SEARCH
 ~~~
 _Apps > Safari > Preload Top Hit (switch)_
 ~~~yaml
-prefs:root=SAFARI#ENABLE_PREFETCHING
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#ENABLE_PREFETCHING
 ~~~
 _Apps > Safari > AutoFill_
 ~~~yaml
-prefs:root=SAFARI&path=AUTO_FILL
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/AUTO_FILL
 ~~~
 _Apps > Safari > Start Page Favorites_
 ~~~yaml
-prefs:root=SAFARI&path=FAVORITES_FOLDER
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/FAVORITES_FOLDER
 ~~~
 _Apps > Safari > Extensions_
 ~~~yaml
-prefs:root=SAFARI&path=WEB_EXTENSIONS
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/WEB_EXTENSIONS
 ~~~
 _Apps > Safari > Downloads_
 ~~~yaml
-prefs:root=SAFARI&path=DOWNLOADS
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/DOWNLOADS
 ~~~
 _Apps > Safari > Open Links <sup>iPhone</sup>_
 ~~~yaml
-prefs:root=SAFARI&path=OPEN_LINKS_IN_BACKGROUND_IPHONE
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/OPEN_LINKS_IN_BACKGROUND_IPHONE
 ~~~
 _Apps > Safari > Open Links <sup>iPad</sup>_
 ~~~yaml
-prefs:root=SAFARI&path=OPEN_LINKS_IN_BACKGROUND_IPAD
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/OPEN_LINKS_IN_BACKGROUND_IPAD
 ~~~
 _Apps > Safari > Hide IP Address (button)_
 ~~~yaml
-prefs:root=SAFARI&path=Hide%20IP%20Address
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/Hide%20IP%20Address
 ~~~
 _Apps > Safari > Require Passcode to Unlock Private Browsing (swtich)_
 ~~~yaml
-prefs:root=SAFARI#PrivateBrowsingRequiresAuthentication
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#PrivateBrowsingRequiresAuthentication
 ~~~
 _Apps > Safari > Not Secure Connection Warning (switch)_
 ~~~yaml
-prefs:root=SAFARI#WARN_ABOUT_INSECURE_CONNECTIONS
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#WARN_ABOUT_INSECURE_CONNECTIONS
 ~~~
 _Apps > Safari > Import (button)_
 ~~~yaml
-prefs:root=SAFARI#IMPORT_BUTTON
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#IMPORT_BUTTON
 ~~~
 _Apps > Safari > Export (button)_
 ~~~yaml
-prefs:root=SAFARI#EXPORT_BUTTON
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#EXPORT_BUTTON
 ~~~
 _Apps > Safari > Export (dialog)_
 ~~~yaml
-prefs:root=SAFARI&action=showExportSheet
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari&action=showExportSheet
 ~~~
 _Apps > Safari > Clear History and Website Data (button)_
 ~~~yaml
-prefs:root=SAFARI#CLEAR_HISTORY_AND_DATA
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#CLEAR_HISTORY_AND_DATA
 ~~~
 _Apps > Safari > Settings for Websites (section)_
 ~~~yaml
-prefs:root=SAFARI#SPACE_CELL_FOR_PER_SITE_SETTINGS_SYNC_TOGGLE
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#SPACE_CELL_FOR_PER_SITE_SETTINGS_SYNC_TOGGLE
 ~~~
 _Apps > Safari > Advanced_
 ~~~yaml
-prefs:root=SAFARI&path=ADVANCED
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/ADVANCED
 ~~~
 _Apps > Safari > Advanced > Website Data_
 ~~~yaml
-prefs:root=SAFARI&path=ADVANCED/REMOVE_WEBSITE_DATA
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/ADVANCED/REMOVE_WEBSITE_DATA
 ~~~
 _Apps > Shortcuts_
 ~~~yaml
-prefs:root=SHORTCUTS
+settings-navigation://com.apple.Settings.Apps/com.apple.shortcuts
+~~~
+_Apps > Shortcuts > Advanced_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.shortcuts/ShortcutsAdvancedSettings
+~~~
+_Apps > Shortcuts > Legal Notices_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.shortcuts/ShortcutsLegalNotices
 ~~~
 _Apps > Support_
 ~~~yaml
@@ -1937,11 +1945,15 @@ settings-navigation://com.apple.Settings.Apps/com.apple.tips
 ~~~
 _Apps > Translate_
 ~~~yaml
-prefs:root=TRANSLATE
+settings-navigation://com.apple.Settings.Apps/com.apple.Translate
+~~~
+_Apps > Translate > Languages_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.Translate/DOWNLOADED_LANGUAGES_SPECIFIER
 ~~~
 _Apps > Translate > On-Device Mode_
 ~~~yaml
-prefs:root=TRANSLATE#OnDeviceOnly
+settings-navigation://com.apple.Settings.Apps/com.apple.Translate#OnDeviceOnly
 ~~~
 _Apps > Voice Memos_
 ~~~yaml
@@ -1953,7 +1965,23 @@ settings-navigation://com.apple.Settings.Apps/com.apple.Bridge
 ~~~
 _Apps > Weather_
 ~~~yaml
-prefs:root=WEATHER
+settings-navigation://com.apple.Settings.Apps/com.apple.weather
+~~~
+_Apps > Weather > Temperature Unit_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.weather#TEMPERATURE_UNIT
+~~~
+_Apps > Weather > Locations – Home and Work (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.weather#HOME_WORK_SHOW_LABELS
+~~~
+_Apps > Weather > Locations – Suggested Locations (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.weather#USE_SIGNIFICANT_LOCATIONS
+~~~
+_Apps > Weather > Privacy – Reset Indentifier (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.weather#PRIVACY_RESET
 ~~~
 _Apps > Hidden Apps_
 ~~~yaml
