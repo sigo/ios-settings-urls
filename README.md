@@ -1703,12 +1703,6 @@ settings-navigation://com.apple.Settings.Apps/com.apple.mobilegarageband
 ~~~
 \
 \
-_Apps > Home_
-~~~yaml
-settings-navigation://com.apple.Settings.Apps/com.apple.Home
-~~~
-\
-\
 _Apps > iMovie_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.iMovie
