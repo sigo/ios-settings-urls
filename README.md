@@ -1493,6 +1493,22 @@ settings-navigation://com.apple.Settings.Apps/bundle_identifier
 ~~~
 \
 \
+_Apps > [app bundle identifier] > Location_
+\
+\
+&emsp;See _Privacy & Security > Location Services > [app bundle identifier]_
+\
+\
+\
+\
+_Apps > [app bundle identifier] > Notifications_
+\
+\
+&emsp;See _Notifications > [app bundle identifier]_
+\
+\
+\
+\
 _Apps > AirPort Utility_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.airport.mobileairportutility
