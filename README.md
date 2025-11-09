@@ -207,63 +207,63 @@ settings-navigation://com.apple.Settings#com.apple.Settings.VPN
 \
 _General_
 ~~~yaml
-prefs:root=General
+settings-navigation://com.apple.Settings.General
 ~~~
 _General > About_
 ~~~yaml
-prefs:root=General&path=About
+settings-navigation://com.apple.Settings.General/About
 ~~~
 _General > About > iOS Version_
 ~~~yaml
-prefs:root=General&path=About/SW_VERSION_SPECIFIER
+settings-navigation://com.apple.Settings.General/About/SW_VERSION_SPECIFIER
 ~~~
 _General > About > Certificate Trust Settings_
 ~~~yaml
-prefs:root=General&path=About/CERT_TRUST_SETTINGS
+settings-navigation://com.apple.Settings.General/About/CERT_TRUST_SETTINGS
 ~~~
 _General > Software Update_
 ~~~yaml
-prefs:root=General&path=SOFTWARE_UPDATE_LINK
+settings-navigation://com.apple.Settings.General/SOFTWARE_UPDATE_LINK
 ~~~
 _General > Software Update > Automatic Updates_
 ~~~yaml
-prefs:root=General&path=SOFTWARE_UPDATE_LINK/SUAutomaticUpdateButton
+settings-navigation://com.apple.Settings.General/SOFTWARE_UPDATE_LINK/SUAutomaticUpdateButton
 ~~~
 _General > Software Update > Beta Updates_
 ~~~yaml
-prefs:root=General&path=SOFTWARE_UPDATE_LINK/SUAutomaticUpdateButton
+settings-navigation://com.apple.Settings.General/SOFTWARE_UPDATE_LINK/SUAutomaticUpdateButton
 ~~~
 _General > iPhone Storage_
 ~~~yaml
-prefs:root=General&path=STORAGE_MGMT
+settings-navigation://com.apple.Settings.General/STORAGE_MGMT
 ~~~
 _General > AppleCare & Warranty_
 ~~~yaml
-prefs:root=General&path=COVERAGE
+settings-navigation://com.apple.Settings.General/COVERAGE
 ~~~
 _General > AirPlay & Continuity_
 ~~~yaml
-prefs:root=General&path=CONTINUITY_SPEC
+settings-navigation://com.apple.Settings.General/CONTINUITY_SPEC
 ~~~
 _General > AirDrop_
 ~~~yaml
-prefs:root=General&path=AIRDROP_LINK
+settings-navigation://com.apple.Settings.General/AIRDROP_LINK
 ~~~
 _General > Picture in Picture_
 ~~~yaml
-prefs:root=General&path=PiP_SPEC
+settings-navigation://com.apple.Settings.General/PiP_SPEC
 ~~~
 _General > Screen Capture_
 ~~~yaml
-prefs:root=General&path=SCREEN_CAPTURE
+settings-navigation://com.apple.Settings.General/SCREEN_CAPTURE
 ~~~
 _General > Matter Accessories_
 ~~~yaml
-prefs:root=General&path=MATTER_ACCESSORIES
+settings-navigation://com.apple.Settings.General/MATTER_ACCESSORIES
 ~~~
 _General > Home Button (button)_
 ~~~yaml
-prefs:root=General#HOME_BUTTON
+settings-navigation://com.apple.Settings.General#HOME_BUTTON
 ~~~
 _General > AutoFill & Passwords_
 ~~~yaml
@@ -271,83 +271,83 @@ settings-navigation://com.apple.Settings.General/AUTOFILL
 ~~~
 _General > Background App Refresh_
 ~~~yaml
-prefs:root=General&path=AUTO_CONTENT_DOWNLOAD
+settings-navigation://com.apple.Settings.General/AUTO_CONTENT_DOWNLOAD
 ~~~
 _General > Date & Time_
 ~~~yaml
-prefs:root=General&path=DATE_AND_TIME
+settings-navigation://com.apple.Settings.General/DATE_AND_TIME
 ~~~
 _General > Dictionary_
 ~~~yaml
-prefs:root=General&path=DICTIONARY
+settings-navigation://com.apple.Settings.General/DICTIONARY
 ~~~
 _General > Fonts_
 ~~~yaml
-prefs:root=General&path=FONT_SETTING
+settings-navigation://com.apple.Settings.General/FONT_SETTING
 ~~~
 _General > Fonts > System Fonts_
 ~~~yaml
-prefs:root=General&path=FONT_SETTING/SYSTEM_FONTS
+settings-navigation://com.apple.Settings.General/FONT_SETTING/SYSTEM_FONTS
 ~~~
 _General > Fonts > My Fonts_
 ~~~yaml
-prefs:root=General&path=FONT_SETTING/USER_FONTS
+settings-navigation://com.apple.Settings.General/FONT_SETTING/USER_FONTS
 ~~~
 _General > Fonts > More Fonts_
 ~~~yaml
-prefs:root=General&path=FONT_SETTING/MORE_FONTS
+settings-navigation://com.apple.Settings.General/FONT_SETTING/MORE_FONTS
 ~~~
 _General > Keyboard_
 ~~~yaml
-prefs:root=General&path=Keyboard
+settings-navigation://com.apple.Settings.General/Keyboard
 ~~~
 _General > Keyboard > Keyboards_
 ~~~yaml
-prefs:root=General&path=Keyboard/KEYBOARDS
+settings-navigation://com.apple.Settings.General/Keyboard/KEYBOARDS
 ~~~
 _General > Keyboard > Text Replacement_
 ~~~yaml
-prefs:root=General&path=Keyboard/USER_DICTIONARY
+settings-navigation://com.apple.Settings.General/Keyboard/USER_DICTIONARY
 ~~~
 _General > Keyboard > One-Handed Keyboard_
 ~~~yaml
-prefs:root=General&path=Keyboard/ReachableKeyboard
+settings-navigation://com.apple.Settings.General/Keyboard/ReachableKeyboard
 ~~~
 _General > Language & Region_
 ~~~yaml
-prefs:root=General&path=INTERNATIONAL
+settings-navigation://com.apple.Settings.General/INTERNATIONAL
 ~~~
 _General > Language & Region > Add Language_
 ~~~yaml
-prefs:root=General&path=INTERNATIONAL/ADD_PREFERRED_LANGUAGE
+settings-navigation://com.apple.Settings.General/INTERNATIONAL/ADD_PREFERRED_LANGUAGE
 ~~~
 _General > Language & Region > Region_
 ~~~yaml
-prefs:root=General&path=INTERNATIONAL/LOCALE
+settings-navigation://com.apple.Settings.General/INTERNATIONAL/LOCALE
 ~~~
 _General > Language & Region > Calendar_
 ~~~yaml
-prefs:root=General&path=INTERNATIONAL/CALENDAR
+settings-navigation://com.apple.Settings.General/INTERNATIONAL/CALENDAR
 ~~~
 _General > Language & Region > Temperature_
 ~~~yaml
-prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT
+settings-navigation://com.apple.Settings.General/INTERNATIONAL/TEMPERATURE_UNIT
 ~~~
 _General > Language & Region > Measurement System_
 ~~~yaml
-prefs:root=General&path=INTERNATIONAL/MEASUREMENT_SYSTEM
+settings-navigation://com.apple.Settings.General/INTERNATIONAL/MEASUREMENT_SYSTEM
 ~~~
 _General > Language & Region > First Day of Week_
 ~~~yaml
-prefs:root=General&path=INTERNATIONAL/FIRST_WEEKDAY
+settings-navigation://com.apple.Settings.General/INTERNATIONAL/FIRST_WEEKDAY
 ~~~
 _General > Language & Region > Date Format_
 ~~~yaml
-prefs:root=General&path=INTERNATIONAL/DATE_FORMAT
+settings-navigation://com.apple.Settings.General/INTERNATIONAL/DATE_FORMAT
 ~~~
 _General > Language & Region > Number Format_
 ~~~yaml
-prefs:root=General&path=INTERNATIONAL/NUMBER_FORMAT
+settings-navigation://com.apple.Settings.General/INTERNATIONAL/NUMBER_FORMAT
 ~~~
 _General > Language & Region > Live Text (switch)_
 ~~~yaml
@@ -359,685 +359,685 @@ settings-navigation://com.apple.Settings.General/POINTERS
 ~~~
 _General > VPN & Device Management_
 ~~~yaml
-prefs:root=General&path=ManagedConfigurationList
+settings-navigation://com.apple.Settings.General/ManagedConfigurationList
 ~~~
 _General > VPN & Device Management > VPN_
 ~~~yaml
-prefs:root=General&path=ManagedConfigurationList/VPN
+settings-navigation://com.apple.Settings.General/ManagedConfigurationList/VPN
 ~~~
 _General > Legal & Regulatory_
 ~~~yaml
-prefs:root=General&path=LEGAL_AND_REGULATORY
+settings-navigation://com.apple.Settings.General/LEGAL_AND_REGULATORY
 ~~~
 _General > Transfer or Reset iPhone_
 ~~~yaml
-prefs:root=General&path=Reset
+settings-navigation://com.apple.Settings.General/Reset
 ~~~
 _General > Transfer or Reset iPhone > Reset > Reset Network Settings (dialog)_
 ~~~yaml
-prefs:root=General&path=ResetNetworkSettings
+settings-navigation://com.apple.Settings.General/ResetNetworkSettings
 ~~~
 _General > Shut Down (button)_
 ~~~yaml
-prefs:root=General#SHUTDOWN_LABEL
+settings-navigation://com.apple.Settings.General#SHUTDOWN_LABEL
 ~~~
 \
 \
 _Accessibility_
 ~~~yaml
-prefs:root=ACCESSIBILITY
+settings-navigation://com.apple.Settings.Accessibility
 ~~~
 _Accessibility > VoiceOver_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE
+settings-navigation://com.apple.Settings.Accessibility/VOICEOVER_TITLE
 ~~~
 _Accessibility > Zoom_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=ZOOM_TITLE
+settings-navigation://com.apple.Settings.Accessibility/ZOOM_TITLE
 ~~~
 _Accessibility > Hover Text_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE
+settings-navigation://com.apple.Settings.Accessibility/HOVERTEXT_TITLE
 ~~~
 _Accessibility > Display & Text Size_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT
+settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT
 ~~~
 _Accessibility > Display & Text Size > Bold Text (switch)_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/ENHANCE_TEXT_LEGIBILITY
+settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT/ENHANCE_TEXT_LEGIBILITY
 ~~~
 _Accessibility > Display & Text Size > Larger Text_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/LARGER_TEXT
+settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT/LARGER_TEXT
 ~~~
 _Accessibility > Display & Text Size > Show Borders (switch)_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/BUTTON_SHAPES
+settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT/BUTTON_SHAPES
 ~~~
 _Accessibility > Display & Text Size > On/Off Labels (switch)_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/ON_OFF_LABELS
+settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT/ON_OFF_LABELS
 ~~~
 _Accessibility > Display & Text Size > Reduce Transparency (switch)_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/REDUCE_TRANSPARENCY
+settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT/REDUCE_TRANSPARENCY
 ~~~
 _Accessibility > Display & Text Size > Increase Contrast (switch)_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/TEXT_COLORS_DARKEN
+settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT/TEXT_COLORS_DARKEN
 ~~~
 _Accessibility > Display & Text Size > Differentiate Without Color (switch)_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DIFFERENTIATE_WITHOUT_COLOR
+settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT/DIFFERENTIATE_WITHOUT_COLOR
 ~~~
 _Accessibility > Display & Text Size > Prefer Horizontal Text (switch)_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/PREFER_HORIZONTAL_TEXT
+settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT/PREFER_HORIZONTAL_TEXT
 ~~~
 _Accessibility > Display & Text Size > Smart Invert (switch)_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/SMART_INVERT
+settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT/SMART_INVERT
 ~~~
 _Accessibility > Display & Text Size > Classic Invert (switch)_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/CLASSIC_INVERT
+settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT/CLASSIC_INVERT
 ~~~
 _Accessibility > Display & Text Size > Color Filters_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR
+settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR
 ~~~
 _Accessibility > Display & Text Size > Reduce White Point (switch/slider)_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/WHITE_POINT
+settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT/WHITE_POINT
 ~~~
 _Accessibility > Display & Text Size > Auto-Brightness (switch)_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/AUTO_BRIGHTNESS
+settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT/AUTO_BRIGHTNESS
 ~~~
 _Accessibility > Motion_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=MOTION_TITLE
+settings-navigation://com.apple.Settings.Accessibility/MOTION_TITLE
 ~~~
 _Accessibility > Motion > Reduce Motion (switch)_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION
+settings-navigation://com.apple.Settings.Accessibility/MOTION_TITLE#REDUCE_MOTION
 ~~~
 _Accessibility > Motion > Prefer Cross-Fade Transitions (switch) <sub>(only available when Reduce Motion is enabled)</sub>_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=MOTION_TITLE/REDUCE_MOTION_REDUCE_SLIDE_ANIMATIONS
+settings-navigation://com.apple.Settings.Accessibility/MOTION_TITLE/REDUCE_MOTION_REDUCE_SLIDE_ANIMATIONS
 ~~~
 _Accessibility > Motion > Vehicle Motion Clues_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=MOTION_TITLE/MotionCues
+settings-navigation://com.apple.Settings.Accessibility/MOTION_TITLE/MotionCues
 ~~~
 _Accessibility > Motion > Dim Flashing Lights (switch)_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=MOTION_TITLE/PHOTOSENSITIVE_MITIGATION
+settings-navigation://com.apple.Settings.Accessibility/MOTION_TITLE/PHOTOSENSITIVE_MITIGATION
 ~~~
 _Accessibility > Motion > Auto-Play Animated Images (switch)_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=MOTION_TITLE/REDUCE_MOTION_AUTOPLAY_ANIMATED_IMAGES
+settings-navigation://com.apple.Settings.Accessibility/MOTION_TITLE/REDUCE_MOTION_AUTOPLAY_ANIMATED_IMAGES
 ~~~
 _Accessibility > Motion > Auto-Play Video Previews (switch)_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=MOTION_TITLE/REDUCE_MOTION_AUTOPLAY_VIDEO_PREVIEWS
+settings-navigation://com.apple.Settings.Accessibility/MOTION_TITLE/REDUCE_MOTION_AUTOPLAY_VIDEO_PREVIEWS
 ~~~
 _Accessibility > Motion > Auto-Play Message Effects (switch)_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=MOTION_TITLE/ReduceMotionAutoplayMessagesEffects
+settings-navigation://com.apple.Settings.Accessibility/MOTION_TITLE/ReduceMotionAutoplayMessagesEffects
 ~~~
 _Accessibility > Motion > Prefer Non-Blinking Cursor (switch)_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=MOTION_TITLE/PREFER_NONBLINKING_CURSOR
+settings-navigation://com.apple.Settings.Accessibility/MOTION_TITLE/PREFER_NONBLINKING_CURSOR
 ~~~
 _Accessibility > Read & Speak_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=SPEECH_TITLE
+settings-navigation://com.apple.Settings.Accessibility/SPEECH_TITLE
 ~~~
 _Accessibility > Audio Descriptions_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO
+settings-navigation://com.apple.Settings.Accessibility/DESCRIPTIVE_VIDEO
 ~~~
 _Accessibility > Touch_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE
+settings-navigation://com.apple.Settings.Accessibility/TOUCH_REACHABILITY_TITLE
 ~~~
 _Accessibility > Touch > AssistiveTouch_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE
+settings-navigation://com.apple.Settings.Accessibility/TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE
 ~~~
 _Accessibility > Touch > AssistiveTouch > Assistive Touch (switch)_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/EnableAssistiveTouchSpecifier
+settings-navigation://com.apple.Settings.Accessibility/TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/EnableAssistiveTouchSpecifier
 ~~~
 _Accessibility > Touch > AssistiveTouch > Customize Top Level Menu_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize
+settings-navigation://com.apple.Settings.Accessibility/TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize
 ~~~
 _Accessibility > Touch > AssistiveTouch > Single-Tap_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/TapSpecifier
+settings-navigation://com.apple.Settings.Accessibility/TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/TapSpecifier
 ~~~
 _Accessibility > Touch > AssistiveTouch > Double-Tap_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier
+settings-navigation://com.apple.Settings.Accessibility/TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier
 ~~~
 _Accessibility > Touch > AssistiveTouch > Double-Tap > Double-Tap Timeout_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier/ASTDoubleTapTimeoutSpecifier
+settings-navigation://com.apple.Settings.Accessibility/TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier/ASTDoubleTapTimeoutSpecifier
 ~~~
 _Accessibility > Touch > AssistiveTouch > Long Press_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier
+settings-navigation://com.apple.Settings.Accessibility/TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier
 ~~~
 _Accessibility > Touch > AssistiveTouch > Long Press > Long Press Duration_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier/ASTLongPressDurationSpecifier
+settings-navigation://com.apple.Settings.Accessibility/TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier/ASTLongPressDurationSpecifier
 ~~~
 _Accessibility > Touch > AssistiveTouch > Create New Gesture_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/CreateCustomGesture
+settings-navigation://com.apple.Settings.Accessibility/TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/CreateCustomGesture
 ~~~
 _Accessibility > Touch > AssistiveTouch > Dwell Control (switch)_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellEnabledSpecifier
+settings-navigation://com.apple.Settings.Accessibility/TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellEnabledSpecifier
 ~~~
 _Accessibility > Touch > AssistiveTouch > Idle Opacity_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/IdleOpacity
+settings-navigation://com.apple.Settings.Accessibility/TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/IdleOpacity
 ~~~
 _Accessibility > Touch > AssistiveTouch > Devices_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices
+settings-navigation://com.apple.Settings.Accessibility/TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices
 ~~~
 _Accessibility > Touch > AssistiveTouch > Sound on Click (switch)_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/MouseClickSounds
+settings-navigation://com.apple.Settings.Accessibility/TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/MouseClickSounds
 ~~~
 _Accessibility > Touch > AssistiveTouch > Always Show Menu (switch)_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AlwaysShowMenu
+settings-navigation://com.apple.Settings.Accessibility/TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AlwaysShowMenu
 ~~~
 _Accessibility > Touch > AssistiveTouch > Perform Touch Gestures (switch)_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/MouseBehavesLikeFinger
+settings-navigation://com.apple.Settings.Accessibility/TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/MouseBehavesLikeFinger
 ~~~
 _Accessibility > Touch > AssistiveTouch > Use Game Controller (switch)_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/EnableAssistiveTouchGameControllerSpecifier
+settings-navigation://com.apple.Settings.Accessibility/TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/EnableAssistiveTouchGameControllerSpecifier
 ~~~
 _Accessibility > Touch > AssistiveTouch > Sound Actions_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/SOUND_ACTIONS
+settings-navigation://com.apple.Settings.Accessibility/TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/SOUND_ACTIONS
 ~~~
 _Accessibility > Touch > Reachability (switch)_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/REACHABILITY
+settings-navigation://com.apple.Settings.Accessibility/TOUCH_REACHABILITY_TITLE/REACHABILITY
 ~~~
 _Accessibility > Touch > Haptic Touch_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch
+settings-navigation://com.apple.Settings.Accessibility/TOUCH_REACHABILITY_TITLE/ForceTouch
 ~~~
 _Accessibility > Touch > Haptic Touch > Fast (option)_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchFastIdentifier
+settings-navigation://com.apple.Settings.Accessibility/TOUCH_REACHABILITY_TITLE/ForceTouch#HapticTouchFastIdentifier
 ~~~
 _Accessibility > Touch > Touch Accomodations_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS
+settings-navigation://com.apple.Settings.Accessibility/TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS
 ~~~
 _Accessibility > Touch > Touch Accomodations > Touch Accomodations (switch)_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS/TOUCH_ACCOMMODATIONS_SWITCHER
+settings-navigation://com.apple.Settings.Accessibility/TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS/TOUCH_ACCOMMODATIONS_SWITCHER
 ~~~
 _Accessibility > Touch > Touch Accomodations > Hold Duration (switch)_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS/HoldDuration
+settings-navigation://com.apple.Settings.Accessibility/TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS/HoldDuration
 ~~~
 _Accessibility > Touch > Touch Accomodations > Ignore Repeat (switch)_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS/IgnoreRepeat
+settings-navigation://com.apple.Settings.Accessibility/TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS/IgnoreRepeat
 ~~~
 _Accessibility > Touch > Shake to Undo (switch)_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/SHAKE_TO_UNDO
+settings-navigation://com.apple.Settings.Accessibility/TOUCH_REACHABILITY_TITLE/SHAKE_TO_UNDO
 ~~~
 _Accessibility > Touch > Vibration (switch)_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/VIBRATION
+settings-navigation://com.apple.Settings.Accessibility/TOUCH_REACHABILITY_TITLE/VIBRATION
 ~~~
 _Accessibility > Touch > Prevent Lock to End Call (switch)_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/LockButtonIgnore
+settings-navigation://com.apple.Settings.Accessibility/TOUCH_REACHABILITY_TITLE/LockButtonIgnore
 ~~~
 _Accessibility > Touch > Call Audio Routing_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING
+settings-navigation://com.apple.Settings.Accessibility/TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING
 ~~~
 _Accessibility > Touch > Call Audio Routing > Auto-Answer Calls_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING/callAudioRoutingAutoAnswer
+settings-navigation://com.apple.Settings.Accessibility/TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING/callAudioRoutingAutoAnswer
 ~~~
 _Accessibility > Touch > Back Tap_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap
+settings-navigation://com.apple.Settings.Accessibility/TOUCH_REACHABILITY_TITLE/BackTap
 ~~~
 _Accessibility > Touch > Back Tap > Double Tap_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/DoubleTap
+settings-navigation://com.apple.Settings.Accessibility/TOUCH_REACHABILITY_TITLE/BackTap/DoubleTap
 ~~~
 _Accessibility > Touch > Back Tap > Triple Tap_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/TripleTap
+settings-navigation://com.apple.Settings.Accessibility/TOUCH_REACHABILITY_TITLE/BackTap/TripleTap
 ~~~
 _Accessibility > Touch  > Prefer Single-Touch Actions (switch)_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#Prefer%20Single-Touch%20Actions
+settings-navigation://com.apple.Settings.Accessibility/TOUCH_REACHABILITY_TITLE#Prefer%20Single-Touch%20Actions
 ~~~
 _Accessibility > Switch Control_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle
+settings-navigation://com.apple.Settings.Accessibility/ScannerSwitchTitle
 ~~~
 _Accessibility > Voice Control_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=CommandAndControlTitle
+settings-navigation://com.apple.Settings.Accessibility/CommandAndControlTitle
 ~~~
 _Accessibility > Eye Tracking_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking
+settings-navigation://com.apple.Settings.Accessibility/OnDeviceEyeTracking
 ~~~
 _Accessibility > Head Tracking_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=AST_HEAD_TRACKING
+settings-navigation://com.apple.Settings.Accessibility/AST_HEAD_TRACKING
 ~~~
 _Accessibility > Home Button_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE
+settings-navigation://com.apple.Settings.Accessibility/HOME_CLICK_TITLE
 ~~~
 _Accessibility > Control Nearby Devices_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=CONTROL_NEARBY_DEVICES
+settings-navigation://com.apple.Settings.Accessibility/CONTROL_NEARBY_DEVICES
 ~~~
 _Accessibility > Hearing Devices_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE
+settings-navigation://com.apple.Settings.Accessibility/HEARING_AID_TITLE
 ~~~
 _Accessibility > Hearing Control Center_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=HEARING_CONTROL_CENTER
+settings-navigation://com.apple.Settings.Accessibility/HEARING_CONTROL_CENTER
 ~~~
 _Accessibility > Sound & Name Recognition_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=SOUND_AND_NAME_RECOGNITION_TITLE
+settings-navigation://com.apple.Settings.Accessibility/SOUND_AND_NAME_RECOGNITION_TITLE
 ~~~
 _Accessibility > RTT/TTY_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=RTT
+settings-navigation://com.apple.Settings.Accessibility/RTT
 ~~~
 _Accessibility > Audio & Visual_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE
+settings-navigation://com.apple.Settings.Accessibility/AUDIO_VISUAL_TITLE
 ~~~
 _Accessibility > Audio & Visual > Headphone Accommodations_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID
+settings-navigation://com.apple.Settings.Accessibility/AUDIO_VISUAL_TITLE/AXPAEnableSpecID
 ~~~
 _Accessibility > Audio & Visual > Headphone Accommodations > Custom Audio Setup_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAPersonalAudioSetupSpecID
+settings-navigation://com.apple.Settings.Accessibility/AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAPersonalAudioSetupSpecID
 ~~~
 _Accessibility > Audio & Visual > Background Sounds_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID
+settings-navigation://com.apple.Settings.Accessibility/AUDIO_VISUAL_TITLE/AXCSEnableSpecID
 ~~~
 _Accessibility > Audio & Visual > Background Sounds > Background Sounds (switch)_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#CSFeatureToggleSpecID
+settings-navigation://com.apple.Settings.Accessibility/AUDIO_VISUAL_TITLE/AXCSEnableSpecID#CSFeatureToggleSpecID
 ~~~
 _Accessibility > Audio & Visual > Live Listen_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXLLEnableSpecID
+settings-navigation://com.apple.Settings.Accessibility/AUDIO_VISUAL_TITLE/AXLLEnableSpecID
 ~~~
 _Accessibility > Audio & Visual > Mono Audio (switch)_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAMonoSpecID
+settings-navigation://com.apple.Settings.Accessibility/AUDIO_VISUAL_TITLE/AXPAMonoSpecID
 ~~~
 _Accessibility > Audio & Visual > Always Show Volume Controls (switch)_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAAlwaysShowVolumeControlSpecID
+settings-navigation://com.apple.Settings.Accessibility/AUDIO_VISUAL_TITLE/AXPAAlwaysShowVolumeControlSpecID
 ~~~
 _Accessibility > Audio & Visual > Add Voice Isolation (switch)_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#ExtendedVoiceIsolationSpecID
+settings-navigation://com.apple.Settings.Accessibility/AUDIO_VISUAL_TITLE#ExtendedVoiceIsolationSpecID
 ~~~
 _Accessibility > Audio & Visual > Headphone Notifications (switch)_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXHeadphoneNotificationsSpecID
+settings-navigation://com.apple.Settings.Accessibility/AUDIO_VISUAL_TITLE/AXHeadphoneNotificationsSpecID
 ~~~
 _Accessibility > Audio & Visual > Balance (slider)_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LeftRightBalance
+settings-navigation://com.apple.Settings.Accessibility/AUDIO_VISUAL_TITLE/LeftRightBalance
 ~~~
 _Accessibility > Audio & Visual > Add Audio in Calls_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/MIX_TO_UPLINK
+settings-navigation://com.apple.Settings.Accessibility/AUDIO_VISUAL_TITLE/MIX_TO_UPLINK
 ~~~
 _Accessibility > Audio & Visual > Call Audio Routing_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/CALL_AUDIO_ROUTING
+settings-navigation://com.apple.Settings.Accessibility/AUDIO_VISUAL_TITLE/CALL_AUDIO_ROUTING
 ~~~
 _Accessibility > Audio & Visual > Call Audio Routing > Auto-Answer Calls_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/CALL_AUDIO_ROUTING/callAudioRoutingAutoAnswer
+settings-navigation://com.apple.Settings.Accessibility/AUDIO_VISUAL_TITLE/CALL_AUDIO_ROUTING/callAudioRoutingAutoAnswer
 ~~~
 _Accessibility > Audio & Visual > LED Flash for Alerts_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH
+settings-navigation://com.apple.Settings.Accessibility/AUDIO_VISUAL_TITLE/LED_FLASH
 ~~~
 _Accessibility > Audio & Visual > LED Flash for Alerts > Flash While Unlocked (switch)_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH_WHILE_UNLOCKED
+settings-navigation://com.apple.Settings.Accessibility/AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH_WHILE_UNLOCKED
 ~~~
 _Accessibility > Audio & Visual > LED Flash for Alerts > Flash in Silent Mode (switch)_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_RINGER_SWITCH_CONTROL
+settings-navigation://com.apple.Settings.Accessibility/AUDIO_VISUAL_TITLE/LED_FLASH#LED_RINGER_SWITCH_CONTROL
 ~~~
 _Accessibility > Subtitles & Captioning_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING
+settings-navigation://com.apple.Settings.Accessibility/SUBTITLES_CAPTIONING
 ~~~
 _Accessibility > Subtitles & Captioning > Closed Captions + SDH (switch)_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#PREFER_SDH
+settings-navigation://com.apple.Settings.Accessibility/SUBTITLES_CAPTIONING#PREFER_SDH
 ~~~
 _Accessibility > Subtitles & Captioning > Style_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING/currentTheme
+settings-navigation://com.apple.Settings.Accessibility/SUBTITLES_CAPTIONING/currentTheme
 ~~~
 _Accessibility > Subtitles & Captioning > Style > Create New Style_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING/currentTheme/CreateNewStyle
+settings-navigation://com.apple.Settings.Accessibility/SUBTITLES_CAPTIONING/currentTheme/CreateNewStyle
 ~~~
 _Accessibility > Subtitles & Captioning > Show Audio Transcriptions (switch)_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING/SHOW_AUDIO_TRANSCRIPTIONS
+settings-navigation://com.apple.Settings.Accessibility/SUBTITLES_CAPTIONING/SHOW_AUDIO_TRANSCRIPTIONS
 ~~~
 _Accessibility > Subtitles & Captioning > Show when Muted (switch)_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING/SHOW_WHEN_MUTED
+settings-navigation://com.apple.Settings.Accessibility/SUBTITLES_CAPTIONING/SHOW_WHEN_MUTED
 ~~~
 _Accessibility > Subtitles & Captioning > Show on Skip Back (switch)_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING/SHOW_ON_SKIP_BACK
+settings-navigation://com.apple.Settings.Accessibility/SUBTITLES_CAPTIONING/SHOW_ON_SKIP_BACK
 ~~~
 _Accessibility > Live Captions_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION
+settings-navigation://com.apple.Settings.Accessibility/LIVE_TRANSCRIPTION
 ~~~
 _Accessibility > Live Speech_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=LIVE_SPEECH_TITLE
+settings-navigation://com.apple.Settings.Accessibility/LIVE_SPEECH_TITLE
 ~~~
 _Accessibility > Live Speech > Phrases_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=LIVE_SPEECH_TITLE/PHRASES
+settings-navigation://com.apple.Settings.Accessibility/LIVE_SPEECH_TITLE/PHRASES
 ~~~
 _Accessibility > Live Speech > Phrases > + (button)_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=LIVE_SPEECH_TITLE/PHRASES#CREATE_CUSTOM_CATEGORY
+settings-navigation://com.apple.Settings.Accessibility/LIVE_SPEECH_TITLE/PHRASES#CREATE_CUSTOM_CATEGORY
 ~~~
 _Accessibility > Personal Voice_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=PERSONAL_VOICE_TITLE
+settings-navigation://com.apple.Settings.Accessibility/PERSONAL_VOICE_TITLE
 ~~~
 _Accessibility > Vocal Shortcuts_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=ADAPTIVE_VOICE_SHORTCUTS_TITLE
+settings-navigation://com.apple.Settings.Accessibility/ADAPTIVE_VOICE_SHORTCUTS_TITLE
 ~~~
 _Accessibility > Keyboards & Typing_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=KEYBOARDS
+settings-navigation://com.apple.Settings.Accessibility/KEYBOARDS
 ~~~
 _Accessibility > AirPods_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=AIRPODS
+settings-navigation://com.apple.Settings.Accessibility/AIRPODS
 ~~~
 _Accessibility > AirPods > Spatial Audio Head Tracking – Follow iPhone (switch)_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=AIRPODS#SPATIAL_AUDIO_SWITCH
+settings-navigation://com.apple.Settings.Accessibility/AIRPODS#SPATIAL_AUDIO_SWITCH
 ~~~
 _Accessibility > Guided Access_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE
+settings-navigation://com.apple.Settings.Accessibility/GUIDED_ACCESS_TITLE
 ~~~
 _Accessibility > Guided Access > Passcode Settings_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList
+settings-navigation://com.apple.Settings.Accessibility/GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList
 ~~~
 _Accessibility > Guided Access > Time Limits_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList
+settings-navigation://com.apple.Settings.Accessibility/GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList
 ~~~
 _Accessibility > Guided Access > Time Limits > Alarm – Sound_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList/GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE#GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE
+settings-navigation://com.apple.Settings.Accessibility/GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList/GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE#GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE
 ~~~
 _Accessibility > Guided Access > Time Limits > Alarm – Speak (switch)_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SPEAK_TITLE
+settings-navigation://com.apple.Settings.Accessibility/GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SPEAK_TITLE
 ~~~
 _Accessibility > Guided Access > Accessibility Shortcut (switch)_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessEnableAXFeatures
+settings-navigation://com.apple.Settings.Accessibility/GUIDED_ACCESS_TITLE#GuidedAccessEnableAXFeatures
 ~~~
 _Accessibility > Guided Access > Display Auto-Lock_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessAutoLockTime#GuidedAccessAutoLockTime
+settings-navigation://com.apple.Settings.Accessibility/GUIDED_ACCESS_TITLE/GuidedAccessAutoLockTime#GuidedAccessAutoLockTime
 ~~~
 _Accessibility > Assistive Access_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE
+settings-navigation://com.apple.Settings.Accessibility/CLARITY_UI_TITLE
 ~~~
 _Accessibility > Accessibility Shortcut_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE
+settings-navigation://com.apple.Settings.Accessibility/TRIPLE_CLICK_TITLE
 ~~~
 _Accessibility > Per-App Settings_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE
+settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE
 ~~~
 _Accessibility > Per-App Settings > [app bundle identifier] <sub>(as long as you have added the app there, otherwise goes to the parent page)</sub>_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE/bundle_identifier
+settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/bundle_identifier
 ~~~
 _Accessibility > Per-App Settings > [app bundle identifier] > Bold Text_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE/bundle_identifier/ENHANCE_TEXT_LEGIBILITY
+settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/bundle_identifier/ENHANCE_TEXT_LEGIBILITY
 ~~~
 _Accessibility > Per-App Settings > [app bundle identifier] > Larger Text_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE/bundle_identifier/LARGER_TEXT
+settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/bundle_identifier/LARGER_TEXT
 ~~~
 _Accessibility > Per-App Settings > [app bundle identifier] > Show Borders_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE/bundle_identifier/BUTTON_SHAPES
+settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/bundle_identifier/BUTTON_SHAPES
 ~~~
 _Accessibility > Per-App Settings > [app bundle identifier] > On/Off Labels_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE/bundle_identifier/ON_OFF_LABELS
+settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/bundle_identifier/ON_OFF_LABELS
 ~~~
 _Accessibility > Per-App Settings > [app bundle identifier] > Reduce Transparency_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE/bundle_identifier/REDUCE_TRANSPARENCY
+settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/bundle_identifier/REDUCE_TRANSPARENCY
 ~~~
 _Accessibility > Per-App Settings > [app bundle identifier] > Increase Contrast_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE/bundle_identifier/TEXT_COLORS_DARKEN
+settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/bundle_identifier/TEXT_COLORS_DARKEN
 ~~~
 _Accessibility > Per-App Settings > [app bundle identifier] > Differentiate Without Color_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE/bundle_identifier/DIFFERENTIATE_WITHOUT_COLOR
+settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/bundle_identifier/DIFFERENTIATE_WITHOUT_COLOR
 ~~~
 _Accessibility > Per-App Settings > [app bundle identifier] > Prefer Horizontal Text_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE/bundle_identifier/PREFER_HORIZONTAL_TEXT
+settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/bundle_identifier/PREFER_HORIZONTAL_TEXT
 ~~~
 _Accessibility > Per-App Settings > [app bundle identifier] > Smart Invert_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE/bundle_identifier/SMART_INVERT
+settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/bundle_identifier/SMART_INVERT
 ~~~
 _Accessibility > Per-App Settings > [app bundle identifier] > Reduce Motion_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE/bundle_identifier/REDUCE_MOTION
+settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/bundle_identifier/REDUCE_MOTION
 ~~~
 _Accessibility > Per-App Settings > [app bundle identifier] > Prefer Croos-Fade Transitions_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE/bundle_identifier/REDUCE_MOTION_REDUCE_SLIDE_ANIMATIONS
+settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/bundle_identifier/REDUCE_MOTION_REDUCE_SLIDE_ANIMATIONS
 ~~~
 _Accessibility > Per-App Settings > [app bundle identifier] > Auto-Play Video Previews_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE/bundle_identifier/REDUCE_MOTION_AUTOPLAY_VIDEO_PREVIEWS
+settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/bundle_identifier/REDUCE_MOTION_AUTOPLAY_VIDEO_PREVIEWS
 ~~~
 _Accessibility > Per-App Settings > [app bundle identifier] > Prefer Non-Blinking Cursor_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE/bundle_identifier/PREFER_NONBLINKING_CURSOR
+settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/bundle_identifier/PREFER_NONBLINKING_CURSOR
 ~~~
 _Accessibility > Per-App Settings > Show Hidden Apps_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE/PROTECTED_APPS_SHOW_HIDDEN_TITLE
+settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/PROTECTED_APPS_SHOW_HIDDEN_TITLE
 ~~~
 _Accessibility > Per-App Settings > Add App (dialog)_
 ~~~yaml
-prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE/AX_ADD_BUTTON_IDENTIFIER
+settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/AX_ADD_BUTTON_IDENTIFIER
 ~~~
 \
 \
 _Camera_
 ~~~yaml
-prefs:root=CAMERA
+settings-navigation://com.apple.Settings.Camera
 ~~~
 _Camera > Record Video_
 ~~~yaml
-prefs:root=CAMERA&path=CameraVideoSettingsList
+settings-navigation://com.apple.Settings.Camera/CameraVideoSettingsList
 ~~~
 _Camera > Record Slo-mo_
 ~~~yaml
-prefs:root=CAMERA&path=CameraSlomoSettingsList
+settings-navigation://com.apple.Settings.Camera/CameraSlomoSettingsList
 ~~~
 _Camera > Formats_
 ~~~yaml
-prefs:root=CAMERA&path=CameraFormatsSettingsList
+settings-navigation://com.apple.Settings.Camera/CameraFormatsSettingsList
 ~~~
 _Camera > Preserve Settings_
 ~~~yaml
-prefs:root=CAMERA&path=CameraPreserveSettingsSwitch
+settings-navigation://com.apple.Settings.Camera/CameraPreserveSettingsSwitch
 ~~~
 _Camera > Use Volume Up for Burst (switch)_
 ~~~yaml
-prefs:root=CAMERA#VOLUME_UP_BURST
+settings-navigation://com.apple.Settings.Camera#VOLUME_UP_BURST
 ~~~
 _Camera > Scan QR Codes (switch)_
 ~~~yaml
-prefs:root=CAMERA#CameraQRBannerSwitch
+settings-navigation://com.apple.Settings.Camera#CameraQRBannerSwitch
 ~~~~
 _Camera > Show Detected Text (swtich)_
 ~~~yaml
-prefs:root=CAMERA#TEXT_ANALYSIS
+settings-navigation://com.apple.Settings.Camera#TEXT_ANALYSIS
 ~~~
 _Camera > Composition – Grid (switch)_
 ~~~yaml
-prefs:root=CAMERA#CameraGridSwitch
+settings-navigation://com.apple.Settings.Camera#CameraGridSwitch
 ~~~
 _Camera > Composition – Level (switch)_
 ~~~yaml
-prefs:root=CAMERA#CameraGridSwitch
+settings-navigation://com.apple.Settings.Camera#CameraGridSwitch
 ~~~
 _Camera > Mirror Front Camera (switch)_
 ~~~yaml
-prefs:root=CAMERA#MIRROR
+settings-navigation://com.apple.Settings.Camera#MIRROR
 ~~~
 _Camera > Indicators_
 ~~~yaml
-prefs:root=CAMERA&path=CameraIndicatorsSettingsList
+settings-navigation://com.apple.Settings.Camera/CameraIndicatorsSettingsList
 ~~~
 _Camera > Photographic Styles (button)_
 ~~~yaml
-prefs:root=CAMERA#PHOTOGRAPHIC_STYLES
+settings-navigation://com.apple.Settings.Camera#PHOTOGRAPHIC_STYLES
 ~~~
 _Camera > Prioritize Faster Shooting (switch)_
 ~~~yaml
-prefs:root=CAMERA#CAM_CAPTURE_DYNAMIC_SHUTTER_SWITCH
+settings-navigation://com.apple.Settings.Camera#CAM_CAPTURE_DYNAMIC_SHUTTER_SWITCH
 ~~~
 _Camera > Lock Screen Swipe to Open Camera (switch)_
 ~~~yaml
-prefs:root=CAMERA#LOCK_SCREEN_SWIPE_SWITCH
+settings-navigation://com.apple.Settings.Camera#LOCK_SCREEN_SWIPE_SWITCH
 ~~~
 _Camera > Messages – Save Captures to Photo Library (switch)_
 ~~~yaml
-prefs:root=CAMERA#CAM_SAVE_MESSAGES_ASSETS_PHOTO_LIBRARY_SWITCH
+settings-navigation://com.apple.Settings.Camera#CAM_SAVE_MESSAGES_ASSETS_PHOTO_LIBRARY_SWITCH
 ~~~
 \
 \
 _Control Center_
 ~~~yaml
-prefs:root=ControlCenter
+settings-navigation://com.apple.Settings.ControlCenter
 ~~~
 \
 \
 _Display & Brightness_
 ~~~yaml
-prefs:root=DISPLAY
+settings-navigation://com.apple.Settings.Display
 ~~~
 _Display & Brightness > Appearance (section)_
 ~~~yaml
-prefs:root=DISPLAY#DEVICE_APPEARANCE
+settings-navigation://com.apple.Settings.Display#DEVICE_APPEARANCE
 ~~~
 _Display & Brightness > Appearance > Automatic (switch)_
 ~~~yaml
-prefs:root=DISPLAY#AUTOMATIC
+settings-navigation://com.apple.Settings.Display#AUTOMATIC
 ~~~
 _Dispaly & Brightness > Liquid Glass_
 ~~~yaml
-prefs:root=DISPLAY&path=LIQUID_GLASS
+settings-navigation://com.apple.Settings.Display/LIQUID_GLASS
 ~~~
 _Display & Brightness > Text Size_
 ~~~yaml
-prefs:root=DISPLAY&path=TEXT_SIZE
+settings-navigation://com.apple.Settings.Display/TEXT_SIZE
 ~~~
 _Display & Brightness > Bold Text (switch)_
 ~~~yaml
-prefs:root=DISPLAY#BOLD_TEXT
+settings-navigation://com.apple.Settings.Display#BOLD_TEXT
 ~~~
 _Display & Brightness > Brightness (slider)_
 ~~~yaml
-prefs:root=DISPLAY#BRIGHTNESS
+settings-navigation://com.apple.Settings.Display#BRIGHTNESS
 ~~~
 _Display & Brightness > True Tone (switch)_
 ~~~yaml
-prefs:root=DISPLAY#WHITE_BALANCE
+settings-navigation://com.apple.Settings.Display#WHITE_BALANCE
 ~~~
 _Display & Brightness > Night Shift_
 ~~~yaml
-prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION
+settings-navigation://com.apple.Settings.Display/BLUE_LIGHT_REDUCTION
 ~~~
 _Display & Brightness > Auto-Lock_
 ~~~yaml
-prefs:root=DISPLAY&path=AUTOLOCK
+settings-navigation://com.apple.Settings.Display/AUTOLOCK
 ~~~
 _Display & Brightness > Raise to Wake (switch)_
 ~~~yaml
-prefs:root=DISPLAY#RAISE_TO_WAKE
+settings-navigation://com.apple.Settings.Display#RAISE_TO_WAKE
 ~~~
 _Display & Brightness > Display Zoom_
 ~~~yaml
-prefs:root=DISPLAY&path=MAGNIFY
+settings-navigation://com.apple.Settings.Display/MAGNIFY
 ~~~
 \
 \
 _Home Screen & App Library_
 ~~~yaml
-prefs:root=HOME_SCREEN
+settings-navigation://com.apple.Settings.HomeScreenAndAppLibrary
 ~~~
 \
 \
@@ -1049,29 +1049,29 @@ settings-navigation://com.apple.Settings.Search
 \
 _Siri_
 ~~~yaml
-prefs:root=SIRI
+settings-navigation://com.apple.Settings.Siri
 ~~~
 \
 \
 _StandBy_
 ~~~yaml
-prefs:root=AMBIENT
+settings-navigation://com.apple.Settings.StandBy
 ~~~
 _StandBy > StandBy (switch)_
 ~~~yaml
-prefs:root=AMBIENT#AMBIENT_MODE_ENABLED
+settings-navigation://com.apple.Settings.StandBy#AMBIENT_MODE_ENABLED
 ~~~
 _StandBy > Night Mode (switch)_
 ~~~yaml
-prefs:root=AMBIENT#BUMP_TO_WAKE_ENABLED
+settings-navigation://com.apple.Settings.StandBy#BUMP_TO_WAKE_ENABLED
 ~~~
 _StandBy > Show Notifications (switch)_
 ~~~yaml
-prefs:root=AMBIENT#NOTIFICATIONS_ENABLED
+settings-navigation://com.apple.Settings.StandBy#NOTIFICATIONS_ENABLED
 ~~~
 _StandBy > Show Preview on Tap Only (switch)_
 ~~~yaml
-prefs:root=AMBIENT#NOTIFICATIONS_PREVIEW
+settings-navigation://com.apple.Settings.StandBy#NOTIFICATIONS_PREVIEW
 ~~~
 \
 \
@@ -1087,121 +1087,121 @@ settings-navigation://com.apple.Settings.Wallpaper/addNewWallpaper
 \
 _Notifications_
 ~~~yaml
-prefs:root=NOTIFICATIONS_ID
+settings-navigation://com.apple.Settings.Notifications
 ~~~
 _Notifications > Scheduled Summary_
 ~~~yaml
-prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID
+settings-navigation://com.apple.Settings.Notifications/SCHEDULED_DELIVERY_ID
 ~~~
 _Notifications > Show Previews_
 ~~~yaml
-prefs:root=NOTIFICATIONS_ID&path=SHOW_PREVIEW_GROUP_ID
+settings-navigation://com.apple.Settings.Notifications/SHOW_PREVIEW_GROUP_ID
 ~~~
 _Notifications > Screen Sharing_
 ~~~yaml
-prefs:root=NOTIFICATIONS_ID&path=SCREENSHARING_ID
+settings-navigation://com.apple.Settings.Notifications/SCREENSHARING_ID
 ~~~
 _Notifications > Announce Notifications (button)_
 ~~~yaml
-prefs:root=NOTIFICATIONS_ID#SPOKEN_NOTIFICATIONS_ID
+settings-navigation://com.apple.Settings.Notifications#SPOKEN_NOTIFICATIONS_ID
 ~~~
 _Notifications > Siri Suggestions_
 ~~~yaml
-prefs:root=NOTIFICATIONS_ID&path=SIRI_SUGGESTIONS_ID
+settings-navigation://com.apple.Settings.Notifications/SIRI_SUGGESTIONS_ID
 ~~~
 _Notifications > [app bundle identifier]_
 ~~~yaml
-prefs:root=NOTIFICATIONS_ID&path=bundle_identifier
+settings-navigation://com.apple.Settings.Notifications/bundle_identifier
 ~~~
 _Notifications > [app bundle identifier] > Banner Style_
 ~~~yaml
-prefs:root=NOTIFICATIONS_ID&path=com.apple.MobileSMS/BANNER_STYLE_ID
+settings-navigation://com.apple.Settings.Notifications/com.apple.MobileSMS/BANNER_STYLE_ID
 ~~~
 _Notifications > [app bundle identifier] > Show Previews_
 ~~~yaml
-prefs:root=NOTIFICATIONS_ID&path=bundle_identifier/SHOW_PREVIEW_GROUP_ID
+settings-navigation://com.apple.Settings.Notifications/bundle_identifier/SHOW_PREVIEW_GROUP_ID
 ~~~
 _Notifications > [app bundle identifier] > Notification Grouping_
 ~~~yaml
-prefs:root=NOTIFICATIONS_ID&path=com.apple.MobileSMS/NOTIFICATION_GROUPING_APP_ID
+settings-navigation://com.apple.Settings.Notifications/com.apple.MobileSMS/NOTIFICATION_GROUPING_APP_ID
 ~~~
 _Notifications > [app bundle identifier] > Customize Notifications_
 ~~~yaml
-prefs:root=NOTIFICATIONS_ID&path=bundle_identifier/custom
+settings-navigation://com.apple.Settings.Notifications/bundle_identifier/custom
 ~~~
 \
 \
 _Sounds & Haptics_
 ~~~yaml
-prefs:root=Sounds
+settings-navigation://com.apple.Settings.Sounds
 ~~~
 _Sounds & Haptics > Microphone (button)_
 ~~~yaml
-prefs:root=Sounds#MICROPHONE
+settings-navigation://com.apple.Settings.Sounds#MICROPHONE
 ~~~
 _Sounds & Haptics > Change with Buttons (switch)_
 ~~~yaml
-prefs:root=Sounds#CHANGE_WITH_BUTTONS
+settings-navigation://com.apple.Settings.Sounds#CHANGE_WITH_BUTTONS
 ~~~
 _Sounds & Haptics > Haptics (button)_
 ~~~yaml
-prefs:root=Sounds#HAPTICS
+settings-navigation://com.apple.Settings.Sounds#HAPTICS
 ~~~
 _Sounds & Haptics > Ringtone_
 ~~~yaml
-prefs:root=Sounds&path=Ringtone
+settings-navigation://com.apple.Settings.Sounds/Ringtone
 ~~~
 _Sounds & Haptics > Text Tone_
 ~~~yaml
-prefs:root=Sounds&path=Text_Messages
+settings-navigation://com.apple.Settings.Sounds/Text_Messages
 ~~~
 _Sounds & Haptics > New Voicemail_
 ~~~yaml
-prefs:root=Sounds&path=Voicemail
+settings-navigation://com.apple.Settings.Sounds/Voicemail
 ~~~
 _Sounds & Haptics > New Mail (button)_
 ~~~yaml
-prefs:root=Sounds#NEW_MAIL
+settings-navigation://com.apple.Settings.Sounds#NEW_MAIL
 ~~~
 _Sounds & Haptics > Sent Mail_
 ~~~yaml
-prefs:root=Sounds&path=SENT_MAIL
+settings-navigation://com.apple.Settings.Sounds/SENT_MAIL
 ~~~
 _Sounds & Haptics > Celendar Alerts_
 ~~~yaml
-prefs:root=Sounds&path=Calendar%20Alarm
+settings-navigation://com.apple.Settings.Sounds/Calendar%20Alarm
 ~~~
 _Sounds & Haptics > Reminder Alerts_
 ~~~yaml
-prefs:root=Sounds&path=Reminder%20Alerts
+settings-navigation://com.apple.Settings.Sounds/Reminder%20Alerts
 ~~~
 _Sounds & Haptics > Default Alerts_
 ~~~yaml
-prefs:root=Sounds&path=DEFAULT_ALERTS
+settings-navigation://com.apple.Settings.Sounds/DEFAULT_ALERTS
 ~~~
 _Sounds & Haptics > Keyboard Feedback_
 ~~~yaml
-prefs:root=Sounds&path=KEYBOARD_FEEDBACK
+settings-navigation://com.apple.Settings.Sounds/KEYBOARD_FEEDBACK
 ~~~
 _Sounds & Haptics > Lock Sound_
 ~~~yaml
-prefs:root=Sounds#LOCK_SOUND_SWITCH
+settings-navigation://com.apple.Settings.Sounds#LOCK_SOUND_SWITCH
 ~~~
 _Sounds & Haptics > Built-In Speaker > Volume Limit_
 ~~~yaml
-prefs:root=Sounds&path=VOLUME_LIMIT
+settings-navigation://com.apple.Settings.Sounds/VOLUME_LIMIT
 ~~~
 _Sounds & Haptics > Reduce Loud Sounds_
 ~~~yaml
-prefs:root=Sounds#LATE_NIGHT_MODE_SWITCH
+settings-navigation://com.apple.Settings.Sounds#LATE_NIGHT_MODE_SWITCH
 ~~~
 _Sounds & Haptics > Headphone Safety_
 ~~~yaml
-prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING
+settings-navigation://com.apple.Settings.Sounds/HEADPHONE_LEVEL_LIMIT_SETTING
 ~~~
 _Sounds & Haptics > Personalized Spatial Audio_
 ~~~yaml
-prefs:root=Sounds&path=PERSONALIZED_SPATIAL_AUDIO
+settings-navigation://com.apple.Settings.Sounds/PERSONALIZED_SPATIAL_AUDIO
 ~~~
 \
 \
@@ -1217,245 +1217,245 @@ settings-navigation://com.apple.Settings.Focus/Focus%20Status
 \
 _Screen Time_
 ~~~yaml
-prefs:root=SCREEN_TIME
+settings-navigation://com.apple.Settings.ScreenTime
 ~~~
 _Screen Time > See All App & Web Site Activity_
 ~~~yaml
-prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY
+settings-navigation://com.apple.Settings.ScreenTime/SCREEN_TIME_SUMMARY
 ~~~
 _Screen Time > Downtime_
 ~~~yaml
-prefs:root=SCREEN_TIME&path=DOWNTIME
+settings-navigation://com.apple.Settings.ScreenTime/DOWNTIME
 ~~~
 _Screen Time > App Limits_
 ~~~yaml
-prefs:root=SCREEN_TIME&path=APP_LIMITS
+settings-navigation://com.apple.Settings.ScreenTime/APP_LIMITS
 ~~~
 _Screen Time > Always Allowed_
 ~~~yaml
-prefs:root=SCREEN_TIME&path=ALWAYS_ALLOWED
+settings-navigation://com.apple.Settings.ScreenTime/ALWAYS_ALLOWED
 ~~~
 _Screen Time > Screen Distance_
 ~~~yaml
-prefs:root=SCREEN_TIME&path=EYE_DISTANCE
+settings-navigation://com.apple.Settings.ScreenTime/EYE_DISTANCE
 ~~~
 _Screen Time > Communication Limits_
 ~~~yaml
-prefs:root=SCREEN_TIME&path=COMMUNICATION_LIMITS
+settings-navigation://com.apple.Settings.ScreenTime/COMMUNICATION_LIMITS
 ~~~
 _Screen Time > Communication Safety_
 ~~~yaml
-prefs:root=SCREEN_TIME&path=COMMUNICATION_SAFETY
+settings-navigation://com.apple.Settings.ScreenTime/COMMUNICATION_SAFETY
 ~~~
 _Screen Time > Content & Privacy Restrictions_
 ~~~yaml
-prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY
 ~~~
 _Screen Time > Content & Privacy Restrictions > View Profiles_
 ~~~yaml
-prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY/View%20Profiles
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/View%20Profiles
 ~~~
 _Screen Time > Content & Privacy Restrictions > iTunes & App Store Purchases_
 ~~~yaml
-prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY/PURCHASES
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/PURCHASES
 ~~~
 _Screen Time > Content & Privacy Restrictions > Allowed Apps & Features_
 ~~~yaml
-prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY/ALLOWED_APPS
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/ALLOWED_APPS
 ~~~
 _Screen Time > Content & Privacy Restrictions > App Store, Media, Web, & Games_
 ~~~yaml
-prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY/CONTENT_RESTRICTIONS
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/CONTENT_RESTRICTIONS
 ~~~
 _Screen Time > Content & Privacy Restrictions > Intelligence & Siri_
 ~~~yaml
-prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY/SIRI_AND_INTELLIGENCE_RESTRICTIONS
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/SIRI_AND_INTELLIGENCE_RESTRICTIONS
 ~~~
 _Screen Time > Content & Privacy Restrictions > Location Services_
 ~~~yaml
-prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY/Location%20Services
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/Location%20Services
 ~~~
 _Screen Time > Content & Privacy Restrictions > Location Services > Location Services (switch)_
 ~~~yaml
-prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY/Location%20Services/Location%20Services
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/Location%20Services/Location%20Services
 ~~~
 _Screen Time > Content & Privacy Restrictions > Location Services > Location Alerts (button)_
 ~~~yaml
-prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY/Location%20Services/LOCATION_SERVICES_MASTER
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/Location%20Services/LOCATION_SERVICES_MASTER
 ~~~
 _Screen Time > Content & Privacy Restrictions > Location Services > Share My Location (button)_
 ~~~yaml
-prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY/Location%20Services/LOCATION_SHARING
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/Location%20Services/LOCATION_SHARING
 ~~~
 _Screen Time > Content & Privacy Restrictions > Location Services > App Clips (button)_
 ~~~yaml
-prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY/Location%20Services/APP_CLIPS
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/Location%20Services/APP_CLIPS
 ~~~
 _Screen Time > Content & Privacy Restrictions > Location Services > System Services (button)_
 ~~~yaml
-prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY/Location%20Services/SYSTEM_SERVICES
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/Location%20Services/SYSTEM_SERVICES
 ~~~
 _Screen Time > Content & Privacy Restrictions > Share My Location_
 ~~~yaml
-prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY/Share%20My%20Location
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/Share%20My%20Location
 ~~~
 _Screen Time > Lock Screen Time Settings (button)_
 ~~~yaml
-prefs:root=SCREEN_TIME#Lock%20Screen%20Time%20Settings
+settings-navigation://com.apple.Settings.ScreenTime#Lock%20Screen%20Time%20Settings
 ~~~
 _Screen Time > Share Across Devices (switch)_
 ~~~yaml
-prefs:root=SCREEN_TIME#Share%20Across%20Devices
+settings-navigation://com.apple.Settings.ScreenTime#Share%20Across%20Devices
 ~~~
 \
 \
 _Touch ID & Passcode_
 ~~~yaml
-prefs:root=PASSCODE
+settings-navigation://com.apple.Settings.Passcode
 ~~~
 _Touch ID & Passcode > Change Passcode (button)_
 ~~~yaml
-prefs:root=PASSCODE#CHANGE_PASSCODE
+settings-navigation://com.apple.Settings.Passcode#CHANGE_PASSCODE
 ~~~
 _Touch ID & Passcode > Require Passcode_
 ~~~yaml
-prefs:root=PASSCODE&path=PASSCODE_REQ
+settings-navigation://com.apple.Settings.Passcode/PASSCODE_REQ
 ~~~
 _Touch ID & Passcode > Erase Data (switch)_
 ~~~yaml
-prefs:root=PASSCODE#WIPE_DEVICE
+settings-navigation://com.apple.Settings.Passcode#WIPE_DEVICE
 ~~~
 \
 \
 _Emergency SOS_
 ~~~yaml
-prefs:root=EMERGENCY_SOS
+settings-navigation://com.apple.Settings.SOS
 ~~~
 \
 \
 _Privacy & Security_
 ~~~yaml
-prefs:root=Privacy
+settings-navigation://com.apple.Settings.PrivacyAndSecurity
 ~~~
 _Privacy & Security > Location Services_
 ~~~yaml
-prefs:root=Privacy&path=LOCATION
+settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION
 ~~~
 _Privacy & Security > Location Services > Location Alerts_
 ~~~yaml
-prefs:root=Privacy&path=LOCATION/LOCATION_SERVICES_MASTER
+settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION/LOCATION_SERVICES_MASTER
 ~~~
 _Privacy & Security > Location Services > Share My Location_
 ~~~yaml
-prefs:root=Privacy&path=LOCATION/LOCATION_SHARING
+settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION/LOCATION_SHARING
 ~~~
 _Privacy & Security > Location Services > App Clips_
 ~~~yaml
-prefs:root=Privacy&path=LOCATION/APP_CLIPS
+settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION/APP_CLIPS
 ~~~
 _Privacy & Security > Location Services > [app bundle identifier]_
 ~~~yaml
-prefs:root=Privacy&path=LOCATION/bundle_identifier
+settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION/bundle_identifier
 ~~~
 _Privacy & Security > Location Services > System Services_
 ~~~yaml
-prefs:root=Privacy&path=LOCATION/SYSTEM_SERVICES
+settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION/SYSTEM_SERVICES
 ~~~
 _Privacy & Security > Tracking_
 ~~~yaml
-prefs:root=Privacy&path=USER_TRACKING
+settings-navigation://com.apple.Settings.PrivacyAndSecurity/USER_TRACKING
 ~~~
 _Privacy & Security > Calendars_
 ~~~yaml
-prefs:root=Privacy&path=CALENDARS
+settings-navigation://com.apple.Settings.PrivacyAndSecurity/CALENDARS
 ~~~
 _Privacy & Security > Contacts_
 ~~~yaml
-prefs:root=Privacy&path=CONTACTS
+settings-navigation://com.apple.Settings.PrivacyAndSecurity/CONTACTS
 ~~~
 _Privacy & Security > Home Accessories_
 ~~~yaml
-prefs:root=Privacy&path=WILLOW
+settings-navigation://com.apple.Settings.PrivacyAndSecurity/WILLOW
 ~~~
 _Privacy & Security > Passkeys Access for Web Browsers_
 ~~~yaml
-prefs:root=Privacy&path=PASSKEYS
+settings-navigation://com.apple.Settings.PrivacyAndSecurity/PASSKEYS
 ~~~
 _Privacy & Security > Photos_
 ~~~yaml
-prefs:root=Privacy&path=PHOTOS
+settings-navigation://com.apple.Settings.PrivacyAndSecurity/PHOTOS
 ~~~
 _Privacy & Security > Reminders_
 ~~~yaml
-prefs:root=Privacy&path=REMINDERS
+settings-navigation://com.apple.Settings.PrivacyAndSecurity/REMINDERS
 ~~~
 _Privacy & Security > Wallet_
 ~~~yaml
-prefs:root=Privacy&path=WALLET
+settings-navigation://com.apple.Settings.PrivacyAndSecurity/WALLET
 ~~~
 _Privacy & Security > Bluetooth_
 ~~~yaml
-prefs:root=Privacy&path=BT_PERIPHERAL
+settings-navigation://com.apple.Settings.PrivacyAndSecurity/BT_PERIPHERAL
 ~~~
 _Privacy & Security > Camera_
 ~~~yaml
-prefs:root=Privacy&path=CAMERA
+settings-navigation://com.apple.Settings.PrivacyAndSecurity/CAMERA
 ~~~
 _Privacy & Security > Local Network_
 ~~~yaml
-prefs:root=Privacy&path=LOCAL_NETWORK
+settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCAL_NETWORK
 ~~~
 _Privacy & Security > Microphone_
 ~~~yaml
-prefs:root=Privacy&path=MICROPHONE
+settings-navigation://com.apple.Settings.PrivacyAndSecurity/MICROPHONE
 ~~~
 _Privacy & Security > Nearby Interactions_
 ~~~yaml
-prefs:root=Privacy&path=NEARBY_INTERACTIONS
+settings-navigation://com.apple.Settings.PrivacyAndSecurity/NEARBY_INTERACTIONS
 ~~~
 _Privacy & Security > Paired Devices_
 ~~~yaml
-prefs:root=Privacy&path=PAIRED_DEVICES
+settings-navigation://com.apple.Settings.PrivacyAndSecurity/PAIRED_DEVICES
 ~~~
 _Privacy & Security > Research Sensor & Usage Data_
 ~~~yaml
-prefs:root=Privacy&path=ALMANAC
+settings-navigation://com.apple.Settings.PrivacyAndSecurity/ALMANAC
 ~~~
 _Privacy & Security > Speech Recognition_
 ~~~yaml
-prefs:root=Privacy&path=SPEECH_RECOGNITION
+settings-navigation://com.apple.Settings.PrivacyAndSecurity/SPEECH_RECOGNITION
 ~~~
 _Privacy & Security > Journaling Suggestions_
 ~~~yaml
-prefs:root=Privacy&path=JOURNALING_SUGGESTIONS
+settings-navigation://com.apple.Settings.PrivacyAndSecurity/JOURNALING_SUGGESTIONS
 ~~~
 _Privacy & Security > Blocked Contacts_
 ~~~yaml
-prefs:root=Privacy&path=BLOCKLIST
+settings-navigation://com.apple.Settings.PrivacyAndSecurity/BLOCKLIST
 ~~~
 _Privacy & Security > Safety Check_
 ~~~yaml
-prefs:root=Privacy&path=SAFETY_CHECK
+settings-navigation://com.apple.Settings.PrivacyAndSecurity/SAFETY_CHECK
 ~~~
 _Privacy & Security > Sensitive Content Warning_
 ~~~yaml
-prefs:root=Privacy&path=NUDITY_DETECTION
+settings-navigation://com.apple.Settings.PrivacyAndSecurity/NUDITY_DETECTION
 ~~~
 _Privacy & Security > Analytics & Improvements_
 ~~~yaml
-prefs:root=Privacy&path=PROBLEM_REPORTING
+settings-navigation://com.apple.Settings.PrivacyAndSecurity/PROBLEM_REPORTING
 ~~~
 _Privacy & Security > Apple Advertising_
 ~~~yaml
-prefs:root=Privacy&path=ADVERTISING
+settings-navigation://com.apple.Settings.PrivacyAndSecurity/ADVERTISING
 ~~~
 _Privacy & Security > App Privacy Report_
 ~~~yaml
-prefs:root=Privacy&path=PRIVACY_REPORT
+settings-navigation://com.apple.Settings.PrivacyAndSecurity/PRIVACY_REPORT
 ~~~
 _Privacy & Security > Lockdown Mode_
 ~~~yaml
-prefs:root=Privacy&path=LOCKDOWN_MODE
+settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCKDOWN_MODE
 ~~~
 \
 \
@@ -1467,7 +1467,7 @@ settings-navigation://com.apple.Settings.iCloud
 \
 _Payment & Contactless_
 ~~~yaml
-prefs:root=PASSBOOK
+settings-navigation://com.apple.Settings.Contactless
 ~~~
 \
 \
@@ -1489,7 +1489,7 @@ settings-navigation://com.apple.Settings.Apps/com.apple.airport.mobileairportuti
 ~~~
 _Apps > App Store_
 ~~~yaml
-prefs:root=STORE
+settings-navigation://com.apple.Settings.Apps/com.apple.AppStore
 ~~~
 _Apps > Apple Store_
 ~~~yaml
@@ -1505,51 +1505,51 @@ settings-navigation://com.apple.Settings.Apps/com.apple.calculator
 ~~~
 _Apps > Calendar_
 ~~~yaml
-prefs:root=CALENDAR
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilecal
 ~~~
 _Apps > Calendar > Calendar Accounts > Add Account_
 ~~~yaml
-prefs:root=CALENDAR&path=ADD_ACCOUNT
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilecal/ADD_ACCOUNT
 ~~~
 _Apps > Calendar > Time Zone Override_
 ~~~yaml
-prefs:root=CALENDAR&path=timeZoneOverride
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilecal/timeZoneOverride
 ~~~
 _Apps > Calendar > Alternate Calendars_
 ~~~yaml
-prefs:root=CALENDAR&path=alternateCalendars
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilecal/alternateCalendars
 ~~~
 _Apps > Calendar > Sync_
 ~~~yaml
-prefs:root=CALENDAR&path=syncDuration
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilecal/syncDuration
 ~~~
 _Apps > Calendar > Default Alert Times_
 ~~~yaml
-prefs:root=CALENDAR&path=defaultAlertTimes
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilecal/defaultAlertTimes
 ~~~
 _Apps > Calendar > Default Alert Times > Birthdays_
 ~~~yaml
-prefs:root=CALENDAR&path=defaultAlertTimes/birthdaysDefaultAlertTimes
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilecal/defaultAlertTimes/birthdaysDefaultAlertTimes
 ~~~
 _Apps > Calendar > Default Alert Times > Events_
 ~~~yaml
-prefs:root=CALENDAR&path=defaultAlertTimes/timedEventsDefaultAlertTimes
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilecal/defaultAlertTimes/timedEventsDefaultAlertTimes
 ~~~
 _Apps > Calendar > Default Alert Times > All-Day Events_
 ~~~yaml
-prefs:root=CALENDAR&path=defaultAlertTimes/allDayEventsDefaultAlertTimes
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilecal/defaultAlertTimes/allDayEventsDefaultAlertTimes
 ~~~
 _Apps > Calendar > Duration for New Events_
 ~~~yaml
-prefs:root=CALENDAR&path=durationForNewEvents
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilecal/durationForNewEvents
 ~~~
 _Apps > Calendar > Start Week On_
 ~~~yaml
-prefs:root=CALENDAR&path=startWeekOn
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilecal/startWeekOn
 ~~~
 _Apps > Calendar > Default Calendar_
 ~~~yaml
-prefs:root=CALENDAR&path=defaultCalendar
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilecal/defaultCalendar
 ~~~
 _Apps > Clock_
 ~~~yaml
@@ -1557,11 +1557,11 @@ settings-navigation://com.apple.Settings.Apps/com.apple.mobiletimer
 ~~~
 _Apps > Compass_
 ~~~yaml
-prefs:root=COMPASS
+settings-navigation://com.apple.Settings.Apps/com.apple.compass
 ~~~
 _Apps > Compass > Use True North (switch)_
 ~~~yaml
-prefs:root=COMPASS#USE_TRUE_NORTH
+settings-navigation://com.apple.Settings.Apps/com.apple.compass#USE_TRUE_NORTH
 ~~~
 _Apps > Configurator_
 ~~~yaml
@@ -1786,7 +1786,7 @@ prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING
 ~~~
 _Apps > Phone > Blocked Contacts_
 ~~~yaml
-prefs:root=Privacy&path=BLOCKLIST
+settings-navigation://com.apple.Settings.PrivacyAndSecurity/BLOCKLIST
 ~~~
 _Apps > Photomator_
 ~~~yaml
