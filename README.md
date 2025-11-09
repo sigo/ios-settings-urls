@@ -1507,6 +1507,10 @@ _Apps > Calendar_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilecal
 ~~~
+_Apps > Calendar > Calendar Accounts_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilecal/ACCOUNTS
+~~~
 _Apps > Calendar > Calendar Accounts > Add Account_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilecal/ADD_ACCOUNT
@@ -1569,35 +1573,35 @@ settings-navigation://com.apple.Settings.Apps/com.apple.ios.configurator
 ~~~
 _Apps > Contacts_
 ~~~yaml
-prefs:root=CONTACTS
+settings-navigation://com.apple.Settings.Apps/com.apple.MobileAddressBook
 ~~~
 _Apps > Contacts > Contacts Accounts_
 ~~~yaml
-settings-navigation://com.apple.Settings.InternetAccounts
+settings-navigation://com.apple.Settings.Apps/com.apple.MobileAddressBook/ACCOUNTS
 ~~~
 _Apps > Contacts > Contacts Accounts > Add Account_
 ~~~yaml
-prefs:root=CONTACTS&path=ADD_ACCOUNT
+settings-navigation://com.apple.Settings.Apps/com.apple.MobileAddressBook/ADD_ACCOUNT
 ~~~
 _Apps > Contacts > Sort Order_
 ~~~yaml
-prefs:root=CONTACTS&path=ContactsSortOrder
+settings-navigation://com.apple.Settings.Apps/com.apple.MobileAddressBook/ContactsSortOrder
 ~~~
 _Apps > Contacts > Display Order_
 ~~~yaml
-prefs:root=CONTACTS&path=PersonNameOrder
+settings-navigation://com.apple.Settings.Apps/com.apple.MobileAddressBook/PersonNameOrder
 ~~~
 _Apps > Contacts > Short Name_
 ~~~yaml
-prefs:root=CONTACTS&path=PersonShortName
+settings-navigation://com.apple.Settings.Apps/com.apple.MobileAddressBook/PersonShortName
 ~~~
 _Apps > Contacts > My Info_
 ~~~yaml
-prefs:root=CONTACTS&path=MeCard
+settings-navigation://com.apple.Settings.Apps/com.apple.MobileAddressBook/MeCard
 ~~~
 _Apps > Contacts > Import SIM Contacts (button)_
 ~~~yaml
-prefs:root=CONTACTS#SIMImport
+settings-navigation://com.apple.Settings.Apps/com.apple.MobileAddressBook#SIMImport
 ~~~
 _Apps > Developer_
 ~~~yaml
@@ -1657,88 +1661,99 @@ settings-navigation://com.apple.Settings.Apps/com.apple.Magnifier
 ~~~
 _Apps > Mail_
 ~~~yaml
-prefs:root=MAIL
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail
+~~~
+_Apps > Mail > Mail Accounts_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail/ACCOUNTS
+~~~
+_Apps > Mail > Mail Accounts > Add Account_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail/ADD_ACCOUNT
 ~~~
 _Apps > Maps_
 ~~~yaml
-prefs:root=MAPS
+settings-navigation://com.apple.Settings.Apps/com.apple.Maps
 ~~~
 _Apps > Measure_
 ~~~yaml
-prefs:root=MEASURE
+settings-navigation://com.apple.Settings.Apps/com.apple.measure
 ~~~
 _Apps > Messages_
 ~~~yaml
-prefs:root=MESSAGES
+settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS
 ~~~
-
 _Apps > Messages > Focus (switch)_
 ~~~yaml
-prefs:root=MESSAGES#Focus
+settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS#Focus
 ~~~
 _Apps > Messages > Siri (button)_
 ~~~yaml
-prefs:root=MESSAGES#SIRI
+settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS#SIRI
 ~~~
 _Apps > Messages > Search (button)_
 ~~~yaml
-prefs:root=MESSAGES#SEARCH
+settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS#SEARCH
 ~~~
 _Apps > Messages > Notifications (button)_
 ~~~yaml
-prefs:root=MESSAGES#NOTIFICATIONS
+settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS#NOTIFICATIONS
 ~~~
 _Apps > Messages > Sensitive Content Warning (button)_
 ~~~yaml
-prefs:root=MESSAGES#NUDITY_DETECTION
+settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS#NUDITY_DETECTION
 ~~~
 _Apps > Messages > Send & Receive_
 ~~~yaml
-prefs:root=MESSAGES&path=MADRID_ACCOUNTS_BUTTON
+settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS/MADRID_ACCOUNTS_BUTTON
 ~~~
 _Apps > Messages > Shared With You_
 ~~~yaml
-prefs:root=MESSAGES&path=SHARED_WITH_YOU_BUTTON
+settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS/SHARED_WITH_YOU_BUTTON
 ~~~
 _Apps > Messages > Screen Unknown Senders (switch)_
 ~~~yaml
-prefs:root=MESSAGES#FILTER_NEW_SENDERS_SWITCH
+settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS#FILTER_NEW_SENDERS_SWITCH
 ~~~
 _Apps > Messages > Show Contact Photo (switch)_
 ~~~yaml
-prefs:root=MESSAGES#CONTACT_PHOTO_SWITCH
+settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS#CONTACT_PHOTO_SWITCH
 ~~~
 _Apps > Messages > Send Read Receipts (switch)_
 ~~~yaml
-prefs:root=MESSAGES#READ_RECEIPTS_SWITCH
+settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS#READ_RECEIPTS_SWITCH
 ~~~
 _Apps > Messages > Send as Text Message (switch)_
 ~~~yaml
-prefs:root=MESSAGES#SEND_AS_SMS_SWITCH
+settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS#SEND_AS_SMS_SWITCH
 ~~~
 _Apps > Messages > Show Subject Field (switch)_
 ~~~yaml
-prefs:root=MESSAGES#SHOW_SUBJECT_FIELD_SWITCH
+settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS#SHOW_SUBJECT_FIELD_SWITCH
 ~~~
 _Apps > Messages > Character Count (switch)_
 ~~~yaml
-prefs:root=MESSAGES#CHARACTER_COUNT_SWITCH
+settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS#CHARACTER_COUNT_SWITCH
 ~~~
 _Apps > Messages > Messages > Mentions – Notify Me (switch)_
 ~~~yaml
-prefs:root=MESSAGES#MENTIONS_NOTIFY_ME_ID
+settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS#MENTIONS_NOTIFY_ME_ID
 ~~~
 _Apps > Messages > Raise to Listen (switch)_
 ~~~yaml
-prefs:root=MESSAGES#RAISE_TO_LISTEN_SWITCH
+settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS#RAISE_TO_LISTEN_SWITCH
 ~~~
 _Apps > Messages > Send Low Quality Photo Previews (switch)_
 ~~~yaml
-prefs:root=MESSAGES#PREVIEW_TRANSCODING_SWITCH
+settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS#PREVIEW_TRANSCODING_SWITCH
 ~~~
 _Apps > Notes_
 ~~~yaml
-prefs:root=NOTES
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes
+~~~
+_Apps > Notes > Notes Accounts_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/ACCOUNTS
 ~~~
 _Apps > Passwords_
 ~~~yaml
