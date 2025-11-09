@@ -869,6 +869,10 @@ _Accessibility > Guided Access > Passcode Settings_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList
 ~~~
+_Accessibility > Guided Access > Passcode Settings > Set Guided Access Passcode (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Accessibility/GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GAXPinButton
+~~~
 _Accessibility > Guided Access > Time Limits_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList
