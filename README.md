@@ -1863,6 +1863,14 @@ _Apps > Photos > iCloud Photos (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobileslideshow#iCloudPhotosSwitch
 ~~~
+_Apps > Photos > Optimize iPhone Storage (option)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobileslideshow#iCloudOptimizeStorageOption
+~~~
+_Apps > Photos > Download and Keep Origianls (option)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobileslideshow#iCloudKeepOriginalsOption
+~~~
 _Apps > Photos > Shared Library (dialog)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobileslideshow/SharedLibrarySettingsButton
@@ -1891,13 +1899,33 @@ _Apps > Photos > Auto-Play Motion (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobileslideshow#VideoAutoplaySwitch
 ~~~
+_Apps > Photos > Loop Videos (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobileslideshow#VideoAutoloopSwitch
+~~~
+_Apps > Photos > Memories – Reset Suggested Memories (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobileslideshow#ResetBlacklistedMemoryFeatures
+~~~
+_Apps > Photos > Memories – Reset People & Pets Suggestions (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobileslideshow#ResetPeopleFeedback
+~~~
+_Apps > Photos > Memories – Show Holiday Events (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobileslideshow#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH
+~~~
 _Apps > Photos > Show Featured Content (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobileslideshow#FeaturedContentAllowedSwitch
 ~~~
-_Apps > Photos > Transfer to Mac or PC_
+_Apps > Photos > Transfer to Mac or PC – Automatic (option)_
 ~~~yaml
-settings-navigation://com.apple.Settings.Apps/com.apple.mobileslideshow#TransferGroup
+settings-navigation://com.apple.Settings.Apps/com.apple.mobileslideshow#TransferAutomaticOption
+~~~
+_Apps > Photos > Transfer to Mac or PC – Keep Origianls (option)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobileslideshow#TransferKeepOriginalsOption
 ~~~
 _Apps > Photos > Enhanced Visual Search (switch)_
 ~~~yaml
