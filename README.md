@@ -1729,6 +1729,38 @@ _Apps > Maps_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.Maps
 ~~~
+_Apps > Maps > Preferred Type of Travel – Driving (option)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.Maps#TransportTypePreferenceDrivingID
+~~~
+_Apps > Maps > Preferred Type of Travel – Walking (option)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.Maps#TransportTypePreferenceWalkingID
+~~~
+_Apps > Maps > Preferred Type of Travel – Transit (option)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.Maps#TransportTypePreferenceTransitID
+~~~
+_Apps > Maps > Preferred Type of Travel – Cycling (option)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.Maps#TransportTypePreferenceBicycleID
+~~~
+_Apps > Maps > Directions – Driving_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.Maps/DrivingLinkPreferenceID
+~~~
+_Apps > Maps > Directions – Walking_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.Maps/WalkingLinkPreferenceID
+~~~
+_Apps > Maps > Directions – Transit_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.Maps/TransitLinkPreferenceID
+~~~
+_Apps > Maps > Directions – Cycling_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.Maps/CyclingLinkPreferenceID
+~~~
 \
 \
 _Apps > Measure_
