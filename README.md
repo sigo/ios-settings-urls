@@ -1859,6 +1859,54 @@ _Apps > Photos_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobileslideshow
 ~~~
+_Apps > Photos > iCloud Photos (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobileslideshow#iCloudPhotosSwitch
+~~~
+_Apps > Photos > Shared Library (dialog)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobileslideshow/SharedLibrarySettingsButton
+~~~~
+_Apps > Photos > Shared Albums (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobileslideshow#SharedStreamsSwitch
+~~~
+_Apps > Photos > Approve wirh Mac to Unlock (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobileslideshow#PhotosContentPrivacySwitch
+~~~
+_Apps > Photos > Show Hidden Album (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobileslideshow#PhotosHiddenAlbumSwitch
+~~~
+_Apps > Photos > Show Recently Viewed & Shared (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobileslideshow#PhotosRecentlyViewedAndSharedAlbumSwitch
+~~~
+_Apps > Photos > Cellular Data (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobileslideshow/CellularDataGroup#CellularDataLinkList
+~~~
+_Apps > Photos > Auto-Play Motion (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobileslideshow#VideoAutoplaySwitch
+~~~
+_Apps > Photos > Show Featured Content (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobileslideshow#FeaturedContentAllowedSwitch
+~~~
+_Apps > Photos > Transfer to Mac or PC_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobileslideshow#TransferGroup
+~~~
+_Apps > Photos > Enhanced Visual Search (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobileslideshow#VisualSearchSwitch
+~~~
+_Apps > Photos > Control for Creating Spatial Photos (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobileslideshow#AlchemizeButtonEnabledSwitch
+~~~
 \
 \
 _Apps > Podcasts_
