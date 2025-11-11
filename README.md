@@ -59,6 +59,26 @@ _Apple Account > iCloud > Saved to iCloud > iCloud Drive_
 ~~~yaml
 settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity
 ~~~
+_Apple Account > iCloud > Saved to iCloud > iCloud Mail_
+~~~yaml
+settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail
+~~~
+_Apple Account > iCloud > Saved to iCloud > iCloud Mail > iCloud Mail Cleanup_
+~~~yaml
+settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/ICLOUD_MAIL_CLEANUP
+~~~
+_Apple Account > iCloud > Saved to iCloud > iCloud Mail > iCloud Mail Rules_
+~~~yaml
+settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/SERVER_SIDE_RULES
+~~~
+_Apple Account > iCloud > Saved to iCloud > iCloud Mail > Import Messages_
+~~~yaml
+settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/MAIL_IMPORT
+~~~
+_Apple Account > iCloud > Saved to iCloud > Passwords & Keychan_
+~~~yaml
+settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync
+~~~
 _Apple Account > iCloud > Saved to iCloud > Notes_
 ~~~yaml
 settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Notes
@@ -236,6 +256,10 @@ settings-navigation://com.apple.Settings.General/SOFTWARE_UPDATE_LINK/SUAutomati
 _General > iPhone Storage_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/STORAGE_MGMT
+~~~
+_General > iPhone Storage > [app bundle identifier]_
+~~~yaml
+settings-navigation://com.apple.Settings.General/STORAGE_MGMT/bundle_identifier
 ~~~
 _General > AppleCare & Warranty_
 ~~~yaml
