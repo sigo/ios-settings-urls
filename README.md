@@ -2001,10 +2001,6 @@ _Apps > Messages > Send Low Quality Photo Previews (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS#PREVIEW_TRANSCODING_SWITCH
 ~~~
-_Apps > Messages > Messages for Business_
-~~~yaml
-settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS/BUSINESS_CHAT_BUTTON
-~~~
 \
 \
 _Apps > Notes_
