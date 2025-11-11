@@ -1751,6 +1751,118 @@ _Apps > Mail > Mail Accounts > Add Account_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail/ADD_ACCOUNT
 ~~~
+_Apps > Mail > Notifications_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail/NOTIFICATIONS
+~~~
+_Apps > Mail > Siri (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail#SIRI
+~~~
+_Apps > Mail > Search (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail#SEARCH
+~~~
+_Apps > Mail > Show Contact Photos (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail#SHOW_CONTACT_PHOTOS
+~~~
+_Apps > Mail > Show To/Cc Labels (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail#SHOW_TOCC_INDICATOR
+~~~
+_Apps > Mail > Preview_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail/LINES_OF_PREVIEW
+~~~
+_Apps > Mail > Delete or Move Message Action_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail/DELETE_OR_MOVE_MESSAGE_ACTION
+~~~
+_Apps > Mail > Mark Message as Read (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail#Mark%20Message%20as%20Read
+~~~
+_Apps > Mail > Swipe Options_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail/SWIPE_OPTIONS
+~~~
+_Apps > Mail > Ask Before Deleting (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail#ASK_BEFORE_DELETING
+~~~
+_Apps > Mail > Privacy Protection (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail#PRIVACY_PROTECTION
+~~~
+_Apps > Mail > Search_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail/SEARCH_PREFERENCE
+~~~
+_Apps > Mail > Follow Up Suggestions (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail#Follow%20Up%20Suggestions
+~~~
+_Apps > Mail > Organize by Thread (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail#ORGANIZE_BY_THREAD
+~~~
+_Apps > Mail > Collapse Read Messages (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail#COLLAPSE_READ_MESSAGES
+~~~
+_Apps > Mail > Most Recent Message on Top (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail#MOST_RECENT_MESSAGE_ON_TOP
+~~~
+_Apps > Mail > Complete Threads (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail#COMPLETE_THREADS
+~~~
+_Apps > Mail > Muted Thread Action_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail/MUTED_THREAD_ACTION
+~~~
+_Apps > Mail > Blocked Sender Options_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail/BLOCKED_SENDER_OPTIONS
+~~~
+_Apps > Mail > Blocked_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail/BLOCKED_SENDERS
+~~~
+_Apps > Mail > Always Bcc Myself (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail#ALWAYS_BCC_MYSELF
+~~~
+_Apps > Mail > Mark Addresses_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail/MARK_ADDRESSES
+~~~
+_Apps > Mail > Increase Quote Level_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail/INCREASE_QUOTE_LEVEL
+~~~
+_Apps > Mail > Include Attachments with Replies_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail/INCLUDE_ATTACHMENTS_WITH_REPLIES
+~~~
+_Apps > Mail > Add Link Previews (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail#ADD_LINK_PREVIEWS
+~~~
+_Apps > Mail > Signature_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail/SIGNATURE
+~~~
+_Apps > Mail > Load Remote Images (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail#LOAD_REMOTE_IMAGES
+~~~
+_Apps > Mail > Undo Send Delay_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail/UNDO_SEND_DELAY
+~~~
 \
 \
 _Apps > Maps_
