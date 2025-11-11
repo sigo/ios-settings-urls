@@ -1805,6 +1805,14 @@ _Apps > Messages > Send & Receive_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS/MADRID_ACCOUNTS_BUTTON
 ~~~
+_Apps > Messages > iMessage Apps_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS/IMESSAGE_APPS_BUTTON
+~~~
+_Apps > Messages > Share Name and Photo_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS/NAME_AND_PHOTO_SHARING_BUTTON
+~~~
 _Apps > Messages > Shared With You_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS/SHARED_WITH_YOU_BUTTON
@@ -1833,17 +1841,33 @@ _Apps > Messages > Character Count (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS#CHARACTER_COUNT_SWITCH
 ~~~
-_Apps > Messages > Messages > Mentions – Notify Me (switch)_
+_Apps > Messages > Blocked Contacts_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS/BLOCKLIST_SETTINGS_MAIN_SPECIFIER_IDENTIFIER
+~~~
+_Apps > Messages > Keep Messages_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS/KEEP_MESSAGES_BUTTON
+~~~
+_Apps > Messages > Mentions – Notify Me (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS#MENTIONS_NOTIFY_ME_ID
 ~~~
-_Apps > Messages > Raise to Listen (switch)_
+_Apps > Messages > Audio Messages > Expire_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS/EXPIRE_AUDIO_MESSAGES
+~~~
+_Apps > Messages > Audio Messages > Raise to Listen (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS#RAISE_TO_LISTEN_SWITCH
 ~~~
 _Apps > Messages > Send Low Quality Photo Previews (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS#PREVIEW_TRANSCODING_SWITCH
+~~~
+_Apps > Messages > Messages for Business_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS/BUSINESS_CHAT_BUTTON
 ~~~
 \
 \
