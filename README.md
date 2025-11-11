@@ -63,6 +63,10 @@ _Apple Account > iCloud > Saved to iCloud > iCloud Mail_
 ~~~yaml
 settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail
 ~~~
+_Apple Account > iCloud > Saved to iCloud > iCloud Mail > Addresses_
+~~~yaml
+settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/ALIASES
+~~~
 _Apple Account > iCloud > Saved to iCloud > iCloud Mail > iCloud Mail Cleanup_
 ~~~yaml
 settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/ICLOUD_MAIL_CLEANUP
@@ -71,9 +75,29 @@ _Apple Account > iCloud > Saved to iCloud > iCloud Mail > iCloud Mail Rules_
 ~~~yaml
 settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/SERVER_SIDE_RULES
 ~~~
+_Apple Account > iCloud > Saved to iCloud > iCloud Mail > Auto-Reply_
+~~~yaml
+settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/AUTO_REPLY
+~~~
+_Apple Account > iCloud > Saved to iCloud > iCloud Mail > Mail Forwarding <sub>[some delay]</sub>_
+~~~yaml
+settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/MAIL_FORWARDING
+~~~
+_Apple Account > iCloud > Saved to iCloud > iCloud Mail > Mailbox Behaviors_
+~~~yaml
+settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/MAILBOX_BEHAVIORS
+~~~
 _Apple Account > iCloud > Saved to iCloud > iCloud Mail > Import Messages_
 ~~~yaml
 settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/MAIL_IMPORT
+~~~
+_Apple Account > iCloud > Saved to iCloud > iCloud Mail > Signing and Encryption_
+~~~yaml
+settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/END_TO_END_ENCRYPTION
+~~~
+_Apple Account > iCloud > Saved to iCloud > iCloud Mail > Custom Email Domain <sub>[some delay]</sub>_
+~~~yaml
+settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/BYOD_SETTING_SPECIFIER_ID
 ~~~
 _Apple Account > iCloud > Saved to iCloud > Passwords & Keychan_
 ~~~yaml
