@@ -1067,6 +1067,10 @@ _Home Screen & App Library_
 ~~~yaml
 settings-navigation://com.apple.Settings.HomeScreenAndAppLibrary
 ~~~
+_Home Screen & App Library > Notifications Badges – Show in App Library_
+~~~yaml
+settings-navigation://com.apple.Settings.HomeScreenAndAppLibrary#BADGES_IN_APP_LIBRARY
+~~~
 \
 \
 _Search_
