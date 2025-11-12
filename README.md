@@ -209,7 +209,7 @@ _Cellular > SIM PIN (button)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Cellular#SIM_PASSCODE_TELEPHONY_SETTINGS
 ~~~
-_Cellular > Add eSim (button)_
+_Cellular > Add eSIM (button)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Cellular#ADD_CELLULAR_PLAN
 ~~~
