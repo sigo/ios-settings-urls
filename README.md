@@ -181,6 +181,10 @@ _Cellular_
 ~~~yaml
 settings-navigation://com.apple.Settings.Cellular
 ~~~
+_Cellulart > Cellular Data (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Cellular#MOBILE_DATA_SETTINGS
+~~~
 _Cellular > Cellular Data Options_
 ~~~yaml
 settings-navigation://com.apple.Settings.Cellular/CELLULAR_DATA_OPTIONS
@@ -188,6 +192,26 @@ settings-navigation://com.apple.Settings.Cellular/CELLULAR_DATA_OPTIONS
 _Cellular > Cellular Data Options > Data Mode_
 ~~~yaml
 settings-navigation://com.apple.Settings.Cellular/CELLULAR_DATA_OPTIONS/DATA_MODE
+~~~
+_Cellular > Network Selection (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Cellular#CELLULAR_NETWORK_TELEPHONY_SETTINGS
+~~~
+_Cellular > My Number (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Cellular#PHONEBOOK_TELEPHONY_SETTINGS
+~~~
+_Cellular > Calls on Other Devices (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Cellular#PRIMARY_CLOUD_CALLING
+~~~
+_Cellular > SIM PIN (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Cellular#SIM_PASSCODE_TELEPHONY_SETTINGS
+~~~
+_Cellular > Add eSim (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Cellular#ADD_CELLULAR_PLAN
 ~~~
 _Cellular > Cellular Data > Show All > Cellular Data Usage_
 ~~~yaml
@@ -1171,7 +1195,7 @@ settings-navigation://com.apple.Settings.Notifications/bundle_identifier
 ~~~
 _Notifications > [app bundle identifier] > Banner Style_
 ~~~yaml
-settings-navigation://com.apple.Settings.Notifications/com.apple.MobileSMS/BANNER_STYLE_ID
+settings-navigation://com.apple.Settings.Notifications/bundle_identifier/BANNER_STYLE_ID
 ~~~
 _Notifications > [app bundle identifier] > Show Previews_
 ~~~yaml
@@ -1179,7 +1203,7 @@ settings-navigation://com.apple.Settings.Notifications/bundle_identifier/SHOW_PR
 ~~~
 _Notifications > [app bundle identifier] > Notification Grouping_
 ~~~yaml
-settings-navigation://com.apple.Settings.Notifications/com.apple.MobileSMS/NOTIFICATION_GROUPING_APP_ID
+settings-navigation://com.apple.Settings.Notifications/bundle_identifier/NOTIFICATION_GROUPING_APP_ID
 ~~~
 _Notifications > [app bundle identifier] > Customize Notifications_
 ~~~yaml
@@ -2031,9 +2055,25 @@ _Apps > Phone > Announce Calls_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilephone/ANNOUNCE_CALLS
 ~~~
+_Apps > Phone > My Number (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilephone#PHONEBOOK_TELEPHONY_SETTINGS
+~~~
+_Apps > Phone > SharePlay (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilephone#SHAREPLAY_SETTINGS
+~~~
 _Apps > Phone > Wi-Fi Calling (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilephone#WIFI_CALLING_TELEPHONY_SETTINGS
+~~~
+_Apps > Phone > Calls on Other Devices_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilephone/PRIMARY_CLOUD_CALLING
+~~~
+_Apps > Phone > Respond with Text_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilephone/REPLY_WITH_MESSAGES
 ~~~
 _Apps > Phone > Call Forwarding (switch)_
 ~~~yaml
@@ -2043,6 +2083,10 @@ _Apps > Phone > Call Waiting (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilephone#CALL_WAITING_TELEPHONY_SETTINGS
 ~~~
+_Apps > Phone > Audio Call Recording_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilephone/CALL_RECORDING
+~~~
 _Apps > Phone > Show My Caller ID (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilephone#CALLING_LINE_ID_RESTRICTION_TELEPHONY_SETTINGS
@@ -2051,7 +2095,7 @@ _Apps > Phone > Haptics (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilephone#CALL_HAPTICS
 ~~~
-_Apps > Phone > Unknown Callers (switch)_
+_Apps > Phone > Call Filtering – Unknown Callers (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilephone#FILTER_AS_NEW_CALLERS
 ~~~
@@ -2061,7 +2105,7 @@ settings-navigation://com.apple.Settings.Apps/com.apple.mobilephone/CLASSIFICATI
 ~~~
 _Apps > Phone > Blocked Contacts_
 ~~~yaml
-settings-navigation://com.apple.Settings.PrivacyAndSecurity/BLOCKLIST
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilephone/BLOCKLIST_SETTINGS_MAIN_SPECIFIER_IDENTIFIER
 ~~~
 \
 \
