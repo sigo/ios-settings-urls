@@ -337,7 +337,7 @@ _General > Matter Accessories_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/MATTER_ACCESSORIES
 ~~~
-_General > Home Button (button)_
+_General > Home Button (button) <sub>(device dependant)</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.General#HOME_BUTTON
 ~~~
@@ -389,6 +389,84 @@ _General > Keyboard > One-Handed Keyboard_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/Keyboard/ReachableKeyboard
 ~~~
+_General > Keyboard > Character Preview (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.General/Keyboard#KeyboardAllowPaddle
+~~~
+_General > Keyboard > Haptic Feedback (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.General/Keyboard#KeyboardVisceral
+~~~
+_General > Keyboard > Sound (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.General/Keyboard#keyboard-audio
+~~~
+_General > Keyboard > Hardware Keyboard (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.General/Keyboard/HardwareKeyboard
+~~~
+_General > Keyboard > Auto-Capitalization (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.General/Keyboard#KeyboardAutocapitalization
+~~~
+_General > Keyboard > Auto-Correction (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.General/Keyboard#KeyboardAutocorrection
+~~~
+_General > Keyboard > Predictive Text (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.General/Keyboard#KeyboardPrediction
+~~~
+_General > Keyboard > Show Math Results (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.General/Keyboard#KeyboardMathExpressionCompletion
+~~~
+_General > Keyboard > Check Spelling (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.General/Keyboard#KeyboardCheckSpelling
+~~~
+_General > Keyboard > Enable Caps Lock (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.General/Keyboard#KeyboardCapsLock
+~~~
+_General > Keyboard > Slide to Type (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.General/Keyboard#KeyboardContinuousPathEnabled
+~~~
+_General > Keyboard > Delete Slide-to-Type by Word (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.General/Keyboard#KeyboardContinuousPathDeleteWholeWord
+~~~
+_General > Keyboard > “.” Shortcut (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.General/Keyboard#KeyboardPeriodShortcut
+~~~
+_General > Keyboard > Enable Dictation (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.General/Keyboard#Dictation
+~~~
+_General > Keyboard > Dictation – Auto-Punctuation (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.General/Keyboard#AutoPunctuationSetting
+~~~
+_General > Keyboard > Dictation Languages_
+~~~yaml
+settings-navigation://com.apple.Settings.General/Keyboard/DictationSettings
+~~~
+_General > Keyboard > Dictation Shortcut_
+~~~yaml
+settings-navigation://com.apple.Settings.General/Keyboard/DictationHWShortcut
+~~~
+_General > Keyboard > English – Show Predictions In-Line_
+~~~yaml
+settings-navigation://com.apple.Settings.General/Keyboard#KeyboardInlineCompletion
+~~~
+_General > Keyboard > Emoji – Stickers_
+~~~yaml
+settings-navigation://com.apple.Settings.General/Keyboard#ShowStickers
+~~~
+\
+\
 _General > Language & Region_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/INTERNATIONAL
@@ -727,13 +805,25 @@ _Accessibility > Head Tracking_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/AST_HEAD_TRACKING
 ~~~
-_Accessibility > Home Button_
+_Accessibility > Home Button <sub>(device dependant)</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/HOME_CLICK_TITLE
+~~~
+_Accessibility > Face ID & Attention_
+~~~yaml
+settings-navigation://com.apple.Settings.Accessibility/FACE_ID
+~~~
+_Accessibility > Face ID & Attention > Attention Aware Features (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Accessibility/FACE_ID/AttentionAware
 ~~~
 _Accessibility > Control Nearby Devices_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/CONTROL_NEARBY_DEVICES
+~~~
+_Accessibility > Control Nearby Devices > Control Nearby Devices (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Accessibility/CONTROL_NEARBY_DEVICES/CONTROL_NEARBY_DEVICES
 ~~~
 _Accessibility > Hearing Devices_
 ~~~yaml
@@ -993,6 +1083,12 @@ settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/AX_
 ~~~
 \
 \
+_Action Button <sub>(device depandant)</sub>_
+~~~yaml
+settings-navigation://com.apple.Settings.ActionButton
+~~~
+\
+\
 _Camera_
 ~~~yaml
 settings-navigation://com.apple.Settings.Camera
@@ -1140,6 +1236,10 @@ settings-navigation://com.apple.Settings.Siri
 _StandBy_
 ~~~yaml
 settings-navigation://com.apple.Settings.StandBy
+~~~
+_StandBy > Display <sub>(device dependant)</sub>_
+~~~yaml
+settings-navigation://com.apple.Settings.StandBy/ALWAYS_ON_DISPLAY_OPTIONS
 ~~~
 _StandBy > StandBy (switch)_
 ~~~yaml
@@ -1980,6 +2080,42 @@ settings-navigation://com.apple.Settings.Apps/com.apple.Maps/TransitLinkPreferen
 _Apps > Maps > Directions – Cycling_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.Maps/CyclingLinkPreferenceID
+~~~
+_Apps > Maps > Spoken Directions_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.Maps/NavigationGuidanceLinkPreferenceID
+~~~
+_Apps > Maps > Share ETA (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.Maps#ShareETAPreferenceID
+~~~
+_Apps > Maps > Blocked Contacts (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.Maps#BlockedContactsPreferenceID
+~~~
+_Apps > Maps > Air Quality Index (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.Maps#AirQualityPreferenceID
+~~~
+_Apps > Maps > Weather Condition (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.Maps#WeatherConditionsPreferenceID
+~~~
+_Apps > Maps > Map Labels > Always in English (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.Maps#LabelLanguageAlwaysUIPreferenceID
+~~~
+_Apps > Maps > Contribute to Maps – Ratings and Photos (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.Maps#RatingsAndPhotosPreferencesID
+~~~
+_Apps > Maps > Contribute to Maps – Show Ratings and Photos Suggestions (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.Maps#ShowRatingsAndPhotosSuggestionsPreferencesID
+~~~
+_Apps > Maps > Allow Photo Providers to Use Your Photos (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.Maps#AllowPhotoProvidersPreferencesID
 ~~~
 \
 \
