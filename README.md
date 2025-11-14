@@ -401,7 +401,7 @@ _General > Keyboard > Sound (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/Keyboard#keyboard-audio
 ~~~
-_General > Keyboard > Hardware Keyboard (switch)_
+_General > Keyboard > Hardware Keyboard_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/Keyboard/HardwareKeyboard
 ~~~
