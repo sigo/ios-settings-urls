@@ -201,6 +201,10 @@ _Cellular > My Number (button)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Cellular#PHONEBOOK_TELEPHONY_SETTINGS
 ~~~
+_Cellular > Wi-Fi Calling (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Cellular#WIFI_CALLING_TELEPHONY_SETTINGS
+~~~
 _Cellular > Calls on Other Devices (button)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Cellular#PRIMARY_CLOUD_CALLING
@@ -1718,6 +1722,34 @@ settings-navigation://com.apple.Settings.Apps/developer.apple.wwdc-Release
 _Apps > FaceTime_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.facetime
+~~~
+_FaceTime > FaceTime (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.facetime#FACETIME_ENABLED_ID
+~~~
+_FaceTime > Incoming Calls_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.facetime/INCOMING_CALL_STYLE
+~~~
+_FaceTime > Announce Calls_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.facetime/ANNOUNCE_CALLS
+~~~
+_FaceTime > SharePlay_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.facetime/SHAREPLAY_SETTINGS
+~~~
+_FaceTime > Call Filtering – Unknow Callers (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.facetime#FILTER_AS_NEW_CALLERS
+~~~
+_FaceTime > Call Filtering – FaceTime Spam (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.facetime#FILTER_SPAM
+~~~
+_FaceTime > Blocked Contacts_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.facetime/BLOCKLIST_SETTINGS_MAIN_SPECIFIER_IDENTIFIER
 ~~~
 \
 \
