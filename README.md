@@ -1875,6 +1875,10 @@ _FaceTime > SharePlay_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.facetime/SHAREPLAY_SETTINGS
 ~~~
+_Apps > FaceTime > Silence Unknown Callers (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.facetime#DIRECT_TO_VOICEMAIL
+~~~
 _FaceTime > Call Filtering – Unknow Callers (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.facetime#FILTER_AS_NEW_CALLERS
@@ -2310,6 +2314,10 @@ settings-navigation://com.apple.Settings.Apps/com.apple.mobilephone#CALLING_LINE
 _Apps > Phone > Haptics (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilephone#CALL_HAPTICS
+~~~
+_Apps > Phone > Silence Unknown Callers (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilephone#DIRECT_TO_VOICEMAIL
 ~~~
 _Apps > Phone > Call Filtering – Unknown Callers (switch)_
 ~~~yaml
