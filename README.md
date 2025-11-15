@@ -363,8 +363,6 @@ _General > Keyboard > Emoji – Stickers_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/Keyboard#ShowStickers
 ~~~
-\
-\
 _General > Language & Region_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/INTERNATIONAL
