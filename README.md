@@ -253,11 +253,11 @@ _Battery_
 ~~~yaml
 settings-navigation://com.apple.Settings.Battery
 ~~~
-_Battery > Battery Health & Charging <sub>(device dependant)</sub>_
+_Battery > Battery Health & Charging <sub>(device dependent)</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.Battery/BATTERY_HEALTH_TITLE
 ~~~
-_Battery > Charging Options <sub>(device dependant)</sub>_
+_Battery > Charging Options <sub>(device dependent)</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.Battery/CHARGING_OPTIONS_IDENTIFIER
 ~~~
@@ -337,7 +337,7 @@ _General > Matter Accessories_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/MATTER_ACCESSORIES
 ~~~
-_General > Home Button (button) <sub>(device dependant)</sub>_
+_General > Home Button (button) <sub>(device dependent)</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.General#HOME_BUTTON
 ~~~
@@ -805,7 +805,7 @@ _Accessibility > Head Tracking_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/AST_HEAD_TRACKING
 ~~~
-_Accessibility > Home Button <sub>(device dependant)</sub>_
+_Accessibility > Home Button <sub>(device dependent)</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/HOME_CLICK_TITLE
 ~~~
@@ -1237,7 +1237,7 @@ _StandBy_
 ~~~yaml
 settings-navigation://com.apple.Settings.StandBy
 ~~~
-_StandBy > Display <sub>(device dependant)</sub>_
+_StandBy > Display <sub>(device dependent)</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.StandBy/ALWAYS_ON_DISPLAY_OPTIONS
 ~~~
