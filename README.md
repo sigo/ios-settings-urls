@@ -979,7 +979,7 @@ settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/AX_
 ~~~
 \
 \
-_Action Button <sub>(device depandant)</sub>_
+_Action Button <sub>(device dependent)</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.ActionButton
 ~~~
@@ -1343,47 +1343,47 @@ _Screen Time > Content & Privacy Restrictions > Allowed Apps & Features_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/ALLOWED_APPS
 ~~~
-_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > Mail_
+_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > Mail (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/ALLOWED_APPS/Mail
 ~~~
-_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > Safari_
+_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > Safari (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/ALLOWED_APPS/Safari
 ~~~
-_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > FaceTime_
+_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > FaceTime (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/ALLOWED_APPS/FaceTime
 ~~~
-_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > SharePlay_
+_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > SharePlay (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/ALLOWED_APPS/SharePlay
 ~~~
-_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > Camera_
+_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > Camera (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/ALLOWED_APPS/Camera
 ~~~
-_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > Wallet_
+_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > Wallet (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/ALLOWED_APPS/Wallet
 ~~~
-_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > AirDrop_
+_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > AirDrop (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/ALLOWED_APPS/AirDrop
 ~~~
-_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > CarPlay_
+_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > CarPlay (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/ALLOWED_APPS/CarPlay
 ~~~
-_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > iTunes Store_
+_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > iTunes Store (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/ALLOWED_APPS/iTunes%20Store
 ~~~
-_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > Book Store_
+_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > Book Store (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/ALLOWED_APPS/Book%20Store
 ~~~
-_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > Podcasts_
+_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > Podcasts (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/ALLOWED_APPS/Podcasts
 ~~~
