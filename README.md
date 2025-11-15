@@ -2129,6 +2129,10 @@ _Apps > Messages_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS
 ~~~
+_Apps > Messages > iMessage (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS#MADRID_ENABLED_SWITCH
+~~~
 _Apps > Messages > Send & Receive_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS/MADRID_ACCOUNTS_BUTTON
@@ -2149,9 +2153,17 @@ _Apps > Messages > Screen Unknown Senders (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS#FILTER_NEW_SENDERS_SWITCH
 ~~~
+_Apps > Messages > Allow Notifications <sub>(only available when Screen Unknown Senders is enabled)</sub>_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS/NOTIFICATIONS_UNKNOWN_SENDERS_BUTTON
+~~~
 _Apps > Messages > Show Contact Photo (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS#CONTACT_PHOTO_SWITCH
+~~~
+_Apps > Messages > Text Message Forwarding_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS/SMS_RELAY_DEVICES
 ~~~
 _Apps > Messages > Send Read Receipts (switch)_
 ~~~yaml
