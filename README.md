@@ -617,7 +617,7 @@ _Accessibility > Motion > Reduce Motion (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/MOTION_TITLE#REDUCE_MOTION
 ~~~
-_Accessibility > Motion > Prefer Cross-Fade Transitions (switch) <sub>(only available when Reduce Motion is enabled)</sub>_
+_Accessibility > Motion > Prefer Cross-Fade Transitions (switch) <sub>(Reduce Motion feature)</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/MOTION_TITLE/REDUCE_MOTION_REDUCE_SLIDE_ANIMATIONS
 ~~~
@@ -1403,19 +1403,19 @@ _Screen Time_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime
 ~~~
-_Screen Time > See All App & Web Site Activity_
+_Screen Time > See All App & Website Activity <sub>(if enabled)</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/SCREEN_TIME_SUMMARY
 ~~~
-_Screen Time > Downtime_
+_Screen Time > Downtime <sub>(App & Website Activity feature)</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/DOWNTIME
 ~~~
-_Screen Time > App Limits_
+_Screen Time > App Limits <sub>(App & Website Activity feature)</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/APP_LIMITS
 ~~~
-_Screen Time > Always Allowed_
+_Screen Time > Always Allowed <sub>(App & Website Activity feature)</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/ALWAYS_ALLOWED
 ~~~
@@ -1446,6 +1446,50 @@ settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/PURCHASES
 _Screen Time > Content & Privacy Restrictions > Allowed Apps & Features_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/ALLOWED_APPS
+~~~
+_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > Mail_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/ALLOWED_APPS/Mail
+~~~
+_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > Safari_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/ALLOWED_APPS/Safari
+~~~
+_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > FaceTime_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/ALLOWED_APPS/FaceTime
+~~~
+_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > SharePlay_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/ALLOWED_APPS/SharePlay
+~~~
+_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > Camera_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/ALLOWED_APPS/Camera
+~~~
+_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > Wallet_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/ALLOWED_APPS/Wallet
+~~~
+_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > AirDrop_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/ALLOWED_APPS/AirDrop
+~~~
+_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > CarPlay_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/ALLOWED_APPS/CarPlay
+~~~
+_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > iTunes Store_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/ALLOWED_APPS/iTunes%20Store
+~~~
+_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > Book Store_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/ALLOWED_APPS/Book%20Store
+~~~
+_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > Podcasts_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/ALLOWED_APPS/Podcasts
 ~~~
 _Screen Time > Content & Privacy Restrictions > App Store, Media, Web, & Games_
 ~~~yaml
@@ -2153,7 +2197,7 @@ _Apps > Messages > Screen Unknown Senders (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS#FILTER_NEW_SENDERS_SWITCH
 ~~~
-_Apps > Messages > Allow Notifications <sub>(only available when Screen Unknown Senders is enabled)</sub>_
+_Apps > Messages > Allow Notifications <sub>(Screen Unknown Senders feature)</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS/NOTIFICATIONS_UNKNOWN_SENDERS_BUTTON
 ~~~
