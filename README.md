@@ -617,7 +617,7 @@ _Accessibility > Motion > Reduce Motion (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/MOTION_TITLE#REDUCE_MOTION
 ~~~
-_Accessibility > Motion > Prefer Cross-Fade Transitions (switch) <sub>(Reduce Motion feature)</sub>_
+_Accessibility > Motion > Prefer Cross-Fade Transitions (switch) <sup>Reduce Motion</sup>_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/MOTION_TITLE/REDUCE_MOTION_REDUCE_SLIDE_ANIMATIONS
 ~~~
@@ -1407,15 +1407,15 @@ _Screen Time > See All App & Website Activity <sub>(if enabled)</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/SCREEN_TIME_SUMMARY
 ~~~
-_Screen Time > Downtime <sub>(App & Website Activity feature)</sub>_
+_Screen Time > Downtime <sup>App & Website Activity</sup>_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/DOWNTIME
 ~~~
-_Screen Time > App Limits <sub>(App & Website Activity feature)</sub>_
+_Screen Time > App Limits <sup>App & Website Activity</sup>_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/APP_LIMITS
 ~~~
-_Screen Time > Always Allowed <sub>(App & Website Activity feature)</sub>_
+_Screen Time > Always Allowed <sup>App & Website Activity</sup>_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/ALWAYS_ALLOWED
 ~~~
@@ -2197,7 +2197,7 @@ _Apps > Messages > Screen Unknown Senders (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS#FILTER_NEW_SENDERS_SWITCH
 ~~~
-_Apps > Messages > Allow Notifications <sub>(Screen Unknown Senders feature)</sub>_
+_Apps > Messages > Allow Notifications <sup>Screen Unknown Senders</sup>_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS/NOTIFICATIONS_UNKNOWN_SENDERS_BUTTON
 ~~~
