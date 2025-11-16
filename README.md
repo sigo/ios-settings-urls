@@ -179,6 +179,8 @@ _General_
 ~~~yaml
 settings-navigation://com.apple.Settings.General
 ~~~
+\
+\
 _General > About_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/About
@@ -191,6 +193,8 @@ _General > About > Certificate Trust Settings_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/About/CERT_TRUST_SETTINGS
 ~~~
+\
+\
 _General > Software Update_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/SOFTWARE_UPDATE_LINK
@@ -203,6 +207,8 @@ _General > Software Update > Beta Updates_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/SOFTWARE_UPDATE_LINK/SUAutomaticUpdateButton
 ~~~
+\
+\
 _General > iPhone Storage_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/STORAGE_MGMT
@@ -211,50 +217,74 @@ _General > iPhone Storage > [app bundle identifier]_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/STORAGE_MGMT/bundle_identifier
 ~~~
+\
+\
 _General > AppleCare & Warranty_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/COVERAGE
 ~~~
+\
+\
 _General > AirPlay & Continuity_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/CONTINUITY_SPEC
 ~~~
+\
+\
 _General > AirDrop_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/AIRDROP_LINK
 ~~~
+\
+\
 _General > Picture in Picture_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/PiP_SPEC
 ~~~
+\
+\
 _General > Screen Capture_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/SCREEN_CAPTURE
 ~~~
+\
+\
 _General > Matter Accessories_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/MATTER_ACCESSORIES
 ~~~
+\
+\
 _General > Home Button (button) <sub>(device dependent)</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.General#HOME_BUTTON
 ~~~
+\
+\
 _General > AutoFill & Passwords_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/AUTOFILL
 ~~~
+\
+\
 _General > Background App Refresh_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/AUTO_CONTENT_DOWNLOAD
 ~~~
+\
+\
 _General > Date & Time_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/DATE_AND_TIME
 ~~~
+\
+\
 _General > Dictionary_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/DICTIONARY
 ~~~
+\
+\
 _General > Fonts_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/FONT_SETTING
@@ -271,6 +301,8 @@ _General > Fonts > More Fonts_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/FONT_SETTING/MORE_FONTS
 ~~~
+\
+\
 _General > Keyboard_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/Keyboard
@@ -363,6 +395,8 @@ _General > Keyboard > Emoji – Stickers_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/Keyboard#ShowStickers
 ~~~
+\
+\
 _General > Language & Region_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/INTERNATIONAL
@@ -403,10 +437,14 @@ _General > Language & Region > Live Text (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/INTERNATIONAL#LIVE_TEXT_CELL
 ~~~
+\
+\
 _General > Trackpad & Mouse_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/POINTERS
 ~~~
+\
+\
 _General > VPN & Device Management_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/ManagedConfigurationList
@@ -415,10 +453,14 @@ _General > VPN & Device Management > VPN_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/ManagedConfigurationList/VPN
 ~~~
+\
+\
 _General > Legal & Regulatory_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/LEGAL_AND_REGULATORY
 ~~~
+\
+\
 _General > Transfer or Reset iPhone_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/Reset
@@ -427,6 +469,8 @@ _General > Transfer or Reset iPhone > Reset > Reset Network Settings (dialog)_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/ResetNetworkSettings
 ~~~
+\
+\
 _General > Shut Down (button)_
 ~~~yaml
 settings-navigation://com.apple.Settings.General#SHUTDOWN_LABEL
@@ -437,18 +481,26 @@ _Accessibility_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility
 ~~~
+\
+\
 _Accessibility > VoiceOver_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/VOICEOVER_TITLE
 ~~~
+\
+\
 _Accessibility > Zoom_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/ZOOM_TITLE
 ~~~
+\
+\
 _Accessibility > Hover Text_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/HOVERTEXT_TITLE
 ~~~
+\
+\
 _Accessibility > Display & Text Size_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT
@@ -505,6 +557,8 @@ _Accessibility > Display & Text Size > Auto-Brightness (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT/AUTO_BRIGHTNESS
 ~~~
+\
+\
 _Accessibility > Motion_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/MOTION_TITLE
@@ -541,14 +595,20 @@ _Accessibility > Motion > Prefer Non-Blinking Cursor (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/MOTION_TITLE/PREFER_NONBLINKING_CURSOR
 ~~~
+\
+\
 _Accessibility > Read & Speak_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/SPEECH_TITLE
 ~~~
+\
+\
 _Accessibility > Audio Descriptions_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/DESCRIPTIVE_VIDEO
 ~~~
+\
+\
 _Accessibility > Touch_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/TOUCH_REACHABILITY_TITLE
@@ -685,26 +745,38 @@ _Accessibility > Touch  > Prefer Single-Touch Actions (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/TOUCH_REACHABILITY_TITLE#Prefer%20Single-Touch%20Actions
 ~~~
+\
+\
 _Accessibility > Switch Control_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/ScannerSwitchTitle
 ~~~
+\
+\
 _Accessibility > Voice Control_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/CommandAndControlTitle
 ~~~
+\
+\
 _Accessibility > Eye Tracking_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/OnDeviceEyeTracking
 ~~~
+\
+\
 _Accessibility > Head Tracking_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/AST_HEAD_TRACKING
 ~~~
+\
+\
 _Accessibility > Home Button <sub>(device dependent)</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/HOME_CLICK_TITLE
 ~~~
+\
+\
 _Accessibility > Face ID & Attention_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/FACE_ID
@@ -713,6 +785,8 @@ _Accessibility > Face ID & Attention > Attention Aware Features (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/FACE_ID/AttentionAware
 ~~~
+\
+\
 _Accessibility > Control Nearby Devices_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/CONTROL_NEARBY_DEVICES
@@ -721,22 +795,32 @@ _Accessibility > Control Nearby Devices > Control Nearby Devices (button)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/CONTROL_NEARBY_DEVICES/CONTROL_NEARBY_DEVICES
 ~~~
+\
+\
 _Accessibility > Hearing Devices_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/HEARING_AID_TITLE
 ~~~
+\
+\
 _Accessibility > Hearing Control Center_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/HEARING_CONTROL_CENTER
 ~~~
+\
+\
 _Accessibility > Sound & Name Recognition_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/SOUND_AND_NAME_RECOGNITION_TITLE
 ~~~
+\
+\
 _Accessibility > RTT/TTY_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/RTT
 ~~~
+\
+\
 _Accessibility > Audio & Visual_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/AUDIO_VISUAL_TITLE
@@ -805,6 +889,8 @@ _Accessibility > Audio & Visual > LED Flash for Alerts > Flash in Silent Mode (s
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/AUDIO_VISUAL_TITLE/LED_FLASH#LED_RINGER_SWITCH_CONTROL
 ~~~
+\
+\
 _Accessibility > Subtitles & Captioning_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/SUBTITLES_CAPTIONING
@@ -833,10 +919,14 @@ _Accessibility > Subtitles & Captioning > Show on Skip Back (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/SUBTITLES_CAPTIONING/SHOW_ON_SKIP_BACK
 ~~~
+\
+\
 _Accessibility > Live Captions_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/LIVE_TRANSCRIPTION
 ~~~
+\
+\
 _Accessibility > Live Speech_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/LIVE_SPEECH_TITLE
@@ -849,18 +939,26 @@ _Accessibility > Live Speech > Phrases > + (button)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/LIVE_SPEECH_TITLE/PHRASES#CREATE_CUSTOM_CATEGORY
 ~~~
+\
+\
 _Accessibility > Personal Voice_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/PERSONAL_VOICE_TITLE
 ~~~
+\
+\
 _Accessibility > Vocal Shortcuts_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/ADAPTIVE_VOICE_SHORTCUTS_TITLE
 ~~~
+\
+\
 _Accessibility > Keyboards & Typing_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/KEYBOARDS
 ~~~
+\
+\
 _Accessibility > AirPods_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/AIRPODS
@@ -869,6 +967,8 @@ _Accessibility > AirPods > Spatial Audio Head Tracking – Follow iPhone (switch
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/AIRPODS#SPATIAL_AUDIO_SWITCH
 ~~~
+\
+\
 _Accessibility > Guided Access_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/GUIDED_ACCESS_TITLE
@@ -901,14 +1001,20 @@ _Accessibility > Guided Access > Display Auto-Lock_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/GUIDED_ACCESS_TITLE/GuidedAccessAutoLockTime#GuidedAccessAutoLockTime
 ~~~
+\
+\
 _Accessibility > Assistive Access_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/CLARITY_UI_TITLE
 ~~~
+\
+\
 _Accessibility > Accessibility Shortcut_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/TRIPLE_CLICK_TITLE
 ~~~
+\
+\
 _Accessibility > Per-App Settings_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE
