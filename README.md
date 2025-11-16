@@ -53,17 +53,11 @@ settings-navigation://com.apple.Settings.AppleAccount/TRANSPARENCY
 ~~~
 \
 \
-_AirPods <sub>(use the MAC address of the AirPods as identifier – can be found with e.g. `system_profiler SPBluetoothDataType` on a Mac)</sub>_
-~~~yaml
-settings-navigation://com.apple.Settings.Bluetooth/HeadphoneDetail/?identifier=00:00:00:00:00:00
-~~~
-\
-\
 _Wi-Fi_
 ~~~yaml
 settings-navigation://com.apple.Settings.WiFi
 ~~~
-_Wi-Fi > [current network] &#x24d8;_
+_Wi-Fi > [current network] &#X24D8;_
 ~~~yaml
 settings-navigation://com.apple.Settings.WiFi/NetworkDetails
 ~~~
@@ -72,6 +66,10 @@ settings-navigation://com.apple.Settings.WiFi/NetworkDetails
 _Bluetooth_
 ~~~yaml
 settings-navigation://com.apple.Settings.Bluetooth
+~~~
+_Bluetooth > AirPods &#X24D8; <sub>(use the MAC address of the AirPods as identifier – can be found with e.g. `system_profiler SPBluetoothDataType` on a Mac)</sub>_
+~~~yaml
+settings-navigation://com.apple.Settings.Bluetooth/HeadphoneDetail/?identifier=00:00:00:00:00:00
 ~~~
 \
 \
