@@ -1831,12 +1831,6 @@ settings-navigation://com.apple.Settings.Apps/com.apple.store.Jolly
 ~~~
 \
 \
-_Apps > Books_
-~~~yaml
-settings-navigation://com.apple.Settings.Apps/com.apple.iBooks
-~~~
-\
-\
 _Apps > Calculator_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.calculator
@@ -2642,12 +2636,6 @@ settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/ADVANCED
 _Apps > Safari > Advanced > Website Data_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/ADVANCED/REMOVE_WEBSITE_DATA
-~~~
-\
-\
-_Apps > Shazam_
-~~~yaml
-settings-navigation://com.apple.Settings.Apps/com.shazam.Shazam
 ~~~
 \
 \
