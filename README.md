@@ -2015,12 +2015,6 @@ settings-navigation://com.apple.Settings.Apps/com.apple.iMovie
 ~~~
 \
 \
-_Apps > Invites_
-~~~yaml
-settings-navigation://com.apple.Settings.Apps/com.apple.rsvp
-~~~
-\
-\
 _Apps > Journal_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.journal
