@@ -1479,18 +1479,6 @@ _Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > CarPla
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/ALLOWED_APPS/CarPlay
 ~~~
-_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > iTunes Store (switch)_
-~~~yaml
-settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/ALLOWED_APPS/iTunes%20Store
-~~~
-_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > Book Store (switch)_
-~~~yaml
-settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/ALLOWED_APPS/Book%20Store
-~~~
-_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > Podcasts (switch)_
-~~~yaml
-settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/ALLOWED_APPS/Podcasts
-~~~
 _Screen Time > Content & Privacy Restrictions > App Store, Media, Web, & Games_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/CONTENT_RESTRICTIONS
@@ -2033,12 +2021,6 @@ settings-navigation://com.apple.Settings.Apps/com.apple.rsvp
 ~~~
 \
 \
-_Apps > iTunes Store_
-~~~yaml
-settings-navigation://com.apple.Settings.Apps/com.apple.MobileStore
-~~~
-\
-\
 _Apps > Journal_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.journal
@@ -2516,12 +2498,6 @@ settings-navigation://com.apple.Settings.Apps/com.apple.mobileslideshow#VisualSe
 _Apps > Photos > Control for Creating Spatial Photos (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobileslideshow#AlchemizeButtonEnabledSwitch
-~~~
-\
-\
-_Apps > Podcasts_
-~~~yaml
-settings-navigation://com.apple.Settings.Apps/com.apple.podcasts
 ~~~
 \
 \
