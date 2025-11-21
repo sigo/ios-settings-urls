@@ -149,11 +149,11 @@ _Battery_
 ~~~yaml
 settings-navigation://com.apple.Settings.Battery
 ~~~
-_Battery > Battery Health & Charging <sub>(device dependent)</sub>_
+_Battery > Battery Health & Charging <sub>(device specific)</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.Battery/BATTERY_HEALTH_TITLE
 ~~~
-_Battery > Charging Options <sub>(device dependent)</sub>_
+_Battery > Charging Options <sub>(device specific)</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.Battery/CHARGING_OPTIONS_IDENTIFIER
 ~~~
@@ -253,7 +253,7 @@ settings-navigation://com.apple.Settings.General/MATTER_ACCESSORIES
 ~~~
 \
 \
-_General > Home Button (button) <sub>(device dependent)</sub>_
+_General > Home Button (button) <sub>(device specific)</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.General#HOME_BUTTON
 ~~~
@@ -769,7 +769,7 @@ settings-navigation://com.apple.Settings.Accessibility/AST_HEAD_TRACKING
 ~~~
 \
 \
-_Accessibility > Home Button <sub>(device dependent)</sub>_
+_Accessibility > Home Button <sub>(device specific)</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/HOME_CLICK_TITLE
 ~~~
@@ -1083,7 +1083,7 @@ settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/AX_
 ~~~
 \
 \
-_Action Button <sub>(device dependent)</sub>_
+_Action Button <sub>(device specific)</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.ActionButton
 ~~~
@@ -1237,7 +1237,7 @@ _StandBy_
 ~~~yaml
 settings-navigation://com.apple.Settings.StandBy
 ~~~
-_StandBy > Display <sub>(device dependent)</sub>_
+_StandBy > Display <sub>(device specific)</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.StandBy/ALWAYS_ON_DISPLAY_OPTIONS
 ~~~
@@ -2508,6 +2508,46 @@ settings-navigation://com.apple.Settings.Apps/com.apple.reminders
 _Apps > Reminders > Reminders Accounts (button)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.reminders#ACCOUNTS
+~~~
+_Apps > Reminders > Default List_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.reminders/DEFAULT_LIST
+~~~
+_Apps > Reminders > All-Day Reminders – Today Notification (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.reminders#TODAY_NOTIFICATIONS
+~~~
+_Apps > Reminders > All-Day Reminders – Time (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.reminders#Time
+~~~
+_Apps > Reminders > Show as Overdue (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.reminders#SHOW_AS_OVERDUE
+~~~
+_Apps > Reminders > Time Zone_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.reminders/TIME_ZONE_OVERRIDE
+~~~
+_Apps > Reminders > Badge Count – Include Due Today (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.reminders#INCLUDE_DUE_TODAY
+~~~
+_Apps > Reminders > Assigned Reminders – Mute Notifications (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.reminders#MUTE_NOTIFICATIONS
+~~~
+_Apps > Reminders > When Adding Reminders – Show Suggestions (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.reminders#SHOW_SUGGESTIONS
+~~~
+_Apps > Reminders > Grocery Categorization_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.reminders/ADD_LANGUAGE
+~~~
+_Apps > Reminders > Reset Grocery Categories (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.reminders#RESET_CATEGORIES
 ~~~
 \
 \
