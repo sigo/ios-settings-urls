@@ -67,7 +67,7 @@ _Bluetooth_
 ~~~yaml
 settings-navigation://com.apple.Settings.Bluetooth
 ~~~
-_Bluetooth > AirPods &#X24D8; <sub>(use the MAC address of the AirPods as identifier – can be found with e.g. `system_profiler SPBluetoothDataType` on a Mac)</sub>_
+_Bluetooth > AirPods &#X24D8; <sub>(use MAC address of AirPods as identifier)</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.Bluetooth/HeadphoneDetail/?identifier=00:00:00:00:00:00
 ~~~
@@ -1719,7 +1719,7 @@ _iCloud > Saved to iCloud > iCloud Mail > Auto-Reply_
 ~~~yaml
 settings-navigation://com.apple.Settings.iCloud/com.apple.Dataclass.Mail/AUTO_REPLY
 ~~~
-_iCloud > Saved to iCloud > iCloud Mail > Mail Forwarding <sub>[some delay]</sub>_
+_iCloud > Saved to iCloud > iCloud Mail > Mail Forwarding <sub>(some delay)</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.iCloud/com.apple.Dataclass.Mail/MAIL_FORWARDING
 ~~~
@@ -1735,7 +1735,7 @@ _iCloud > Saved to iCloud > iCloud Mail > Signing and Encryption_
 ~~~yaml
 settings-navigation://com.apple.Settings.iCloud/com.apple.Dataclass.Mail/END_TO_END_ENCRYPTION
 ~~~
-_iCloud > Saved to iCloud > iCloud Mail > Custom Email Domain <sub>[some delay]</sub>_
+_iCloud > Saved to iCloud > iCloud Mail > Custom Email Domain <sub>(some delay)</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.iCloud/com.apple.Dataclass.Mail/BYOD_SETTING_SPECIFIER_ID
 ~~~
@@ -1945,19 +1945,19 @@ _Apps > FaceTime_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.facetime
 ~~~
-_FaceTime > FaceTime (switch)_
+_Apps > FaceTime > FaceTime (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.facetime#FACETIME_ENABLED_ID
 ~~~
-_FaceTime > Incoming Calls_
+_Apps > FaceTime > Incoming Calls_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.facetime/INCOMING_CALL_STYLE
 ~~~
-_FaceTime > Announce Calls_
+_Apps > FaceTime > Announce Calls_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.facetime/ANNOUNCE_CALLS
 ~~~
-_FaceTime > SharePlay_
+_Apps > FaceTime > SharePlay_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.facetime/SHAREPLAY_SETTINGS
 ~~~
@@ -1965,15 +1965,15 @@ _Apps > FaceTime > Silence Unknown Callers (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.facetime#DIRECT_TO_VOICEMAIL
 ~~~
-_FaceTime > Call Filtering – Unknow Callers (switch)_
+_Apps > FaceTime > Call Filtering – Unknow Callers (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.facetime#FILTER_AS_NEW_CALLERS
 ~~~
-_FaceTime > Call Filtering – FaceTime Spam (switch)_
+_Apps > FaceTime > Call Filtering – FaceTime Spam (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.facetime#FILTER_SPAM
 ~~~
-_FaceTime > Blocked Contacts_
+_Apps > FaceTime > Blocked Contacts_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.facetime/BLOCKLIST_SETTINGS_MAIN_SPECIFIER_IDENTIFIER
 ~~~
