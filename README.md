@@ -565,7 +565,7 @@ _Accessibility > Motion > Reduce Motion (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/MOTION_TITLE#REDUCE_MOTION
 ~~~
-_Accessibility > Motion > Reduce Motion > Prefer Cross-Fade Transitions (switch)_
+_Accessibility > Motion > Prefer Cross-Fade Transitions (switch) <sup>If Reduce Motion is enabled</sup>_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/MOTION_TITLE/REDUCE_MOTION_REDUCE_SLIDE_ANIMATIONS
 ~~~
