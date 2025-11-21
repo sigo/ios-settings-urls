@@ -565,7 +565,7 @@ _Accessibility > Motion > Reduce Motion (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/MOTION_TITLE#REDUCE_MOTION
 ~~~
-_Accessibility > Motion > Prefer Cross-Fade Transitions (switch) <sup>Reduce Motion</sup>_
+_Accessibility > Motion > Reduce Motion > Prefer Cross-Fade Transitions (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/MOTION_TITLE/REDUCE_MOTION_REDUCE_SLIDE_ANIMATIONS
 ~~~
@@ -1403,7 +1403,7 @@ _Screen Time_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime
 ~~~
-_Screen Time > See All App & Website Activity <sub>(if enabled)</sub>_
+_Screen Time > See All App & Website Activity <sup>If enabled</sup>_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/SCREEN_TIME_SUMMARY
 ~~~
