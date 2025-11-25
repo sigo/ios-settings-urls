@@ -1995,6 +1995,38 @@ _Apps > Freeform_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.freeform
 ~~~
+_Apps > Freeform > Siri (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.freeform#SIRI
+~~~
+_Apps > Freeform > Search (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.freeform#SEARCH
+~~~
+_Apps > Freeform > Snap to Grid (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.freeform#SNAP_TO_GRID
+~~~
+_Apps > Freeform > Center Guides (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.freeform#CENTER_GUIDES
+~~~
+_Apps > Freeform > Edge Guides (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.freeform#EDGE_GUIDES
+~~~
+_Apps > Freeform > Spacing Guides (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.freeform#SPACING_GUIDES
+~~~
+_Apps > Freeform > Privacy – Reset Identifier (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.freeform#RESET_IDENTIFIER
+~~~
+_Apps > Freeform > Math Results (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.freeform#MATH_HINTS
+~~~
 \
 \
 _Apps > Games_
@@ -2018,6 +2050,70 @@ settings-navigation://com.apple.Settings.Apps/com.apple.iMovie
 _Apps > Journal_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.journal
+~~~
+_Apps > Journal > Siri (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.journal#SIRI
+~~~
+_Apps > Journal > Search (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.journal#SEARCH
+~~~
+_Apps > Journal > Live Activities (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.journal#Live%20Activities
+~~~
+_Apps > Journal > Background App Refresh (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.journal#Background%20App%20Refresh
+~~~
+_Apps > Journal > Journaling Suggestions > Privacy & Security_
+~~~yaml
+settings-navigation://com.apple.Settings.PrivacyAndSecurity/JOURNALING_SUGGESTIONS
+~~~
+_Apps > Journal > Journaling Suggestions > Notifications_
+~~~yaml
+settings-navigation://com.apple.Settings.Notifications/com.apple.momentsd.MOUserNotifications
+~~~
+_Apps > Journal > Journaling Suggestions > Notifications > Banner Style_
+~~~yaml
+settings-navigation://com.apple.Settings.Notifications/com.apple.momentsd.MOUserNotifications/BANNER_STYLE_ID
+~~~
+_Apps > Journal > Journaling Suggestions > Notifications > Show Previews_
+~~~yaml
+settings-navigation://com.apple.Settings.Notifications/com.apple.momentsd.MOUserNotifications/SHOW_PREVIEW_GROUP_ID
+~~~
+_Apps > Journal > Journaling Suggestions > Notifications > Notification Grouping_
+~~~yaml
+settings-navigation://com.apple.Settings.Notifications/com.apple.momentsd.MOUserNotifications/NOTIFICATION_GROUPING_APP_ID
+~~~
+_Apps > Journal > Journaling Suggestions > Notifications > Customize Notifications_
+~~~yaml
+settings-navigation://com.apple.Settings.Notifications/com.apple.momentsd.MOUserNotifications/custom
+~~~
+_Apps > Journal > Add Current Location (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.journal#addCurrentLocation
+~~~
+_Apps > Journal > Add Entry Title (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.journal#addEntryTitle
+~~~
+_Apps > Journal > Lock Journal (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.journal#lockJournal
+~~~
+_Apps > Journal > Save to Photos (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.journal#saveToPhotos
+~~~
+_Apps > Journal > Health Access (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.journal#journalHealth
+~~~
+_Apps > Journal > Privacy – Reset Identifier (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.journal#resetAnalyticsID
 ~~~
 \
 \
