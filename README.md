@@ -1829,6 +1829,18 @@ _Apps > Calendar_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilecal
 ~~~
+_Apps > Calendar > Siri (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilecal#SIRI
+~~~
+_Apps > Calendar > Search (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilecal#SEARCH
+~~~
+_Apps > Calendar > Language (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilecal#PREFERRED_LANGUAGE
+~~~
 _Apps > Calendar > Calendar Accounts (button)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilecal#ACCOUNTS
@@ -1889,6 +1901,14 @@ _Apps > Compass_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.compass
 ~~~
+_Apps > Compass > Siri (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.compass#SIRI
+~~~
+_Apps > Compass > Search (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.compass#SEARCH
+~~~
 _Apps > Compass > Use True North (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.compass#USE_TRUE_NORTH
@@ -1904,6 +1924,14 @@ settings-navigation://com.apple.Settings.Apps/com.apple.ios.configurator
 _Apps > Contacts_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.MobileAddressBook
+~~~
+_Apps > Contacts > Siri (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.MobileAddressBook#SIRI
+~~~
+_Apps > Contacts > Search (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.MobileAddressBook#SEARCH
 ~~~
 _Apps > Contacts > Contacts Accounts_
 ~~~yaml
@@ -1935,19 +1963,29 @@ settings-navigation://com.apple.Settings.Apps/com.apple.MobileAddressBook#SIMImp
 ~~~
 \
 \
-_Apps > Developer_
-~~~yaml
-settings-navigation://com.apple.Settings.Apps/developer.apple.wwdc-Release
-~~~
-\
-\
 _Apps > FaceTime_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.facetime
 ~~~
-_Apps > FaceTime > FaceTime (switch)_
+_Apps > FaceTime > Siri (button)_
 ~~~yaml
-settings-navigation://com.apple.Settings.Apps/com.apple.facetime#FACETIME_ENABLED_ID
+settings-navigation://com.apple.Settings.Apps/com.apple.facetime#SIRI
+~~~
+_Apps > FaceTime > Search (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.facetime#SEARCH
+~~~
+_Apps > FaceTime > Notifications (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.facetime#NOTIFICATIONS
+~~~
+_Apps > FaceTime > Sensitive Content Warning (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.facetime#NUDITY_DETECTION
+~~~
+_Apps > FaceTime > Language (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.facetime#PREFERRED_LANGUAGE
 ~~~
 _Apps > FaceTime > Incoming Calls_
 ~~~yaml
@@ -1956,6 +1994,10 @@ settings-navigation://com.apple.Settings.Apps/com.apple.facetime/INCOMING_CALL_S
 _Apps > FaceTime > Announce Calls_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.facetime/ANNOUNCE_CALLS
+~~~
+_Apps > FaceTime > FaceTime (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.facetime#FACETIME_ENABLED_ID
 ~~~
 _Apps > FaceTime > SharePlay_
 ~~~yaml
@@ -2002,6 +2044,10 @@ settings-navigation://com.apple.Settings.Apps/com.apple.freeform#SIRI
 _Apps > Freeform > Search (button)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.freeform#SEARCH
+~~~
+_Apps > Freeform > Language (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.freeform#PREFERRED_LANGUAGE
 ~~~
 _Apps > Freeform > Snap to Grid (switch)_
 ~~~yaml
@@ -2091,6 +2137,10 @@ _Apps > Journal > Journaling Suggestions > Notifications > Customize Notificatio
 ~~~yaml
 settings-navigation://com.apple.Settings.Notifications/com.apple.momentsd.MOUserNotifications/custom
 ~~~
+_Apps > Journal > Language (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.journal#PREFERRED_LANGUAGE
+~~~
 _Apps > Journal > Add Current Location (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.journal#addCurrentLocation
@@ -2132,6 +2182,22 @@ settings-navigation://com.apple.Settings.Apps/com.apple.Magnifier
 _Apps > Mail_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail
+~~~
+_Apps > Mail > Siri (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail#SIRI
+~~~
+_Apps > Mail > Search (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail#SEARCH
+~~~
+_Apps > Mail > Notifications (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail#NOTIFICATIONS
+~~~
+_Apps > Mail > Language (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail#PREFERRED_LANGUAGE
 ~~~
 _Apps > Mail > Mail Accounts_
 ~~~yaml
@@ -2259,6 +2325,22 @@ _Apps > Maps_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.Maps
 ~~~
+_Apps > Maps > Siri (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.Maps#SIRI
+~~~
+_Apps > Maps > Search (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.Maps#SEARCH
+~~~
+_Apps > Maps > Notifications (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.Maps#NOTIFICATIONS
+~~~
+_Apps > Maps > Background App Refresh (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.Maps#Background%20App%20Refresh
+~~~
 _Apps > Maps > Preferred Type of Travel – Driving (option)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.Maps#TransportTypePreferenceDrivingID
@@ -2338,6 +2420,30 @@ settings-navigation://com.apple.Settings.Apps/com.apple.measure
 _Apps > Messages_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS
+~~~
+_Apps > Messages > Focus (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS#Focus
+~~~
+_Apps > Messages > Siri (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS#SIRI
+~~~
+_Apps > Messages > Search (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS#SEARCH
+~~~
+_Apps > Messages > Notifications (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS#NOTIFICATIONS
+~~~
+_Apps > Messages > Sensitive Content Warning (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS#NUDITY_DETECTION
+~~~
+_Apps > Messages > Language (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS#PREFERRED_LANGUAGE
 ~~~
 _Apps > Messages > iMessage (switch)_
 ~~~yaml
@@ -2424,6 +2530,50 @@ settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes
 _Apps > Notes > Notes Accounts_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/ACCOUNTS
+~~~
+_Apps > Notes > Siri (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes#SIRI
+~~~
+_Apps > Notes > Search (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes#SEARCH
+~~~
+_Apps > Notes > Language (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes#PREFERRED_LANGUAGE
+~~~
+_Apps > Notes > Default Account (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes#DEFAULT_ACCOUNT
+~~~
+_Apps > Notes > Password (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes#PASSWORD
+~~~
+_Apps > Notes > “On My iPhone” Account (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes#LOCAL_ACCOUNT
+~~~
+_Apps > Notes > Mention Notifications (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes#MENTION_NOTIFICATIONS
+~~~
+_Apps > Notes > Sort Notes By_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/SORT_TYPE
+~~~
+_Apps > Notes > Sort Checked Items_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes#SORT_CHECKED_ITEMS
+~~~
+_Apps > Notes > Notes Backgrounds_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/ALLOW_DARK_BACKGROUNDS
+~~~
+_Apps > Notes > Access Notes from Lock Screen_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/ACCESS_FROM_LOCK_SCREEN
 ~~~
 \
 \
