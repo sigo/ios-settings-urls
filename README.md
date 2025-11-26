@@ -2441,6 +2441,10 @@ _Apps > Messages > Sensitive Content Warning (button)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS#NUDITY_DETECTION
 ~~~
+_Apps > Messages > Default Messaging App (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS#com.apple.settings.DefaultMessaging
+~~~
 _Apps > Messages > Language (button)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS#PREFERRED_LANGUAGE
@@ -2577,6 +2581,12 @@ settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/ACCESS_FROM_
 ~~~
 \
 \
+_Apps > Numbers_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.Numbers
+~~~
+\
+\
 _Apps > Pages_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.Pages
@@ -2604,6 +2614,10 @@ settings-navigation://com.apple.Settings.Apps/com.apple.mobilephone#SEARCH
 _Apps > Phone > Notifications (button)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilephone#NOTIFICATIONS
+~~~
+_Apps > Phone > Default Calling App (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilephone#com.apple.settings.DefaultPhoneCalls
 ~~~
 _Apps > Phone > Language (button)_
 ~~~yaml
@@ -3000,6 +3014,10 @@ settings-navigation://com.apple.Settings.Apps/com.apple.Translate#SEARCH
 _Apps > Translate > Background App Refresh (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.Translate#Background%20App%20Refresh
+~~~
+_Apps > Translate > Default Translation App (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.Translate#com.apple.settings.DefaultTranslation
 ~~~
 _Apps > Translate > Languages_
 ~~~yaml
