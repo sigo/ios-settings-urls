@@ -2577,6 +2577,12 @@ settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes/ACCESS_FROM_
 ~~~
 \
 \
+_Apps > Pages_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.Pages
+~~~
+\
+\
 _Apps > Passwords_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.Passwords
@@ -2586,6 +2592,22 @@ settings-navigation://com.apple.Settings.Apps/com.apple.Passwords
 _Apps > Phone_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilephone
+~~~
+_Apps > Phone > Siri (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilephone#SIRI
+~~~
+_Apps > Phone > Search (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilephone#SEARCH
+~~~
+_Apps > Phone > Notifications (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilephone#NOTIFICATIONS
+~~~
+_Apps > Phone > Language (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilephone#PREFERRED_LANGUAGE
 ~~~
 _Apps > Phone > Incoming Calls_
 ~~~yaml
@@ -2755,6 +2777,22 @@ _Apps > Reminders > Reminders Accounts (button)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.reminders#ACCOUNTS
 ~~~
+_Apps > Reminders > Siri (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.reminders#SIRI
+~~~
+_Apps > Reminders > Search (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.reminders#SEARCH
+~~~
+_Apps > Reminders > Notifications (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.reminders#NOTIFICATIONS
+~~~
+_Apps > Reminders > Language (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.reminders#PREFERRED_LANGUAGE
+~~~
 _Apps > Reminders > Default List_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.reminders/DEFAULT_LIST
@@ -2797,6 +2835,22 @@ settings-navigation://com.apple.Settings.Apps/com.apple.reminders#RESET_CATEGORI
 ~~~
 \
 \
+_Apps > Safari_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari
+~~~
+_Apps > Safari > Siri (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#SIRI
+~~~
+_Apps > Safari > Search (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#SEARCH
+~~~
+_Apps > Safari > Language (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#PREFERRED_LANGUAGE
+~~~
 _Apps > Safari > Default Browser App (button)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#com.apple.settings.DefaultBrowser
@@ -2899,6 +2953,10 @@ _Apps > Shortcuts_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.shortcuts
 ~~~
+_Apps > Shortcuts > Language (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.shortcuts#PREFERRED_LANGUAGE
+~~~
 _Apps > Shortcuts > Advanced_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.shortcuts/ShortcutsAdvancedSettings
@@ -2931,6 +2989,18 @@ _Apps > Translate_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.Translate
 ~~~
+_Apps > Translate > Siri (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.Translate#SIRI
+~~~
+_Apps > Translate > Search (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.Translate#SEARCH
+~~~
+_Apps > Translate > Background App Refresh (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.Translate#Background%20App%20Refresh
+~~~
 _Apps > Translate > Languages_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.Translate/DOWNLOADED_LANGUAGES_SPECIFIER
@@ -2956,6 +3026,18 @@ settings-navigation://com.apple.Settings.Apps/com.apple.Passbook
 _Apps > Weather_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.weather
+~~~
+_Apps > Weather > Siri (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.weather#SIRI
+~~~
+_Apps > Weather > Search (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.weather#SEARCH
+~~~
+_Apps > Weather > Search (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.weather#PREFERRED_LANGUAGE
 ~~~
 _Apps > Weather > Temperature Unit_
 ~~~yaml
