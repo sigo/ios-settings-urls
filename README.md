@@ -1819,6 +1819,68 @@ settings-navigation://com.apple.Settings.Apps/com.apple.store.Jolly
 ~~~
 \
 \
+_Apps > Books_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.iBooks
+~~~
+_Apps > Books > Siri (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.iBooks#SIRI
+~~~
+_Apps > Books > Search (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.iBooks#SEARCH
+~~~
+_Apps > Books > Background App Refresh (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.iBooks#Background%20App%20Refresh
+~~~
+_Apps > Books > Language (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.iBooks#PREFERRED_LANGUAGE
+~~~
+_Apps > Books > Automatic Downloads – Purchases from Other Devices (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.iBooks#AllowAutoDownloadsForPurchasesFromOtherDevices
+~~~
+_Apps > Books > Cellular Data – Automatic Downloads (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.iBooks#AllowAutoDownloadOnCellular
+~~~
+_Apps > Books > Cellular Data – Downloads (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.iBooks#Downloads
+~~~
+_Apps > Books > Syncing – Home (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.iBooks#HOME
+~~~
+_Apps > Books > Syncing – iCloud Drive (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.iBooks#BCSyncICloudDrive
+~~~
+_Apps > Books > Reading Menu Position_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.iBooks#Reading%20Menu%20Position%20Options
+~~~
+_Apps > Books > Reading – Auto-Hyphenation (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.iBooks#BKAutoHyphenation
+~~~
+_Apps > Books > Reading – Both Margins Advance (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.iBooks#BKLeftTapTurnToNext
+~~~
+_Apps > Books > Reading – Automatically Invert Images (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.iBooks#IMAGE_FILTER
+~~~
+_Apps > Books > Reading – Show Status Bar (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.iBooks#BKReaderShowStatusBar
+~~~
+\
+\
 _Apps > Calculator_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.calculator
@@ -1888,6 +1950,12 @@ settings-navigation://com.apple.Settings.Apps/com.apple.mobilecal/startWeekOn
 _Apps > Calendar > Default Calendar_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilecal/defaultCalendar
+~~~
+\
+\
+_Apps > Classical_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.music.classical
 ~~~
 \
 \
@@ -2836,6 +2904,12 @@ settings-navigation://com.apple.Settings.Apps/com.apple.mobileslideshow#VisualSe
 _Apps > Photos > Control for Creating Spatial Photos (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobileslideshow#AlchemizeButtonEnabledSwitch
+~~~
+\
+\
+_Apps > Podcasts_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.podcasts
 ~~~
 \
 \
