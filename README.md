@@ -2527,6 +2527,68 @@ settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS#PREVIEW_TRANSC
 ~~~
 \
 \
+_Apps > Music_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.Music
+~~~
+_Apps > Music > Siri (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.Music#SIRI
+~~~
+_Apps > Music > Search (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.Music#SEARCH
+~~~
+_Apps > Music > Show Apple Music (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.Music#com.apple.Music:AppleMusicEnabled
+~~~
+_Apps > Music > Join Apple Music (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.Music#com.apple.Music:AppleMusicOffer
+~~~
+_Apps > Music > Show All Purchases (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.Music#com.apple.Music:CloudPurchaseHistoryEnabled
+~~~
+_Apps > Music > Cellular Streaming (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.Music#com.apple.Music:AudioQualityLowData
+~~~
+_Apps > Music > EQ_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.Music/com.apple.Music:EQ
+~~~
+_Apps > Music > Sound Check (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.Music#com.apple.Music:SoundCheck
+~~~
+_Apps > Music > Song Transitions_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.Music/com.apple.Music:SongTransitions
+~~~
+_Apps > Music > Downloaded Music (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.Music#com.apple.Music:MusicUsageDescription
+~~~
+_Apps > Music > Download over Cellular (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.Music#com.apple.Music:CellularDownloadsAllowed
+~~~
+_Apps > Music > Automatic Downloads (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.Music#com.apple.Music:MusicAutomaticDownload
+~~~
+_Apps > Music > Animated Art_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.Music/com.apple.Music:motionMode
+~~~
+_Apps > Music > Home Sharing – Sign In (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.Music#com.apple.Music:HomeSharingSignInButton
+~~~
+\
+\
 _Apps > Notes_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes
