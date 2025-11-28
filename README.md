@@ -39,6 +39,10 @@ _Apple Account > iCloud <sub>(see the iCloud main section for more URLs)</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE
 ~~~
+_Apple Account > Family_
+~~~yaml
+settings-navigation://com.apple.Settings.AppleAccount?aaaction=showFamilySettings
+~~~
 _Apple Account > Media & Purchases_
 ~~~yaml
 settings-navigation://com.apple.Settings.AppleAccount/STORE_SERVICE
@@ -1417,10 +1421,6 @@ _Screen Time > See All App & Website Activity <sup>If enabled</sup>_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/SCREEN_TIME_SUMMARY
 ~~~
-_Screen Time > See All App & Website Activity > [bundle identifier]_
-~~~yaml
-settings-navigation://com.apple.Settings.ScreenTime/SCREEN_TIME_SUMMARY/bundle_identifier
-~~~
 _Screen Time > See All App & Website Activity > Week (tab)_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/SCREEN_TIME_SUMMARY/WEEK
@@ -1440,6 +1440,10 @@ settings-navigation://com.apple.Settings.ScreenTime/SCREEN_TIME_SUMMARY/Pickups
 _Screen Time > See All App & Website Activity > Notifications (section)_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/SCREEN_TIME_SUMMARY/Notifications
+~~~
+_Screen Time > See All App & Website Activity > Notifications > [bundle identifier]_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/SCREEN_TIME_SUMMARY/bundle_identifier
 ~~~
 _Screen Time > Downtime <sup>App & Website Activity</sup>_
 ~~~yaml
