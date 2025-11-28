@@ -1811,9 +1811,21 @@ _Privacy & Security > Contacts_
 ~~~yaml
 settings-navigation://com.apple.Settings.PrivacyAndSecurity/CONTACTS
 ~~~
+_Privacy & Security > Files & Folders_
+~~~yaml
+settings-navigation://com.apple.Settings.PrivacyAndSecurity/FILEACCEESS
+~~~
+_Privacy & Security > Health Data_
+~~~yaml
+settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH_DATA
+~~~
 _Privacy & Security > Home Accessories_
 ~~~yaml
 settings-navigation://com.apple.Settings.PrivacyAndSecurity/WILLOW
+~~~
+_Privacy & Security > Media & Apple Music_
+~~~yaml
+settings-navigation://com.apple.Settings.PrivacyAndSecurity/MEDIALIBRARY
 ~~~
 _Privacy & Security > Passkeys Access for Web Browsers_
 ~~~yaml
@@ -1831,6 +1843,10 @@ _Privacy & Security > Wallet_
 ~~~yaml
 settings-navigation://com.apple.Settings.PrivacyAndSecurity/WALLET
 ~~~
+_Privacy & Security > Accessories_
+~~~yaml
+settings-navigation://com.apple.Settings.PrivacyAndSecurity/ACCESSORY_SETUP
+~~~
 _Privacy & Security > Bluetooth_
 ~~~yaml
 settings-navigation://com.apple.Settings.PrivacyAndSecurity/BT_PERIPHERAL
@@ -1839,6 +1855,14 @@ _Privacy & Security > Camera_
 ~~~yaml
 settings-navigation://com.apple.Settings.PrivacyAndSecurity/CAMERA
 ~~~
+_Privacy & Security > Contactless & NFC_
+~~~yaml
+settings-navigation://com.apple.Settings.PrivacyAndSecurity/CONTACTLESS_NFC
+~~~
+_Privacy & Security > Critical Messages_
+~~~yaml
+settings-navigation://com.apple.Settings.PrivacyAndSecurity/CRITICAL_MESSAGES
+~~~
 _Privacy & Security > Local Network_
 ~~~yaml
 settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCAL_NETWORK
@@ -1846,6 +1870,10 @@ settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCAL_NETWORK
 _Privacy & Security > Microphone_
 ~~~yaml
 settings-navigation://com.apple.Settings.PrivacyAndSecurity/MICROPHONE
+~~~
+_Privacy & Security > Motion & Fitness_
+~~~yaml
+settings-navigation://com.apple.Settings.PrivacyAndSecurity/MOTION
 ~~~
 _Privacy & Security > Nearby Interactions_
 ~~~yaml
@@ -1890,6 +1918,14 @@ settings-navigation://com.apple.Settings.PrivacyAndSecurity/ADVERTISING
 _Privacy & Security > App Privacy Report_
 ~~~yaml
 settings-navigation://com.apple.Settings.PrivacyAndSecurity/PRIVACY_REPORT
+~~~
+_Privacy & Security > Background Security Improvements_
+~~~yaml
+settings-navigation://com.apple.Settings.PrivacyAndSecurity/BACKGROUND_SECURITY_IMPROVEMENTS
+~~~
+_Privacy & Security > Stolen Device Protection_
+~~~yaml
+settings-navigation://com.apple.Settings.PrivacyAndSecurity/STOLEN_DEVICE_PROTECTION
 ~~~
 _Privacy & Security > Lockdown Mode_
 ~~~yaml
