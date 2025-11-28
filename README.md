@@ -1421,27 +1421,27 @@ _Screen Time > See All App & Website Activity <sup>If enabled</sup>_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/SCREEN_TIME_SUMMARY
 ~~~
-_Screen Time > See All App & Website Activity > Week (tab)_
+_Screen Time > See All App & Website Activity – Week (tab)_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/SCREEN_TIME_SUMMARY/WEEK
 ~~~
-_Screen Time > See All App & Website Activity > Day (tab)_
+_Screen Time > See All App & Website Activity – Day (tab)_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/SCREEN_TIME_SUMMARY/DAY
 ~~~
-_Screen Time > See All App & Website Activity > Most Used (section)_
+_Screen Time > See All App & Website Activity – Most Used (section)_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/SCREEN_TIME_SUMMARY/Most%20Used
 ~~~
-_Screen Time > See All App & Website Activity > Pickups (section)_
+_Screen Time > See All App & Website Activity – Pickups (section)_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/SCREEN_TIME_SUMMARY/Pickups
 ~~~
-_Screen Time > See All App & Website Activity > Notifications (section)_
+_Screen Time > See All App & Website Activity – Notifications (section)_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/SCREEN_TIME_SUMMARY/Notifications
 ~~~
-_Screen Time > See All App & Website Activity > Notifications > [bundle identifier]_
+_Screen Time > See All App & Website Activity – Notifications > [bundle identifier]_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/SCREEN_TIME_SUMMARY/bundle_identifier
 ~~~
