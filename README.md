@@ -53,6 +53,16 @@ settings-navigation://com.apple.Settings.AppleAccount/TRANSPARENCY
 ~~~
 \
 \
+_Family_
+~~~yaml
+settings-navigation://com.apple.Settings.Family
+~~~
+_Family > Subscriptions_
+~~~yaml
+settings-navigation://com.apple.Settings.Family?familyPath=/subscriptions
+~~~
+\
+\
 _Wi-Fi_
 ~~~yaml
 settings-navigation://com.apple.Settings.WiFi
@@ -1439,9 +1449,25 @@ _Screen Time > Content & Privacy Restrictions > View Profiles_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/View%20Profiles
 ~~~
+_Screen Time > Content & Privacy Restrictions > Content & Privacy Restrictions (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/Content%20%26%20Privacy%20Restrictions
+~~~
 _Screen Time > Content & Privacy Restrictions > iTunes & App Store Purchases_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/PURCHASES
+~~~
+_Screen Time > Content & Privacy Restrictions > iTunes & App Store Purchases > Installing Apps_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/PURCHASES/Installing%20Apps
+~~~
+_Screen Time > Content & Privacy Restrictions > iTunes & App Store Purchases > Deleting Apps_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/PURCHASES/Deleting%20Apps
+~~~
+_Screen Time > Content & Privacy Restrictions > iTunes & App Store Purchases > In-app Purchases_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/PURCHASES/In-app%20Purchases
 ~~~
 _Screen Time > Content & Privacy Restrictions > Allowed Apps & Features_
 ~~~yaml
@@ -1479,9 +1505,85 @@ _Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > CarPla
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/ALLOWED_APPS/CarPlay
 ~~~
+_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > Book Store (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/ALLOWED_APPS/Book%20Store
+~~~
+_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > Podcasts (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/ALLOWED_APPS/Podcasts
+~~~
+_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > News (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/ALLOWED_APPS/News
+~~~
 _Screen Time > Content & Privacy Restrictions > App Store, Media, Web, & Games_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/CONTENT_RESTRICTIONS
+~~~
+_Screen Time > Content & Privacy Restrictions > App Store, Media, Web, & Games > Music, Podcasts, News, Fitness_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/CONTENT_RESTRICTIONS/Music,%20Podcasts,%20News,%20Fitness
+~~~
+_Screen Time > Content & Privacy Restrictions > App Store, Media, Web, & Games > Music Videos_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/CONTENT_RESTRICTIONS/Music%20Videos
+~~~
+_Screen Time > Content & Privacy Restrictions > App Store, Media, Web, & Games > Music Profiles_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/CONTENT_RESTRICTIONS/Music%20Profiles
+~~~
+_Screen Time > Content & Privacy Restrictions > App Store, Media, Web, & Games > Movies_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/CONTENT_RESTRICTIONS/Movies
+~~~
+_Screen Time > Content & Privacy Restrictions > App Store, Media, Web, & Games > Movies > Show Movies in the Cloud (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/CONTENT_RESTRICTIONS/Movies/Show%20Movies%20in%20the%20Cloud
+~~~
+_Screen Time > Content & Privacy Restrictions > App Store, Media, Web, & Games > TV Shows_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/CONTENT_RESTRICTIONS/TV%20Shows
+~~~
+_Screen Time > Content & Privacy Restrictions > App Store, Media, Web, & Games > TV Shows > Show TV Shows in the Cloud (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/CONTENT_RESTRICTIONS/TV%20Shows/Show%20TV%20Shows%20in%20the%20Cloud
+~~~
+_Screen Time > Content & Privacy Restrictions > App Store, Media, Web, & Games > Books_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/CONTENT_RESTRICTIONS/Books
+~~~
+_Screen Time > Content & Privacy Restrictions > App Store, Media, Web, & Games > App Clips_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/CONTENT_RESTRICTIONS/App%20Clips
+~~~
+_Screen Time > Content & Privacy Restrictions > App Store, Media, Web, & Games > Multiplayer Games_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/CONTENT_RESTRICTIONS/Multiplayer%20Games
+~~~
+_Screen Time > Content & Privacy Restrictions > App Store, Media, Web, & Games > Adding Friends_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/CONTENT_RESTRICTIONS/Adding%20Friends
+~~~
+_Screen Time > Content & Privacy Restrictions > App Store, Media, Web, & Games > Connect with Friends_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/CONTENT_RESTRICTIONS/Connect%20with%20Friends
+~~~
+_Screen Time > Content & Privacy Restrictions > App Store, Media, Web, & Games > Screen Recording_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/CONTENT_RESTRICTIONS/Screen%20Recording
+~~~
+_Screen Time > Content & Privacy Restrictions > App Store, Media, Web, & Games > Nearby Multiplayer_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/CONTENT_RESTRICTIONS/Nearby%20Multiplayer
+~~~
+_Screen Time > Content & Privacy Restrictions > App Store, Media, Web, & Games > Privacy Changes_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/CONTENT_RESTRICTIONS/Profile%20Privacy%20Changes
+~~~
+_Screen Time > Content & Privacy Restrictions > App Store, Media, Web, & Games > Avatar & Nickname Changes_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/CONTENT_RESTRICTIONS/Avatar%20%26%20Nickname%20Changes
 ~~~
 _Screen Time > Content & Privacy Restrictions > Intelligence & Siri_
 ~~~yaml
@@ -1672,6 +1774,28 @@ settings-navigation://com.apple.Settings.PrivacyAndSecurity/PRIVACY_REPORT
 _Privacy & Security > Lockdown Mode_
 ~~~yaml
 settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCKDOWN_MODE
+~~~
+\
+\
+_Game Center_
+~~~yaml
+settings-navigation://com.apple.Settings.GameCenter
+~~~
+_Game Center > Customize Profile_
+~~~yaml
+settings-navigation://com.apple.Settings.GameCenter/EDIT_PROFILE
+~~~
+_Game Center > All Friends_
+~~~yaml
+settings-navigation://com.apple.Settings.GameCenter/ALL_FRIENDS
+~~~
+_Game Center > Friends Requests_
+~~~yaml
+settings-navigation://com.apple.Settings.GameCenter/FRIEND_REQUESTS
+~~~
+_Game Center > Invite Friends_
+~~~yaml
+settings-navigation://com.apple.Settings.GameCenter/INVITE_FRIENDS
 ~~~
 \
 \
@@ -1879,6 +2003,50 @@ _Apps > Books > Reading – Show Status Bar (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.iBooks#BKReaderShowStatusBar
 ~~~
+_Apps > Books > Reading – Page Navigation (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.iBooks#BKPageTurnStyle
+~~~
+_Apps > Books > Reading Goals (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.iBooks#READING_GOALS
+~~~
+_Apps > Books > Reading Goals – Inlcude PDFs (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.iBooks#BKReadingGoalsIncludePDFsUserDefaultsKey
+~~~
+_Apps > Books > Clear Reading Goals (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.iBooks#BKReadingGoalsShouldClearDataKey
+~~~
+_Apps > Books > Search – Book Store (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.iBooks#BKIncludeBookStoreResultsInSearch
+~~~
+_Apps > Books > Audiobooks – Skip Forward_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.iBooks/BKAudioBookSkipForward
+~~~
+_Apps > Books > Audiobooks – Skip Back_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.iBooks/BKAudioBookSkipBackward
+~~~
+_Apps > Books > External Controls – Next/Previous (option)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.iBooks#Next/Previous
+~~~
+_Apps > Books > External Controls – Skip Forward/Back (option)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.iBooks#Skip%20Forward/Back
+~~~
+_Apps > Books > Reset Identifier (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.iBooks#BAResetAnalyticsUserID
+~~~
+_Apps > Books > Acknowledgements_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.iBooks/Acknowledgements
+~~~
 \
 \
 _Apps > Calculator_
@@ -2050,6 +2218,10 @@ settings-navigation://com.apple.Settings.Apps/com.apple.facetime#NOTIFICATIONS
 _Apps > FaceTime > Sensitive Content Warning (button)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.facetime#NUDITY_DETECTION
+~~~
+_Apps > FaceTime > Default Calling App (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.facetime#com.apple.settings.DefaultPhoneCalls
 ~~~
 _Apps > FaceTime > Language (button)_
 ~~~yaml
@@ -2262,6 +2434,10 @@ settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail#SEARCH
 _Apps > Mail > Notifications (button)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail#NOTIFICATIONS
+~~~
+_Apps > Mail > Default Mail App (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail#DEFAULT_MAIL_APP
 ~~~
 _Apps > Mail > Language (button)_
 ~~~yaml
@@ -2592,6 +2768,10 @@ settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS#RAISE_TO_LISTE
 _Apps > Messages > Send Low Quality Photo Previews (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS#PREVIEW_TRANSCODING_SWITCH
+~~~
+_Apps > Messages > Messages for Business_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS/BUSINESS_CHAT_BUTTON
 ~~~
 \
 \
