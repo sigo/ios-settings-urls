@@ -221,7 +221,7 @@ _General > iPhone Storage_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/STORAGE_MGMT
 ~~~
-_General > iPhone Storage > [app bundle identifier]_
+_General > iPhone Storage > [bundle identifier]_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/STORAGE_MGMT/bundle_identifier
 ~~~
@@ -1027,59 +1027,59 @@ _Accessibility > Per-App Settings_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE
 ~~~
-_Accessibility > Per-App Settings > [app bundle identifier] <sub>(as long as you have added the app there, otherwise goes to the parent page)</sub>_
+_Accessibility > Per-App Settings > [bundle identifier] <sub>(as long as you have added the app there, otherwise goes to the parent page)</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/bundle_identifier
 ~~~
-_Accessibility > Per-App Settings > [app bundle identifier] > Bold Text_
+_Accessibility > Per-App Settings > [bundle identifier] > Bold Text_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/bundle_identifier/ENHANCE_TEXT_LEGIBILITY
 ~~~
-_Accessibility > Per-App Settings > [app bundle identifier] > Larger Text_
+_Accessibility > Per-App Settings > [bundle identifier] > Larger Text_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/bundle_identifier/LARGER_TEXT
 ~~~
-_Accessibility > Per-App Settings > [app bundle identifier] > Show Borders_
+_Accessibility > Per-App Settings > [bundle identifier] > Show Borders_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/bundle_identifier/BUTTON_SHAPES
 ~~~
-_Accessibility > Per-App Settings > [app bundle identifier] > On/Off Labels_
+_Accessibility > Per-App Settings > [bundle identifier] > On/Off Labels_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/bundle_identifier/ON_OFF_LABELS
 ~~~
-_Accessibility > Per-App Settings > [app bundle identifier] > Reduce Transparency_
+_Accessibility > Per-App Settings > [bundle identifier] > Reduce Transparency_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/bundle_identifier/REDUCE_TRANSPARENCY
 ~~~
-_Accessibility > Per-App Settings > [app bundle identifier] > Increase Contrast_
+_Accessibility > Per-App Settings > [bundle identifier] > Increase Contrast_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/bundle_identifier/TEXT_COLORS_DARKEN
 ~~~
-_Accessibility > Per-App Settings > [app bundle identifier] > Differentiate Without Color_
+_Accessibility > Per-App Settings > [bundle identifier] > Differentiate Without Color_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/bundle_identifier/DIFFERENTIATE_WITHOUT_COLOR
 ~~~
-_Accessibility > Per-App Settings > [app bundle identifier] > Prefer Horizontal Text_
+_Accessibility > Per-App Settings > [bundle identifier] > Prefer Horizontal Text_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/bundle_identifier/PREFER_HORIZONTAL_TEXT
 ~~~
-_Accessibility > Per-App Settings > [app bundle identifier] > Smart Invert_
+_Accessibility > Per-App Settings > [bundle identifier] > Smart Invert_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/bundle_identifier/SMART_INVERT
 ~~~
-_Accessibility > Per-App Settings > [app bundle identifier] > Reduce Motion_
+_Accessibility > Per-App Settings > [bundle identifier] > Reduce Motion_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/bundle_identifier/REDUCE_MOTION
 ~~~
-_Accessibility > Per-App Settings > [app bundle identifier] > Prefer Croos-Fade Transitions_
+_Accessibility > Per-App Settings > [bundle identifier] > Prefer Croos-Fade Transitions_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/bundle_identifier/REDUCE_MOTION_REDUCE_SLIDE_ANIMATIONS
 ~~~
-_Accessibility > Per-App Settings > [app bundle identifier] > Auto-Play Video Previews_
+_Accessibility > Per-App Settings > [bundle identifier] > Auto-Play Video Previews_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/bundle_identifier/REDUCE_MOTION_AUTOPLAY_VIDEO_PREVIEWS
 ~~~
-_Accessibility > Per-App Settings > [app bundle identifier] > Prefer Non-Blinking Cursor_
+_Accessibility > Per-App Settings > [bundle identifier] > Prefer Non-Blinking Cursor_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/bundle_identifier/PREFER_NONBLINKING_CURSOR
 ~~~
@@ -1303,23 +1303,23 @@ _Notifications > Siri Suggestions_
 ~~~yaml
 settings-navigation://com.apple.Settings.Notifications/SIRI_SUGGESTIONS_ID
 ~~~
-_Notifications > [app bundle identifier]_
+_Notifications > [bundle identifier]_
 ~~~yaml
 settings-navigation://com.apple.Settings.Notifications/bundle_identifier
 ~~~
-_Notifications > [app bundle identifier] > Banner Style_
+_Notifications > [bundle identifier] > Banner Style_
 ~~~yaml
 settings-navigation://com.apple.Settings.Notifications/bundle_identifier/BANNER_STYLE_ID
 ~~~
-_Notifications > [app bundle identifier] > Show Previews_
+_Notifications > [bundle identifier] > Show Previews_
 ~~~yaml
 settings-navigation://com.apple.Settings.Notifications/bundle_identifier/SHOW_PREVIEW_GROUP_ID
 ~~~
-_Notifications > [app bundle identifier] > Notification Grouping_
+_Notifications > [bundle identifier] > Notification Grouping_
 ~~~yaml
 settings-navigation://com.apple.Settings.Notifications/bundle_identifier/NOTIFICATION_GROUPING_APP_ID
 ~~~
-_Notifications > [app bundle identifier] > Customize Notifications_
+_Notifications > [bundle identifier] > Customize Notifications_
 ~~~yaml
 settings-navigation://com.apple.Settings.Notifications/bundle_identifier/custom
 ~~~
@@ -1417,6 +1417,30 @@ _Screen Time > See All App & Website Activity <sup>If enabled</sup>_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/SCREEN_TIME_SUMMARY
 ~~~
+_Screen Time > See All App & Website Activity > [bundle identifier]_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/SCREEN_TIME_SUMMARY/bundle_identifier
+~~~
+_Screen Time > See All App & Website Activity > Week (tab)_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/SCREEN_TIME_SUMMARY/WEEK
+~~~
+_Screen Time > See All App & Website Activity > Day (tab)_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/SCREEN_TIME_SUMMARY/DAY
+~~~
+_Screen Time > See All App & Website Activity > Most Used (section)_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/SCREEN_TIME_SUMMARY/Most%20Used
+~~~
+_Screen Time > See All App & Website Activity > Pickups (section)_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/SCREEN_TIME_SUMMARY/Pickups
+~~~
+_Screen Time > See All App & Website Activity > Notifications (section)_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/SCREEN_TIME_SUMMARY/Notifications
+~~~
 _Screen Time > Downtime <sup>App & Website Activity</sup>_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/DOWNTIME
@@ -1433,13 +1457,37 @@ _Screen Time > Screen Distance_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/EYE_DISTANCE
 ~~~
+_Screen Time > Screen Distance > Screen Distance (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/EYE_DISTANCE/Screen%20Distance
+~~~
 _Screen Time > Communication Limits_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/COMMUNICATION_LIMITS
 ~~~
+_Screen Time > Communication Limits > During Screen Time_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/COMMUNICATION_LIMITS/During%20Screen%20Time
+~~~
+_Screen Time > Communication Limits > During Downtime_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/COMMUNICATION_LIMITS/During%20Downtime
+~~~
 _Screen Time > Communication Safety_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/COMMUNICATION_SAFETY
+~~~
+_Screen Time > Communication Safety > Communication Safety (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/COMMUNICATION_SAFETY/Communication%20Safety
+~~~
+_Screen Time > Communication Safety > View Child Safety Resources_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/COMMUNICATION_SAFETY/View%20Child%20Safety%20Resources
+~~~
+_Screen Time > Communication Safety > Improve Communication Safety (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/COMMUNICATION_SAFETY/Improve%20Communication%20Safety
 ~~~
 _Screen Time > Content & Privacy Restrictions_
 ~~~yaml
@@ -1589,6 +1637,34 @@ _Screen Time > Content & Privacy Restrictions > Intelligence & Siri_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/SIRI_AND_INTELLIGENCE_RESTRICTIONS
 ~~~
+_Screen Time > Content & Privacy Restrictions > Intelligence & Siri > Apple Intelligence – Image Creation_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/SIRI_AND_INTELLIGENCE_RESTRICTIONS/Image%20Creation
+~~~
+_Screen Time > Content & Privacy Restrictions > Intelligence & Siri > Apple Intelligence – Writing Tools_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/SIRI_AND_INTELLIGENCE_RESTRICTIONS/Writing%20Tools
+~~~
+_Screen Time > Content & Privacy Restrictions > Intelligence & Siri > Intelligence Extensions_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/SIRI_AND_INTELLIGENCE_RESTRICTIONS/Intelligence%20Extensions
+~~~
+_Screen Time > Content & Privacy Restrictions > Intelligence & Siri > Siri & Dictation (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/SIRI_AND_INTELLIGENCE_RESTRICTIONS/Siri%20%26%20Dictation
+~~~
+_Screen Time > Content & Privacy Restrictions > Intelligence & Siri > Siri – Web Search Content_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/SIRI_AND_INTELLIGENCE_RESTRICTIONS/Web%20Search%20Content
+~~~
+_Screen Time > Content & Privacy Restrictions > Intelligence & Siri > Siri – Explicit Language_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/SIRI_AND_INTELLIGENCE_RESTRICTIONS/Explicit%20Language
+~~~
+_Screen Time > Content & Privacy Restrictions > Intelligence & Siri > Math Results_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/SIRI_AND_INTELLIGENCE_RESTRICTIONS/Math%20Results
+~~~
 _Screen Time > Content & Privacy Restrictions > Location Services_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/Location%20Services
@@ -1609,6 +1685,10 @@ _Screen Time > Content & Privacy Restrictions > Location Services > App Clips (b
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/Location%20Services/APP_CLIPS
 ~~~
+_Screen Time > Content & Privacy Restrictions > Location Services > [bundle identifier] (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/Location%20Services/bundle_identifier
+~~~
 _Screen Time > Content & Privacy Restrictions > Location Services > System Services (button)_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/Location%20Services/SYSTEM_SERVICES
@@ -1616,6 +1696,42 @@ settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/Location%20S
 _Screen Time > Content & Privacy Restrictions > Share My Location_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/Share%20My%20Location
+~~~
+_Screen Time > Content & Privacy Restrictions > Privacy (section)_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/Privacy
+~~~
+_Screen Time > Content & Privacy Restrictions > Allow Changes to Passcode & Face ID_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/Passcode%20%26%20Face%20ID
+~~~
+_Screen Time > Content & Privacy Restrictions > Allow Changes to Accounts_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/Accounts
+~~~
+_Screen Time > Content & Privacy Restrictions > Allow Changes to Cellular Data_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/Cellular%20Data
+~~~
+_Screen Time > Content & Privacy Restrictions > Allow Changes to Reduce Loud Audio_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/Reduce%20Loud%20Audio
+~~~
+_Screen Time > Content & Privacy Restrictions > Allow Changes to Speaker Volume Limit_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/Speaker%20Volume%20Limit
+~~~
+_Screen Time > Content & Privacy Restrictions > Allow Changes to Driving Focus_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/Driving%20Focus
+~~~
+_Screen Time > Content & Privacy Restrictions > Allow Changes to TV Provider_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/TV%20Provider
+~~~
+_Screen Time > Content & Privacy Restrictions > Allow Changes to Background App Activity_
+~~~yaml
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/Background%20App%20Activity
 ~~~
 _Screen Time > Lock Screen Time Settings (button)_
 ~~~yaml
@@ -1671,7 +1787,7 @@ _Privacy & Security > Location Services > App Clips_
 ~~~yaml
 settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION/APP_CLIPS
 ~~~
-_Privacy & Security > Location Services > [app bundle identifier]_
+_Privacy & Security > Location Services > [bundle identifier]_
 ~~~yaml
 settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION/bundle_identifier
 ~~~
@@ -1919,7 +2035,7 @@ settings-navigation://com.apple.Settings.Apps/com.apple.Settings.Apps.DefaultApp
 ~~~
 \
 \
-_Apps > [app bundle identifier]_
+_Apps > [bundle identifier]_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/bundle_identifier
 ~~~
