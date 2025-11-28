@@ -1769,6 +1769,18 @@ _Emergency SOS_
 ~~~yaml
 settings-navigation://com.apple.Settings.SOS
 ~~~
+_Emergency SOS > Call with Hold and Release (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.SOS#CALL_WITH_HOLD
+~~~
+_Emergency SOS > Call with 5 Button Presses (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.SOS#CALL_WITH_PRESSES
+~~~
+_Emergency SOS > Set up Emergency Contacts in Health (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.SOS#OPEN_HEALTH
+~~~
 \
 \
 _Privacy & Security_
@@ -2027,9 +2039,13 @@ _iCloud > Saved to iCloud > Notes_
 ~~~yaml
 settings-navigation://com.apple.Settings.iCloud/com.apple.Dataclass.Notes
 ~~~
-_iCloud > Saved to iCloud > iCloud Messages_
+_iCloud > Saved to iCloud > Messages in iCloud_
 ~~~yaml
 settings-navigation://com.apple.Settings.iCloud/com.apple.Dataclass.Messages
+~~~
+_iCloud > Saved to iCloud > Health_
+~~~yaml
+settings-navigation://com.apple.Settings.iCloud/com.apple.Dataclass.Health
 ~~~
 _iCloud > Saved to iCloud > iCloud Calendar_
 ~~~yaml
