@@ -237,15 +237,33 @@ settings-navigation://com.apple.Settings.General/COVERAGE
 ~~~
 \
 \
-_General > AirPlay & Continuity_
+_General > Health Data_
 ~~~yaml
-settings-navigation://com.apple.Settings.General/CONTINUITY_SPEC
+settings-navigation://com.apple.Settings.Apps/com.apple.Health
+~~~
+_General > Health Data > Health Details_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.Health/HEALTH_DETAILS_ITEM
+~~~
+_General > Health Data > Medical ID_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.Health/MEDICAL_ID_ITEM
+~~~
+_General > Health Data > Data Access & Devices_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.Health/SOURCES_ITEM
 ~~~
 \
 \
 _General > AirDrop_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/AIRDROP_LINK
+~~~
+\
+\
+_General > AirPlay & Continuity_
+~~~yaml
+settings-navigation://com.apple.Settings.General/CONTINUITY_SPEC
 ~~~
 \
 \
@@ -560,6 +578,30 @@ settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT/CLASSIC_
 _Accessibility > Display & Text Size > Color Filters_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR
+~~~
+_Accessibility > Display & Text Size > Color Filters > Color Filters (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#FILTER_COLOR_ENABLED
+~~~
+_Accessibility > Display & Text Size > Color Filters > Grayscale (option)_
+~~~yaml
+settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#GRAYSCALE
+~~~
+_Accessibility > Display & Text Size > Color Filters > Red/Green Filter [Protanopia] (option)_
+~~~yaml
+settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#RED_ADJUST
+~~~
+_Accessibility > Display & Text Size > Color Filters > Green/Red Filter [Deuteranopia] (option)_
+~~~yaml
+settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#GREEN_ADJUST
+~~~
+_Accessibility > Display & Text Size > Color Filters > Blue/Yellow Filter [Tritanopia] (option)_
+~~~yaml
+settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#BLUE_ADJUST
+~~~
+_Accessibility > Display & Text Size > Color Filters > Color Tint (option)_
+~~~yaml
+settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#SINGLE_COLOR_ADJUST
 ~~~
 _Accessibility > Display & Text Size > Reduce White Point (switch/slider)_
 ~~~yaml
@@ -1031,6 +1073,14 @@ _Accessibility > Per-App Settings_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE
 ~~~
+_Accessibility > Per-App Settings > Show Hidden Apps_
+~~~yaml
+settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/PROTECTED_APPS_SHOW_HIDDEN_TITLE
+~~~
+_Accessibility > Per-App Settings > Add App (dialog)_
+~~~yaml
+settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/AX_ADD_BUTTON_IDENTIFIER
+~~~
 _Accessibility > Per-App Settings > [bundle identifier] <sub>(as long as you have added the app there, otherwise goes to the parent page)</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/bundle_identifier
@@ -1086,14 +1136,6 @@ settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/bun
 _Accessibility > Per-App Settings > [bundle identifier] > Prefer Non-Blinking Cursor_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/bundle_identifier/PREFER_NONBLINKING_CURSOR
-~~~
-_Accessibility > Per-App Settings > Show Hidden Apps_
-~~~yaml
-settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/PROTECTED_APPS_SHOW_HIDDEN_TITLE
-~~~
-_Accessibility > Per-App Settings > Add App (dialog)_
-~~~yaml
-settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/AX_ADD_BUTTON_IDENTIFIER
 ~~~
 \
 \
