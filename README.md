@@ -279,6 +279,12 @@ settings-navigation://com.apple.Settings.General/SCREEN_CAPTURE
 ~~~
 \
 \
+_General > Local Capture_
+~~~yaml
+settings-navigation://com.apple.Settings.General/LOCAL_CAPTURE
+~~~
+\
+\
 _General > Matter Accessories_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/MATTER_ACCESSORIES
@@ -306,6 +312,18 @@ settings-navigation://com.apple.Settings.General/AUTO_CONTENT_DOWNLOAD
 _General > Date & Time_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/DATE_AND_TIME
+~~~
+_General > Date & Time > 24-Hour Time (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.General/DATE_AND_TIME#24_HOUR_TIME
+~~~
+_General > Date & Time > Set Automatically (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.General/DATE_AND_TIME#SET_AUTOMATICALLY
+~~~
+_General > Date & Time > Time Zone (button)_
+~~~yaml
+settings-navigation://com.apple.Settings.General/DATE_AND_TIME#TIME_ZONE
 ~~~
 \
 \
@@ -654,6 +672,18 @@ settings-navigation://com.apple.Settings.Accessibility/MOTION_TITLE/PREFER_NONBL
 _Accessibility > Read & Speak_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/SPEECH_TITLE
+~~~
+_Accessibility > Read & Speak > Accessibility Reader_
+~~~yaml
+settings-navigation://com.apple.Settings.Accessibility/SPEECH_TITLE/AccessibilityReader
+~~~
+_Accessibility > Read & Speak > Speak Screen_
+~~~yaml
+settings-navigation://com.apple.Settings.Accessibility/SPEECH_TITLE/SpeakScreen
+~~~
+_Accessibility > Read & Speak > Speak Selection_
+~~~yaml
+settings-navigation://com.apple.Settings.Accessibility/SPEECH_TITLE/SpeakSelection
 ~~~
 \
 \
@@ -1215,6 +1245,14 @@ _Control Center_
 ~~~yaml
 settings-navigation://com.apple.Settings.ControlCenter
 ~~~
+_Control Center > Access Within Apps (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.ControlCenter#ACCESS_WITHIN_APP
+~~~
+_Control Center > Reset Control Center_
+~~~yaml
+settings-navigation://com.apple.Settings.ControlCenter#RESET_CONTROL_CENTER
+~~~
 \
 \
 _Display & Brightness_
@@ -1271,9 +1309,13 @@ _Home Screen & App Library_
 ~~~yaml
 settings-navigation://com.apple.Settings.HomeScreenAndAppLibrary
 ~~~
-_Home Screen & App Library > Notifications Badges – Show in App Library_
+_Home Screen & App Library > Notifications Badges – Show in App Library (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.HomeScreenAndAppLibrary#BADGES_IN_APP_LIBRARY
+~~~
+_Home Screen & App Library > Search – Show on Home Screen (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.HomeScreenAndAppLibrary#SHOW_SEARCH_ON_HOME_SCREEN
 ~~~
 \
 \
@@ -1448,6 +1490,10 @@ settings-navigation://com.apple.Settings.Sounds/PERSONALIZED_SPATIAL_AUDIO
 _Focus_
 ~~~yaml
 settings-navigation://com.apple.Settings.Focus
+~~~
+_Focus > Share Across Devices (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Focus#Share%20Across%20Devices
 ~~~
 _Focus > Focus Status_
 ~~~yaml
