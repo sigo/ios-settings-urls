@@ -1505,7 +1505,7 @@ _Screen Time_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime
 ~~~
-_Screen Time > See All App & Website Activity <sup>If enabled</sup>_
+_Screen Time > See All App & Website Activity <sup>If App & Website Activity is enabled</sup>_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/SCREEN_TIME_SUMMARY
 ~~~
@@ -1533,15 +1533,15 @@ _Screen Time > See All App & Website Activity – Notifications > [bundle identi
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/SCREEN_TIME_SUMMARY/bundle_identifier
 ~~~
-_Screen Time > Downtime <sup>App & Website Activity</sup>_
+_Screen Time > Downtime <sup>If App & Website Activity is enabled</sup>_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/DOWNTIME
 ~~~
-_Screen Time > App Limits <sup>App & Website Activity</sup>_
+_Screen Time > App Limits <sup>If App & Website Activity is enabled</sup>_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/APP_LIMITS
 ~~~
-_Screen Time > Always Allowed <sup>App & Website Activity</sup>_
+_Screen Time > Always Allowed <sup>If App & Website Activity is enabled</sup>_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/ALWAYS_ALLOWED
 ~~~
@@ -2977,7 +2977,7 @@ _Apps > Messages > Screen Unknown Senders (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS#FILTER_NEW_SENDERS_SWITCH
 ~~~
-_Apps > Messages > Allow Notifications <sup>Screen Unknown Senders</sup>_
+_Apps > Messages > Allow Notifications <sup>If Screen Unknown Senders is enabled</sup>_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS/NOTIFICATIONS_UNKNOWN_SENDERS_BUTTON
 ~~~
