@@ -81,7 +81,7 @@ _Bluetooth_
 ~~~yaml
 settings-navigation://com.apple.Settings.Bluetooth
 ~~~
-_Bluetooth > AirPods &#X24D8; <sub>(use MAC address of AirPods as identifier)</sub>_
+_Bluetooth > AirPods &#X24D8; <sub>(use the MAC address of your AirPods as identifier – can be extracted using a computer)</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.Bluetooth/HeadphoneDetail/?identifier=00:00:00:00:00:00
 ~~~
