@@ -965,6 +965,22 @@ _Accessibility > Audio & Visual > LED Flash for Alerts_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/AUDIO_VISUAL_TITLE/LED_FLASH
 ~~~
+_Accessibility > Audio & Visual > LED Flash for Alerts > Flash for Alerts (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Accessibility/AUDIO_VISUAL_TITLE/LED_FLASH#FLASH_FOR_ALERTS
+~~~
+_Accessibility > Audio & Visual > LED Flash for Alerts > LED Flash (option)_
+~~~yaml
+settings-navigation://com.apple.Settings.Accessibility/AUDIO_VISUAL_TITLE/LED_FLASH#VISUAL_ALERT_TYPE_LED
+~~~
+_Accessibility > Audio & Visual > LED Flash for Alerts > Screen (option)_
+~~~yaml
+settings-navigation://com.apple.Settings.Accessibility/AUDIO_VISUAL_TITLE/LED_FLASH#VISUAL_ALERT_TYPE_SCREEN
+~~~
+_Accessibility > Audio & Visual > LED Flash for Alerts > Both (option)_
+~~~yaml
+settings-navigation://com.apple.Settings.Accessibility/AUDIO_VISUAL_TITLE/LED_FLASH#VISUAL_ALERT_TYPE_BOTH
+~~~
 _Accessibility > Audio & Visual > LED Flash for Alerts > Flash While Unlocked (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH_WHILE_UNLOCKED
