@@ -91,7 +91,7 @@ _Cellular_
 ~~~yaml
 settings-navigation://com.apple.Settings.Cellular
 ~~~
-_Cellulart > Cellular Data (switch)_
+_Cellular > Cellular Data (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Cellular#MOBILE_DATA_SETTINGS
 ~~~
@@ -1509,27 +1509,27 @@ _Screen Time > See All App & Website Activity <sup>If App & Website Activity is 
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/SCREEN_TIME_SUMMARY
 ~~~
-_Screen Time > See All App & Website Activity – Week (tab)_
+_Screen Time > See All App & Website Activity – Week (tab) <sup>If App & Website Activity is enabled</sup>_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/SCREEN_TIME_SUMMARY/WEEK
 ~~~
-_Screen Time > See All App & Website Activity – Day (tab)_
+_Screen Time > See All App & Website Activity – Day (tab) <sup>If App & Website Activity is enabled</sup>_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/SCREEN_TIME_SUMMARY/DAY
 ~~~
-_Screen Time > See All App & Website Activity – Most Used (section)_
+_Screen Time > See All App & Website Activity – Most Used (section) <sup>If App & Website Activity is enabled</sup>_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/SCREEN_TIME_SUMMARY/Most%20Used
 ~~~
-_Screen Time > See All App & Website Activity – Pickups (section)_
+_Screen Time > See All App & Website Activity – Pickups (section) <sup>If App & Website Activity is enabled</sup>_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/SCREEN_TIME_SUMMARY/Pickups
 ~~~
-_Screen Time > See All App & Website Activity – Notifications (section)_
+_Screen Time > See All App & Website Activity – Notifications (section) <sup>If App & Website Activity is enabled</sup>_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/SCREEN_TIME_SUMMARY/Notifications
 ~~~
-_Screen Time > See All App & Website Activity – Notifications > [bundle identifier]_
+_Screen Time > See All App & Website Activity – Notifications > [bundle identifier] <sup>If App & Website Activity is enabled</sup>_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/SCREEN_TIME_SUMMARY/bundle_identifier
 ~~~
@@ -3379,6 +3379,18 @@ _Apps > Reminders > Notifications (button)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.reminders#NOTIFICATIONS
 ~~~
+_Apps > Reminders > Alarms (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.reminders#Alarms
+~~~
+_Apps > Reminders > Liva Activities (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.reminders#Live%20Activities
+~~~
+_Apps > Reminders > Background App Refresh (switch)_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.reminders#Background%20App%20Refresh
+~~~
 _Apps > Reminders > Language (button)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.reminders#PREFERRED_LANGUAGE
@@ -3415,7 +3427,11 @@ _Apps > Reminders > When Adding Reminders – Show Suggestions (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.reminders#SHOW_SUGGESTIONS
 ~~~
-_Apps > Reminders > Grocery Categorization_
+_Apps > Reminders > Urgent Reminders – Complete from Alarms_
+~~~yaml
+settings-navigation://com.apple.Settings.Apps/com.apple.reminders#URGENT_REMINDERS
+~~~
+_Apps > Reminders > Grocery Categorization – Add Language_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.reminders/ADD_LANGUAGE
 ~~~
