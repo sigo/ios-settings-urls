@@ -11,31 +11,31 @@ _Apple Account_
 ~~~yaml
 settings-navigation://com.apple.Settings.AppleAccount
 ~~~
-_Apple Account > Personal Information <sub>(some delay)</sub>_
+_Apple Account > Personal Information <sub>some delay</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.AppleAccount/APPLE_ACCOUNT_CONTACT
 ~~~
-_Apple Account > Sign-In & Security <sub>(some delay)</sub>_
+_Apple Account > Sign-In & Security <sub>some delay</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.AppleAccount/PASSWORD_AND_SECURITY
 ~~~
-_Apple Account > Sign-In & Security > Recovery Contacts <sub>(some delay)</sub>_
+_Apple Account > Sign-In & Security > Recovery Contacts <sub>some delay</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.AppleAccount/?aaaction=accountRecovery
 ~~~
-_Apple Account > Sign-In & Security > Legacy Contact <sub>(some delay)</sub>_
+_Apple Account > Sign-In & Security > Legacy Contact <sub>some delay</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.AppleAccount/?aaaction=accountBeneficiary
 ~~~
-_Apple Account > Payment & Shipping <sub>(some delay)</sub>_
+_Apple Account > Payment & Shipping <sub>some delay</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.AppleAccount/PAYMENT_AND_SHIPPING
 ~~~
-_Apple Account > Subscriptions <sub>(some delay)</sub>_
+_Apple Account > Subscriptions <sub>some delay</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.AppleAccount/SUBSCRIPTIONS
 ~~~
-_Apple Account > iCloud <sub>(see the iCloud main section for more URLs)</sub>_
+_Apple Account > iCloud <sub>see the iCloud main section for more URLs</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE
 ~~~
@@ -81,7 +81,7 @@ _Bluetooth_
 ~~~yaml
 settings-navigation://com.apple.Settings.Bluetooth
 ~~~
-_Bluetooth > AirPods &#X24D8; <sub>(use the MAC address of your AirPods as identifier – can be retrieved using a computer)</sub>_
+_Bluetooth > AirPods &#X24D8; <sub>use the MAC address of your AirPods as identifier – can be retrieved using a computer</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.Bluetooth/HeadphoneDetail/?identifier=00:00:00:00:00:00
 ~~~
@@ -163,11 +163,11 @@ _Battery_
 ~~~yaml
 settings-navigation://com.apple.Settings.Battery
 ~~~
-_Battery > Battery Health & Charging <sub>(device specific)</sub>_
+_Battery > Battery Health & Charging <sub>device specific</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.Battery/BATTERY_HEALTH_TITLE
 ~~~
-_Battery > Charging Options <sub>(device specific)</sub>_
+_Battery > Charging Options <sub>device specific</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.Battery/CHARGING_OPTIONS_IDENTIFIER
 ~~~
@@ -259,11 +259,11 @@ _General > AirDrop_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/AIRDROP_LINK
 ~~~
-_General > AirDrop > Start Sharing By – Bringing Devices Together (switch) <sub>(buggy highlighting)</sub>_
+_General > AirDrop > Start Sharing By – Bringing Devices Together (switch) <sub>buggy highlighting</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/AIRDROP_LINK#AIRDROP_NFC_ID
 ~~~
-_General > AirDrop > Out of Range – Use Cellular Data (switch) <sub>(buggy highlighting)</sub>_
+_General > AirDrop > Out of Range – Use Cellular Data (switch) <sub>buggy highlighting</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/AIRDROP_LINK#AIRDROP_CELLULAR_USAGE_ID
 ~~~
@@ -303,7 +303,7 @@ settings-navigation://com.apple.Settings.General/MATTER_ACCESSORIES
 ~~~
 \
 \
-_General > Home Button (button) <sub>(device specific)</sub>_
+_General > Home Button (button) <sub>device specific</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.General#HOME_BUTTON
 ~~~
@@ -867,7 +867,7 @@ settings-navigation://com.apple.Settings.Accessibility/AST_HEAD_TRACKING
 ~~~
 \
 \
-_Accessibility > Home Button <sub>(device specific)</sub>_
+_Accessibility > Home Button <sub>device specific</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/HOME_CLICK_TITLE
 ~~~
@@ -1139,7 +1139,7 @@ _Accessibility > Per-App Settings > Add App (dialog)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/AX_ADD_BUTTON_IDENTIFIER
 ~~~
-_Accessibility > Per-App Settings > [bundle identifier] <sub>(as long as you have added the app there, otherwise goes to the parent page)</sub>_
+_Accessibility > Per-App Settings > [bundle identifier] <sub>as long as you have added the app there, otherwise goes to the parent page</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/bundle_identifier
 ~~~
@@ -1197,7 +1197,7 @@ settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/bun
 ~~~
 \
 \
-_Action Button <sub>(device specific)</sub>_
+_Action Button <sub>device specific</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.ActionButton
 ~~~
@@ -1363,7 +1363,7 @@ _StandBy_
 ~~~yaml
 settings-navigation://com.apple.Settings.StandBy
 ~~~
-_StandBy > Display <sub>(device specific)</sub>_
+_StandBy > Display <sub>device specific</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.StandBy/ALWAYS_ON_DISPLAY_OPTIONS
 ~~~
@@ -2127,7 +2127,7 @@ _iCloud > Saved to iCloud > iCloud Mail > Auto-Reply_
 ~~~yaml
 settings-navigation://com.apple.Settings.iCloud/com.apple.Dataclass.Mail/AUTO_REPLY
 ~~~
-_iCloud > Saved to iCloud > iCloud Mail > Mail Forwarding <sub>(some delay)</sub>_
+_iCloud > Saved to iCloud > iCloud Mail > Mail Forwarding <sub>some delay</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.iCloud/com.apple.Dataclass.Mail/MAIL_FORWARDING
 ~~~
@@ -2143,7 +2143,7 @@ _iCloud > Saved to iCloud > iCloud Mail > Signing and Encryption_
 ~~~yaml
 settings-navigation://com.apple.Settings.iCloud/com.apple.Dataclass.Mail/END_TO_END_ENCRYPTION
 ~~~
-_iCloud > Saved to iCloud > iCloud Mail > Custom Email Domain <sub>(some delay)</sub>_
+_iCloud > Saved to iCloud > iCloud Mail > Custom Email Domain <sub>some delay</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.iCloud/com.apple.Dataclass.Mail/BYOD_SETTING_SPECIFIER_ID
 ~~~
@@ -2179,7 +2179,7 @@ _iCloud > Private Relay_
 ~~~yaml
 settings-navigation://com.apple.Settings.iCloud/INTERNET_PRIVACY
 ~~~
-_iCloud > Hide My Email <sub>(some delay)</sub>_
+_iCloud > Hide My Email <sub>some delay</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.iCloud/PRIVATE_EMAIL_MANAGE
 ~~~
