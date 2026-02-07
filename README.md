@@ -259,6 +259,18 @@ _General > AirDrop_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/AIRDROP_LINK
 ~~~
+_General > AirDrop > Start Sharing By – Bringing Devices Together (switch) <sub>buggy highlighting</sub>_
+~~~yaml
+settings-navigation://com.apple.Settings.General/AIRDROP_LINK#AIRDROP_NFC_ID
+~~~
+_General > AirDrop > Out of Range – Use Cellular Data (switch) <sub>buggy highlighting</sub>_
+~~~yaml
+settings-navigation://com.apple.Settings.General/AIRDROP_LINK#AIRDROP_CELLULAR_USAGE_ID
+~~~
+_General > AirDrop > Manage Known AirDrop Contacts_
+~~~yaml
+contacts-sensitive:///list/other-known
+~~~
 \
 \
 _General > AirPlay & Continuity_
