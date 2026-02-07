@@ -81,7 +81,7 @@ _Bluetooth_
 ~~~yaml
 settings-navigation://com.apple.Settings.Bluetooth
 ~~~
-_Bluetooth > AirPods &#X24D8; <sub>(use the MAC address of your AirPods as identifier – can be extracted using a computer)</sub>_
+_Bluetooth > AirPods &#X24D8; <sub>(use the MAC address of your AirPods as identifier – can be retrieved using a computer)</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.Bluetooth/HeadphoneDetail/?identifier=00:00:00:00:00:00
 ~~~
@@ -259,11 +259,11 @@ _General > AirDrop_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/AIRDROP_LINK
 ~~~
-_General > AirDrop > Start Sharing By – Bringing Devices Together (switch) <sub>buggy highlighting</sub>_
+_General > AirDrop > Start Sharing By – Bringing Devices Together (switch) <sub>(buggy highlighting)</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/AIRDROP_LINK#AIRDROP_NFC_ID
 ~~~
-_General > AirDrop > Out of Range – Use Cellular Data (switch) <sub>buggy highlighting</sub>_
+_General > AirDrop > Out of Range – Use Cellular Data (switch) <sub>(buggy highlighting)</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/AIRDROP_LINK#AIRDROP_CELLULAR_USAGE_ID
 ~~~
