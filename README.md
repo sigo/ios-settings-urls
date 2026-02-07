@@ -2189,9 +2189,13 @@ settings-navigation://com.apple.Settings.iCloud/ICLOUD_ADP_SPECIFIER_NAME
 ~~~
 \
 \
-_Payment & Contactless_
+_Wallet & Apple Pay_
 ~~~yaml
-settings-navigation://com.apple.Settings.Contactless
+settings-navigation://com.apple.Settings.Wallet
+~~~
+_Wallet & Apple Pay > Apple Pay Defaults_
+~~~yaml
+settings-navigation://com.apple.Settings.Wallet/applePayDefaults
 ~~~
 \
 \
