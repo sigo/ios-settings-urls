@@ -259,11 +259,11 @@ _General > AirDrop_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/AIRDROP_LINK
 ~~~
-_General > AirDrop > Start Sharing By – Bringing Devices Together (switch) <sub>faint highlighting</sub>_
+_General > AirDrop > Start Sharing By – Bringing Devices Together (switch) <sub>almost unnoticeable highlighting</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/AIRDROP_LINK#AIRDROP_NFC_ID
 ~~~
-_General > AirDrop > Out of Range – Use Cellular Data (switch) <sub>faint highlighting</sub>_
+_General > AirDrop > Out of Range – Use Cellular Data (switch) <sub>almost unnoticeable highlighting</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/AIRDROP_LINK#AIRDROP_CELLULAR_USAGE_ID
 ~~~
@@ -1337,11 +1337,11 @@ _Home Screen & App Library_
 ~~~yaml
 settings-navigation://com.apple.Settings.HomeScreenAndAppLibrary
 ~~~
-_Home Screen & App Library > Notifications Badges – Show in App Library (switch) <sub>faint highlighting</sub>_
+_Home Screen & App Library > Notifications Badges – Show in App Library (switch) <sub>almost unnoticeable highlighting</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.HomeScreenAndAppLibrary#BADGES_IN_APP_LIBRARY
 ~~~
-_Home Screen & App Library > Search – Show on Home Screen (switch) <sub>faint highlighting</sub>_
+_Home Screen & App Library > Search – Show on Home Screen (switch) <sub>almost unnoticeable highlighting</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.HomeScreenAndAppLibrary#SHOW_SEARCH_ON_HOME_SCREEN
 ~~~
