@@ -1337,11 +1337,11 @@ _Home Screen & App Library_
 ~~~yaml
 settings-navigation://com.apple.Settings.HomeScreenAndAppLibrary
 ~~~
-_Home Screen & App Library > Notifications Badges – Show in App Library (switch)_
+_Home Screen & App Library > Notifications Badges – Show in App Library (switch) <sub>buggy highlighting</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.HomeScreenAndAppLibrary#BADGES_IN_APP_LIBRARY
 ~~~
-_Home Screen & App Library > Search – Show on Home Screen (switch)_
+_Home Screen & App Library > Search – Show on Home Screen (switch) <sub>buggy highlighting</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.HomeScreenAndAppLibrary#SHOW_SEARCH_ON_HOME_SCREEN
 ~~~
