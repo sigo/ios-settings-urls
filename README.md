@@ -3459,7 +3459,7 @@ _Apps > Reminders > When Adding Reminders – Show Suggestions (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.reminders#SHOW_SUGGESTIONS
 ~~~
-_Apps > Reminders > Urgent Reminders – Complete from Alarms_
+_Apps > Reminders > Urgent Reminders – Complete from Alarm (switch)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.reminders#URGENT_REMINDERS
 ~~~
