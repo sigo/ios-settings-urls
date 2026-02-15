@@ -225,9 +225,9 @@ _General > iPhone Storage_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/STORAGE_MGMT
 ~~~
-_General > iPhone Storage > [bundle identifier]_
+_General > iPhone Storage > [app's bundle ID]_
 ~~~yaml
-settings-navigation://com.apple.Settings.General/STORAGE_MGMT/bundle_identifier
+settings-navigation://com.apple.Settings.General/STORAGE_MGMT/replace_with_app_bundle_id
 ~~~
 \
 \
@@ -1139,61 +1139,61 @@ _Accessibility > Per-App Settings > Add App (dialog)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/AX_ADD_BUTTON_IDENTIFIER
 ~~~
-_Accessibility > Per-App Settings > [bundle identifier] <sub>as long as you have added the app there, otherwise goes to the parent page</sub>_
+_Accessibility > Per-App Settings > [app's bundle ID] <sub>as long as you have added the app there, otherwise goes to the parent page</sub>_
 ~~~yaml
-settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/bundle_identifier
+settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/replace_with_app_bundle_id
 ~~~
-_Accessibility > Per-App Settings > [bundle identifier] > Bold Text_
+_Accessibility > Per-App Settings > [app's bundle ID] > Bold Text_
 ~~~yaml
-settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/bundle_identifier/ENHANCE_TEXT_LEGIBILITY
+settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/replace_with_app_bundle_id/ENHANCE_TEXT_LEGIBILITY
 ~~~
-_Accessibility > Per-App Settings > [bundle identifier] > Larger Text_
+_Accessibility > Per-App Settings > [app's bundle ID] > Larger Text_
 ~~~yaml
-settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/bundle_identifier/LARGER_TEXT
+settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/replace_with_app_bundle_id/LARGER_TEXT
 ~~~
-_Accessibility > Per-App Settings > [bundle identifier] > Show Borders_
+_Accessibility > Per-App Settings > [app's bundle ID] > Show Borders_
 ~~~yaml
-settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/bundle_identifier/BUTTON_SHAPES
+settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/replace_with_app_bundle_id/BUTTON_SHAPES
 ~~~
-_Accessibility > Per-App Settings > [bundle identifier] > On/Off Labels_
+_Accessibility > Per-App Settings > [app's bundle ID] > On/Off Labels_
 ~~~yaml
-settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/bundle_identifier/ON_OFF_LABELS
+settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/replace_with_app_bundle_id/ON_OFF_LABELS
 ~~~
-_Accessibility > Per-App Settings > [bundle identifier] > Reduce Transparency_
+_Accessibility > Per-App Settings > [app's bundle ID] > Reduce Transparency_
 ~~~yaml
-settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/bundle_identifier/REDUCE_TRANSPARENCY
+settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/replace_with_app_bundle_id/REDUCE_TRANSPARENCY
 ~~~
-_Accessibility > Per-App Settings > [bundle identifier] > Increase Contrast_
+_Accessibility > Per-App Settings > [app's bundle ID] > Increase Contrast_
 ~~~yaml
-settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/bundle_identifier/TEXT_COLORS_DARKEN
+settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/replace_with_app_bundle_id/TEXT_COLORS_DARKEN
 ~~~
-_Accessibility > Per-App Settings > [bundle identifier] > Differentiate Without Color_
+_Accessibility > Per-App Settings > [app's bundle ID] > Differentiate Without Color_
 ~~~yaml
-settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/bundle_identifier/DIFFERENTIATE_WITHOUT_COLOR
+settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/replace_with_app_bundle_id/DIFFERENTIATE_WITHOUT_COLOR
 ~~~
-_Accessibility > Per-App Settings > [bundle identifier] > Prefer Horizontal Text_
+_Accessibility > Per-App Settings > [app's bundle ID] > Prefer Horizontal Text_
 ~~~yaml
-settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/bundle_identifier/PREFER_HORIZONTAL_TEXT
+settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/replace_with_app_bundle_id/PREFER_HORIZONTAL_TEXT
 ~~~
-_Accessibility > Per-App Settings > [bundle identifier] > Smart Invert_
+_Accessibility > Per-App Settings > [app's bundle ID] > Smart Invert_
 ~~~yaml
-settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/bundle_identifier/SMART_INVERT
+settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/replace_with_app_bundle_id/SMART_INVERT
 ~~~
-_Accessibility > Per-App Settings > [bundle identifier] > Reduce Motion_
+_Accessibility > Per-App Settings > [app's bundle ID] > Reduce Motion_
 ~~~yaml
-settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/bundle_identifier/REDUCE_MOTION
+settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/replace_with_app_bundle_id/REDUCE_MOTION
 ~~~
-_Accessibility > Per-App Settings > [bundle identifier] > Prefer Croos-Fade Transitions_
+_Accessibility > Per-App Settings > [app's bundle ID] > Prefer Croos-Fade Transitions_
 ~~~yaml
-settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/bundle_identifier/REDUCE_MOTION_REDUCE_SLIDE_ANIMATIONS
+settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/replace_with_app_bundle_id/REDUCE_MOTION_REDUCE_SLIDE_ANIMATIONS
 ~~~
-_Accessibility > Per-App Settings > [bundle identifier] > Auto-Play Video Previews_
+_Accessibility > Per-App Settings > [app's bundle ID] > Auto-Play Video Previews_
 ~~~yaml
-settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/bundle_identifier/REDUCE_MOTION_AUTOPLAY_VIDEO_PREVIEWS
+settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/replace_with_app_bundle_id/REDUCE_MOTION_AUTOPLAY_VIDEO_PREVIEWS
 ~~~
-_Accessibility > Per-App Settings > [bundle identifier] > Prefer Non-Blinking Cursor_
+_Accessibility > Per-App Settings > [app's bundle ID] > Prefer Non-Blinking Cursor_
 ~~~yaml
-settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/bundle_identifier/PREFER_NONBLINKING_CURSOR
+settings-navigation://com.apple.Settings.Accessibility/APP_AX_SETTINGS_TITLE/replace_with_app_bundle_id/PREFER_NONBLINKING_CURSOR
 ~~~
 \
 \
@@ -1419,25 +1419,25 @@ _Notifications > Siri Suggestions_
 ~~~yaml
 settings-navigation://com.apple.Settings.Notifications/SIRI_SUGGESTIONS_ID
 ~~~
-_Notifications > [bundle identifier]_
+_Notifications > [app's bundle ID]_
 ~~~yaml
-settings-navigation://com.apple.Settings.Notifications/bundle_identifier
+settings-navigation://com.apple.Settings.Notifications/replace_with_app_bundle_id
 ~~~
-_Notifications > [bundle identifier] > Banner Style_
+_Notifications > [app's bundle ID] > Banner Style_
 ~~~yaml
-settings-navigation://com.apple.Settings.Notifications/bundle_identifier/BANNER_STYLE_ID
+settings-navigation://com.apple.Settings.Notifications/replace_with_app_bundle_id/BANNER_STYLE_ID
 ~~~
-_Notifications > [bundle identifier] > Show Previews_
+_Notifications > [app's bundle ID] > Show Previews_
 ~~~yaml
-settings-navigation://com.apple.Settings.Notifications/bundle_identifier/SHOW_PREVIEW_GROUP_ID
+settings-navigation://com.apple.Settings.Notifications/replace_with_app_bundle_id/SHOW_PREVIEW_GROUP_ID
 ~~~
-_Notifications > [bundle identifier] > Notification Grouping_
+_Notifications > [app's bundle ID] > Notification Grouping_
 ~~~yaml
-settings-navigation://com.apple.Settings.Notifications/bundle_identifier/NOTIFICATION_GROUPING_APP_ID
+settings-navigation://com.apple.Settings.Notifications/replace_with_app_bundle_id/NOTIFICATION_GROUPING_APP_ID
 ~~~
-_Notifications > [bundle identifier] > Customize Notifications_
+_Notifications > [app's bundle ID] > Customize Notifications_
 ~~~yaml
-settings-navigation://com.apple.Settings.Notifications/bundle_identifier/custom
+settings-navigation://com.apple.Settings.Notifications/replace_with_app_bundle_id/custom
 ~~~
 \
 \
@@ -1557,9 +1557,9 @@ _Screen Time > See All App & Website Activity – Notifications (section) <sup>I
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/SCREEN_TIME_SUMMARY/Notifications
 ~~~
-_Screen Time > See All App & Website Activity – Notifications > [bundle identifier] <sup>If App & Website Activity is enabled</sup>_
+_Screen Time > See All App & Website Activity – Notifications > [app's bundle ID] <sup>If App & Website Activity is enabled</sup>_
 ~~~yaml
-settings-navigation://com.apple.Settings.ScreenTime/SCREEN_TIME_SUMMARY/bundle_identifier
+settings-navigation://com.apple.Settings.ScreenTime/SCREEN_TIME_SUMMARY/replace_with_app_bundle_id
 ~~~
 _Screen Time > Downtime <sup>If App & Website Activity is enabled</sup>_
 ~~~yaml
@@ -1805,9 +1805,9 @@ _Screen Time > Content & Privacy Restrictions > Location Services > App Clips (b
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/Location%20Services/APP_CLIPS
 ~~~
-_Screen Time > Content & Privacy Restrictions > Location Services > [bundle identifier] (button)_
+_Screen Time > Content & Privacy Restrictions > Location Services > [app's bundle ID] (button)_
 ~~~yaml
-settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/Location%20Services/bundle_identifier
+settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/Location%20Services/replace_with_app_bundle_id
 ~~~
 _Screen Time > Content & Privacy Restrictions > Location Services > System Services (button)_
 ~~~yaml
@@ -1919,9 +1919,9 @@ _Privacy & Security > Location Services > App Clips_
 ~~~yaml
 settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION/APP_CLIPS
 ~~~
-_Privacy & Security > Location Services > [bundle identifier]_
+_Privacy & Security > Location Services > [app's bundle ID]_
 ~~~yaml
-settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION/bundle_identifier
+settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION/replace_with_app_bundle_id
 ~~~
 _Privacy & Security > Location Services > System Services_
 ~~~yaml
@@ -2211,9 +2211,9 @@ settings-navigation://com.apple.Settings.Apps/com.apple.Settings.Apps.DefaultApp
 ~~~
 \
 \
-_Apps > [bundle identifier]_
+_Apps > [app's bundle ID]_
 ~~~yaml
-settings-navigation://com.apple.Settings.Apps/bundle_identifier
+settings-navigation://com.apple.Settings.Apps/replace_with_app_bundle_id
 ~~~
 \
 \
