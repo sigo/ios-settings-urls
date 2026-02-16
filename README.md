@@ -617,15 +617,15 @@ _Accessibility > Display & Text Size > Color Filters > Grayscale (option)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#GRAYSCALE
 ~~~
-_Accessibility > Display & Text Size > Color Filters > Red/Green Filter – Protanopia (option)_
+_Accessibility > Display & Text Size > Color Filters > Red/Green Filter (option)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#RED_ADJUST
 ~~~
-_Accessibility > Display & Text Size > Color Filters > Green/Red Filter – Deuteranopia (option)_
+_Accessibility > Display & Text Size > Color Filters > Green/Red Filter (option)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#GREEN_ADJUST
 ~~~
-_Accessibility > Display & Text Size > Color Filters > Blue/Yellow Filter – Tritanopia (option)_
+_Accessibility > Display & Text Size > Color Filters > Blue/Yellow Filter (option)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#BLUE_ADJUST
 ~~~
