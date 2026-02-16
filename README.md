@@ -47,7 +47,7 @@ _Apple Account > Media & Purchases_
 ~~~yaml
 settings-navigation://com.apple.Settings.AppleAccount/STORE_SERVICE
 ~~~
-_Apple Account > Sign in with Apple_
+_Apple Account > Sign in with Apple <sub>some delay</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.AppleAccount/SIWA_SERVICE
 ~~~
@@ -617,15 +617,15 @@ _Accessibility > Display & Text Size > Color Filters > Grayscale (option)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#GRAYSCALE
 ~~~
-_Accessibility > Display & Text Size > Color Filters > Red/Green Filter [Protanopia] (option)_
+_Accessibility > Display & Text Size > Color Filters > Red/Green Filter – Protanopia (option)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#RED_ADJUST
 ~~~
-_Accessibility > Display & Text Size > Color Filters > Green/Red Filter [Deuteranopia] (option)_
+_Accessibility > Display & Text Size > Color Filters > Green/Red Filter – Deuteranopia (option)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#GREEN_ADJUST
 ~~~
-_Accessibility > Display & Text Size > Color Filters > Blue/Yellow Filter [Tritanopia] (option)_
+_Accessibility > Display & Text Size > Color Filters > Blue/Yellow Filter – Tritanopia (option)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#BLUE_ADJUST
 ~~~
@@ -2175,11 +2175,11 @@ _iCloud > Backup > All Device Backups > [current device] > Backup Details_
 ~~~yaml
 settings-navigation://com.apple.Settings.iCloud/STORAGE_AND_BACKUP/CURRENT_DEVICE_BACKUP
 ~~~
-_iCloud > Private Relay_
+_iCloud > iCloud+ Features > Private Relay_
 ~~~yaml
 settings-navigation://com.apple.Settings.iCloud/INTERNET_PRIVACY
 ~~~
-_iCloud > Hide My Email <sub>some delay</sub>_
+_iCloud > iCloud+ Features > Hide My Email <sub>some delay</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.iCloud/PRIVATE_EMAIL_MANAGE
 ~~~
