@@ -91,7 +91,7 @@ _Cellular_
 ~~~yaml
 settings-navigation://com.apple.Settings.Cellular
 ~~~
-_Cellular > Cellular Data (switch)_
+_Cellular > Cellular Data (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Cellular#MOBILE_DATA_SETTINGS
 ~~~
@@ -131,19 +131,19 @@ _Cellular > Cellular Data > Show All > Cellular Data Usage_
 ~~~yaml
 settings-navigation://com.apple.Settings.Cellular/SHOW_ALL
 ~~~
-_Cellular > Wi-Fi Assist (switch)_
+_Cellular > Wi-Fi Assist (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Cellular#Wi-Fi%20Assist
 ~~~
-_Cellular > iCloud Drive (switch)_
+_Cellular > iCloud Drive (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Cellular#iCloud%20Drive
 ~~~
-_Cellular > iCloud Backup (switch)_
+_Cellular > iCloud Backup (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Cellular#iCloud%20Backup
 ~~~
-_Cellular > Enable Cellular Usage Statistics (switch)_
+_Cellular > Enable Cellular Usage Statistics (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Cellular#Enable%20Cellular%20Usage%20Statistics
 ~~~
@@ -171,17 +171,17 @@ _Battery > Charging Options <sub>device specific</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.Battery/CHARGING_OPTIONS_IDENTIFIER
 ~~~
-_Battery > Battery Percentage (switch)_
+_Battery > Battery Percentage (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Battery#BATTERY_PERCENTAGE_IDENTIFIER
 ~~~
-_Battery > Low Power Mode (switch)_
+_Battery > Low Power Mode (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Battery#LOW_POWER_MODE_IDENTIFIER
 ~~~
 \
 \
-_VPN (switch)_
+_VPN (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings#com.apple.Settings.VPN
 ~~~
@@ -259,11 +259,11 @@ _General > AirDrop_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/AIRDROP_LINK
 ~~~
-_General > AirDrop > Start Sharing By – Bringing Devices Together (switch) <sub>almost unnoticeable highlighting</sub>_
+_General > AirDrop > Start Sharing By – Bringing Devices Together (toggle) <sub>almost unnoticeable highlighting</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/AIRDROP_LINK#AIRDROP_NFC_ID
 ~~~
-_General > AirDrop > Out of Range – Use Cellular Data (switch) <sub>almost unnoticeable highlighting</sub>_
+_General > AirDrop > Out of Range – Use Cellular Data (toggle) <sub>almost unnoticeable highlighting</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/AIRDROP_LINK#AIRDROP_CELLULAR_USAGE_ID
 ~~~
@@ -325,11 +325,11 @@ _General > Date & Time_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/DATE_AND_TIME
 ~~~
-_General > Date & Time > 24-Hour Time (switch)_
+_General > Date & Time > 24-Hour Time (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/DATE_AND_TIME#24_HOUR_TIME
 ~~~
-_General > Date & Time > Set Automatically (switch)_
+_General > Date & Time > Set Automatically (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/DATE_AND_TIME#SET_AUTOMATICALLY
 ~~~
@@ -379,15 +379,15 @@ _General > Keyboard > One-Handed Keyboard_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/Keyboard/ReachableKeyboard
 ~~~
-_General > Keyboard > Character Preview (switch)_
+_General > Keyboard > Character Preview (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/Keyboard#KeyboardAllowPaddle
 ~~~
-_General > Keyboard > Haptic Feedback (switch)_
+_General > Keyboard > Haptic Feedback (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/Keyboard#KeyboardVisceral
 ~~~
-_General > Keyboard > Sound (switch)_
+_General > Keyboard > Sound (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/Keyboard#keyboard-audio
 ~~~
@@ -395,47 +395,47 @@ _General > Keyboard > Hardware Keyboard_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/Keyboard/HardwareKeyboard
 ~~~
-_General > Keyboard > Auto-Capitalization (switch)_
+_General > Keyboard > Auto-Capitalization (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/Keyboard#KeyboardAutocapitalization
 ~~~
-_General > Keyboard > Auto-Correction (switch)_
+_General > Keyboard > Auto-Correction (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/Keyboard#KeyboardAutocorrection
 ~~~
-_General > Keyboard > Predictive Text (switch)_
+_General > Keyboard > Predictive Text (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/Keyboard#KeyboardPrediction
 ~~~
-_General > Keyboard > Show Math Results (switch)_
+_General > Keyboard > Show Math Results (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/Keyboard#KeyboardMathExpressionCompletion
 ~~~
-_General > Keyboard > Check Spelling (switch)_
+_General > Keyboard > Check Spelling (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/Keyboard#KeyboardCheckSpelling
 ~~~
-_General > Keyboard > Enable Caps Lock (switch)_
+_General > Keyboard > Enable Caps Lock (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/Keyboard#KeyboardCapsLock
 ~~~
-_General > Keyboard > Slide to Type (switch)_
+_General > Keyboard > Slide to Type (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/Keyboard#KeyboardContinuousPathEnabled
 ~~~
-_General > Keyboard > Delete Slide-to-Type by Word (switch)_
+_General > Keyboard > Delete Slide-to-Type by Word (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/Keyboard#KeyboardContinuousPathDeleteWholeWord
 ~~~
-_General > Keyboard > “.” Shortcut (switch)_
+_General > Keyboard > “.” Shortcut (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/Keyboard#KeyboardPeriodShortcut
 ~~~
-_General > Keyboard > Enable Dictation (switch)_
+_General > Keyboard > Enable Dictation (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/Keyboard#Dictation
 ~~~
-_General > Keyboard > Dictation – Auto-Punctuation (switch)_
+_General > Keyboard > Dictation – Auto-Punctuation (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/Keyboard#AutoPunctuationSetting
 ~~~
@@ -493,7 +493,7 @@ _General > Language & Region > Number Format_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/INTERNATIONAL/NUMBER_FORMAT
 ~~~
-_General > Language & Region > Live Text (switch)_
+_General > Language & Region > Live Text (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.General/INTERNATIONAL#LIVE_TEXT_CELL
 ~~~
@@ -565,7 +565,7 @@ _Accessibility > Display & Text Size_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT
 ~~~
-_Accessibility > Display & Text Size > Bold Text (switch)_
+_Accessibility > Display & Text Size > Bold Text (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT/ENHANCE_TEXT_LEGIBILITY
 ~~~
@@ -573,35 +573,35 @@ _Accessibility > Display & Text Size > Larger Text_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT/LARGER_TEXT
 ~~~
-_Accessibility > Display & Text Size > Show Borders (switch)_
+_Accessibility > Display & Text Size > Show Borders (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT/BUTTON_SHAPES
 ~~~
-_Accessibility > Display & Text Size > On/Off Labels (switch)_
+_Accessibility > Display & Text Size > On/Off Labels (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT/ON_OFF_LABELS
 ~~~
-_Accessibility > Display & Text Size > Reduce Transparency (switch)_
+_Accessibility > Display & Text Size > Reduce Transparency (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT/REDUCE_TRANSPARENCY
 ~~~
-_Accessibility > Display & Text Size > Increase Contrast (switch)_
+_Accessibility > Display & Text Size > Increase Contrast (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT/TEXT_COLORS_DARKEN
 ~~~
-_Accessibility > Display & Text Size > Differentiate Without Color (switch)_
+_Accessibility > Display & Text Size > Differentiate Without Color (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT/DIFFERENTIATE_WITHOUT_COLOR
 ~~~
-_Accessibility > Display & Text Size > Prefer Horizontal Text (switch)_
+_Accessibility > Display & Text Size > Prefer Horizontal Text (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT/PREFER_HORIZONTAL_TEXT
 ~~~
-_Accessibility > Display & Text Size > Smart Invert (switch)_
+_Accessibility > Display & Text Size > Smart Invert (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT/SMART_INVERT
 ~~~
-_Accessibility > Display & Text Size > Classic Invert (switch)_
+_Accessibility > Display & Text Size > Classic Invert (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT/CLASSIC_INVERT
 ~~~
@@ -609,7 +609,7 @@ _Accessibility > Display & Text Size > Color Filters_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR
 ~~~
-_Accessibility > Display & Text Size > Color Filters > Color Filters (switch)_
+_Accessibility > Display & Text Size > Color Filters > Color Filters (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#FILTER_COLOR_ENABLED
 ~~~
@@ -633,11 +633,11 @@ _Accessibility > Display & Text Size > Color Filters > Color Tint (option)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#SINGLE_COLOR_ADJUST
 ~~~
-_Accessibility > Display & Text Size > Reduce White Point (switch/slider)_
+_Accessibility > Display & Text Size > Reduce White Point (toggle/slider)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT/WHITE_POINT
 ~~~
-_Accessibility > Display & Text Size > Auto-Brightness (switch)_
+_Accessibility > Display & Text Size > Auto-Brightness (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/DISPLAY_AND_TEXT/AUTO_BRIGHTNESS
 ~~~
@@ -647,11 +647,11 @@ _Accessibility > Motion_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/MOTION_TITLE
 ~~~
-_Accessibility > Motion > Reduce Motion (switch)_
+_Accessibility > Motion > Reduce Motion (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/MOTION_TITLE#REDUCE_MOTION
 ~~~
-_Accessibility > Motion > Prefer Cross-Fade Transitions (switch) <sup>If Reduce Motion is enabled</sup>_
+_Accessibility > Motion > Prefer Cross-Fade Transitions (toggle) <sup>If Reduce Motion is enabled</sup>_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/MOTION_TITLE/REDUCE_MOTION_REDUCE_SLIDE_ANIMATIONS
 ~~~
@@ -659,23 +659,23 @@ _Accessibility > Motion > Vehicle Motion Clues_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/MOTION_TITLE/MotionCues
 ~~~
-_Accessibility > Motion > Dim Flashing Lights (switch)_
+_Accessibility > Motion > Dim Flashing Lights (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/MOTION_TITLE/PHOTOSENSITIVE_MITIGATION
 ~~~
-_Accessibility > Motion > Auto-Play Animated Images (switch)_
+_Accessibility > Motion > Auto-Play Animated Images (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/MOTION_TITLE/REDUCE_MOTION_AUTOPLAY_ANIMATED_IMAGES
 ~~~
-_Accessibility > Motion > Auto-Play Video Previews (switch)_
+_Accessibility > Motion > Auto-Play Video Previews (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/MOTION_TITLE/REDUCE_MOTION_AUTOPLAY_VIDEO_PREVIEWS
 ~~~
-_Accessibility > Motion > Auto-Play Message Effects (switch)_
+_Accessibility > Motion > Auto-Play Message Effects (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/MOTION_TITLE/ReduceMotionAutoplayMessagesEffects
 ~~~
-_Accessibility > Motion > Prefer Non-Blinking Cursor (switch)_
+_Accessibility > Motion > Prefer Non-Blinking Cursor (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/MOTION_TITLE/PREFER_NONBLINKING_CURSOR
 ~~~
@@ -713,7 +713,7 @@ _Accessibility > Touch > AssistiveTouch_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE
 ~~~
-_Accessibility > Touch > AssistiveTouch > Assistive Touch (switch)_
+_Accessibility > Touch > AssistiveTouch > Assistive Touch (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/EnableAssistiveTouchSpecifier
 ~~~
@@ -745,7 +745,7 @@ _Accessibility > Touch > AssistiveTouch > Create New Gesture_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/CreateCustomGesture
 ~~~
-_Accessibility > Touch > AssistiveTouch > Dwell Control (switch)_
+_Accessibility > Touch > AssistiveTouch > Dwell Control (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellEnabledSpecifier
 ~~~
@@ -757,19 +757,19 @@ _Accessibility > Touch > AssistiveTouch > Devices_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices
 ~~~
-_Accessibility > Touch > AssistiveTouch > Sound on Click (switch)_
+_Accessibility > Touch > AssistiveTouch > Sound on Click (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/MouseClickSounds
 ~~~
-_Accessibility > Touch > AssistiveTouch > Always Show Menu (switch)_
+_Accessibility > Touch > AssistiveTouch > Always Show Menu (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AlwaysShowMenu
 ~~~
-_Accessibility > Touch > AssistiveTouch > Perform Touch Gestures (switch)_
+_Accessibility > Touch > AssistiveTouch > Perform Touch Gestures (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/MouseBehavesLikeFinger
 ~~~
-_Accessibility > Touch > AssistiveTouch > Use Game Controller (switch)_
+_Accessibility > Touch > AssistiveTouch > Use Game Controller (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/EnableAssistiveTouchGameControllerSpecifier
 ~~~
@@ -777,7 +777,7 @@ _Accessibility > Touch > AssistiveTouch > Sound Actions_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/SOUND_ACTIONS
 ~~~
-_Accessibility > Touch > Reachability (switch)_
+_Accessibility > Touch > Reachability (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/TOUCH_REACHABILITY_TITLE/REACHABILITY
 ~~~
@@ -793,27 +793,27 @@ _Accessibility > Touch > Touch Accomodations_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS
 ~~~
-_Accessibility > Touch > Touch Accomodations > Touch Accomodations (switch)_
+_Accessibility > Touch > Touch Accomodations > Touch Accomodations (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS/TOUCH_ACCOMMODATIONS_SWITCHER
 ~~~
-_Accessibility > Touch > Touch Accomodations > Hold Duration (switch)_
+_Accessibility > Touch > Touch Accomodations > Hold Duration (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS/HoldDuration
 ~~~
-_Accessibility > Touch > Touch Accomodations > Ignore Repeat (switch)_
+_Accessibility > Touch > Touch Accomodations > Ignore Repeat (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS/IgnoreRepeat
 ~~~
-_Accessibility > Touch > Shake to Undo (switch)_
+_Accessibility > Touch > Shake to Undo (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/TOUCH_REACHABILITY_TITLE/SHAKE_TO_UNDO
 ~~~
-_Accessibility > Touch > Vibration (switch)_
+_Accessibility > Touch > Vibration (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/TOUCH_REACHABILITY_TITLE/VIBRATION
 ~~~
-_Accessibility > Touch > Prevent Lock to End Call (switch)_
+_Accessibility > Touch > Prevent Lock to End Call (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/TOUCH_REACHABILITY_TITLE/LockButtonIgnore
 ~~~
@@ -837,7 +837,7 @@ _Accessibility > Touch > Back Tap > Triple Tap_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/TOUCH_REACHABILITY_TITLE/BackTap/TripleTap
 ~~~
-_Accessibility > Touch  > Prefer Single-Touch Actions (switch)_
+_Accessibility > Touch  > Prefer Single-Touch Actions (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/TOUCH_REACHABILITY_TITLE#Prefer%20Single-Touch%20Actions
 ~~~
@@ -877,7 +877,7 @@ _Accessibility > Face ID & Attention_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/FACE_ID
 ~~~
-_Accessibility > Face ID & Attention > Attention Aware Features (switch)_
+_Accessibility > Face ID & Attention > Attention Aware Features (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/FACE_ID/AttentionAware
 ~~~
@@ -933,7 +933,7 @@ _Accessibility > Audio & Visual > Background Sounds_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/AUDIO_VISUAL_TITLE/AXCSEnableSpecID
 ~~~
-_Accessibility > Audio & Visual > Background Sounds > Background Sounds (switch)_
+_Accessibility > Audio & Visual > Background Sounds > Background Sounds (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/AUDIO_VISUAL_TITLE/AXCSEnableSpecID#CSFeatureToggleSpecID
 ~~~
@@ -941,19 +941,19 @@ _Accessibility > Audio & Visual > Live Listen_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/AUDIO_VISUAL_TITLE/AXLLEnableSpecID
 ~~~
-_Accessibility > Audio & Visual > Mono Audio (switch)_
+_Accessibility > Audio & Visual > Mono Audio (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/AUDIO_VISUAL_TITLE/AXPAMonoSpecID
 ~~~
-_Accessibility > Audio & Visual > Always Show Volume Controls (switch)_
+_Accessibility > Audio & Visual > Always Show Volume Controls (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/AUDIO_VISUAL_TITLE/AXPAAlwaysShowVolumeControlSpecID
 ~~~
-_Accessibility > Audio & Visual > Add Voice Isolation (switch)_
+_Accessibility > Audio & Visual > Add Voice Isolation (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/AUDIO_VISUAL_TITLE#ExtendedVoiceIsolationSpecID
 ~~~
-_Accessibility > Audio & Visual > Headphone Notifications (switch)_
+_Accessibility > Audio & Visual > Headphone Notifications (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/AUDIO_VISUAL_TITLE/AXHeadphoneNotificationsSpecID
 ~~~
@@ -977,7 +977,7 @@ _Accessibility > Audio & Visual > LED Flash for Alerts_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/AUDIO_VISUAL_TITLE/LED_FLASH
 ~~~
-_Accessibility > Audio & Visual > LED Flash for Alerts > Flash for Alerts (switch)_
+_Accessibility > Audio & Visual > LED Flash for Alerts > Flash for Alerts (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/AUDIO_VISUAL_TITLE/LED_FLASH#FLASH_FOR_ALERTS
 ~~~
@@ -993,11 +993,11 @@ _Accessibility > Audio & Visual > LED Flash for Alerts > Both (option)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/AUDIO_VISUAL_TITLE/LED_FLASH#VISUAL_ALERT_TYPE_BOTH
 ~~~
-_Accessibility > Audio & Visual > LED Flash for Alerts > Flash While Unlocked (switch)_
+_Accessibility > Audio & Visual > LED Flash for Alerts > Flash While Unlocked (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH_WHILE_UNLOCKED
 ~~~
-_Accessibility > Audio & Visual > LED Flash for Alerts > Flash in Silent Mode (switch)_
+_Accessibility > Audio & Visual > LED Flash for Alerts > Flash in Silent Mode (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/AUDIO_VISUAL_TITLE/LED_FLASH#LED_RINGER_SWITCH_CONTROL
 ~~~
@@ -1007,7 +1007,7 @@ _Accessibility > Subtitles & Captioning_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/SUBTITLES_CAPTIONING
 ~~~
-_Accessibility > Subtitles & Captioning > Closed Captions + SDH (switch)_
+_Accessibility > Subtitles & Captioning > Closed Captions + SDH (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/SUBTITLES_CAPTIONING#PREFER_SDH
 ~~~
@@ -1019,15 +1019,15 @@ _Accessibility > Subtitles & Captioning > Style > Create New Style_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/SUBTITLES_CAPTIONING/currentTheme/CreateNewStyle
 ~~~
-_Accessibility > Subtitles & Captioning > Show Audio Transcriptions (switch)_
+_Accessibility > Subtitles & Captioning > Show Audio Transcriptions (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/SUBTITLES_CAPTIONING/SHOW_AUDIO_TRANSCRIPTIONS
 ~~~
-_Accessibility > Subtitles & Captioning > Show when Muted (switch)_
+_Accessibility > Subtitles & Captioning > Show when Muted (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/SUBTITLES_CAPTIONING/SHOW_WHEN_MUTED
 ~~~
-_Accessibility > Subtitles & Captioning > Show on Skip Back (switch)_
+_Accessibility > Subtitles & Captioning > Show on Skip Back (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/SUBTITLES_CAPTIONING/SHOW_ON_SKIP_BACK
 ~~~
@@ -1075,7 +1075,7 @@ _Accessibility > AirPods_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/AIRPODS
 ~~~
-_Accessibility > AirPods > Spatial Audio Head Tracking – Follow iPhone (switch)_
+_Accessibility > AirPods > Spatial Audio Head Tracking – Follow iPhone (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/AIRPODS#SPATIAL_AUDIO_SWITCH
 ~~~
@@ -1101,11 +1101,11 @@ _Accessibility > Guided Access > Time Limits > Alarm – Sound_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList/GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE#GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE
 ~~~
-_Accessibility > Guided Access > Time Limits > Alarm – Speak (switch)_
+_Accessibility > Guided Access > Time Limits > Alarm – Speak (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SPEAK_TITLE
 ~~~
-_Accessibility > Guided Access > Accessibility Shortcut (switch)_
+_Accessibility > Guided Access > Accessibility Shortcut (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/GUIDED_ACCESS_TITLE#GuidedAccessEnableAXFeatures
 ~~~
@@ -1223,11 +1223,11 @@ _Camera > Preserve Settings_
 ~~~yaml
 settings-navigation://com.apple.Settings.Camera/CameraPreserveSettingsSwitch
 ~~~
-_Camera > Use Volume Up for Burst (switch)_
+_Camera > Use Volume Up for Burst (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Camera#VOLUME_UP_BURST
 ~~~
-_Camera > Scan QR Codes (switch)_
+_Camera > Scan QR Codes (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Camera#CameraQRBannerSwitch
 ~~~~
@@ -1235,15 +1235,15 @@ _Camera > Show Detected Text (swtich)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Camera#TEXT_ANALYSIS
 ~~~
-_Camera > Composition – Grid (switch)_
+_Camera > Composition – Grid (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Camera#CameraGridSwitch
 ~~~
-_Camera > Composition – Level (switch)_
+_Camera > Composition – Level (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Camera#CameraGridSwitch
 ~~~
-_Camera > Mirror Front Camera (switch)_
+_Camera > Mirror Front Camera (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Camera#MIRROR
 ~~~
@@ -1255,15 +1255,15 @@ _Camera > Photographic Styles (button)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Camera#PHOTOGRAPHIC_STYLES
 ~~~
-_Camera > Prioritize Faster Shooting (switch)_
+_Camera > Prioritize Faster Shooting (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Camera#CAM_CAPTURE_DYNAMIC_SHUTTER_SWITCH
 ~~~
-_Camera > Lock Screen Swipe to Open Camera (switch)_
+_Camera > Lock Screen Swipe to Open Camera (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Camera#LOCK_SCREEN_SWIPE_SWITCH
 ~~~
-_Camera > Messages – Save Captures to Photo Library (switch)_
+_Camera > Messages – Save Captures to Photo Library (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Camera#CAM_SAVE_MESSAGES_ASSETS_PHOTO_LIBRARY_SWITCH
 ~~~
@@ -1273,7 +1273,7 @@ _Control Center_
 ~~~yaml
 settings-navigation://com.apple.Settings.ControlCenter
 ~~~
-_Control Center > Access Within Apps (switch)_
+_Control Center > Access Within Apps (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.ControlCenter#ACCESS_WITHIN_APP
 ~~~
@@ -1291,7 +1291,7 @@ _Display & Brightness > Appearance (section)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Display#DEVICE_APPEARANCE
 ~~~
-_Display & Brightness > Appearance > Automatic (switch)_
+_Display & Brightness > Appearance > Automatic (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Display#AUTOMATIC
 ~~~
@@ -1303,7 +1303,7 @@ _Display & Brightness > Text Size_
 ~~~yaml
 settings-navigation://com.apple.Settings.Display/TEXT_SIZE
 ~~~
-_Display & Brightness > Bold Text (switch)_
+_Display & Brightness > Bold Text (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Display#BOLD_TEXT
 ~~~
@@ -1311,7 +1311,7 @@ _Display & Brightness > Brightness (slider)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Display#BRIGHTNESS
 ~~~
-_Display & Brightness > True Tone (switch)_
+_Display & Brightness > True Tone (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Display#WHITE_BALANCE
 ~~~
@@ -1323,7 +1323,7 @@ _Display & Brightness > Auto-Lock_
 ~~~yaml
 settings-navigation://com.apple.Settings.Display/AUTOLOCK
 ~~~
-_Display & Brightness > Raise to Wake (switch)_
+_Display & Brightness > Raise to Wake (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Display#RAISE_TO_WAKE
 ~~~
@@ -1337,11 +1337,11 @@ _Home Screen & App Library_
 ~~~yaml
 settings-navigation://com.apple.Settings.HomeScreenAndAppLibrary
 ~~~
-_Home Screen & App Library > Notifications Badges – Show in App Library (switch) <sub>almost unnoticeable highlighting</sub>_
+_Home Screen & App Library > Notifications Badges – Show in App Library (toggle) <sub>almost unnoticeable highlighting</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.HomeScreenAndAppLibrary#BADGES_IN_APP_LIBRARY
 ~~~
-_Home Screen & App Library > Search – Show on Home Screen (switch) <sub>almost unnoticeable highlighting</sub>_
+_Home Screen & App Library > Search – Show on Home Screen (toggle) <sub>almost unnoticeable highlighting</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.HomeScreenAndAppLibrary#SHOW_SEARCH_ON_HOME_SCREEN
 ~~~
@@ -1367,19 +1367,19 @@ _StandBy > Display <sub>device specific</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.StandBy/ALWAYS_ON_DISPLAY_OPTIONS
 ~~~
-_StandBy > StandBy (switch)_
+_StandBy > StandBy (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.StandBy#AMBIENT_MODE_ENABLED
 ~~~
-_StandBy > Night Mode (switch)_
+_StandBy > Night Mode (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.StandBy#BUMP_TO_WAKE_ENABLED
 ~~~
-_StandBy > Show Notifications (switch)_
+_StandBy > Show Notifications (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.StandBy#NOTIFICATIONS_ENABLED
 ~~~
-_StandBy > Show Preview on Tap Only (switch)_
+_StandBy > Show Preview on Tap Only (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.StandBy#NOTIFICATIONS_PREVIEW
 ~~~
@@ -1449,7 +1449,7 @@ _Sounds & Haptics > Microphone (button)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Sounds#MICROPHONE
 ~~~
-_Sounds & Haptics > Change with Buttons (switch)_
+_Sounds & Haptics > Change with Buttons (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Sounds#CHANGE_WITH_BUTTONS
 ~~~
@@ -1519,7 +1519,7 @@ _Focus_
 ~~~yaml
 settings-navigation://com.apple.Settings.Focus
 ~~~
-_Focus > Share Across Devices (switch)_
+_Focus > Share Across Devices (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Focus#Share%20Across%20Devices
 ~~~
@@ -1577,7 +1577,7 @@ _Screen Time > Screen Distance_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/EYE_DISTANCE
 ~~~
-_Screen Time > Screen Distance > Screen Distance (switch)_
+_Screen Time > Screen Distance > Screen Distance (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/EYE_DISTANCE/Screen%20Distance
 ~~~
@@ -1597,7 +1597,7 @@ _Screen Time > Communication Safety_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/COMMUNICATION_SAFETY
 ~~~
-_Screen Time > Communication Safety > Communication Safety (switch)_
+_Screen Time > Communication Safety > Communication Safety (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/COMMUNICATION_SAFETY/Communication%20Safety
 ~~~
@@ -1605,7 +1605,7 @@ _Screen Time > Communication Safety > View Child Safety Resources_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/COMMUNICATION_SAFETY/View%20Child%20Safety%20Resources
 ~~~
-_Screen Time > Communication Safety > Improve Communication Safety (switch)_
+_Screen Time > Communication Safety > Improve Communication Safety (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/COMMUNICATION_SAFETY/Improve%20Communication%20Safety
 ~~~
@@ -1617,7 +1617,7 @@ _Screen Time > Content & Privacy Restrictions > View Profiles_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/View%20Profiles
 ~~~
-_Screen Time > Content & Privacy Restrictions > Content & Privacy Restrictions (switch)_
+_Screen Time > Content & Privacy Restrictions > Content & Privacy Restrictions (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/Content%20%26%20Privacy%20Restrictions
 ~~~
@@ -1641,47 +1641,47 @@ _Screen Time > Content & Privacy Restrictions > Allowed Apps & Features_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/ALLOWED_APPS
 ~~~
-_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > Mail (switch)_
+_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > Mail (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/ALLOWED_APPS/Mail
 ~~~
-_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > Safari (switch)_
+_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > Safari (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/ALLOWED_APPS/Safari
 ~~~
-_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > FaceTime (switch)_
+_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > FaceTime (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/ALLOWED_APPS/FaceTime
 ~~~
-_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > SharePlay (switch)_
+_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > SharePlay (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/ALLOWED_APPS/SharePlay
 ~~~
-_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > Camera (switch)_
+_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > Camera (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/ALLOWED_APPS/Camera
 ~~~
-_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > Wallet (switch)_
+_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > Wallet (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/ALLOWED_APPS/Wallet
 ~~~
-_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > AirDrop (switch)_
+_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > AirDrop (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/ALLOWED_APPS/AirDrop
 ~~~
-_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > CarPlay (switch)_
+_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > CarPlay (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/ALLOWED_APPS/CarPlay
 ~~~
-_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > Book Store (switch)_
+_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > Book Store (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/ALLOWED_APPS/Book%20Store
 ~~~
-_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > Podcasts (switch)_
+_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > Podcasts (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/ALLOWED_APPS/Podcasts
 ~~~
-_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > News (switch)_
+_Screen Time > Content & Privacy Restrictions > Allowed Apps & Features > News (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/ALLOWED_APPS/News
 ~~~
@@ -1705,7 +1705,7 @@ _Screen Time > Content & Privacy Restrictions > App Store, Media, Web, & Games >
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/CONTENT_RESTRICTIONS/Movies
 ~~~
-_Screen Time > Content & Privacy Restrictions > App Store, Media, Web, & Games > Movies > Show Movies in the Cloud (switch)_
+_Screen Time > Content & Privacy Restrictions > App Store, Media, Web, & Games > Movies > Show Movies in the Cloud (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/CONTENT_RESTRICTIONS/Movies/Show%20Movies%20in%20the%20Cloud
 ~~~
@@ -1713,7 +1713,7 @@ _Screen Time > Content & Privacy Restrictions > App Store, Media, Web, & Games >
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/CONTENT_RESTRICTIONS/TV%20Shows
 ~~~
-_Screen Time > Content & Privacy Restrictions > App Store, Media, Web, & Games > TV Shows > Show TV Shows in the Cloud (switch)_
+_Screen Time > Content & Privacy Restrictions > App Store, Media, Web, & Games > TV Shows > Show TV Shows in the Cloud (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/CONTENT_RESTRICTIONS/TV%20Shows/Show%20TV%20Shows%20in%20the%20Cloud
 ~~~
@@ -1769,7 +1769,7 @@ _Screen Time > Content & Privacy Restrictions > Intelligence & Siri > Intelligen
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/SIRI_AND_INTELLIGENCE_RESTRICTIONS/Intelligence%20Extensions
 ~~~
-_Screen Time > Content & Privacy Restrictions > Intelligence & Siri > Siri & Dictation (switch)_
+_Screen Time > Content & Privacy Restrictions > Intelligence & Siri > Siri & Dictation (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/SIRI_AND_INTELLIGENCE_RESTRICTIONS/Siri%20%26%20Dictation
 ~~~
@@ -1789,7 +1789,7 @@ _Screen Time > Content & Privacy Restrictions > Location Services_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/Location%20Services
 ~~~
-_Screen Time > Content & Privacy Restrictions > Location Services > Location Services (switch)_
+_Screen Time > Content & Privacy Restrictions > Location Services > Location Services (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/CONTENT_PRIVACY/Location%20Services/Location%20Services
 ~~~
@@ -1857,7 +1857,7 @@ _Screen Time > Lock Screen Time Settings (button)_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime#Lock%20Screen%20Time%20Settings
 ~~~
-_Screen Time > Share Across Devices (switch)_
+_Screen Time > Share Across Devices (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime#Share%20Across%20Devices
 ~~~
@@ -1875,7 +1875,7 @@ _Touch ID & Passcode > Require Passcode_
 ~~~yaml
 settings-navigation://com.apple.Settings.Passcode/PASSCODE_REQ
 ~~~
-_Touch ID & Passcode > Erase Data (switch)_
+_Touch ID & Passcode > Erase Data (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Passcode#WIPE_DEVICE
 ~~~
@@ -1885,11 +1885,11 @@ _Emergency SOS_
 ~~~yaml
 settings-navigation://com.apple.Settings.SOS
 ~~~
-_Emergency SOS > Call with Hold and Release (switch)_
+_Emergency SOS > Call with Hold and Release (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.SOS#CALL_WITH_HOLD
 ~~~
-_Emergency SOS > Call with 5 Button Presses (switch)_
+_Emergency SOS > Call with 5 Button Presses (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.SOS#CALL_WITH_PRESSES
 ~~~
@@ -2247,7 +2247,7 @@ _Apps > Books > Search (button)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.iBooks#SEARCH
 ~~~
-_Apps > Books > Background App Refresh (switch)_
+_Apps > Books > Background App Refresh (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.iBooks#Background%20App%20Refresh
 ~~~
@@ -2255,11 +2255,11 @@ _Apps > Books > Language (button)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.iBooks#PREFERRED_LANGUAGE
 ~~~
-_Apps > Books > Automatic Downloads – Purchases from Other Devices (switch)_
+_Apps > Books > Automatic Downloads – Purchases from Other Devices (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.iBooks#AllowAutoDownloadsForPurchasesFromOtherDevices
 ~~~
-_Apps > Books > Cellular Data – Automatic Downloads (switch)_
+_Apps > Books > Cellular Data – Automatic Downloads (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.iBooks#AllowAutoDownloadOnCellular
 ~~~
@@ -2267,11 +2267,11 @@ _Apps > Books > Cellular Data – Downloads (button)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.iBooks#Downloads
 ~~~
-_Apps > Books > Syncing – Home (switch)_
+_Apps > Books > Syncing – Home (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.iBooks#HOME
 ~~~
-_Apps > Books > Syncing – iCloud Drive (switch)_
+_Apps > Books > Syncing – iCloud Drive (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.iBooks#BCSyncICloudDrive
 ~~~
@@ -2279,19 +2279,19 @@ _Apps > Books > Reading Menu Position_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.iBooks#Reading%20Menu%20Position%20Options
 ~~~
-_Apps > Books > Reading – Auto-Hyphenation (switch)_
+_Apps > Books > Reading – Auto-Hyphenation (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.iBooks#BKAutoHyphenation
 ~~~
-_Apps > Books > Reading – Both Margins Advance (switch)_
+_Apps > Books > Reading – Both Margins Advance (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.iBooks#BKLeftTapTurnToNext
 ~~~
-_Apps > Books > Reading – Automatically Invert Images (switch)_
+_Apps > Books > Reading – Automatically Invert Images (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.iBooks#IMAGE_FILTER
 ~~~
-_Apps > Books > Reading – Show Status Bar (switch)_
+_Apps > Books > Reading – Show Status Bar (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.iBooks#BKReaderShowStatusBar
 ~~~
@@ -2299,11 +2299,11 @@ _Apps > Books > Reading – Page Navigation (button)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.iBooks#BKPageTurnStyle
 ~~~
-_Apps > Books > Reading Goals (switch)_
+_Apps > Books > Reading Goals (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.iBooks#READING_GOALS
 ~~~
-_Apps > Books > Reading Goals – Inlcude PDFs (switch)_
+_Apps > Books > Reading Goals – Inlcude PDFs (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.iBooks#BKReadingGoalsIncludePDFsUserDefaultsKey
 ~~~
@@ -2311,7 +2311,7 @@ _Apps > Books > Clear Reading Goals (button)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.iBooks#BKReadingGoalsShouldClearDataKey
 ~~~
-_Apps > Books > Search – Book Store (switch)_
+_Apps > Books > Search – Book Store (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.iBooks#BKIncludeBookStoreResultsInSearch
 ~~~
@@ -2437,7 +2437,7 @@ _Apps > Compass > Search (button)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.compass#SEARCH
 ~~~
-_Apps > Compass > Use True North (switch)_
+_Apps > Compass > Use True North (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.compass#USE_TRUE_NORTH
 ~~~
@@ -2527,7 +2527,7 @@ _Apps > FaceTime > Announce Calls_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.facetime/ANNOUNCE_CALLS
 ~~~
-_Apps > FaceTime > FaceTime (switch)_
+_Apps > FaceTime > FaceTime (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.facetime#FACETIME_ENABLED_ID
 ~~~
@@ -2535,15 +2535,15 @@ _Apps > FaceTime > SharePlay_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.facetime/SHAREPLAY_SETTINGS
 ~~~
-_Apps > FaceTime > Silence Unknown Callers (switch)_
+_Apps > FaceTime > Silence Unknown Callers (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.facetime#DIRECT_TO_VOICEMAIL
 ~~~
-_Apps > FaceTime > Call Filtering – Unknow Callers (switch)_
+_Apps > FaceTime > Call Filtering – Unknow Callers (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.facetime#FILTER_AS_NEW_CALLERS
 ~~~
-_Apps > FaceTime > Call Filtering – FaceTime Spam (switch)_
+_Apps > FaceTime > Call Filtering – FaceTime Spam (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.facetime#FILTER_SPAM
 ~~~
@@ -2581,23 +2581,23 @@ _Apps > Freeform > Language (button)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.freeform#PREFERRED_LANGUAGE
 ~~~
-_Apps > Freeform > Snap to Grid (switch)_
+_Apps > Freeform > Snap to Grid (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.freeform#SNAP_TO_GRID
 ~~~
-_Apps > Freeform > Center Guides (switch)_
+_Apps > Freeform > Center Guides (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.freeform#CENTER_GUIDES
 ~~~
-_Apps > Freeform > Edge Guides (switch)_
+_Apps > Freeform > Edge Guides (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.freeform#EDGE_GUIDES
 ~~~
-_Apps > Freeform > Spacing Guides (switch)_
+_Apps > Freeform > Spacing Guides (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.freeform#SPACING_GUIDES
 ~~~
-_Apps > Freeform > Privacy – Reset Identifier (switch)_
+_Apps > Freeform > Privacy – Reset Identifier (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.freeform#RESET_IDENTIFIER
 ~~~
@@ -2637,11 +2637,11 @@ _Apps > Journal > Search (button)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.journal#SEARCH
 ~~~
-_Apps > Journal > Live Activities (switch)_
+_Apps > Journal > Live Activities (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.journal#Live%20Activities
 ~~~
-_Apps > Journal > Background App Refresh (switch)_
+_Apps > Journal > Background App Refresh (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.journal#Background%20App%20Refresh
 ~~~
@@ -2673,7 +2673,7 @@ _Apps > Journal > Language (button)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.journal#PREFERRED_LANGUAGE
 ~~~
-_Apps > Journal > Add Current Location (switch)_
+_Apps > Journal > Add Current Location (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.journal#addCurrentLocation
 ~~~
@@ -2685,7 +2685,7 @@ _Apps > Journal > Lock Journal (button)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.journal#lockJournal
 ~~~
-_Apps > Journal > Save to Photos (switch)_
+_Apps > Journal > Save to Photos (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.journal#saveToPhotos
 ~~~
@@ -2755,11 +2755,11 @@ _Apps > Mail > Search (button)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail#SEARCH
 ~~~
-_Apps > Mail > Show Contact Photos (switch)_
+_Apps > Mail > Show Contact Photos (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail#SHOW_CONTACT_PHOTOS
 ~~~
-_Apps > Mail > Show To/Cc Labels (switch)_
+_Apps > Mail > Show To/Cc Labels (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail#SHOW_TOCC_INDICATOR
 ~~~
@@ -2779,7 +2779,7 @@ _Apps > Mail > Swipe Options_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail/SWIPE_OPTIONS
 ~~~
-_Apps > Mail > Ask Before Deleting (switch)_
+_Apps > Mail > Ask Before Deleting (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail#ASK_BEFORE_DELETING
 ~~~
@@ -2791,23 +2791,23 @@ _Apps > Mail > Search_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail/SEARCH_PREFERENCE
 ~~~
-_Apps > Mail > Follow Up Suggestions (switch)_
+_Apps > Mail > Follow Up Suggestions (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail#Follow%20Up%20Suggestions
 ~~~
-_Apps > Mail > Organize by Thread (switch)_
+_Apps > Mail > Organize by Thread (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail#ORGANIZE_BY_THREAD
 ~~~
-_Apps > Mail > Collapse Read Messages (switch)_
+_Apps > Mail > Collapse Read Messages (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail#COLLAPSE_READ_MESSAGES
 ~~~
-_Apps > Mail > Most Recent Message on Top (switch)_
+_Apps > Mail > Most Recent Message on Top (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail#MOST_RECENT_MESSAGE_ON_TOP
 ~~~
-_Apps > Mail > Complete Threads (switch)_
+_Apps > Mail > Complete Threads (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail#COMPLETE_THREADS
 ~~~
@@ -2823,7 +2823,7 @@ _Apps > Mail > Blocked_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail/BLOCKED_SENDERS
 ~~~
-_Apps > Mail > Always Bcc Myself (switch)_
+_Apps > Mail > Always Bcc Myself (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail#ALWAYS_BCC_MYSELF
 ~~~
@@ -2839,7 +2839,7 @@ _Apps > Mail > Include Attachments with Replies_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail/INCLUDE_ATTACHMENTS_WITH_REPLIES
 ~~~
-_Apps > Mail > Add Link Previews (switch)_
+_Apps > Mail > Add Link Previews (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail#ADD_LINK_PREVIEWS
 ~~~
@@ -2847,7 +2847,7 @@ _Apps > Mail > Signature_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail/SIGNATURE
 ~~~
-_Apps > Mail > Load Remote Images (switch)_
+_Apps > Mail > Load Remote Images (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilemail#LOAD_REMOTE_IMAGES
 ~~~
@@ -2873,7 +2873,7 @@ _Apps > Maps > Notifications (button)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.Maps#NOTIFICATIONS
 ~~~
-_Apps > Maps > Background App Refresh (switch)_
+_Apps > Maps > Background App Refresh (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.Maps#Background%20App%20Refresh
 ~~~
@@ -2913,7 +2913,7 @@ _Apps > Maps > Spoken Directions_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.Maps/NavigationGuidanceLinkPreferenceID
 ~~~
-_Apps > Maps > Share ETA (switch)_
+_Apps > Maps > Share ETA (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.Maps#ShareETAPreferenceID
 ~~~
@@ -2921,27 +2921,27 @@ _Apps > Maps > Blocked Contacts (button)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.Maps#BlockedContactsPreferenceID
 ~~~
-_Apps > Maps > Air Quality Index (switch)_
+_Apps > Maps > Air Quality Index (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.Maps#AirQualityPreferenceID
 ~~~
-_Apps > Maps > Weather Condition (switch)_
+_Apps > Maps > Weather Condition (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.Maps#WeatherConditionsPreferenceID
 ~~~
-_Apps > Maps > Map Labels > Always in English (switch)_
+_Apps > Maps > Map Labels > Always in English (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.Maps#LabelLanguageAlwaysUIPreferenceID
 ~~~
-_Apps > Maps > Contribute to Maps – Ratings and Photos (switch)_
+_Apps > Maps > Contribute to Maps – Ratings and Photos (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.Maps#RatingsAndPhotosPreferencesID
 ~~~
-_Apps > Maps > Contribute to Maps – Show Ratings and Photos Suggestions (switch)_
+_Apps > Maps > Contribute to Maps – Show Ratings and Photos Suggestions (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.Maps#ShowRatingsAndPhotosSuggestionsPreferencesID
 ~~~
-_Apps > Maps > Allow Photo Providers to Use Your Photos (switch)_
+_Apps > Maps > Allow Photo Providers to Use Your Photos (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.Maps#AllowPhotoProvidersPreferencesID
 ~~~
@@ -2957,7 +2957,7 @@ _Apps > Messages_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS
 ~~~
-_Apps > Messages > Focus (switch)_
+_Apps > Messages > Focus (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS#Focus
 ~~~
@@ -2985,7 +2985,7 @@ _Apps > Messages > Language (button)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS#PREFERRED_LANGUAGE
 ~~~
-_Apps > Messages > iMessage (switch)_
+_Apps > Messages > iMessage (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS#MADRID_ENABLED_SWITCH
 ~~~
@@ -3005,7 +3005,7 @@ _Apps > Messages > Shared With You_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS/SHARED_WITH_YOU_BUTTON
 ~~~
-_Apps > Messages > Screen Unknown Senders (switch)_
+_Apps > Messages > Screen Unknown Senders (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS#FILTER_NEW_SENDERS_SWITCH
 ~~~
@@ -3013,7 +3013,7 @@ _Apps > Messages > Allow Notifications <sup>If Screen Unknown Senders is enabled
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS/NOTIFICATIONS_UNKNOWN_SENDERS_BUTTON
 ~~~
-_Apps > Messages > Show Contact Photo (switch)_
+_Apps > Messages > Show Contact Photo (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS#CONTACT_PHOTO_SWITCH
 ~~~
@@ -3021,19 +3021,19 @@ _Apps > Messages > Text Message Forwarding_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS/SMS_RELAY_DEVICES
 ~~~
-_Apps > Messages > Send Read Receipts (switch)_
+_Apps > Messages > Send Read Receipts (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS#READ_RECEIPTS_SWITCH
 ~~~
-_Apps > Messages > Send as Text Message (switch)_
+_Apps > Messages > Send as Text Message (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS#SEND_AS_SMS_SWITCH
 ~~~
-_Apps > Messages > Show Subject Field (switch)_
+_Apps > Messages > Show Subject Field (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS#SHOW_SUBJECT_FIELD_SWITCH
 ~~~
-_Apps > Messages > Character Count (switch)_
+_Apps > Messages > Character Count (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS#CHARACTER_COUNT_SWITCH
 ~~~
@@ -3045,7 +3045,7 @@ _Apps > Messages > Keep Messages_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS/KEEP_MESSAGES_BUTTON
 ~~~
-_Apps > Messages > Mentions – Notify Me (switch)_
+_Apps > Messages > Mentions – Notify Me (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS#MENTIONS_NOTIFY_ME_ID
 ~~~
@@ -3053,11 +3053,11 @@ _Apps > Messages > Audio Messages > Expire_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS/EXPIRE_AUDIO_MESSAGES
 ~~~
-_Apps > Messages > Audio Messages > Raise to Listen (switch)_
+_Apps > Messages > Audio Messages > Raise to Listen (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS#RAISE_TO_LISTEN_SWITCH
 ~~~
-_Apps > Messages > Send Low Quality Photo Previews (switch)_
+_Apps > Messages > Send Low Quality Photo Previews (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS#PREVIEW_TRANSCODING_SWITCH
 ~~~
@@ -3079,7 +3079,7 @@ _Apps > Music > Search (button)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.Music#SEARCH
 ~~~
-_Apps > Music > Show Apple Music (switch)_
+_Apps > Music > Show Apple Music (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.Music#com.apple.Music:AppleMusicEnabled
 ~~~
@@ -3087,7 +3087,7 @@ _Apps > Music > Join Apple Music (button)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.Music#com.apple.Music:AppleMusicOffer
 ~~~
-_Apps > Music > Show All Purchases (switch)_
+_Apps > Music > Show All Purchases (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.Music#com.apple.Music:CloudPurchaseHistoryEnabled
 ~~~
@@ -3099,7 +3099,7 @@ _Apps > Music > EQ_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.Music/com.apple.Music:EQ
 ~~~
-_Apps > Music > Sound Check (switch)_
+_Apps > Music > Sound Check (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.Music#com.apple.Music:SoundCheck
 ~~~
@@ -3111,11 +3111,11 @@ _Apps > Music > Downloaded Music (button)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.Music#com.apple.Music:MusicUsageDescription
 ~~~
-_Apps > Music > Download over Cellular (switch)_
+_Apps > Music > Download over Cellular (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.Music#com.apple.Music:CellularDownloadsAllowed
 ~~~
-_Apps > Music > Automatic Downloads (switch)_
+_Apps > Music > Automatic Downloads (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.Music#com.apple.Music:MusicAutomaticDownload
 ~~~
@@ -3157,11 +3157,11 @@ _Apps > Notes > Password (button)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes#PASSWORD
 ~~~
-_Apps > Notes > “On My iPhone” Account (switch)_
+_Apps > Notes > “On My iPhone” Account (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes#LOCAL_ACCOUNT
 ~~~
-_Apps > Notes > Mention Notifications (switch)_
+_Apps > Notes > Mention Notifications (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilenotes#MENTION_NOTIFICATIONS
 ~~~
@@ -3241,7 +3241,7 @@ _Apps > Phone > SharePlay (button)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilephone#SHAREPLAY_SETTINGS
 ~~~
-_Apps > Phone > Wi-Fi Calling (switch)_
+_Apps > Phone > Wi-Fi Calling (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilephone#WIFI_CALLING_TELEPHONY_SETTINGS
 ~~~
@@ -3253,11 +3253,11 @@ _Apps > Phone > Respond with Text_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilephone/REPLY_WITH_MESSAGES
 ~~~
-_Apps > Phone > Call Forwarding (switch)_
+_Apps > Phone > Call Forwarding (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilephone#CALL_FORWARDING_TELEPHONY_SETTINGS
 ~~~
-_Apps > Phone > Call Waiting (switch)_
+_Apps > Phone > Call Waiting (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilephone#CALL_WAITING_TELEPHONY_SETTINGS
 ~~~
@@ -3265,19 +3265,19 @@ _Apps > Phone > Audio Call Recording_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilephone/CALL_RECORDING
 ~~~
-_Apps > Phone > Show My Caller ID (switch)_
+_Apps > Phone > Show My Caller ID (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilephone#CALLING_LINE_ID_RESTRICTION_TELEPHONY_SETTINGS
 ~~~
-_Apps > Phone > Haptics (switch)_
+_Apps > Phone > Haptics (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilephone#CALL_HAPTICS
 ~~~
-_Apps > Phone > Silence Unknown Callers (switch)_
+_Apps > Phone > Silence Unknown Callers (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilephone#DIRECT_TO_VOICEMAIL
 ~~~
-_Apps > Phone > Call Filtering – Unknown Callers (switch)_
+_Apps > Phone > Call Filtering – Unknown Callers (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilephone#FILTER_AS_NEW_CALLERS
 ~~~
@@ -3301,7 +3301,7 @@ _Apps > Photos_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobileslideshow
 ~~~
-_Apps > Photos > iCloud Photos (switch)_
+_Apps > Photos > iCloud Photos (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobileslideshow#iCloudPhotosSwitch
 ~~~
@@ -3317,19 +3317,19 @@ _Apps > Photos > Shared Library (dialog)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobileslideshow/SharedLibrarySettingsButton
 ~~~~
-_Apps > Photos > Shared Albums (switch)_
+_Apps > Photos > Shared Albums (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobileslideshow#SharedStreamsSwitch
 ~~~
-_Apps > Photos > Approve wirh Mac to Unlock (switch)_
+_Apps > Photos > Approve wirh Mac to Unlock (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobileslideshow#PhotosContentPrivacySwitch
 ~~~
-_Apps > Photos > Show Hidden Album (switch)_
+_Apps > Photos > Show Hidden Album (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobileslideshow#PhotosHiddenAlbumSwitch
 ~~~
-_Apps > Photos > Show Recently Viewed & Shared (switch)_
+_Apps > Photos > Show Recently Viewed & Shared (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobileslideshow#PhotosRecentlyViewedAndSharedAlbumSwitch
 ~~~
@@ -3337,11 +3337,11 @@ _Apps > Photos > Cellular Data (button)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobileslideshow/CellularDataGroup#CellularDataLinkList
 ~~~
-_Apps > Photos > Auto-Play Motion (switch)_
+_Apps > Photos > Auto-Play Motion (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobileslideshow#VideoAutoplaySwitch
 ~~~
-_Apps > Photos > Loop Videos (switch)_
+_Apps > Photos > Loop Videos (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobileslideshow#VideoAutoloopSwitch
 ~~~
@@ -3353,11 +3353,11 @@ _Apps > Photos > Memories – Reset People & Pets Suggestions (button)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobileslideshow#ResetPeopleFeedback
 ~~~
-_Apps > Photos > Memories – Show Holiday Events (switch)_
+_Apps > Photos > Memories – Show Holiday Events (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobileslideshow#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH
 ~~~
-_Apps > Photos > Show Featured Content (switch)_
+_Apps > Photos > Show Featured Content (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobileslideshow#FeaturedContentAllowedSwitch
 ~~~
@@ -3369,11 +3369,11 @@ _Apps > Photos > Transfer to Mac or PC – Keep Origianls (option)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobileslideshow#TransferKeepOriginalsOption
 ~~~
-_Apps > Photos > Enhanced Visual Search (switch)_
+_Apps > Photos > Enhanced Visual Search (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobileslideshow#VisualSearchSwitch
 ~~~
-_Apps > Photos > Control for Creating Spatial Photos (switch)_
+_Apps > Photos > Control for Creating Spatial Photos (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobileslideshow#AlchemizeButtonEnabledSwitch
 ~~~
@@ -3411,15 +3411,15 @@ _Apps > Reminders > Notifications (button)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.reminders#NOTIFICATIONS
 ~~~
-_Apps > Reminders > Alarms (switch)_
+_Apps > Reminders > Alarms (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.reminders#Alarms
 ~~~
-_Apps > Reminders > Liva Activities (switch)_
+_Apps > Reminders > Liva Activities (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.reminders#Live%20Activities
 ~~~
-_Apps > Reminders > Background App Refresh (switch)_
+_Apps > Reminders > Background App Refresh (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.reminders#Background%20App%20Refresh
 ~~~
@@ -3431,7 +3431,7 @@ _Apps > Reminders > Default List_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.reminders/DEFAULT_LIST
 ~~~
-_Apps > Reminders > All-Day Reminders – Today Notification (switch)_
+_Apps > Reminders > All-Day Reminders – Today Notification (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.reminders#TODAY_NOTIFICATIONS
 ~~~
@@ -3439,7 +3439,7 @@ _Apps > Reminders > All-Day Reminders – Time (button)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.reminders#Time
 ~~~
-_Apps > Reminders > Show as Overdue (switch)_
+_Apps > Reminders > Show as Overdue (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.reminders#SHOW_AS_OVERDUE
 ~~~
@@ -3447,19 +3447,19 @@ _Apps > Reminders > Time Zone_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.reminders/TIME_ZONE_OVERRIDE
 ~~~
-_Apps > Reminders > Badge Count – Include Due Today (switch)_
+_Apps > Reminders > Badge Count – Include Due Today (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.reminders#INCLUDE_DUE_TODAY
 ~~~
-_Apps > Reminders > Assigned Reminders – Mute Notifications (switch)_
+_Apps > Reminders > Assigned Reminders – Mute Notifications (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.reminders#MUTE_NOTIFICATIONS
 ~~~
-_Apps > Reminders > When Adding Reminders – Show Suggestions (switch)_
+_Apps > Reminders > When Adding Reminders – Show Suggestions (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.reminders#SHOW_SUGGESTIONS
 ~~~
-_Apps > Reminders > Urgent Reminders – Complete from Alarm (switch)_
+_Apps > Reminders > Urgent Reminders – Complete from Alarm (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.reminders#URGENT_REMINDERS
 ~~~
@@ -3497,19 +3497,19 @@ _Apps > Safari > Search Engine_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/SEARCH_ENGINE_SETTING
 ~~~
-_Apps > Safari > Also Use in Private Browsing (switch)_
+_Apps > Safari > Also Use in Private Browsing (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#PRIVATE_BROWSING_USES_NORMAL_BROWSING_SEARCH_ENGINE_SELECTION
 ~~~
-_Apps > Safari > Search Enginge Suggestions (switch)_
+_Apps > Safari > Search Enginge Suggestions (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#SEARCH_SUGGESTION_SETTING
 ~~~
-_Apps > Safari > Safari Suggestions (switch)_
+_Apps > Safari > Safari Suggestions (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#SIRI_SUGGESTIONS
 ~~~
-_Apps > Safari > Show Recent Searches (switch)_
+_Apps > Safari > Show Recent Searches (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#SHOW_RECENT_SEARCHES
 ~~~
@@ -3517,7 +3517,7 @@ _Apps > Safari > Quick Website Search_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/SITE_SPECIFIC_SEARCH
 ~~~
-_Apps > Safari > Preload Top Hit (switch)_
+_Apps > Safari > Preload Top Hit (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#ENABLE_PREFETCHING
 ~~~
@@ -3553,7 +3553,7 @@ _Apps > Safari > Require Passcode to Unlock Private Browsing (swtich)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#PrivateBrowsingRequiresAuthentication
 ~~~
-_Apps > Safari > Not Secure Connection Warning (switch)_
+_Apps > Safari > Not Secure Connection Warning (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#WARN_ABOUT_INSECURE_CONNECTIONS
 ~~~
@@ -3635,7 +3635,7 @@ _Apps > Translate > Search (button)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.Translate#SEARCH
 ~~~
-_Apps > Translate > Background App Refresh (switch)_
+_Apps > Translate > Background App Refresh (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.Translate#Background%20App%20Refresh
 ~~~
@@ -3685,15 +3685,15 @@ _Apps > Weather > Temperature Unit_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.weather#TEMPERATURE_UNIT
 ~~~
-_Apps > Weather > Locations – Home and Work (switch)_
+_Apps > Weather > Locations – Home and Work (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.weather#HOME_WORK_SHOW_LABELS
 ~~~
-_Apps > Weather > Locations – Suggested Locations (switch)_
+_Apps > Weather > Locations – Suggested Locations (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.weather#USE_SIGNIFICANT_LOCATIONS
 ~~~
-_Apps > Weather > Privacy – Reset Indentifier (switch)_
+_Apps > Weather > Privacy – Reset Indentifier (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.weather#PRIVACY_RESET
 ~~~
