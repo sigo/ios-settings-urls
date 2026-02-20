@@ -751,7 +751,7 @@ _Accessibility > Motion > Reduce Motion (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/MOTION_TITLE#REDUCE_MOTION
 ~~~
-_Accessibility > Motion > Prefer Cross-Fade Transitions (toggle) <sup>If Reduce Motion is enabled</sup>_
+_Accessibility > Motion > Prefer Cross-Fade Transitions (toggle) <sup>If __Reduce Motion__ is enabled</sup>_
 ~~~yaml
 settings-navigation://com.apple.Settings.Accessibility/MOTION_TITLE/REDUCE_MOTION_REDUCE_SLIDE_ANIMATIONS
 ~~~
@@ -1633,43 +1633,43 @@ _Screen Time_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime
 ~~~
-_Screen Time > See All App & Website Activity <sup>If App & Website Activity is enabled</sup>_
+_Screen Time > See All App & Website Activity <sup>If __App & Website Activity__ is enabled</sup>_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/SCREEN_TIME_SUMMARY
 ~~~
-_Screen Time > See All App & Website Activity – Week (tab) <sup>If App & Website Activity is enabled</sup>_
+_Screen Time > See All App & Website Activity – Week (tab) <sup>If __App & Website Activity__ is enabled</sup>_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/SCREEN_TIME_SUMMARY/WEEK
 ~~~
-_Screen Time > See All App & Website Activity – Day (tab) <sup>If App & Website Activity is enabled</sup>_
+_Screen Time > See All App & Website Activity – Day (tab) <sup>If __App & Website Activity__ is enabled</sup>_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/SCREEN_TIME_SUMMARY/DAY
 ~~~
-_Screen Time > See All App & Website Activity – Most Used (section) <sup>If App & Website Activity is enabled</sup>_
+_Screen Time > See All App & Website Activity – Most Used (section) <sup>If __App & Website Activity__ is enabled</sup>_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/SCREEN_TIME_SUMMARY/Most%20Used
 ~~~
-_Screen Time > See All App & Website Activity – Pickups (section) <sup>If App & Website Activity is enabled</sup>_
+_Screen Time > See All App & Website Activity – Pickups (section) <sup>If __App & Website Activity__ is enabled</sup>_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/SCREEN_TIME_SUMMARY/Pickups
 ~~~
-_Screen Time > See All App & Website Activity – Notifications (section) <sup>If App & Website Activity is enabled</sup>_
+_Screen Time > See All App & Website Activity – Notifications (section) <sup>If __App & Website Activity__ is enabled</sup>_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/SCREEN_TIME_SUMMARY/Notifications
 ~~~
-_Screen Time > See All App & Website Activity – Notifications > [bundle ID of app] <sup>If App & Website Activity is enabled</sup>_
+_Screen Time > See All App & Website Activity – Notifications > [bundle ID of app] <sup>If __App & Website Activity__ is enabled</sup>_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/SCREEN_TIME_SUMMARY/replace_with_app_bundle_id
 ~~~
-_Screen Time > Downtime <sup>If App & Website Activity is enabled</sup>_
+_Screen Time > Downtime <sup>If __App & Website Activity__ is enabled</sup>_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/DOWNTIME
 ~~~
-_Screen Time > App Limits <sup>If App & Website Activity is enabled</sup>_
+_Screen Time > App Limits <sup>If __App & Website Activity__ is enabled</sup>_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/APP_LIMITS
 ~~~
-_Screen Time > Always Allowed <sup>If App & Website Activity is enabled</sup>_
+_Screen Time > Always Allowed <sup>If __App & Website Activity__ is enabled</sup>_
 ~~~yaml
 settings-navigation://com.apple.Settings.ScreenTime/ALWAYS_ALLOWED
 ~~~
@@ -2183,7 +2183,7 @@ settings-navigation://com.apple.Settings.GameCenter/INVITE_FRIENDS
 ~~~
 \
 \
-_iCloud <sub>see `Apple Account > iCloud` for more iCloud URLs</sub>_
+_iCloud <sub>see __Apple Account > iCloud__ for more URLs</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.iCloud
 ~~~
@@ -3009,7 +3009,7 @@ _Apps > Messages > Screen Unknown Senders (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS#FILTER_NEW_SENDERS_SWITCH
 ~~~
-_Apps > Messages > Allow Notifications <sup>If Screen Unknown Senders is enabled</sup>_
+_Apps > Messages > Allow Notifications <sup>If __Screen Unknown Senders__ is enabled</sup>_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.MobileSMS/NOTIFICATIONS_UNKNOWN_SENDERS_BUTTON
 ~~~
