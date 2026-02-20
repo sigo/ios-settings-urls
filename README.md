@@ -2183,7 +2183,7 @@ settings-navigation://com.apple.Settings.GameCenter/INVITE_FRIENDS
 ~~~
 \
 \
-_iCloud <sub>See `Apple Account > iCloud` for more URLs</sub>_
+_iCloud <sub>see `Apple Account > iCloud` for more iCloud URLs</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.iCloud
 ~~~
