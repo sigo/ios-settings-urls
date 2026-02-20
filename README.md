@@ -35,9 +35,109 @@ _Apple Account > Subscriptions <sub>some delay</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.AppleAccount/SUBSCRIPTIONS
 ~~~
-_Apple Account > iCloud <sub>see the iCloud main section for more URLs</sub>_
+_Apple Account > iCloud_
 ~~~yaml
 settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE
+~~~
+_Apple Account > iCloud > Storage_
+~~~yaml
+settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/STORAGE_AND_BACKUP
+~~~
+_Apple Account > iCloud > Storage > Change Storage Plan_
+~~~yaml
+settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/STORAGE_AND_BACKUP/CHANGE_STORAGE_PLAN
+~~~
+_Apple Account > iCloud > Saved to iCloud_
+~~~yaml
+settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass
+~~~
+_Apple Account > iCloud > Saved to iCloud > iCloud Photos_
+~~~yaml
+settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.CloudPhotos
+~~~
+_Apple Account > iCloud > Saved to iCloud > iCloud Drive_
+~~~yaml
+settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity
+~~~
+_Apple Account > iCloud > Saved to iCloud > iCloud Mail_
+~~~yaml
+settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail
+~~~
+_Apple Account > iCloud > Saved to iCloud > iCloud Mail > Addresses_
+~~~yaml
+settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/ALIASES
+~~~
+_Apple Account > iCloud > Saved to iCloud > iCloud Mail > iCloud Mail Cleanup_
+~~~yaml
+settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/ICLOUD_MAIL_CLEANUP
+~~~
+_Apple Account > iCloud > Saved to iCloud > iCloud Mail > iCloud Mail Rules_
+~~~yaml
+settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/SERVER_SIDE_RULES
+~~~
+_Apple Account > iCloud > Saved to iCloud > iCloud Mail > Auto-Reply_
+~~~yaml
+settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/AUTO_REPLY
+~~~
+_Apple Account > iCloud > Saved to iCloud > iCloud Mail > Mail Forwarding <sub>some delay</sub>_
+~~~yaml
+settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/MAIL_FORWARDING
+~~~
+_Apple Account > iCloud > Saved to iCloud > iCloud Mail > Mailbox Behaviors_
+~~~yaml
+settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/MAILBOX_BEHAVIORS
+~~~
+_Apple Account > iCloud > Saved to iCloud > iCloud Mail > Import Messages_
+~~~yaml
+settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/MAIL_IMPORT
+~~~
+_Apple Account > iCloud > Saved to iCloud > iCloud Mail > Signing and Encryption_
+~~~yaml
+settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/END_TO_END_ENCRYPTION
+~~~
+_Apple Account > iCloud > Saved to iCloud > iCloud Mail > Custom Email Domain <sub>some delay</sub>_
+~~~yaml
+settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/BYOD_SETTING_SPECIFIER_ID
+~~~
+_Apple Account > iCloud > Saved to iCloud > Passwords & Keychan_
+~~~yaml
+settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync
+~~~
+_Apple Account > iCloud > Saved to iCloud > Notes_
+~~~yaml
+settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Notes
+~~~
+_Apple Account > iCloud > Saved to iCloud > Messages in iCloud_
+~~~yaml
+settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Messages
+~~~
+_Apple Account > iCloud > Saved to iCloud > Health_
+~~~yaml
+settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Health
+~~~
+_Apple Account > iCloud > Saved to iCloud > iCloud Calendar_
+~~~yaml
+settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars
+~~~
+_Apple Account > iCloud > Backup_
+~~~yaml
+settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/BACKUP
+~~~
+_Apple Account > iCloud > Backup > All Device Backups > [current device] > Backup Details_
+~~~yaml
+settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/STORAGE_AND_BACKUP/CURRENT_DEVICE_BACKUP
+~~~
+_Apple Account > iCloud > iCloud+ Features > Private Relay_
+~~~yaml
+settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/INTERNET_PRIVACY
+~~~
+_Apple Account > iCloud > iCloud+ Features > Hide My Email <sub>some delay</sub>_
+~~~yaml
+settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE
+~~~
+_Apple Account > iCloud > Advanced Data Protection_
+~~~yaml
+settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/ICLOUD_ADP_SPECIFIER_NAME
 ~~~
 _Apple Account > Family_
 ~~~yaml
@@ -2083,109 +2183,9 @@ settings-navigation://com.apple.Settings.GameCenter/INVITE_FRIENDS
 ~~~
 \
 \
-_iCloud_
+_iCloud <sub>See `Apple Account > iCloud` for more URLs</sub>_
 ~~~yaml
 settings-navigation://com.apple.Settings.iCloud
-~~~
-_iCloud > Storage_
-~~~yaml
-settings-navigation://com.apple.Settings.iCloud/STORAGE_AND_BACKUP
-~~~
-_iCloud > Storage > Change Storage Plan_
-~~~yaml
-settings-navigation://com.apple.Settings.iCloud/STORAGE_AND_BACKUP/CHANGE_STORAGE_PLAN
-~~~
-_iCloud > Saved to iCloud_
-~~~yaml
-settings-navigation://com.apple.Settings.iCloud/com.apple.Dataclass
-~~~
-_iCloud > Saved to iCloud > iCloud Photos_
-~~~yaml
-settings-navigation://com.apple.Settings.iCloud/com.apple.Dataclass.CloudPhotos
-~~~
-_iCloud > Saved to iCloud > iCloud Drive_
-~~~yaml
-settings-navigation://com.apple.Settings.iCloud/com.apple.Dataclass.Ubiquity
-~~~
-_iCloud > Saved to iCloud > iCloud Mail_
-~~~yaml
-settings-navigation://com.apple.Settings.iCloud/com.apple.Dataclass.Mail
-~~~
-_iCloud > Saved to iCloud > iCloud Mail > Addresses_
-~~~yaml
-settings-navigation://com.apple.Settings.iCloud/com.apple.Dataclass.Mail/ALIASES
-~~~
-_iCloud > Saved to iCloud > iCloud Mail > iCloud Mail Cleanup_
-~~~yaml
-settings-navigation://com.apple.Settings.iCloud/com.apple.Dataclass.Mail/ICLOUD_MAIL_CLEANUP
-~~~
-_iCloud > Saved to iCloud > iCloud Mail > iCloud Mail Rules_
-~~~yaml
-settings-navigation://com.apple.Settings.iCloud/com.apple.Dataclass.Mail/SERVER_SIDE_RULES
-~~~
-_iCloud > Saved to iCloud > iCloud Mail > Auto-Reply_
-~~~yaml
-settings-navigation://com.apple.Settings.iCloud/com.apple.Dataclass.Mail/AUTO_REPLY
-~~~
-_iCloud > Saved to iCloud > iCloud Mail > Mail Forwarding <sub>some delay</sub>_
-~~~yaml
-settings-navigation://com.apple.Settings.iCloud/com.apple.Dataclass.Mail/MAIL_FORWARDING
-~~~
-_iCloud > Saved to iCloud > iCloud Mail > Mailbox Behaviors_
-~~~yaml
-settings-navigation://com.apple.Settings.iCloud/com.apple.Dataclass.Mail/MAILBOX_BEHAVIORS
-~~~
-_iCloud > Saved to iCloud > iCloud Mail > Import Messages_
-~~~yaml
-settings-navigation://com.apple.Settings.iCloud/com.apple.Dataclass.Mail/MAIL_IMPORT
-~~~
-_iCloud > Saved to iCloud > iCloud Mail > Signing and Encryption_
-~~~yaml
-settings-navigation://com.apple.Settings.iCloud/com.apple.Dataclass.Mail/END_TO_END_ENCRYPTION
-~~~
-_iCloud > Saved to iCloud > iCloud Mail > Custom Email Domain <sub>some delay</sub>_
-~~~yaml
-settings-navigation://com.apple.Settings.iCloud/com.apple.Dataclass.Mail/BYOD_SETTING_SPECIFIER_ID
-~~~
-_iCloud > Saved to iCloud > Passwords & Keychan_
-~~~yaml
-settings-navigation://com.apple.Settings.iCloud/com.apple.Dataclass.KeychainSync
-~~~
-_iCloud > Saved to iCloud > Notes_
-~~~yaml
-settings-navigation://com.apple.Settings.iCloud/com.apple.Dataclass.Notes
-~~~
-_iCloud > Saved to iCloud > Messages in iCloud_
-~~~yaml
-settings-navigation://com.apple.Settings.iCloud/com.apple.Dataclass.Messages
-~~~
-_iCloud > Saved to iCloud > Health_
-~~~yaml
-settings-navigation://com.apple.Settings.iCloud/com.apple.Dataclass.Health
-~~~
-_iCloud > Saved to iCloud > iCloud Calendar_
-~~~yaml
-settings-navigation://com.apple.Settings.iCloud/com.apple.Dataclass.Calendars
-~~~
-_iCloud > Backup_
-~~~yaml
-settings-navigation://com.apple.Settings.iCloud/BACKUP
-~~~
-_iCloud > Backup > All Device Backups > [current device] > Backup Details_
-~~~yaml
-settings-navigation://com.apple.Settings.iCloud/STORAGE_AND_BACKUP/CURRENT_DEVICE_BACKUP
-~~~
-_iCloud > iCloud+ Features > Private Relay_
-~~~yaml
-settings-navigation://com.apple.Settings.iCloud/INTERNET_PRIVACY
-~~~
-_iCloud > iCloud+ Features > Hide My Email <sub>some delay</sub>_
-~~~yaml
-settings-navigation://com.apple.Settings.iCloud/PRIVATE_EMAIL_MANAGE
-~~~
-_iCloud > Advanced Data Protection_
-~~~yaml
-settings-navigation://com.apple.Settings.iCloud/ICLOUD_ADP_SPECIFIER_NAME
 ~~~
 \
 \
