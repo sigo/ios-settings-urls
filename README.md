@@ -3565,10 +3565,6 @@ _Apps > Safari > Export (button)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#EXPORT_BUTTON
 ~~~
-_Apps > Safari > Export (dialog)_
-~~~yaml
-settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari&action=showExportSheet
-~~~
 _Apps > Safari > Clear History and Website Data (button)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#CLEAR_HISTORY_AND_DATA
