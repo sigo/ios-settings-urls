@@ -99,7 +99,7 @@ _Apple Account > iCloud > Saved to iCloud > iCloud Mail > Custom Email Domain <s
 ~~~yaml
 settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/BYOD_SETTING_SPECIFIER_ID
 ~~~
-_Apple Account > iCloud > Saved to iCloud > Passwords & Keychan_
+_Apple Account > iCloud > Saved to iCloud > Passwords & Keychain_
 ~~~yaml
 settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync
 ~~~
@@ -3415,7 +3415,7 @@ _Apps > Reminders > Alarms (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.reminders#Alarms
 ~~~
-_Apps > Reminders > Liva Activities (toggle)_
+_Apps > Reminders > Live Activities (toggle)_
 ~~~yaml
 settings-navigation://com.apple.Settings.Apps/com.apple.reminders#Live%20Activities
 ~~~
